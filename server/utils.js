@@ -52,7 +52,7 @@ function allCoordinatesTruthy({lat1, lon1, lat2, lon2}) {
 }
 
 function getJourneyPercentageComplete(portToPort, planeToPort) {
-  return 1 - (distanceInMilesBetweenEarthCoordinates(planeToPort) / distanceInMilesBetweenEarthCoordinates(portToPort));
+  return (1 - (distanceInMilesBetweenEarthCoordinates(planeToPort) / distanceInMilesBetweenEarthCoordinates(portToPort)))*100;
 }
 
 const utils = {
@@ -80,6 +80,7 @@ const utils = {
     const fleet = {};
     for (let i = 0; i < aircraftList.length; i++) {
       fleet[aircraftList[i].Call] = {
+        call: aircraftList[i].Call,
         altitude: aircraftList[i].Alt, // altitude
         altitudeTarget: aircraftList[i].tAlt, // target altitude
         speed: aircraftList[i].Spd,

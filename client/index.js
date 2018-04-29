@@ -32,7 +32,7 @@ const createInfobox = (data, index) => {
       .style('padding', '0 10px')
       .style('background', 'white')
       .style('opacity', 0)
-      .html(`<div class="infobox${index}">${fleet[data].call}<br>Lat:${fleet[data].lat}-Lng:${fleet[data].long}<br>Alt:${fleet[data].altitude}</div>`)
+      .html(`<div class="infobox${index}">${data.call}<br>Lat:${data.lat}-Lng:${data.long}<br>Alt:${data.altitude}</div>`)
       .style('opacity', .9)
       .style('left', (d3.event.pageX - 35) + 'px')
       .style('top', (d3.event.pageY - 30) + 'px');
@@ -40,38 +40,26 @@ const createInfobox = (data, index) => {
   return infobox;
 }
 
-let fleet = {};
-let fleetOffChart = {}; 
 
 function getFleet(carrierCode) {
+  const fleet = [];
+  const fleetOffChart = []; 
   return axios.get(`/api/${carrierCode}`)
     .then(response => response.data)
     .then(aircraft => {
       for (const plane in aircraft) {
         const pComplete = aircraft[plane].flightPercentComplete;
         if (pComplete && pComplete > 0) {
-          fleet[plane] = aircraft[plane];
+          fleet.push(aircraft[plane]);
         } else {
-          fleetOffChart[plane] = aircraft[plane];
+          fleetOffChart.push(aircraft[plane]);
         }
       }
-      console.log('visible fleet:', Object.keys(fleet))
-      console.log('invisible fleet:', Object.keys(fleetOffChart))
       return [fleet, fleetOffChart];
     });
 }
 
-function getCallsignsFromFleet(fleet) {
-  const callsigns = [];
-  for (const plane in fleet) {
-    callsigns.push(fleet[plane].call);
-  }
-  return callsigns.sort();
-}
-
-function buildVisualization(data) {
-
-  const callsigns = getCallsignsFromFleet(data);
+function buildVisualization(fleet) {
 
   const graph = 
     d3.select('#app').append('svg')
@@ -80,28 +68,28 @@ function buildVisualization(data) {
       .append('g')
       .attr('transform',
         'translate(' + margin.left + ',' + margin.right + ')')
-      .selectAll('rect')
-      .data(callsigns)
+      .selectAll('image')
+      .data(fleet)
       .enter()
       .append('image')
       // NOW APPLYING TO EACH INDIVIDUAL DATA POINT
       .attr('xlink:href', 'images/airplaneSideViewIcon.svg')
       .attr('width', 25)
       .attr('height', 25)
-      .attr('x', d => xScale(fleet[d].flightPercentComplete))
-      .attr('y', d => yScale(fleet[d].altitude))
-      .on('mouseover', function(d, i) {
-        console.dir(this);
-        console.log(d);
-        const infobox = createInfobox(d, i);
-        d3.select(this)
-          .style('fill', 'red');
-      })
-      .on('mouseout', function(d, i) {
-        d3.selectAll(`.infobox${i}`).html('');
-        d3.select(this)
-          .style('fill', 'blue');
-      })
+      .attr('x', d => xScale(d.flightPercentComplete))
+      .attr('y', d => yScale(d.altitude))
+      // .on('mouseover', function(d, i) {
+      //   console.dir(this);
+      //   console.log(d);
+      //   const infobox = createInfobox(d, i);
+      //   d3.select(this)
+      //     .style('fill', 'red');
+      // })
+      // .on('mouseout', function(d, i) {
+      //   d3.selectAll(`.infobox${i}`).html('');
+      //   d3.select(this)
+      //     .style('fill', 'blue');
+      // })
 
   const yGuide = 
     d3.select('#app svg').append('g')
@@ -116,45 +104,47 @@ function buildVisualization(data) {
 
 function updateVisualization() {
   getFleet('DAL')
-    .then(() => {
-      const callsigns = getCallsignsFromFleet(fleet)
-
+    .then(([fleet]) => {
       const existingPoints = 
         d3.select('#app svg')
           .selectAll('image')
-          .data(callsigns)
+          .data(fleet, function(d) { 
+            return d.call; 
+          });
       
       existingPoints
-        .classed('updated', true)
-      .enter().append('image')
+        .enter()
+        .append('image')
         .attr('xlink:href', 'images/airplaneSideViewIcon.svg')
         .attr('width', 20)
         .attr('height', 20)
-        .on('mouseover', function(d, i) {
-          console.dir(this);
-          console.log(d);
-          const infobox = createInfobox(d, i);
-          d3.select(this)
-            .style('fill', 'red');
-        })
-        .on('mouseout', function(d, i) {
-          d3.selectAll(`.infobox${i}`).html('');
-          d3.select(this)
-            .style('fill', 'blue');
-        })
-      .merge(existingPoints)
+        // .on('mouseover', function(d, i) {
+        //   console.dir(this);
+        //   console.log(d);
+        //   createInfobox(d, i);
+        //   d3.select(this)
+        //     .style('fill', 'red');
+        // })
+        // .on('mouseout', function(d, i) {
+        //   d3.selectAll(`.infobox${i}`).html('');
+        //   d3.select(this)
+        //     .style('fill', 'blue');
+        // })
+        .merge(existingPoints)
         .transition().duration(500)
-        .attrs({
-          x: d => xScale(fleet[d].flightPercentComplete),
-          y: d => yScale(fleet[d].altitude)
-        })
+        .attr('x', d => xScale(d.flightPercentComplete))
+        .attr('y', d => yScale(d.altitude))
+        // .attrs({
+        //   x: d => xScale(d.flightPercentComplete),
+        //   y: d => yScale(d.altitude)
+        // })
 
-      existingPoints.exit().remove().transition().duration(500);
+      existingPoints.exit().transition().duration(500).remove();
     });
 }
 
 getFleet('DAL')
-  .then( () => {
+  .then( ([fleet]) => {
     buildVisualization(fleet);
   });
 

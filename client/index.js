@@ -91,7 +91,7 @@ function buildVisualization(fleet) {
         .style('fill', 'red');
     })
     .on('mouseout', function(d) {
-      d3.selectAll(`.infobox_${d.callsign}`).html('');
+      d3.select(`.infobox_${d.callsign}`).remove();
       d3.select(this)
         .style('fill', 'blue');
     })

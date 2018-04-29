@@ -80,9 +80,10 @@ const utils = {
     const fleet = {};
     for (let i = 0; i < aircraftList.length; i++) {
       fleet[aircraftList[i].Call] = {
-        call: aircraftList[i].Call,
+        callsign: aircraftList[i].Call,
         altitude: aircraftList[i].Alt, // altitude
         altitudeTarget: aircraftList[i].tAlt, // target altitude
+        grounded: aircraftList[i].Gnd,
         speed: aircraftList[i].Spd,
         lat: aircraftList[i].Lat,
         long: aircraftList[i].Long,

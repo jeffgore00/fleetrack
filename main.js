@@ -7,5 +7,6 @@ const PORT = process.env.PORT || 1337;
 getAirports()
   .then( () => {
     app.listen(PORT, () => console.log(`Server is listening on ${PORT}`));
-  });
+  })
+  .catch(err => console.log(err))
 

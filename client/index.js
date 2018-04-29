@@ -1,6 +1,6 @@
 import axios from 'axios';
 import * as d3 from 'd3';
-import * as d3SelectionMulti from 'd3-selection-multi';
+import 'd3-transition';
 
 let graph;
 const margin = { top: 20, right: 20, bottom: 30, left: 50 };
@@ -25,10 +25,6 @@ const xAxisTicks =
   d3.axisBottom(xScale)
     .ticks(10);
 
-const updateTransition = d3.transition().duration(3000);
-const entryTransition = d3.transition().duration(1000).ease(d3.polyOut);
-const exitTransition = d3.transition().duration(1000)
-
 const createInfobox = data => {
   const infobox = 
     d3.select('body')
@@ -40,12 +36,11 @@ const createInfobox = data => {
       .style('opacity', 0)
       .html(`${data.callsign}<br>Lat:${data.lat}-Lng:${data.long}<br>Alt:${data.altitude}`)
       .style('opacity', .9)
-      .style('left', (d3.event.pageX - 35) + 'px')
-      .style('top', (d3.event.pageY - 30) + 'px');
+      .style('left', (d3.event.pageX - 75) + 'px')
+      .style('top', (d3.event.pageY - 75) + 'px');
 
   return infobox;
 }
-
 
 function getFleet(carrierCode) {
   const fleet = [];
@@ -55,7 +50,7 @@ function getFleet(carrierCode) {
     .then(aircraft => {
       for (const plane in aircraft) {
         const pComplete = aircraft[plane].flightPercentComplete;
-        if (aircraft[plane].altitude && pComplete && pComplete > 0) {
+        if (aircraft[plane].altitude && !aircraft[plane].grounded && pComplete && pComplete > 0) {
           fleet.push(aircraft[plane]);
         } else {
           fleetOffChart.push(aircraft[plane]);
@@ -123,21 +118,23 @@ function updateVisualization() {
         
       // EXIT old elements not present in new data.
       graphData.exit().attr('class', 'exiting')
-        .transition(exitTransition)
+        .transition()
+          .duration(1000)
           .style('fill-opacity', 0)
           .remove();
 
       // UPDATE old elements present in new data.
       graphData.attr('class', 'updated')
-        .transition(updateTransition)
-          .attr('x', d => xScale(d.flightPercentComplete))
-          .attr('y', d => yScale(d.altitude));
+        .transition()
+          .duration(4000)
+          .attr('x', d => xScale(d.flightPercentComplete) - 12.5)
+          .attr('y', d => yScale(d.altitude) - 15);
 
       // ENTER new elements present in new data.
       graphData.enter().append('image')
         .attr('xlink:href', 'images/airplaneSideViewIcon.svg')
-        .attr('width', 20)
-        .attr('height', 20)
+        .attr('width', 25)
+        .attr('height', 15)
         .on('mouseover', function(d) {
           console.dir(this);
           console.log(d);
@@ -150,7 +147,8 @@ function updateVisualization() {
           d3.select(this)
             .style('fill', 'blue');
         })
-        .transition(entryTransition)
+        .transition()
+          .duration(2000)
           .attr('x', d => xScale(d.flightPercentComplete))
           .attr('y', d => yScale(d.altitude))
       
@@ -163,6 +161,20 @@ getFleet('DAL')
   });
 
 setInterval(updateVisualization, 5000);
+
+// let toggle = -2;
+
+// setInterval( () => {
+//   d3.selectAll('image').each(
+//     function () {
+//       d3.select(this)
+//       .transition()
+//       .duration(500)
+//       .attr('y', + Number(d3.select(this).attr('y')) + toggle);
+//     }
+//   );
+//   toggle *= -1;
+// },500)
 
 // getFleet('DAL')
 //   .then()

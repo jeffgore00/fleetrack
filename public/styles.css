@@ -62,6 +62,7 @@ header:last-child {
   font-weight: bold;
   font-style: italic;
   color: white;
+  margin-left: 2vw;
 }
 
 #app {
@@ -78,4 +79,10 @@ header:last-child {
 .btn-group label {
   height: 5vh;
   font-size: 2vh;
+}
+
+#craftCount {
+  margin-left:1vw;
+  font-size: 2vh;
+  color:white;
 }

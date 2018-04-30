@@ -4,9 +4,12 @@ import 'd3-transition';
 
 let currentFleet = 'DAL';
 let graph;
+
 const margin = { top: 50, right: 20, bottom: 30, left: 90 };
 const dataHeight = window.innerHeight * 0.9 - margin.top - margin.bottom;
 const dataWidth = window.innerWidth * 0.9 - margin.left - margin.right;
+
+const craftCountDisplay = document.getElementById('craftCount');
 
 /* Code courtesy of https://stackoverflow.com/questions/2901102/how-to-print-a-number-with-commas-as-thousands-separators-in-javascript */
 const numberWithCommas = num => {
@@ -70,7 +73,7 @@ const createInfobox = data => {
       .html(`
         <table>
           <tr class="infoHeader">
-            <th colspan="2">${data.callsign}</th>
+            <th colspan="2">${data.callsign} (${data.aircraftType})</th>
           </tr>
           <tr>
             <th>Departure:</th>
@@ -118,75 +121,80 @@ function getFleet(carrierCode) {
 
 function buildVisualization(fleet) {
 
+  craftCountDisplay.innerHTML = `${fleet.length ? fleet.length : 0} aircraft`;
+
   graph = 
     d3.select('body')
       .append('div')
-      .classed('svg-container', true)
-      .append('svg')
-      .attr('id', 'app')
-      .attr('preserveAspectRatio', 'xMinYMin meet')
-      .attr('viewBox', `0 0 ${window.innerWidth} ${window.innerHeight}`)
-      .classed('graph-content-responsive', true)
-      .call(d3.zoom().on('zoom', function () {
-        graph.attr('transform', d3.event.transform);
-      }))
-    .append('g')
-      .attr('id', 'graph')
-      .attr('transform',
-        'translate(' + margin.left + ',' + margin.top + ')');
+        .classed('graph-container', true)
+        .append('svg')
+          .attr('id', 'app')
+          .attr('preserveAspectRatio', 'xMinYMin meet')
+          .attr('viewBox', `0 0 ${window.innerWidth} ${window.innerHeight}`)
+          .classed('graph-content-responsive', true)
+          .call(d3.zoom().on('zoom', function () {
+            graph.attr('transform', d3.event.transform);
+          }))
+          .append('g')
+            .attr('id', 'graph')
+            .attr('transform',
+              'translate(' + margin.left + ',' + margin.top + ')');
 
   graph
     .selectAll('image')
     .data(fleet)
     .enter()
     .append('image') // all below pertains to each data-bound <image>
-    .attr('class', 'aircraft')
-    .attr('xlink:href', 'images/airplaneSideViewIcon.svg')
-    .attr('width', 25)
-    .attr('height', 15)
-    .attr('background', 'blue')
-    .attr('x', d => xScale(d.flightPercentComplete) - 12.5)
-    .attr('y', d => yScale(d.altitude) - 15)
-    .on('mouseover', function(d) {
-      d3.select(this)
-        .transition().duration(500)
-        .attr('xlink:href', 'images/airplaneSideViewIconPurple.svg');
-      createInfobox(d);
-    })
-    .on('mouseout', function(d) {
-      d3.select(`#infobox_${d.callsign}`).remove();
-      d3.select(this)
-        .transition().duration(500)
-        .attr('xlink:href', 'images/airplaneSideViewIcon.svg')
-        .style('fill', 'blue');
-    });
+      .attr('class', 'aircraft')
+      .attr('xlink:href', 'images/airplaneSideViewIcon.svg')
+      .attr('width', 25)
+      .attr('height', 15)
+      .attr('background', 'blue')
+      .attr('x', d => xScale(d.flightPercentComplete) - 12.5)
+      .attr('y', d => yScale(d.altitude) - 15)
+      .on('mouseover', function(d) {
+        d3.select(this)
+          .transition().duration(500)
+          .attr('xlink:href', 'images/airplaneSideViewIconPurple.svg');
+        createInfobox(d);
+      })
+      .on('mouseout', function(d) {
+        d3.select(`#infobox_${d.callsign}`).remove();
+        d3.select(this)
+          .transition().duration(500)
+          .attr('xlink:href', 'images/airplaneSideViewIcon.svg')
+          .style('fill', 'blue');
+      });
 
   const yGuide = graph.append('g')
     .style('font-size', '0.75em')
     .call(yAxis)
     .append('text')
-    .text('Altitude (ft)')
-    .attr('fill', 'black')
-    .style('font-weight', 'bold')
-    .attr('y', 200)
-    .attr('transform', `rotate(270 0,${dataHeight/2})`)
-    .attr('x', 50);
+      .text('Altitude (ft)')
+      .attr('fill', 'black')
+      .style('font-weight', 'bold')
+      .attr('y', 180)
+      .attr('transform', `rotate(270 0,${dataHeight/2})`)
+      .attr('x', 50);
 
   const xGuide = graph.append('g')
     .style('font-size', '0.75em')
     .attr('transform', 'translate(0, '+ dataHeight +')')
     .call(xAxis)
     .append('text')
-    .text('Percentage of Journey Complete')
-    .attr('fill', 'black')
-    .style('font-weight', 'bold')
-    .attr('x', dataWidth/2)
-    .attr('y', 50);
+      .text('Percentage of Journey Complete')
+      .attr('fill', 'black')
+      .style('font-weight', 'bold')
+      .attr('x', dataWidth/2)
+      .attr('y', 50);
 }
 
 function updateVisualization() {
   getFleet(currentFleet)
     .then(([fleet]) => {
+
+      craftCountDisplay.innerHTML = `${fleet.length ? fleet.length : 0} total aircraft`;
+
       // JOIN new data with old elements.
       const graphData = 
         graph.selectAll('image')

@@ -26,3 +26,56 @@ th {
 td {
   padding: 0.25em;
 }
+
+.graph-container {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%; /* aspect ratio */
+  vertical-align: top;
+  overflow: hidden;
+}
+.graph-content-responsive {
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  left: 0;
+}
+
+header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 7vh;
+  width: 100vw;
+  background-color: darkblue;
+  z-index: 5;
+}
+
+header:last-child {
+  margin-right: 200px;
+}
+
+#logo {
+  font-family: Helvetica;
+  font-size: 5vh;
+  font-weight: bold;
+  font-style: italic;
+  color: white;
+}
+
+#app {
+  margin-top: 30px;
+}
+
+#headerContainer {
+  width: 90vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-group label {
+  height: 5vh;
+  font-size: 2vh;
+}

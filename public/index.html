@@ -5,11 +5,38 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Fleetrack</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
   <link href = "styles.css" rel = "stylesheet" type = "text/css">
-  <script src="bundle.js"></script>
+  <script src="bundle.js" defer></script>
 </head>
 <body>
-  
+  <header>
+    <div id="headerContainer">
+      <div id = "logo">FLEETRACK</div>
+      <div id = "airlineSelect"></div>
+        <div class="btn-group btn-group-toggle" data-toggle="buttons">
+            <label class="btn btn-secondary active">
+              <input type="radio" name="options" id="DAL" autocomplete="off" checked> Delta
+            </label>
+            <label class="btn btn-secondary">
+              <input type="radio" name="options" id="SWA" autocomplete="off"> Southwest
+            </label>
+            <label class="btn btn-secondary">
+              <input type="radio" name="options" id="UAL" autocomplete="off"> United
+            </label>
+            <label class="btn btn-secondary">
+              <input type="radio" name="options" id="DLH" autocomplete="off"> Lufthansa
+            </label>
+            <label class="btn btn-secondary">
+              <input type="radio" name="options" id="FDX" autocomplete="off"> FedEx
+            </label>
+            <label class="btn btn-secondary">
+              <input type="radio" name="options" id="WWW" autocomplete="off"> Janet
+            </label>
+          </div>
+      </div>
+    </div>
+  </header>
 </body>
 </html>
 

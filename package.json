@@ -5,8 +5,8 @@
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node main.js",
-    "start-dev": "webpack -w & nodemon main.js"
+    "start": "node server.js",
+    "start-dev": "webpack -w & nodemon server.js"
   },
   "keywords": [],
   "author": "",

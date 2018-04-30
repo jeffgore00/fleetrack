@@ -12,7 +12,7 @@ const yScale =
     .domain([0, 42000])
     .range([dataHeight, 0]);
 
-const yAxisTicks = 
+const yAxis = 
   d3.axisLeft(yScale)
     .ticks(9);
 
@@ -21,7 +21,7 @@ const xScale =
     .domain([0, 100])
     .range([0, dataWidth]);
 
-const xAxisTicks = 
+const xAxis = 
   d3.axisBottom(xScale)
     .ticks(10);
 
@@ -29,18 +29,36 @@ const createInfobox = data => {
   const infobox = 
     d3.select('body')
       .append('div')
-      .classed(`infobox_${data.callsign}`, true)
-      .style('position', 'absolute')
-      .style('padding', '0 10px')
-      .style('background', 'white')
-      .style('opacity', 0)
-      .html(`${data.callsign}<br>Lat:${data.lat}-Lng:${data.long}<br>Alt:${data.altitude}`)
-      .style('opacity', .9)
-      .style('left', (d3.event.pageX - 75) + 'px')
-      .style('top', (d3.event.pageY - 75) + 'px');
+      .attr('class', 'infobox')
+      .attr('id',`infobox_${data.callsign}`)
+      .style('left', (d3.event.pageX + 10) + 'px')
+      .style('top', (d3.event.pageY - 20) + 'px')
+      .html(`
+        <table>
+          <tr class="infoHeader">
+            <th colspan="2">${data.callsign}</th>
+          </tr>
+          <tr>
+            <th>Departure:</th>
+            <td>${data.airportFrom.city} (${data.airportFrom.code})</th>
+          </tr>
+          <tr>
+            <th>Arrival:</td>
+            <td>${data.airportTo.city} (${data.airportTo.code}) ${data.airportStops && data.airportStops.length ? '(stopping in ' + data.airportStops.map(stop => stop.code).join(', ') +')' : ''} </td> 
+          </tr>
+          <tr>
+            <th>Location:</th>
+            <td>${data.lat},${data.long}</td>
+          </tr>
+          <tr>
+            <th>Heading:</th>
+            <td>${data.heading}&deg;</td>
+          </tr>
+        </table>
+        `);
 
   return infobox;
-}
+};
 
 function getFleet(carrierCode) {
   const fleet = [];
@@ -67,43 +85,46 @@ function buildVisualization(fleet) {
       .append('svg')
       .attr('width', dataWidth + margin.left + margin.right)
       .attr('height', dataHeight + margin.top + margin.bottom)
+      .attr('id', 'app')
     .append('g')
-      .classed('graph', true)
+      .attr('id', 'graph')
       .attr('transform',
-        'translate(' + margin.left + ',' + margin.top + ')')
+        'translate(' + margin.left + ',' + margin.top + ')');
 
   graph
     .selectAll('image')
     .data(fleet)
     .enter()
     .append('image')
-    // NOW APPLYING TO EACH INDIVIDUAL DATA POINT
-    .attr('xlink:href', 'images/airplaneSideViewIcon.svg')
-    .attr('width', 25)
-    .attr('height', 15)
-    .attr('x', d => xScale(d.flightPercentComplete) - 12.5)
-    .attr('y', d => yScale(d.altitude) - 15)
-    .on('mouseover', function(d) {
-      console.dir(this);
-      console.log(d);
-      const infobox = createInfobox(d);
-      d3.select(this)
-        .style('fill', 'red');
-    })
-    .on('mouseout', function(d) {
-      d3.select(`.infobox_${d.callsign}`).remove();
-      d3.select(this)
-        .style('fill', 'blue');
-    })
+      .attr('class', 'aircraft')
+      .attr('xlink:href', 'images/airplaneSideViewIcon.svg')
+      .attr('width', 25)
+      .attr('height', 15)
+      .attr('background', 'blue')
+      .attr('x', d => xScale(d.flightPercentComplete) - 12.5)
+      .attr('y', d => yScale(d.altitude) - 15)
+      .on('mouseover', function(d) {
+        console.dir(this);
+        console.log(d);
+        d3.select(this)
+          .transition().duration(500)
+          .attr('xlink:href', 'images/airplaneOverheadViewIcon.svg');
+        createInfobox(d);
+      })
+      .on('mouseout', function(d) {
+        d3.select(`#infobox_${d.callsign}`).remove();
+        d3.select(this)
+          .transition().duration(500)
+          .attr('xlink:href', 'images/airplaneSideViewIcon.svg')
+          .style('fill', 'blue');
+      });
 
-  const yGuide = 
-    graph.append('g')
-      .call(yAxisTicks);
+  const yGuide = graph.append('g')
+    .call(yAxis);
 
-  const xGuide = 
-    graph.append('g')
-      .attr('transform', 'translate(0, '+ dataHeight +')')
-      .call(xAxisTicks);
+  const xGuide = graph.append('g')
+    .attr('transform', 'translate(0, '+ dataHeight +')')
+    .call(xAxis);
 }
 
 function updateVisualization() {
@@ -117,21 +138,21 @@ function updateVisualization() {
           });
         
       // EXIT old elements not present in new data.
-      graphData.exit().attr('class', 'exiting')
+      graphData.exit().classed('exiting', true)
         .transition()
           .duration(1000)
           .style('fill-opacity', 0)
           .remove();
 
       // UPDATE old elements present in new data.
-      graphData.attr('class', 'updated')
+      graphData.classed('updated', true)
         .transition()
           .duration(4000)
           .attr('x', d => xScale(d.flightPercentComplete) - 12.5)
           .attr('y', d => yScale(d.altitude) - 15);
 
       // ENTER new elements present in new data.
-      graphData.enter().append('image')
+      graphData.enter().append('image').attr('class', 'aircraft')
         .attr('xlink:href', 'images/airplaneSideViewIcon.svg')
         .attr('width', 25)
         .attr('height', 15)
@@ -143,7 +164,7 @@ function updateVisualization() {
             .style('fill', 'red');
         })
         .on('mouseout', function(d) {
-          d3.selectAll(`.infobox_${d.callsign}`).html('');
+          d3.selectAll(`#infobox_${d.callsign}`).html('');
           d3.select(this)
             .style('fill', 'blue');
         })
@@ -151,7 +172,6 @@ function updateVisualization() {
           .duration(2000)
           .attr('x', d => xScale(d.flightPercentComplete))
           .attr('y', d => yScale(d.altitude))
-      
     });
 }
 
@@ -161,20 +181,3 @@ getFleet('DAL')
   });
 
 setInterval(updateVisualization, 5000);
-
-// let toggle = -2;
-
-// setInterval( () => {
-//   d3.selectAll('image').each(
-//     function () {
-//       d3.select(this)
-//       .transition()
-//       .duration(500)
-//       .attr('y', + Number(d3.select(this).attr('y')) + toggle);
-//     }
-//   );
-//   toggle *= -1;
-// },500)
-
-// getFleet('DAL')
-//   .then()

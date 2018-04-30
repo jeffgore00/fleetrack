@@ -1,0 +1,28 @@
+.infobox {
+  font-family: Helvetica;
+  font-size: .75em;
+  max-width: 100px;
+  position: absolute;
+}
+
+.infobox table {
+  border: 1px dotted black;
+  border-collapse: collapse;
+  background-color: white;
+  opacity: 0.9;
+  padding: 0.25em;
+}
+
+.infobox .infoHeader {
+  font-size: 1em;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+th {
+  font-weight: bold;
+}
+
+td {
+  padding: 0.25em;
+}

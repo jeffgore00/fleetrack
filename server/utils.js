@@ -87,7 +87,7 @@ const utils = {
         speed: aircraftList[i].Spd,
         lat: aircraftList[i].Lat,
         long: aircraftList[i].Long,
-        trackAngle: aircraftList[i].Trak,
+        heading: aircraftList[i].Trak,
         aircraftType: aircraftList[i].Type,
         airportFrom: aircraftList[i].From ? getAirportDetails(aircraftList[i].From.slice(0,4), airports) : undefined,
         airportTo: aircraftList[i].To ? getAirportDetails(aircraftList[i].To.slice(0,4), airports) : undefined,

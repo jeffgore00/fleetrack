@@ -8,5 +8,5 @@ getAirports()
   .then( () => {
     app.listen(PORT, () => console.log(`Server is listening on ${PORT}`));
   })
-  .catch(err => console.log(err))
+  .catch(err => console.log(err));
 

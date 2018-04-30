@@ -136,6 +136,7 @@ function buildVisualization(fleet) {
             graph.attr('transform', d3.event.transform);
           }))
           .append('g')
+            .style('opacity', 0)
             .attr('id', 'graph')
             .attr('transform',
               'translate(' + margin.left + ',' + margin.top + ')');
@@ -187,13 +188,15 @@ function buildVisualization(fleet) {
       .style('font-weight', 'bold')
       .attr('x', dataWidth/2)
       .attr('y', 50);
+
+  graph.transition().duration(500).style('opacity',1);
 }
 
 function updateVisualization() {
   getFleet(currentFleet)
     .then(([fleet]) => {
 
-      craftCountDisplay.innerHTML = `${fleet.length ? fleet.length : 0} total aircraft`;
+      craftCountDisplay.innerHTML = `${fleet.length ? fleet.length : 0}  aircraft`;
 
       // JOIN new data with old elements.
       const graphData = 
@@ -229,12 +232,12 @@ function updateVisualization() {
         .on('mouseout', function(d) {
           d3.select(`#infobox_${d.callsign}`).remove();
           d3.select(this)
-            .attr('xlink:href', 'images/airplaneSideViewIcon.svg')
+            .attr('xlink:href', 'images/airplaneSideViewIcon.svg');
         })
         .transition()
           .duration(2000)
           .attr('x', d => xScale(d.flightPercentComplete) - 12.5)
-          .attr('y', d => yScale(d.altitude) - 15)
+          .attr('y', d => yScale(d.altitude) - 15);
     });
 }
 

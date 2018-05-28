@@ -1,13 +1,9 @@
 import axios from 'axios';
 import * as d3 from 'd3';
 import 'd3-transition';
+import store from './store';
 import { numberWithCommas } from './utils';
 import {
-  DATA_MARGIN_TOP,
-  DATA_MARGIN_RIGHT,
-  DATA_MARGIN_BOTTOM,
-  DATA_MARGIN_LEFT,
-  DATA_TO_CONTENT_PROPORTION,
   INFOBOX_X_OFFSET_LEFT,
   INFOBOX_X_OFFSET_RIGHT,
   INFOBOX_Y_OFFSET_TOP,
@@ -29,45 +25,24 @@ import {
   createAltitudeAxisLabel,
   createPercentCompleteAxisLabel
 } from './viz/scalesAndAxes';
+import { computeDataHeight, computeDataWidth, margin } from './viz/data';
+import {
+  craftCountDisplay,
+  addFunctionalityToButtons
+} from './menu/selectionButtons';
 
-let currentFleet = 'DAL';
 let graph;
 
-const margin = {
-  top: DATA_MARGIN_TOP,
-  right: DATA_MARGIN_RIGHT,
-  bottom: DATA_MARGIN_BOTTOM,
-  left: DATA_MARGIN_LEFT
-};
-const dataHeight =
-  window.innerHeight * DATA_TO_CONTENT_PROPORTION - margin.top - margin.bottom;
-const dataWidth =
-  window.innerWidth * DATA_TO_CONTENT_PROPORTION - margin.left - margin.right;
-
-const craftCountDisplay = document.getElementById('craftCount');
-
-const selectButtons = document.querySelectorAll('.btn-group input');
-
-selectButtons.forEach(elem => {
-  elem.addEventListener('click', function fleetSelect(event) {
-    document
-      .querySelector('.btn.btn-secondary.active')
-      .setAttribute('checked', '');
-    document
-      .querySelector('.btn.btn-secondary.active')
-      .classList.remove('active');
-    this.parentElement.classList.add('active');
-    this.setAttribute('checked', 'checked');
-    currentFleet = this.id;
-    updateVisualization();
-  });
-});
+const dataHeight = computeDataHeight();
+const dataWidth = computeDataWidth();
 
 const yScale = createAltitudeScale(dataHeight);
 const yAxis = createAltitudeAxis(yScale);
 
 const xScale = createPercentCompleteScale(dataWidth);
 const xAxis = createPercentCompleteAxis(xScale);
+
+addFunctionalityToButtons(updateVisualization);
 
 const createInfobox = data => {
   const infobox = d3
@@ -215,8 +190,8 @@ function buildVisualization(fleet) {
     .style('opacity', 1);
 }
 
-function updateVisualization() {
-  getFleet(currentFleet).then(([fleet]) => {
+function updateVisualization(callsign) {
+  getFleet(callsign).then(([fleet]) => {
     craftCountDisplay.innerHTML = `${
       fleet.length ? fleet.length : 0
     }  aircraft`;
@@ -272,4 +247,4 @@ getFleet('DAL').then(([fleet]) => {
   buildVisualization(fleet);
 });
 
-setInterval(updateVisualization, 5000);
+setInterval(() => updateVisualization('DAL'), 5000);

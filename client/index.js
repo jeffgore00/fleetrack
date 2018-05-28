@@ -8,9 +8,6 @@ import {
   DATA_MARGIN_BOTTOM,
   DATA_MARGIN_LEFT,
   DATA_TO_CONTENT_PROPORTION,
-  MAX_ALTITUDE,
-  Y_AXIS_TICK_COUNT,
-  X_AXIS_TICK_COUNT,
   INFOBOX_X_OFFSET_LEFT,
   INFOBOX_X_OFFSET_RIGHT,
   INFOBOX_Y_OFFSET_TOP,
@@ -18,15 +15,20 @@ import {
   AIRPLANE_ICON_WIDTH,
   AIRPLANE_ICON_HEIGHT,
   INFOBOX_FADEINOUT_DURATION,
-  AXIS_LABEL_FONT_SIZE,
-  Y_AXISLABEL_Y_OFFSET,
-  Y_AXISLABEL_X_OFFSET,
-  X_AXISLABEL_Y_OFFSET,
   GRAPH_FADEIN_DURATION,
   AIRPLANE_ICON_ENTER_DURATION,
   AIRPLANE_ICON_EXIT_DURATION,
   AIRPLANE_ICON_UPDATE_DURATION
 } from './constants';
+import {
+  createAltitudeScale,
+  createAltitudeAxis,
+  createPercentCompleteScale,
+  createPercentCompleteAxis,
+  createAxisLabel,
+  createAltitudeAxisLabel,
+  createPercentCompleteAxisLabel
+} from './viz/scalesAndAxes';
 
 let currentFleet = 'DAL';
 let graph;
@@ -61,19 +63,11 @@ selectButtons.forEach(elem => {
   });
 });
 
-const yScale = d3
-  .scaleLinear()
-  .domain([0, MAX_ALTITUDE])
-  .range([dataHeight, 0]);
+const yScale = createAltitudeScale(dataHeight);
+const yAxis = createAltitudeAxis(yScale);
 
-const yAxis = d3.axisLeft(yScale).ticks(Y_AXIS_TICK_COUNT);
-
-const xScale = d3
-  .scaleLinear()
-  .domain([0, 100])
-  .range([0, dataWidth]);
-
-const xAxis = d3.axisBottom(xScale).ticks(X_AXIS_TICK_COUNT);
+const xScale = createPercentCompleteScale(dataWidth);
+const xAxis = createPercentCompleteAxis(xScale);
 
 const createInfobox = data => {
   const infobox = d3
@@ -207,29 +201,13 @@ function buildVisualization(fleet) {
         .style('fill', 'blue');
     });
 
-  const yGuide = graph
-    .append('g')
-    .style('font-size', AXIS_LABEL_FONT_SIZE)
-    .call(yAxis)
-    .append('text')
-    .text('Altitude (ft)')
-    .attr('fill', 'black')
-    .style('font-weight', 'bold')
-    .attr('y', Y_AXISLABEL_Y_OFFSET)
-    .attr('transform', `rotate(270 0,${dataHeight / 2})`)
-    .attr('x', Y_AXISLABEL_X_OFFSET);
-
-  const xGuide = graph
-    .append('g')
-    .style('font-size', AXIS_LABEL_FONT_SIZE)
-    .attr('transform', 'translate(0, ' + dataHeight + ')')
-    .call(xAxis)
-    .append('text')
-    .text('Percentage of Journey Complete')
-    .attr('fill', 'black')
-    .style('font-weight', 'bold')
-    .attr('x', dataWidth / 2)
-    .attr('y', X_AXISLABEL_Y_OFFSET);
+  createAltitudeAxisLabel(createAxisLabel(graph), yAxis, dataHeight);
+  createPercentCompleteAxisLabel(
+    createAxisLabel(graph),
+    xAxis,
+    dataHeight,
+    dataWidth
+  );
 
   graph
     .transition()

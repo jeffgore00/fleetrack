@@ -2,31 +2,38 @@ import { createStore, applyMiddleware } from 'redux';
 import { createLogger } from 'redux-logger';
 import thunkMiddleware from 'redux-thunk';
 import { composeWithDevTools } from 'redux-devtools-extension';
+import { getFleet, updateVisualization } from '../index';
 
-const UPDATE_CURRENT_FLEET = 'UPDATE_CURRENT_FLEET';
-const UPDATE_QUERY_INTERVAL = 'UPDATE_QUERY_INTERVAL';
+const CURRENT_FLEET_UPDATED = 'CURRENT_FLEET_UPDATED';
 
 const initialState = {
   currentFleet: 'DAL',
-  queryInterval: null
+  queryInterval: setInterval(() => updateVisualization('DAL'), 5000)
 };
 
-export const acUpdateCurrentFleet = callsign => ({
-  type: UPDATE_CURRENT_FLEET,
-  callsign
+export const acUpdateCurrentFleet = carrierCode => ({
+  type: CURRENT_FLEET_UPDATED,
+  carrierCode
 });
 
-export const acUpdateQueryInterval = interval => ({
-  type: UPDATE_QUERY_INTERVAL,
-  interval
-});
+export const fetchNewFleet = carrierCode => (dispatch, getState) =>
+  getFleet(carrierCode)
+    .then(() => {
+      clearInterval(getState().queryInterval);
+      dispatch(acUpdateCurrentFleet(carrierCode));
+    })
+    .catch(err => console.log(err));
 
 const reducer = (state = initialState, action) => {
   switch (action.type) {
-      case UPDATE_CURRENT_FLEET:
-        return Object.assign({}, state, { currentFleet: action.callsign });
-      case UPDATE_QUERY_INTERVAL:
-        return Object.assign({}, state, { queryInterval: action.interval });
+      case CURRENT_FLEET_UPDATED:
+        return {
+          currentFleet: action.carrierCode,
+          queryInterval: setInterval(
+            () => updateVisualization(action.carrierCode),
+            5000
+          )
+        };
       default:
         return state;
   }

@@ -33,6 +33,8 @@ import {
 
 let graph;
 
+// store.subscribe(() => console.log(store.getState()))
+
 const dataHeight = computeDataHeight();
 const dataWidth = computeDataWidth();
 
@@ -100,7 +102,7 @@ const createInfobox = data => {
   return infobox;
 };
 
-function getFleet(carrierCode) {
+export function getFleet(carrierCode) {
   const fleet = [];
   const fleetOffChart = [];
   return axios
@@ -190,7 +192,7 @@ function buildVisualization(fleet) {
     .style('opacity', 1);
 }
 
-function updateVisualization(callsign) {
+export function updateVisualization(callsign) {
   getFleet(callsign).then(([fleet]) => {
     craftCountDisplay.innerHTML = `${
       fleet.length ? fleet.length : 0
@@ -243,8 +245,6 @@ function updateVisualization(callsign) {
   });
 }
 
-getFleet('DAL').then(([fleet]) => {
+getFleet(store.getState().currentFleet).then(([fleet]) => {
   buildVisualization(fleet);
 });
-
-setInterval(() => updateVisualization('DAL'), 5000);

@@ -1,4 +1,3 @@
-import axios from 'axios';
 import * as d3 from 'd3';
 import 'd3-transition';
 import store from './store';
@@ -21,6 +20,7 @@ import {
   createPercentCompleteAxisLabel
 } from './viz/scalesAndAxes';
 import { appendInfobox } from './viz/infobox';
+import { fetchFleetDataFromServer } from './data';
 import { computeDataHeight, computeDataWidth, margin } from './viz/data';
 import {
   craftCountDisplay,
@@ -41,30 +41,6 @@ const xScale = createPercentCompleteScale(dataWidth);
 const xAxis = createPercentCompleteAxis(xScale);
 
 addFunctionalityToButtons();
-
-export function getFleet(carrierCode) {
-  const fleet = [];
-  const fleetOffChart = [];
-  return axios
-    .get(`/api/${carrierCode}`)
-    .then(response => response.data)
-    .then(aircraft => {
-      for (const plane in aircraft) {
-        const pComplete = aircraft[plane].flightPercentComplete;
-        if (
-          aircraft[plane].altitude &&
-          !aircraft[plane].grounded &&
-          pComplete &&
-          pComplete > 0
-        ) {
-          fleet.push(aircraft[plane]);
-        } else {
-          fleetOffChart.push(aircraft[plane]);
-        }
-      }
-      return [fleet, fleetOffChart];
-    });
-}
 
 function buildVisualization(fleet) {
   craftCountDisplay.innerHTML = `${fleet.length ? fleet.length : 0} aircraft`;
@@ -132,8 +108,8 @@ function buildVisualization(fleet) {
     .style('opacity', 1);
 }
 
-export function updateVisualization(callsign) {
-  getFleet(callsign).then(([fleet]) => {
+export function updateVisualization(carrierCode) {
+  fetchFleetDataFromServer(carrierCode).then(([fleet]) => {
     craftCountDisplay.innerHTML = `${
       fleet.length ? fleet.length : 0
     }  aircraft`;
@@ -185,6 +161,6 @@ export function updateVisualization(callsign) {
   });
 }
 
-getFleet(store.getState().currentFleet).then(([fleet]) => {
+fetchFleetDataFromServer(store.getState().currentFleet).then(([fleet]) => {
   buildVisualization(fleet);
 });

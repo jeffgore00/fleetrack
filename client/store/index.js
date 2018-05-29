@@ -2,7 +2,7 @@ import { createStore, applyMiddleware } from 'redux';
 import { createLogger } from 'redux-logger';
 import thunkMiddleware from 'redux-thunk';
 import { composeWithDevTools } from 'redux-devtools-extension';
-import { getFleet, updateVisualization } from '../index';
+import { fetchFleetDataFromServer, updateVisualization } from '../index';
 
 const CURRENT_FLEET_UPDATED = 'CURRENT_FLEET_UPDATED';
 
@@ -17,7 +17,7 @@ export const acUpdateCurrentFleet = carrierCode => ({
 });
 
 export const fetchNewFleet = carrierCode => (dispatch, getState) =>
-  getFleet(carrierCode)
+  fetchFleetDataFromServer(carrierCode)
     .then(() => {
       clearInterval(getState().queryInterval);
       dispatch(acUpdateCurrentFleet(carrierCode));

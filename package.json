@@ -5,8 +5,8 @@
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node main.js",
-    "start-dev": "webpack -w & nodemon main.js"
+    "start": "node server.js",
+    "start-dev": "webpack -w & nodemon server.js"
   },
   "keywords": [],
   "author": "",
@@ -22,6 +22,10 @@
     "d3-zoom": "^1.7.1",
     "express": "^4.16.3",
     "path": "^0.12.7",
+    "redux": "^4.0.0",
+    "redux-devtools-extension": "^2.13.2",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.2.0",
     "request": "^2.85.0",
     "request-promise-native": "^1.0.5",
     "volleyball": "^1.5.0"

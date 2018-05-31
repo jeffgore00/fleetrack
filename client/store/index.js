@@ -32,11 +32,7 @@ export const acUpdateCurrentFleet = fleet => ({
 });
 
 export const fetchInitialFleet = carrier => dispatch => {
-  let queryIntervalId = setInterval(
-    () => dispatch(refreshFleet(carrier)),
-    5000
-  );
-  getInitialFleet(carrier, dispatch, queryIntervalId);
+  getInitialFleet(carrier, dispatch);
 };
 
 export const fetchNewFleet = carrier => (dispatch, getState) => {

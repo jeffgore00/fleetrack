@@ -1,4 +1,6 @@
 import axios from 'axios';
+import { buildVisualization, updateVisualization } from '../index';
+import { acUpdateCurrentFleet, acInitialFleetLoaded } from '../store';
 
 export function fetchFleetDataFromServer(carrierCode) {
   const fleet = [];
@@ -22,4 +24,22 @@ export function fetchFleetDataFromServer(carrierCode) {
       }
       return [fleet, fleetOffChart];
     });
+}
+
+export function getInitialFleet(carrier, dispatch, queryIntervalId) {
+  fetchFleetDataFromServer(carrier)
+    .then(([fleet]) => {
+      dispatch(acInitialFleetLoaded(fleet, queryIntervalId));
+      buildVisualization(fleet);
+    })
+    .catch(err => console.log(err));
+}
+
+export function refreshFleetData(carrier, dispatch) {
+  fetchFleetDataFromServer(carrier)
+    .then(([fleet]) => {
+      dispatch(acUpdateCurrentFleet(fleet));
+      updateVisualization(fleet);
+    })
+    .catch(err => console.log(err));
 }

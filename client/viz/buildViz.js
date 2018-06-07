@@ -1,7 +1,37 @@
-function buildVisualization(fleet) {
+import * as d3 from 'd3';
+import 'd3-transition';
+import {
+  AIRPLANE_ICON_WIDTH,
+  AIRPLANE_ICON_HEIGHT,
+  INFOBOX_FADEINOUT_DURATION,
+  GRAPH_FADEIN_DURATION
+} from '../constants';
+import {
+  createAltitudeScale,
+  createAltitudeAxis,
+  createPercentCompleteScale,
+  createPercentCompleteAxis,
+  createAxisLabel,
+  createAltitudeAxisLabel,
+  createPercentCompleteAxisLabel
+} from './scalesAndAxes';
+import { appendInfobox } from './infobox';
+import { computeDataHeight, computeDataWidth, margin } from './data';
+import { craftCountDisplay } from '../menu/selectionButtons';
+
+export const dataHeight = computeDataHeight();
+export const dataWidth = computeDataWidth();
+
+export const yScale = createAltitudeScale(dataHeight);
+export const yAxis = createAltitudeAxis(yScale);
+
+export const xScale = createPercentCompleteScale(dataWidth);
+export const xAxis = createPercentCompleteAxis(xScale);
+
+export default function buildVisualization(fleet) {
   craftCountDisplay.innerHTML = `${fleet.length ? fleet.length : 0} aircraft`;
 
-  graph = d3
+  const graph = d3
     .select('body')
     .append('div')
     .classed('graph-container', true)
@@ -58,7 +88,7 @@ function buildVisualization(fleet) {
     dataWidth
   );
 
-  graph
+  return graph
     .transition()
     .duration(GRAPH_FADEIN_DURATION)
     .style('opacity', 1);

@@ -1,8 +1,10 @@
 import axios from 'axios';
-import { buildVisualization, updateVisualization } from '../index';
+import buildVisualization from '../viz/buildViz';
+import updateVisualization from '../viz/updateViz';
 import {
   acUpdateCurrentFleet,
   acInitialFleetLoaded,
+  acUpdateVisualization,
   refreshFleet
 } from '../store';
 
@@ -38,7 +40,7 @@ export function getInitialFleet(carrier, dispatch) {
         5000
       );
       dispatch(acInitialFleetLoaded(fleet, queryIntervalId));
-      buildVisualization(fleet);
+      return buildVisualization(fleet);
     })
     .catch(err => console.log(err));
 }
@@ -47,7 +49,7 @@ export function refreshFleetData(carrier, dispatch) {
   return fetchFleetDataFromServer(carrier)
     .then(([fleet]) => {
       dispatch(acUpdateCurrentFleet(fleet));
-      updateVisualization(fleet);
+      return updateVisualization(fleet);
     })
     .catch(err => console.log(err));
 }

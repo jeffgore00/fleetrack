@@ -17,7 +17,7 @@ import {
 } from './scalesAndAxes';
 import { appendInfobox } from './infobox';
 import { computeDataHeight, computeDataWidth, margin } from './data';
-import { craftCountDisplay } from '../menu/selectionButtons';
+import { updateCraftCount } from '../menu/selectionButtons';
 
 export const dataHeight = computeDataHeight();
 export const dataWidth = computeDataWidth();
@@ -29,7 +29,7 @@ export const xScale = createPercentCompleteScale(dataWidth);
 export const xAxis = createPercentCompleteAxis(xScale);
 
 export default function buildVisualization(fleet) {
-  craftCountDisplay.innerHTML = `${fleet.length ? fleet.length : 0} aircraft`;
+  updateCraftCount(fleet);
 
   const graph = d3
     .select('body')

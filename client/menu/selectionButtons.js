@@ -11,6 +11,9 @@ export function addFunctionalityToButtons() {
     });
   });
 }
+export function updateCraftCount(fleet) {
+  craftCountDisplay.innerHTML = `${fleet.length ? fleet.length : 0}  aircraft`;
+}
 
 function uiChangeOnClick(elem) {
   document

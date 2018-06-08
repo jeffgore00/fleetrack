@@ -30,26 +30,7 @@ export const xAxis = createPercentCompleteAxis(xScale);
 
 export default function buildVisualization(fleet) {
   updateCraftCount(fleet);
-
-  const graph = d3
-    .select('body')
-    .append('div')
-    .classed('graph-container', true)
-    .append('svg')
-    .attr('id', 'app')
-    .attr('preserveAspectRatio', 'xMinYMin meet')
-    .attr('viewBox', `0 0 ${window.innerWidth} ${window.innerHeight}`)
-    .classed('graph-content-responsive', true)
-    .call(
-      d3.zoom().on('zoom', function() {
-        graph.attr('transform', d3.event.transform);
-      })
-    )
-    .append('g')
-    .style('opacity', 0)
-    .attr('id', 'graph')
-    .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
-
+  const graph = buildGraph();
   graph
     .selectAll('image')
     .data(fleet)
@@ -92,4 +73,27 @@ export default function buildVisualization(fleet) {
     .transition()
     .duration(GRAPH_FADEIN_DURATION)
     .style('opacity', 1);
+}
+
+function buildGraph() {
+  const graph = d3
+    .select('body')
+    .append('div')
+    .classed('graph-container', true)
+    .append('svg')
+    .attr('id', 'app')
+    .attr('preserveAspectRatio', 'xMinYMin meet')
+    .attr('viewBox', `0 0 ${window.innerWidth} ${window.innerHeight}`)
+    .classed('graph-content-responsive', true)
+    .call(
+      d3.zoom().on('zoom', function() {
+        graph.attr('transform', d3.event.transform);
+      })
+    )
+    .append('g')
+    .style('opacity', 0)
+    .attr('id', 'graph')
+    .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
+
+  return graph;
 }

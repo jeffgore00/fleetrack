@@ -8,11 +8,11 @@ import {
   AIRPLANE_ICON_UPDATE_DURATION
 } from '../constants';
 import { appendInfobox } from './infobox';
-import { craftCountDisplay } from '../menu/selectionButtons';
+import { updateCraftCount } from '../menu/selectionButtons';
 import { xScale, yScale } from './buildViz';
 
 export default function updateVisualization(fleet) {
-  craftCountDisplay.innerHTML = `${fleet.length ? fleet.length : 0}  aircraft`;
+  updateCraftCount(fleet);
 
   const graph = d3.select('#graph');
 

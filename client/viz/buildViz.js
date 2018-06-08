@@ -31,11 +31,8 @@ export const xAxis = createPercentCompleteAxis(xScale);
 export default function buildVisualization(fleet) {
   updateCraftCount(fleet);
   const graph = buildGraph();
-  graph
-    .selectAll('image')
-    .data(fleet)
-    .enter()
-    .append('image') // all below pertains to each data-bound <image>
+  const graphData = addGraphDataElements(graph, fleet);
+  graphData
     .attr('class', 'aircraft')
     .attr('xlink:href', 'images/airplaneSideViewIcon.svg')
     .attr('width', AIRPLANE_ICON_WIDTH)
@@ -96,4 +93,14 @@ function buildGraph() {
     .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
 
   return graph;
+}
+
+function addGraphDataElements(graph, data) {
+  graph
+    .selectAll('image')
+    .data(data)
+    .enter()
+    .append('image')
+    .attr('class', 'aircraft');
+  return d3.selectAll('.aircraft');
 }

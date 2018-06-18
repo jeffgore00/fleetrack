@@ -37,7 +37,7 @@ export function getInitialFleet(carrier, dispatch) {
         () => dispatch(refreshFleet(carrier)),
         5000
       );
-      dispatch(acInitialFleetLoaded(fleet, queryIntervalId));
+      dispatch(acInitialFleetLoaded(carrier, queryIntervalId));
       buildVisualization(fleet);
     })
     .catch(err => console.log(err));

@@ -10,7 +10,7 @@ const INITIAL_FLEET_LOADED = 'INITIAL_FLEET_LOADED';
 
 const initialState = {
   carrier: '', // will be three-char code like 'DAL'
-  fleet: {},
+  fleet: [],
   queryIntervalId: 0
 };
 

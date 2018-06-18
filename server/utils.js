@@ -23,8 +23,8 @@ function distanceInMilesBetweenEarthCoordinates({lat1, lon1, lat2, lon2}) {
   lat2 = degreesToRadians(lat2);
 
   var a = Math.sin(dLat/2) * Math.sin(dLat/2) +
-          Math.sin(dLon/2) * Math.sin(dLon/2) * Math.cos(lat1) * Math.cos(lat2); 
-  var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a)); 
+          Math.sin(dLon/2) * Math.sin(dLon/2) * Math.cos(lat1) * Math.cos(lat2);
+  var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
   return (earthRadiusKm * c) * 0.621371;
 }
 /* Above courtesy of https://stackoverflow.com/a/365853 */
@@ -48,7 +48,7 @@ function buildCoordinateObj(aircraft, fromPoint) {
 }
 
 function allCoordinatesTruthy({lat1, lon1, lat2, lon2}) {
-  return lat1 && lon1 && lat2 & lon2;
+  return lat1 && lon1 && lat2 && lon2;
 }
 
 function getJourneyPercentageComplete(portToPort, planeToPort) {
@@ -59,7 +59,7 @@ const utils = {
 
   getAirports() {
     return request(
-      airportListURI, 
+      airportListURI,
       (apiErr, apiRes, apiBody) => {
         if (apiErr) throw apiErr;
         JSON.parse(apiBody).forEach(airport => {
@@ -91,7 +91,7 @@ const utils = {
         aircraftType: aircraftList[i].Type,
         airportFrom: aircraftList[i].From ? getAirportDetails(aircraftList[i].From.slice(0,4), airports) : undefined,
         airportTo: aircraftList[i].To ? getAirportDetails(aircraftList[i].To.slice(0,4), airports) : undefined,
-        airportStops: aircraftList[i].Stops ? aircraftList[i].Stops.map(stop => getAirportDetails(stop.slice(0,4), airports)) : undefined, 
+        airportStops: aircraftList[i].Stops ? aircraftList[i].Stops.map(stop => getAirportDetails(stop.slice(0,4), airports)) : undefined,
         ageInYears: aircraftList[i].Year ? (new Date()).getFullYear() - aircraftList[i].Year : undefined
       };
     }

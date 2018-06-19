@@ -6,7 +6,11 @@ import {
   AIRPLANE_ICON_UPDATE_DURATION
 } from '../constants';
 import { updateCraftCount } from '../menu/selectionButtons';
-import { positionAndEventHandle, positionGraphElements } from './buildViz';
+import {
+  positionAndEventHandle,
+  positionGraphElements,
+  enterData
+} from './buildViz';
 
 export default function updateVisualization(fleet) {
   updateCraftCount(fleet);
@@ -30,7 +34,7 @@ export default function updateVisualization(fleet) {
   positionGraphElements(graphData, AIRPLANE_ICON_UPDATE_DURATION);
 
   // ENTER new elements present in new data.
-  positionAndEventHandle(graphData, AIRPLANE_ICON_ENTER_DURATION);
+  positionAndEventHandle(enterData(graphData), AIRPLANE_ICON_ENTER_DURATION);
 
   return graphData;
 }

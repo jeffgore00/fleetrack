@@ -92,15 +92,22 @@ export function addGraphAxesAndLabels(
 }
 
 export function addGraphDataElements(graph, data, className) {
-  graph
-    .selectAll('image')
-    .data(data)
+  const dataSel = graph.selectAll('image').data(data);
+
+  enterData(dataSel, className);
+
+  return d3.selectAll(`.${className}`);
+}
+
+export function enterData(d3dataSel, className) {
+  d3dataSel
     .enter()
     .append('image')
     .attr('class', className)
     .attr('xlink:href', 'images/airplaneSideViewIcon.svg')
     .attr('width', AIRPLANE_ICON_WIDTH)
     .attr('height', AIRPLANE_ICON_HEIGHT);
+
   return d3.selectAll(`.${className}`);
 }
 

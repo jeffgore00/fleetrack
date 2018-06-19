@@ -31,17 +31,8 @@ export const xAxis = createPercentCompleteAxis(xScale);
 export default function buildVisualization(fleet) {
   updateCraftCount(fleet);
   const graph = buildGraph();
-  let graphData = addGraphDataElements(graph, fleet, 'aircraft');
-  graphData = positionGraphElements(graphData, 'aircraft');
-  graphData = addMouseoverHandling(graphData);
-
-  createAltitudeAxisLabel(createAxisLabel(graph), yAxis, dataHeight);
-  createPercentCompleteAxisLabel(
-    createAxisLabel(graph),
-    xAxis,
-    dataHeight,
-    dataWidth
-  );
+  addGraphData(graph, fleet, 'aircraft');
+  addGraphAxesAndLabels(graph, xAxis, yAxis, dataWidth, dataHeight);
 
   return graph
     .transition()
@@ -70,6 +61,29 @@ function buildGraph() {
     .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
 
   return graph;
+}
+
+export function addGraphData(graph, data, className) {
+  let graphData = addGraphDataElements(graph, data, className);
+  graphData = positionGraphElements(graphData, className);
+  graphData = addMouseoverHandling(graphData);
+  return graphData;
+}
+
+export function addGraphAxesAndLabels(
+  graph,
+  xAxis,
+  yAxis,
+  dataWidth,
+  dataHeight
+) {
+  createAltitudeAxisLabel(createAxisLabel(graph), yAxis, dataHeight);
+  createPercentCompleteAxisLabel(
+    createAxisLabel(graph),
+    xAxis,
+    dataHeight,
+    dataWidth
+  );
 }
 
 export function addGraphDataElements(graph, data, className) {

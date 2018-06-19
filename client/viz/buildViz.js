@@ -31,32 +31,9 @@ export const xAxis = createPercentCompleteAxis(xScale);
 export default function buildVisualization(fleet) {
   updateCraftCount(fleet);
   const graph = buildGraph();
-  const graphData = addGraphDataElements(graph, fleet, 'aircraft');
-  graphData
-    .attr('class', 'aircraft')
-    .attr('xlink:href', 'images/airplaneSideViewIcon.svg')
-    .attr('width', AIRPLANE_ICON_WIDTH)
-    .attr('height', AIRPLANE_ICON_HEIGHT)
-    .attr('background', 'blue')
-    .attr('x', d => xScale(d.flightPercentComplete) - AIRPLANE_ICON_WIDTH / 2)
-    .attr('y', d => yScale(d.altitude) - AIRPLANE_ICON_HEIGHT)
-    .on('mouseover', function(d) {
-      d3
-        .select(this)
-        .transition()
-        .duration(INFOBOX_FADEINOUT_DURATION)
-        .attr('xlink:href', 'images/airplaneSideViewIconPurple.svg');
-      appendInfobox(d);
-    })
-    .on('mouseout', function(d) {
-      d3.select(`#infobox_${d.callsign}`).remove();
-      d3
-        .select(this)
-        .transition()
-        .duration(INFOBOX_FADEINOUT_DURATION)
-        .attr('xlink:href', 'images/airplaneSideViewIcon.svg')
-        .style('fill', 'blue');
-    });
+  let graphData = addGraphDataElements(graph, fleet, 'aircraft');
+  graphData = positionGraphElements(graphData, 'aircraft');
+  graphData = addMouseoverHandling(graphData);
 
   createAltitudeAxisLabel(createAxisLabel(graph), yAxis, dataHeight);
   createPercentCompleteAxisLabel(
@@ -95,12 +72,47 @@ function buildGraph() {
   return graph;
 }
 
-function addGraphDataElements(graph, data, className) {
+export function addGraphDataElements(graph, data, className) {
   graph
     .selectAll('image')
     .data(data)
     .enter()
     .append('image')
-    .attr('class', className);
+    .attr('class', className)
+    .attr('xlink:href', 'images/airplaneSideViewIcon.svg')
+    .attr('width', AIRPLANE_ICON_WIDTH)
+    .attr('height', AIRPLANE_ICON_HEIGHT);
   return d3.selectAll(`.${className}`);
+}
+
+export function positionGraphElements(d3elems) {
+  d3elems
+    .attr('x', d => xScale(d.flightPercentComplete) - AIRPLANE_ICON_WIDTH / 2)
+    .attr('y', d => yScale(d.altitude) - AIRPLANE_ICON_HEIGHT);
+
+  return d3elems;
+}
+
+export function addMouseoverHandling(d3elems) {
+  d3elems
+    .on('mouseover', function(d) {
+      addMouseoverAnimation(this, 'airplaneSideViewIconPurple');
+      appendInfobox(d);
+    })
+    .on('mouseout', function(d) {
+      addMouseoverAnimation(this, 'airplaneSideViewIcon');
+      d3.select(`#infobox_${d.callsign}`).remove();
+    });
+
+  return d3elems;
+}
+
+export function addMouseoverAnimation(domElem, imageName) {
+  d3
+    .select(domElem)
+    .transition()
+    .duration(INFOBOX_FADEINOUT_DURATION)
+    .attr('xlink:href', `images/${imageName}.svg`);
+
+  return d3.select(domElem);
 }

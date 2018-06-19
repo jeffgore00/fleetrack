@@ -4,6 +4,7 @@ import {
   AIRPLANE_ICON_WIDTH,
   AIRPLANE_ICON_HEIGHT,
   INFOBOX_FADEINOUT_DURATION,
+  AIRPLANE_ICON_ENTER_DURATION,
   GRAPH_FADEIN_DURATION
 } from '../constants';
 import {
@@ -65,7 +66,11 @@ function buildGraph() {
 
 export function addGraphData(graph, data, className) {
   let graphData = addGraphDataElements(graph, data, className);
-  graphData = positionGraphElements(graphData, className);
+  return positionAndEventHandle(graphData, AIRPLANE_ICON_ENTER_DURATION);
+}
+
+export function positionAndEventHandle(graphData, duration) {
+  graphData = positionGraphElements(graphData, duration);
   graphData = addMouseoverHandling(graphData);
   return graphData;
 }
@@ -99,8 +104,10 @@ export function addGraphDataElements(graph, data, className) {
   return d3.selectAll(`.${className}`);
 }
 
-export function positionGraphElements(d3elems) {
+export function positionGraphElements(d3elems, duration) {
   d3elems
+    .transition()
+    .duration(duration)
     .attr('x', d => xScale(d.flightPercentComplete) - AIRPLANE_ICON_WIDTH / 2)
     .attr('y', d => yScale(d.altitude) - AIRPLANE_ICON_HEIGHT);
 

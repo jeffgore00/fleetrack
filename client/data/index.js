@@ -4,7 +4,6 @@ import updateVisualization from '../viz/updateViz';
 import {
   acUpdateCurrentFleet,
   acInitialFleetLoaded,
-  acUpdateVisualization,
   refreshFleet
 } from '../store';
 
@@ -39,7 +38,7 @@ export function getInitialFleet(carrier, dispatch) {
         () => dispatch(refreshFleet(carrier)),
         5000
       );
-      dispatch(acInitialFleetLoaded(fleet, queryIntervalId));
+      dispatch(acInitialFleetLoaded(carrier, fleet, queryIntervalId));
       return buildVisualization(fleet);
     })
     .catch(err => console.log(err));

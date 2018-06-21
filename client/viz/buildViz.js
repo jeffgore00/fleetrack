@@ -70,8 +70,8 @@ export function addGraphData(graph, data, className) {
 }
 
 export function positionAndEventHandle(graphData, duration) {
-  graphData = positionGraphElements(graphData, duration);
   graphData = addMouseoverHandling(graphData);
+  graphData = positionGraphElements(graphData, duration);
   return graphData;
 }
 

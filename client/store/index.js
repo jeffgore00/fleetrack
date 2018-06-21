@@ -14,9 +14,10 @@ const initialState = {
   queryIntervalId: 0
 };
 
-export const acInitialFleetLoaded = (carrier, queryIntervalId) => ({
+export const acInitialFleetLoaded = (carrier, fleet, queryIntervalId) => ({
   type: INITIAL_FLEET_LOADED,
   carrier,
+  fleet,
   queryIntervalId
 });
 
@@ -56,6 +57,11 @@ const reducer = (state = initialState, action) => {
           fleet: action.fleet
         });
       case INITIAL_FLEET_LOADED:
+        return {
+          carrier: action.carrier,
+          fleet: action.fleet,
+          queryIntervalId: action.queryIntervalId
+        };
       case NEW_CARRIER_SELECTED:
         return Object.assign({}, state, {
           carrier: action.carrier,

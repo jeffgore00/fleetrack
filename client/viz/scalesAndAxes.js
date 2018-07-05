@@ -1,4 +1,5 @@
-import * as d3 from 'd3';
+import { scaleLinear } from 'd3-scale';
+import { axisLeft, axisBottom } from 'd3-axis';
 import {
   MAX_ALTITUDE,
   Y_AXIS_TICK_COUNT,
@@ -10,22 +11,20 @@ import {
 } from '../constants';
 
 export const createAltitudeScale = dataHeight =>
-  d3
-    .scaleLinear()
+  scaleLinear()
     .domain([0, MAX_ALTITUDE])
     .range([dataHeight, 0]);
 
 export const createAltitudeAxis = scale =>
-  d3.axisLeft(scale).ticks(Y_AXIS_TICK_COUNT);
+  axisLeft(scale).ticks(Y_AXIS_TICK_COUNT);
 
 export const createPercentCompleteScale = dataWidth =>
-  d3
-    .scaleLinear()
+  scaleLinear()
     .domain([0, 100])
     .range([0, dataWidth]);
 
 export const createPercentCompleteAxis = scale =>
-  d3.axisBottom(scale).ticks(X_AXIS_TICK_COUNT);
+  axisBottom(scale).ticks(X_AXIS_TICK_COUNT);
 
 export const createAxisLabel = graph =>
   graph.append('g').style('font-size', AXIS_LABEL_FONT_SIZE);

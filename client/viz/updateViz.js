@@ -1,4 +1,4 @@
-import * as d3 from 'd3';
+import { select } from 'd3-selection';
 import 'd3-transition';
 import {
   AIRPLANE_ICON_ENTER_DURATION,
@@ -15,7 +15,7 @@ import {
 export default function updateVisualization(fleet) {
   updateCraftCount(fleet);
 
-  const graph = d3.select('#graph');
+  const graph = select('#graph');
 
   // This order of operations is important!
   // See https://bl.ocks.org/mbostock/3808218

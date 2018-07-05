@@ -1,4 +1,4 @@
-import * as d3 from 'd3';
+import { select, event } from 'd3-selection';
 import {
   INFOBOX_X_OFFSET_LEFT,
   INFOBOX_X_OFFSET_RIGHT,
@@ -8,8 +8,7 @@ import {
 import { numberWithCommas } from '../utils';
 
 export function appendInfobox(data) {
-  const infobox = d3
-    .select('body')
+  const infobox = select('body')
     .append('div')
     .attr('class', 'infobox')
     .attr('id', `infobox_${data.callsign}`)
@@ -33,12 +32,12 @@ function buildInfobox(data) {
       <tr>
         <th>Arrival:</td>
         <td>${data.airportTo.city} (${data.airportTo.code}) ${
-  data.airportStops && data.airportStops.length
-    ? '(stopping in ' +
+    data.airportStops && data.airportStops.length
+      ? '(stopping in ' +
         data.airportStops.map(stop => stop.code).join(', ') +
         ')'
-    : ''
-} </td> 
+      : ''
+  } </td>
       </tr>
       <tr>
         <th>Location:</th>
@@ -57,17 +56,17 @@ function buildInfobox(data) {
 }
 
 function setInfoboxXPosition() {
-  if (window.innerWidth - d3.event.pageX < 200) {
-    return d3.event.pageX + INFOBOX_X_OFFSET_LEFT + 'px';
+  if (window.innerWidth - event.pageX < 200) {
+    return event.pageX + INFOBOX_X_OFFSET_LEFT + 'px';
   } else {
-    return d3.event.pageX + INFOBOX_X_OFFSET_RIGHT + 'px';
+    return event.pageX + INFOBOX_X_OFFSET_RIGHT + 'px';
   }
 }
 
 function setInfoboxYPosition() {
-  if (window.innerHeight - d3.event.pageY < 200) {
-    return d3.event.pageY + INFOBOX_Y_OFFSET_TOP + 'px';
+  if (window.innerHeight - event.pageY < 200) {
+    return event.pageY + INFOBOX_Y_OFFSET_TOP + 'px';
   } else {
-    return d3.event.pageY + INFOBOX_Y_OFFSET_BOTTOM + 'px';
+    return event.pageY + INFOBOX_Y_OFFSET_BOTTOM + 'px';
   }
 }

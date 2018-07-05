@@ -1,4 +1,5 @@
-import * as d3 from 'd3';
+import { select, selectAll, event } from 'd3-selection';
+import { zoom } from 'd3-zoom';
 import 'd3-transition';
 import {
   AIRPLANE_ICON_WIDTH,
@@ -42,8 +43,7 @@ export default function buildVisualization(fleet) {
 }
 
 function buildGraph() {
-  const graph = d3
-    .select('body')
+  const graph = select('body')
     .append('div')
     .classed('graph-container', true)
     .append('svg')
@@ -52,8 +52,8 @@ function buildGraph() {
     .attr('viewBox', `0 0 ${window.innerWidth} ${window.innerHeight}`)
     .classed('graph-content-responsive', true)
     .call(
-      d3.zoom().on('zoom', function() {
-        graph.attr('transform', d3.event.transform);
+      zoom().on('zoom', function() {
+        graph.attr('transform', event.transform);
       })
     )
     .append('g')
@@ -96,7 +96,7 @@ export function addGraphDataElements(graph, data, className) {
 
   enterData(dataSel, className);
 
-  return d3.selectAll(`.${className}`);
+  return selectAll(`.${className}`);
 }
 
 export function enterData(d3dataSel, className) {
@@ -108,7 +108,7 @@ export function enterData(d3dataSel, className) {
     .attr('width', AIRPLANE_ICON_WIDTH)
     .attr('height', AIRPLANE_ICON_HEIGHT);
 
-  return d3.selectAll(`.${className}`);
+  return selectAll(`.${className}`);
 }
 
 export function positionGraphElements(d3elems, duration) {
@@ -129,18 +129,17 @@ export function addMouseoverHandling(d3elems) {
     })
     .on('mouseout', function(d) {
       addMouseoverAnimation(this, 'airplaneSideViewIcon');
-      d3.select(`#infobox_${d.callsign}`).remove();
+      select(`#infobox_${d.callsign}`).remove();
     });
 
   return d3elems;
 }
 
 export function addMouseoverAnimation(domElem, imageName) {
-  d3
-    .select(domElem)
+  select(domElem)
     .transition()
     .duration(INFOBOX_FADEINOUT_DURATION)
     .attr('xlink:href', `images/${imageName}.svg`);
 
-  return d3.select(domElem);
+  return select(domElem);
 }

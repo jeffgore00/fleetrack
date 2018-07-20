@@ -1,47 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Fleetrack</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-  <link href = "styles.css" rel = "stylesheet" type = "text/css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+    crossorigin="anonymous">
+  <link href="styles.css" rel="stylesheet" type="text/css">
   <script src="bundle.js" defer></script>
 </head>
+
 <body>
   <header>
     <div id="headerContainer">
-      <div id = "logoAndCraftCount">
-        <span id = "logo">FLEETRACK</span>
-        <span id = "craftCount"></span>
+      <div id="logoAndCraftCount">
+        <span id="logo">FLEETRACK</span>
+        <span id="craftCount"></span>
       </div>
-      <div id = "airlineSelect"></div>
-        <div class="btn-group btn-group-toggle" data-toggle="buttons">
-            <label class="btn btn-secondary active">
-              <input type="radio" name="options" id="DAL" autocomplete="off" checked> Delta
-            </label>
-            <label class="btn btn-secondary">
-              <input type="radio" name="options" id="SWA" autocomplete="off"> Southwest
-            </label>
-            <label class="btn btn-secondary">
-              <input type="radio" name="options" id="UAL" autocomplete="off"> United
-            </label>
-            <label class="btn btn-secondary">
-              <input type="radio" name="options" id="DLH" autocomplete="off"> Lufthansa
-            </label>
-            <label class="btn btn-secondary">
-              <input type="radio" name="options" id="FDX" autocomplete="off"> FedEx
-            </label>
-            <label class="btn btn-secondary">
-              <input type="radio" name="options" id="WWW" autocomplete="off"> Janet
-            </label>
-          </div>
+      <div id="airlineSelect"></div>
+      <div class="btn-group btn-group-toggle" data-toggle="buttons">
+        <label id="DAL" class="btn btn-secondary active">
+          <input type="radio" name="options" autocomplete="off" checked>
+          <div>Delta</div>
+        </label>
+        <label id="SWA" class="btn btn-secondary">
+          <input type="radio" name="options" autocomplete="off">
+          <div>Southwest</div>
+        </label>
+        <label id="UAL" class="btn btn-secondary">
+          <input type="radio" name="options" autocomplete="off">
+          <div>United</div>
+        </label>
+        <label id="DLH" class="btn btn-secondary">
+          <input type="radio" name="options" autocomplete="off">
+          <div>Lufthansa</div>
+        </label>
+        <label id="FDX" class="btn btn-secondary">
+          <input type="radio" name="options" autocomplete="off">
+          <div>FedEx</div>
+        </label>
+        <label id="WWW" class="btn btn-secondary">
+          <input type="radio" name="options" autocomplete="off">
+          <div>Janet</div>
+        </label>
       </div>
+    </div>
     </div>
   </header>
 </body>
+
 </html>
-
-
-

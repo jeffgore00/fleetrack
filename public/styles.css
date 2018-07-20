@@ -1,6 +1,6 @@
 .infobox {
   font-family: Helvetica;
-  font-size: .75em;
+  font-size: 0.75em;
   max-width: 100px;
   position: absolute;
 }
@@ -81,8 +81,12 @@ header:last-child {
   font-size: 2vh;
 }
 
+.loadingWheel img {
+  height: 3vh;
+}
+
 #craftCount {
-  margin-left:1vw;
+  margin-left: 1vw;
   font-size: 2vh;
-  color:white;
+  color: white;
 }

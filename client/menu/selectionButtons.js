@@ -13,12 +13,12 @@ export function addFunctionalityToButtons() {
     inputElement.addEventListener('click', function() {
       uiChangeOnClick(inputElement);
       store.dispatch(fetchNewFleet(button.id));
-      const carrierNameHTML = loadingWheelOnClick(displayDiv);
+      const carrierName = loadingWheelOnClick(displayDiv);
       let existingFleetFirstCallsign = getFirstCallsign(store);
       store.subscribe(function() {
         const currentFleetFirstCallsign = getFirstCallsign(store);
         if (existingFleetFirstCallsign !== currentFleetFirstCallsign) {
-          displayDiv.innerHTML = carrierNameHTML;
+          displayDiv.innerHTML = carrierName;
           existingFleetFirstCallsign = currentFleetFirstCallsign;
         }
       });
@@ -41,9 +41,9 @@ function uiChangeOnClick(inputElement) {
 }
 
 function loadingWheelOnClick(displayDiv) {
-  const carrierNameHTML = displayDiv.innerText.slice();
+  const carrierName = displayDiv.innerText;
   const loadingWheel =
     '<div class="loadingWheel"><img src = "images/spinningLoadingWheel.gif"></div>';
   displayDiv.innerHTML = loadingWheel;
-  return carrierNameHTML;
+  return carrierName;
 }

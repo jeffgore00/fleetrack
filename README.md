@@ -2,7 +2,7 @@
 
 Fleetrack is a visualization of real-time flight data for a handful of major carriers (i.e. fleet tracking) on an scalable vector altitude/distance graph using the D3.js visualization library.
 
-The app is not deployed; to run the Webpack build and serve it locally, use `npm run start-dev` to view on `http://localhost:1337`. You should see something like the below:
+The app is deployed at [http://fleetrack2018.herokuapp.com/](http://fleetrack2018.herokuapp.com/).
 
 ![Fleetrack Screenshot](http://drive.google.com/uc?export=view&id=19HzDKOHH4132ADDWYBZv0Ydcx8a5qKfO)
 The app queries the [Virtual Radar Server](http://www.virtualradarserver.co.uk/Documentation/Formats/AircraftList.aspx) every five seconds for the location data of the currently active fleet of the airline selected in the navbar. Delta is selected by default. (I included the Area 51 airline [Janet](<https://en.wikipedia.org/wiki/Janet_(airline)>) for fun - you will likely never see any data for this airline, but if you do, let me know!)

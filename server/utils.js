@@ -4,8 +4,8 @@ const path = require('path');
 
 const airports = {};
 
-function getAirportDetails(code, airportList) {
-  if (airportList[code]) return airportList[code];
+function getAirportDetails(icao, airportList) {
+  if (airportList[icao]) return airportList[icao];
 }
 
 /* Below courtesy of https://stackoverflow.com/a/365853 */
@@ -70,7 +70,7 @@ const utils = {
       );
       JSON.parse(data).forEach(airport => {
         airports[airport.icao] = {
-          code: airport.icao,
+          code: airport.code,
           lat: Number(airport.lat),
           long: Number(airport.lon),
           name: airport.name,

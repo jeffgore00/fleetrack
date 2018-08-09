@@ -1,0 +1,6075 @@
+[
+  {
+    "callsign": "DAL2153",
+    "altitude": 2850,
+    "grounded": false,
+    "speed": 228.1,
+    "lat": 34.058121,
+    "long": -117.67826,
+    "heading": 272,
+    "aircraftType": "B738",
+    "airportFrom": {
+      "code": "LGA",
+      "lat": 40.7731,
+      "long": -73.8756,
+      "name": "LaGuardia Airport",
+      "city": "Flushing",
+      "state": "New York",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "GEG",
+      "lat": 47.625,
+      "long": -117.538,
+      "name": "Spokane International Airport",
+      "city": "Spokane",
+      "state": "Washington",
+      "country": "United States"
+    },
+    "airportStops": [
+      {
+        "code": "MSP",
+        "lat": 44.8793,
+        "long": -93.1987,
+        "name": "Minneapolis St Paul International Airport",
+        "city": "St. Paul",
+        "state": "Minnesota",
+        "country": "United States"
+      }
+    ],
+    "ageInYears": 17,
+    "flightPercentComplete": 57.07105228440636
+  },
+  {
+    "callsign": "DAL2967",
+    "altitude": 8275,
+    "grounded": false,
+    "speed": 246.1,
+    "lat": 39.394226,
+    "long": -119.769165,
+    "heading": 178.4,
+    "aircraftType": "B738",
+    "airportFrom": {
+      "code": "FLL",
+      "lat": 26.0722,
+      "long": -80.1354,
+      "name": "Fort Lauderdale Hollywood International Airport",
+      "city": "Dania Beach",
+      "state": "Florida",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "SAN",
+      "lat": 32.7299,
+      "long": -117.195,
+      "name": "San Diego International Airport",
+      "city": "San Diego",
+      "state": "California",
+      "country": "United States"
+    },
+    "airportStops": [
+      {
+        "code": "ATL",
+        "lat": 33.6558,
+        "long": -84.4333,
+        "name": "Hartsfield-Jackson Atlanta International Airport",
+        "city": "Atlanta",
+        "state": "Georgia",
+        "country": "United States"
+      }
+    ],
+    "ageInYears": 18,
+    "flightPercentComplete": 78.71317053320162
+  },
+  {
+    "callsign": "DAL1455",
+    "altitude": 36000,
+    "grounded": false,
+    "speed": 497,
+    "lat": 33.969354,
+    "long": -124.815559,
+    "heading": 78.5,
+    "aircraftType": "B752",
+    "airportFrom": {
+      "code": "ATL",
+      "lat": 33.6558,
+      "long": -84.4333,
+      "name": "Hartsfield-Jackson Atlanta International Airport",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "LAX",
+      "lat": 33.9456,
+      "long": -118.391,
+      "name": "Los Angeles International Airport",
+      "city": "Los Angeles",
+      "state": "California",
+      "country": "United States"
+    },
+    "ageInYears": 22,
+    "flightPercentComplete": 81.03136527721885
+  },
+  {
+    "callsign": "DAL570",
+    "altitude": 8925,
+    "grounded": false,
+    "speed": 165,
+    "lat": 40.808601,
+    "long": -73.906502,
+    "heading": 326,
+    "aircraftType": "A319",
+    "airportFrom": {
+      "code": "SFO",
+      "lat": 37.6148,
+      "long": -122.392,
+      "name": "San Francisco International Airport",
+      "city": "San Francisco",
+      "state": "California",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "ATL",
+      "lat": 33.6558,
+      "long": -84.4333,
+      "name": "Hartsfield-Jackson Atlanta International Airport",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "country": "United States"
+    },
+    "ageInYears": 16,
+    "flightPercentComplete": 64.38012592855146
+  },
+  {
+    "callsign": "DAL484",
+    "altitude": 8625,
+    "grounded": false,
+    "speed": 300.9,
+    "lat": 40.494814,
+    "long": -73.670384,
+    "heading": 98,
+    "aircraftType": "B752",
+    "airportFrom": {
+      "code": "MEX",
+      "lat": 19.4344,
+      "long": -99.0742,
+      "name": "Lic Benito Juarez International Airport",
+      "city": "Mexico City",
+      "state": "Distrito Federal",
+      "country": "Mexico"
+    },
+    "airportTo": {
+      "code": "JFK",
+      "lat": 40.6437,
+      "long": -73.79,
+      "name": "John F Kennedy International Airport",
+      "city": "Jamaica",
+      "state": "New York",
+      "country": "United States"
+    },
+    "ageInYears": 22,
+    "flightPercentComplete": 99.423656051317
+  },
+  {
+    "callsign": "DAL128",
+    "altitude": 12728,
+    "speed": 462,
+    "lat": 49.397461,
+    "long": -128.126648,
+    "heading": 114.1,
+    "aircraftType": "B763",
+    "airportFrom": {
+      "code": "PEK",
+      "lat": 40.0724,
+      "long": 116.583,
+      "name": "Beijing Capital Airport",
+      "city": "Shunyi",
+      "state": "Beijing",
+      "country": "China"
+    },
+    "airportTo": {
+      "code": "SEA",
+      "lat": 47.4405,
+      "long": -122.296,
+      "name": "Tacoma International Airport",
+      "city": "Seattle",
+      "state": "Washington",
+      "country": "United States"
+    },
+    "ageInYears": 18,
+    "flightPercentComplete": 94.44783440905509
+  },
+  {
+    "callsign": "DAL46",
+    "altitude": 8950,
+    "grounded": false,
+    "speed": 294.4,
+    "lat": 30.223846,
+    "long": -97.397892,
+    "heading": 65.1,
+    "aircraftType": "A320",
+    "airportFrom": {
+      "code": "AUS",
+      "lat": 30.2027,
+      "long": -97.6653,
+      "name": "Austin-Bergstrom International Airport",
+      "city": "Austin",
+      "state": "Texas",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "AMS",
+      "lat": 52.3122,
+      "long": 4.77511,
+      "name": "Schiphol Airport",
+      "city": "Schiphol Zuid",
+      "state": "North Holland",
+      "country": "Netherlands"
+    },
+    "airportStops": [
+      {
+        "code": "JFK",
+        "lat": 40.6437,
+        "long": -73.79,
+        "name": "John F Kennedy International Airport",
+        "city": "Jamaica",
+        "state": "New York",
+        "country": "United States"
+      }
+    ],
+    "ageInYears": 16,
+    "flightPercentComplete": 0.21850066629984788
+  },
+  {
+    "callsign": "DAL1252",
+    "altitude": 3950,
+    "grounded": false,
+    "speed": 268.2,
+    "lat": 36.796829,
+    "long": -76.307659,
+    "heading": 262.7,
+    "aircraftType": "B752",
+    "airportFrom": {
+      "code": "RIC",
+      "lat": 37.5108,
+      "long": -77.3332,
+      "name": "Richmond International Airport",
+      "city": "Richmond",
+      "state": "Virginia",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "RSW",
+      "lat": 26.5228,
+      "long": -81.7531,
+      "name": "Southwest Florida International Airport",
+      "city": "Fort Myers",
+      "state": "Florida",
+      "country": "United States"
+    },
+    "airportStops": [
+      {
+        "code": "ATL",
+        "lat": 33.6558,
+        "long": -84.4333,
+        "name": "Hartsfield-Jackson Atlanta International Airport",
+        "city": "Atlanta",
+        "state": "Georgia",
+        "country": "United States"
+      }
+    ],
+    "ageInYears": 28,
+    "flightPercentComplete": 2.928715159829831
+  },
+  {
+    "callsign": "DAL480",
+    "altitude": 21825,
+    "grounded": false,
+    "speed": 406.8,
+    "lat": 35.772369,
+    "long": -79.803168,
+    "heading": 258,
+    "aircraftType": "MD88",
+    "airportFrom": {
+      "code": "JFK",
+      "lat": 40.6437,
+      "long": -73.79,
+      "name": "John F Kennedy International Airport",
+      "city": "Jamaica",
+      "state": "New York",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "LAX",
+      "lat": 33.9456,
+      "long": -118.391,
+      "name": "Los Angeles International Airport",
+      "city": "Los Angeles",
+      "state": "California",
+      "country": "United States"
+    },
+    "ageInYears": 27,
+    "flightPercentComplete": 11.77527659564751
+  },
+  {
+    "callsign": "DAL270",
+    "altitude": 34000,
+    "grounded": false,
+    "speed": 451,
+    "lat": 43.105091,
+    "long": -55.882809,
+    "heading": 269.4,
+    "aircraftType": "B752",
+    "airportFrom": {
+      "code": "AGP",
+      "lat": 36.6749,
+      "long": -4.49298,
+      "name": "Malaga Airport",
+      "city": "Malaga",
+      "state": "Andalucia",
+      "country": "Spain"
+    },
+    "airportTo": {
+      "code": "JFK",
+      "lat": 40.6437,
+      "long": -73.79,
+      "name": "John F Kennedy International Airport",
+      "city": "Jamaica",
+      "state": "New York",
+      "country": "United States"
+    },
+    "ageInYears": 22,
+    "flightPercentComplete": 74.38624312940412
+  },
+  {
+    "callsign": "DAL2326",
+    "altitude": 22275,
+    "grounded": false,
+    "speed": 448.7,
+    "lat": 26.941086,
+    "long": -80.469101,
+    "heading": 339.4,
+    "aircraftType": "B752",
+    "airportFrom": {
+      "code": "FLL",
+      "lat": 26.0722,
+      "long": -80.1354,
+      "name": "Fort Lauderdale Hollywood International Airport",
+      "city": "Dania Beach",
+      "state": "Florida",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "ATL",
+      "lat": 33.6558,
+      "long": -84.4333,
+      "name": "Hartsfield-Jackson Atlanta International Airport",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "country": "United States"
+    },
+    "ageInYears": 28,
+    "flightPercentComplete": 10.804077821955138
+  },
+  {
+    "callsign": "DAL529",
+    "altitude": 23300,
+    "grounded": false,
+    "speed": 466.1,
+    "lat": 32.607651,
+    "long": -84.414111,
+    "heading": 179.1,
+    "aircraftType": "B738",
+    "airportFrom": {
+      "code": "SDF",
+      "lat": 38.1865,
+      "long": -85.7462,
+      "name": "Louisville International Airport",
+      "city": "Louisville",
+      "state": "Kentucky",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "CUN",
+      "lat": 21.0406,
+      "long": -86.8744,
+      "name": "Cancun Airport",
+      "city": "Cancun",
+      "state": "Quintana Roo",
+      "country": "Mexico"
+    },
+    "airportStops": [
+      {
+        "code": "ATL",
+        "lat": 33.6558,
+        "long": -84.4333,
+        "name": "Hartsfield-Jackson Atlanta International Airport",
+        "city": "Atlanta",
+        "state": "Georgia",
+        "country": "United States"
+      }
+    ],
+    "ageInYears": 8,
+    "flightPercentComplete": 31.450621858356065
+  },
+  {
+    "callsign": "DAL1531",
+    "altitude": 30000,
+    "grounded": false,
+    "speed": 455.7,
+    "lat": 39.749652,
+    "long": -90.426025,
+    "heading": 274.9,
+    "aircraftType": "B738",
+    "airportFrom": {
+      "code": "LGA",
+      "lat": 40.7731,
+      "long": -73.8756,
+      "name": "LaGuardia Airport",
+      "city": "Flushing",
+      "state": "New York",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "RSW",
+      "lat": 26.5228,
+      "long": -81.7531,
+      "name": "Southwest Florida International Airport",
+      "city": "Fort Myers",
+      "state": "Florida",
+      "country": "United States"
+    },
+    "ageInYears": 5,
+    "flightPercentComplete": 3.8214942260924367
+  },
+  {
+    "callsign": "DAL732",
+    "altitude": 24025,
+    "grounded": false,
+    "speed": 432,
+    "lat": 32.581169,
+    "long": -83.18483,
+    "heading": 320,
+    "aircraftType": "A321",
+    "airportFrom": {
+      "code": "CUN",
+      "lat": 21.0406,
+      "long": -86.8744,
+      "name": "Cancun Airport",
+      "city": "Cancun",
+      "state": "Quintana Roo",
+      "country": "Mexico"
+    },
+    "airportTo": {
+      "code": "SEA",
+      "lat": 47.4405,
+      "long": -122.296,
+      "name": "Tacoma International Airport",
+      "city": "Seattle",
+      "state": "Washington",
+      "country": "United States"
+    },
+    "ageInYears": 0,
+    "flightPercentComplete": 15.091178209382727
+  },
+  {
+    "callsign": "DAL516",
+    "altitude": 30000,
+    "grounded": false,
+    "speed": 433,
+    "lat": 39.703705,
+    "long": -88.064026,
+    "heading": 276.8,
+    "aircraftType": "B738",
+    "airportFrom": {
+      "code": "CUN",
+      "lat": 21.0406,
+      "long": -86.8744,
+      "name": "Cancun Airport",
+      "city": "Cancun",
+      "state": "Quintana Roo",
+      "country": "Mexico"
+    },
+    "airportTo": {
+      "code": "MSP",
+      "lat": 44.8793,
+      "long": -93.1987,
+      "name": "Minneapolis St Paul International Airport",
+      "city": "St. Paul",
+      "state": "Minnesota",
+      "country": "United States"
+    },
+    "ageInYears": 19,
+    "flightPercentComplete": 73.70491644779369
+  },
+  {
+    "callsign": "DAL475",
+    "altitude": 32000,
+    "grounded": false,
+    "speed": 492,
+    "lat": 46.501694,
+    "long": 9.953412,
+    "heading": 320.9,
+    "aircraftType": "B764",
+    "airportFrom": {
+      "code": "VCE",
+      "lat": 45.505,
+      "long": 12.3433,
+      "name": "Marco Polo International Airport",
+      "city": "Venice",
+      "state": "Veneto",
+      "country": "Italy"
+    },
+    "airportTo": {
+      "code": "JFK",
+      "lat": 40.6437,
+      "long": -73.79,
+      "name": "John F Kennedy International Airport",
+      "city": "Jamaica",
+      "state": "New York",
+      "country": "United States"
+    },
+    "ageInYears": 17,
+    "flightPercentComplete": 3.2246483936970716
+  },
+  {
+    "callsign": "DAL534",
+    "altitude": 35000,
+    "grounded": false,
+    "speed": 449,
+    "lat": 28.421677,
+    "long": -83.654372,
+    "heading": 13.3,
+    "aircraftType": "A320",
+    "airportFrom": {
+      "code": "CUN",
+      "lat": 21.0406,
+      "long": -86.8744,
+      "name": "Cancun Airport",
+      "city": "Cancun",
+      "state": "Quintana Roo",
+      "country": "Mexico"
+    },
+    "airportTo": {
+      "code": "ATL",
+      "lat": 33.6558,
+      "long": -84.4333,
+      "name": "Hartsfield-Jackson Atlanta International Airport",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "country": "United States"
+    },
+    "ageInYears": 19,
+    "flightPercentComplete": 58.774059193814395
+  },
+  {
+    "callsign": "DAL1429",
+    "altitude": 34025,
+    "grounded": false,
+    "speed": 456,
+    "lat": 34.427568,
+    "long": -87.52367,
+    "heading": 286.9,
+    "aircraftType": "B738",
+    "airportFrom": {
+      "code": "JFK",
+      "lat": 40.6437,
+      "long": -73.79,
+      "name": "John F Kennedy International Airport",
+      "city": "Jamaica",
+      "state": "New York",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "LAS",
+      "lat": 36.0806,
+      "long": -115.143,
+      "name": "Mccarran International Airport",
+      "city": "Las Vegas",
+      "state": "Nevada",
+      "country": "United States"
+    },
+    "ageInYears": 18,
+    "flightPercentComplete": 30.52848353326114
+  },
+  {
+    "callsign": "DAL1410",
+    "altitude": 27150,
+    "grounded": false,
+    "speed": 447.4,
+    "lat": 39.689321,
+    "long": -88.516052,
+    "heading": 280.4,
+    "aircraftType": "MD90",
+    "airportFrom": {
+      "code": "DEN",
+      "lat": 39.8396,
+      "long": -104.672,
+      "name": "Denver International Airport",
+      "city": "Denver",
+      "state": "Colorado",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "BWI",
+      "lat": 39.1841,
+      "long": -76.6745,
+      "name": "Baltimore-Washington International Thurgood Mars",
+      "city": "Baltimore",
+      "state": "Maryland",
+      "country": "United States"
+    },
+    "airportStops": [
+      {
+        "code": "DTW",
+        "lat": 42.2327,
+        "long": -83.3412,
+        "name": "Detroit Metropolitan Wayne County Airport",
+        "city": "Detroit",
+        "state": "Michigan",
+        "country": "United States"
+      }
+    ],
+    "flightPercentComplete": 57.47097495134754
+  },
+  {
+    "callsign": "DAL2678",
+    "altitude": 31650,
+    "speed": 477,
+    "lat": 31.553432,
+    "long": -82.524521,
+    "heading": 140,
+    "aircraftType": "B739",
+    "airportFrom": {
+      "code": "MCO",
+      "lat": 28.4418,
+      "long": -81.3115,
+      "name": "Orlando International Airport",
+      "city": "Orlando",
+      "state": "Florida",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "DCA",
+      "lat": 38.849,
+      "long": -77.0438,
+      "name": "Washington National Airport",
+      "city": "Arlington",
+      "state": "Virginia",
+      "country": "United States"
+    },
+    "ageInYears": 5,
+    "flightPercentComplete": 22.167469814398324
+  },
+  {
+    "callsign": "DAL324",
+    "altitude": 32000,
+    "grounded": false,
+    "speed": 401,
+    "lat": 40.684467,
+    "long": -76.166275,
+    "heading": 252.3,
+    "aircraftType": "B752",
+    "airportFrom": {
+      "code": "SEA",
+      "lat": 47.4405,
+      "long": -122.296,
+      "name": "Tacoma International Airport",
+      "city": "Seattle",
+      "state": "Washington",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "ATL",
+      "lat": 33.6558,
+      "long": -84.4333,
+      "name": "Hartsfield-Jackson Atlanta International Airport",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "country": "United States"
+    },
+    "ageInYears": 22,
+    "flightPercentComplete": 69.44327261823189
+  },
+  {
+    "callsign": "DAL1672",
+    "altitude": 31025,
+    "grounded": false,
+    "speed": 462.9,
+    "lat": 36.510681,
+    "long": -83.575802,
+    "heading": 30.2,
+    "aircraftType": "MD90",
+    "airportFrom": {
+      "code": "SLC",
+      "lat": 40.7862,
+      "long": -111.982,
+      "name": "Salt Lake City International Airport",
+      "city": "Salt Lake City",
+      "state": "Utah",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "ATL",
+      "lat": 33.6558,
+      "long": -84.4333,
+      "name": "Hartsfield-Jackson Atlanta International Airport",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "country": "United States"
+    },
+    "ageInYears": 19,
+    "flightPercentComplete": 87.19341390772546
+  },
+  {
+    "callsign": "DAL1829",
+    "altitude": 31000,
+    "grounded": false,
+    "speed": 459.3,
+    "lat": 38.713213,
+    "long": -83.656372,
+    "heading": 184.2,
+    "aircraftType": "MD90",
+    "airportFrom": {
+      "code": "MCO",
+      "lat": 28.4418,
+      "long": -81.3115,
+      "name": "Orlando International Airport",
+      "city": "Orlando",
+      "state": "Florida",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "ATL",
+      "lat": 33.6558,
+      "long": -84.4333,
+      "name": "Hartsfield-Jackson Atlanta International Airport",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "country": "United States"
+    },
+    "ageInYears": 22,
+    "flightPercentComplete": 13.02176192918556
+  },
+  {
+    "callsign": "DAL1544",
+    "altitude": 36000,
+    "grounded": false,
+    "speed": 465,
+    "lat": 29.486886,
+    "long": -83.167689,
+    "heading": 328.5,
+    "aircraftType": "B739",
+    "airportFrom": {
+      "code": "SLC",
+      "lat": 40.7862,
+      "long": -111.982,
+      "name": "Salt Lake City International Airport",
+      "city": "Salt Lake City",
+      "state": "Utah",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "ATL",
+      "lat": 33.6558,
+      "long": -84.4333,
+      "name": "Hartsfield-Jackson Atlanta International Airport",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "country": "United States"
+    },
+    "ageInYears": 0,
+    "flightPercentComplete": 81.24202869315033
+  },
+  {
+    "callsign": "DAL1614",
+    "altitude": 33000,
+    "grounded": false,
+    "speed": 493.2,
+    "lat": 34.83611,
+    "long": -88.332195,
+    "heading": 105.2,
+    "aircraftType": "MD88",
+    "airportFrom": {
+      "code": "LIT",
+      "lat": 34.7278,
+      "long": -92.219,
+      "name": "Adams Field Airport",
+      "city": "Little Rock",
+      "state": "Arkansas",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "ATL",
+      "lat": 33.6558,
+      "long": -84.4333,
+      "name": "Hartsfield-Jackson Atlanta International Airport",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "country": "United States"
+    },
+    "ageInYears": 27,
+    "flightPercentComplete": 47.41803858687362
+  },
+  {
+    "callsign": "DAL1996",
+    "altitude": 35000,
+    "grounded": false,
+    "speed": 495,
+    "lat": 43.574105,
+    "long": -89.251687,
+    "heading": 104.6,
+    "aircraftType": "A320",
+    "airportFrom": {
+      "code": "MSP",
+      "lat": 44.8793,
+      "long": -93.1987,
+      "name": "Minneapolis St Paul International Airport",
+      "city": "St. Paul",
+      "state": "Minnesota",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "LGA",
+      "lat": 40.7731,
+      "long": -73.8756,
+      "name": "LaGuardia Airport",
+      "city": "Flushing",
+      "state": "New York",
+      "country": "United States"
+    },
+    "ageInYears": 26,
+    "flightPercentComplete": 20.37874519951718
+  },
+  {
+    "callsign": "DAL257",
+    "altitude": 150,
+    "grounded": false,
+    "speed": 115,
+    "lat": 52.334072,
+    "long": 4.709339,
+    "heading": 3.5,
+    "aircraftType": "B763",
+    "airportFrom": {
+      "code": "AMS",
+      "lat": 52.3122,
+      "long": 4.77511,
+      "name": "Schiphol Airport",
+      "city": "Schiphol Zuid",
+      "state": "North Holland",
+      "country": "Netherlands"
+    },
+    "airportTo": {
+      "code": "BOS",
+      "lat": 42.3717,
+      "long": -71.0281,
+      "name": "Gen E L Logan International Airport",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "country": "United States"
+    },
+    "ageInYears": 21,
+    "flightPercentComplete": 0.09081199532484652
+  },
+  {
+    "callsign": "DAL2939",
+    "altitude": 6950,
+    "speed": 258.8,
+    "lat": 35.992676,
+    "long": -86.431446,
+    "heading": 315.6,
+    "aircraftType": "B752",
+    "airportFrom": {
+      "code": "DCA",
+      "lat": 38.849,
+      "long": -77.0438,
+      "name": "Washington National Airport",
+      "city": "Arlington",
+      "state": "Virginia",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "ATL",
+      "lat": 33.6558,
+      "long": -84.4333,
+      "name": "Hartsfield-Jackson Atlanta International Airport",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "country": "United States"
+    },
+    "ageInYears": 18,
+    "flightPercentComplete": 63.85853858032211
+  },
+  {
+    "callsign": "DAL742",
+    "altitude": 34000,
+    "grounded": false,
+    "speed": 441.3,
+    "lat": 37.998823,
+    "long": -89.231912,
+    "heading": 311.6,
+    "aircraftType": "B738",
+    "airportFrom": {
+      "code": "ATL",
+      "lat": 33.6558,
+      "long": -84.4333,
+      "name": "Hartsfield-Jackson Atlanta International Airport",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "MKE",
+      "lat": 42.9471,
+      "long": -87.9051,
+      "name": "General Mitchell International Airport",
+      "city": "Milwaukee",
+      "state": "Wisconsin",
+      "country": "United States"
+    },
+    "ageInYears": 18,
+    "flightPercentComplete": 47.831301381215695
+  },
+  {
+    "callsign": "DAL2709",
+    "altitude": 2450,
+    "grounded": false,
+    "speed": 136,
+    "lat": 33.649354,
+    "long": -84.305134,
+    "heading": 270,
+    "aircraftType": "MD88",
+    "airportFrom": {
+      "code": "JFK",
+      "lat": 40.6437,
+      "long": -73.79,
+      "name": "John F Kennedy International Airport",
+      "city": "Jamaica",
+      "state": "New York",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "MBJ",
+      "lat": 18.5042,
+      "long": -77.9125,
+      "name": "Sangster International Airport",
+      "city": "Montego Bay",
+      "state": "Saint James",
+      "country": "Jamaica"
+    },
+    "ageInYears": 27,
+    "flightPercentComplete": 27.805386714625136
+  },
+  {
+    "callsign": "DAL1641",
+    "altitude": 30000,
+    "grounded": false,
+    "speed": 457,
+    "lat": 32.832092,
+    "long": -88.317993,
+    "heading": 249,
+    "aircraftType": "MD90",
+    "airportFrom": {
+      "code": "RDU",
+      "lat": 35.8729,
+      "long": -78.7923,
+      "name": "Durham International Airport",
+      "city": "Raleigh/Durham",
+      "state": "North Carolina",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "LAX",
+      "lat": 33.9456,
+      "long": -118.391,
+      "name": "Los Angeles International Airport",
+      "city": "Los Angeles",
+      "state": "California",
+      "country": "United States"
+    },
+    "flightPercentComplete": 22.48381363231652
+  },
+  {
+    "callsign": "DAL2190",
+    "altitude": 34000,
+    "grounded": false,
+    "speed": 449.5,
+    "lat": 37.890106,
+    "long": -75.563731,
+    "heading": 205.4,
+    "aircraftType": "B739",
+    "airportFrom": {
+      "code": "JFK",
+      "lat": 40.6437,
+      "long": -73.79,
+      "name": "John F Kennedy International Airport",
+      "city": "Jamaica",
+      "state": "New York",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "MIA",
+      "lat": 25.7953,
+      "long": -80.2727,
+      "name": "Miami International Airport",
+      "city": "Miami",
+      "state": "Florida",
+      "country": "United States"
+    },
+    "ageInYears": 4,
+    "flightPercentComplete": 19.382233824103146
+  },
+  {
+    "callsign": "DAL2205",
+    "altitude": 29025,
+    "grounded": false,
+    "speed": 480,
+    "lat": 31.754351,
+    "long": -82.461952,
+    "heading": 340,
+    "aircraftType": "B752",
+    "airportFrom": {
+      "code": "MCO",
+      "lat": 28.4418,
+      "long": -81.3115,
+      "name": "Orlando International Airport",
+      "city": "Orlando",
+      "state": "Florida",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "ATL",
+      "lat": 33.6558,
+      "long": -84.4333,
+      "name": "Hartsfield-Jackson Atlanta International Airport",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "country": "United States"
+    },
+    "ageInYears": 17,
+    "flightPercentComplete": 56.934809520015015
+  },
+  {
+    "callsign": "DAL1419",
+    "altitude": 27525,
+    "grounded": false,
+    "speed": 487.2,
+    "lat": 33.736771,
+    "long": -116.56993,
+    "heading": 91.8,
+    "aircraftType": "B739",
+    "airportFrom": {
+      "code": "BDL",
+      "lat": 41.9271,
+      "long": -72.6816,
+      "name": "Bradley International Airport",
+      "city": "Windsor Locks",
+      "state": "Connecticut",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "LAX",
+      "lat": 33.9456,
+      "long": -118.391,
+      "name": "Los Angeles International Airport",
+      "city": "Los Angeles",
+      "state": "California",
+      "country": "United States"
+    },
+    "airportStops": [
+      {
+        "code": "DTW",
+        "lat": 42.2327,
+        "long": -83.3412,
+        "name": "Detroit Metropolitan Wayne County Airport",
+        "city": "Detroit",
+        "state": "Michigan",
+        "country": "United States"
+      }
+    ],
+    "ageInYears": 1,
+    "flightPercentComplete": 95.81404123920339
+  },
+  {
+    "callsign": "DAL2525",
+    "altitude": 6225,
+    "grounded": false,
+    "speed": 276.7,
+    "lat": 30.880142,
+    "long": -86.430197,
+    "heading": 212.1,
+    "aircraftType": "B737",
+    "airportFrom": {
+      "code": "BOS",
+      "lat": 42.3717,
+      "long": -71.0281,
+      "name": "Gen E L Logan International Airport",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "PDX",
+      "lat": 45.5867,
+      "long": -122.587,
+      "name": "Portland International Airport",
+      "city": "Portland",
+      "state": "Oregon",
+      "country": "United States"
+    },
+    "airportStops": [
+      {
+        "code": "MSP",
+        "lat": 44.8793,
+        "long": -93.1987,
+        "name": "Minneapolis St Paul International Airport",
+        "city": "St. Paul",
+        "state": "Minnesota",
+        "country": "United States"
+      }
+    ],
+    "ageInYears": 9,
+    "flightPercentComplete": 13.606698892555213
+  },
+  {
+    "callsign": "DAL472",
+    "altitude": 39975,
+    "grounded": false,
+    "speed": 414.2,
+    "lat": 40.050566,
+    "long": -78.083767,
+    "heading": 271.9,
+    "aircraftType": "A332",
+    "airportFrom": {
+      "code": "GRU",
+      "lat": -23.435,
+      "long": -46.4728,
+      "name": "Governador Andre Franco Montoro International Ai",
+      "city": "Guarulhos",
+      "state": "Sao Paulo",
+      "country": "Brazil"
+    },
+    "airportTo": {
+      "code": "LAX",
+      "lat": 33.9456,
+      "long": -118.391,
+      "name": "Los Angeles International Airport",
+      "city": "Los Angeles",
+      "state": "California",
+      "country": "United States"
+    },
+    "airportStops": [
+      {
+        "code": "JFK",
+        "lat": 40.6437,
+        "long": -73.79,
+        "name": "John F Kennedy International Airport",
+        "city": "Jamaica",
+        "state": "New York",
+        "country": "United States"
+      }
+    ],
+    "ageInYears": 14,
+    "flightPercentComplete": 63.581573001806355
+  },
+  {
+    "callsign": "DAL2215",
+    "altitude": 33000,
+    "grounded": false,
+    "speed": 528,
+    "lat": 44.827522,
+    "long": -124.695023,
+    "heading": 34.2,
+    "aircraftType": "B753",
+    "airportFrom": {
+      "code": "MSP",
+      "lat": 44.8793,
+      "long": -93.1987,
+      "name": "Minneapolis St Paul International Airport",
+      "city": "St. Paul",
+      "state": "Minnesota",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "HNL",
+      "lat": 21.3358,
+      "long": -157.919,
+      "name": "Honolulu International Airport",
+      "city": "Honolulu",
+      "state": "Hawaii",
+      "country": "United States"
+    },
+    "airportStops": [
+      {
+        "code": "SEA",
+        "lat": 47.4405,
+        "long": -122.296,
+        "name": "Tacoma International Airport",
+        "city": "Seattle",
+        "state": "Washington",
+        "country": "United States"
+      }
+    ],
+    "ageInYears": 16,
+    "flightPercentComplete": 37.315067493719525
+  },
+  {
+    "callsign": "DAL391",
+    "altitude": 32975,
+    "grounded": false,
+    "speed": 479.6,
+    "lat": 37.491028,
+    "long": -75.776737,
+    "heading": 23.7,
+    "aircraftType": "B739",
+    "airportFrom": {
+      "code": "MEM",
+      "lat": 35.047,
+      "long": -89.9823,
+      "name": "Memphis International Airport",
+      "city": "Memphis",
+      "state": "Tennessee",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "BWI",
+      "lat": 39.1841,
+      "long": -76.6745,
+      "name": "Baltimore-Washington International Thurgood Mars",
+      "city": "Baltimore",
+      "state": "Maryland",
+      "country": "United States"
+    },
+    "ageInYears": 4,
+    "flightPercentComplete": 83.8812723309083
+  },
+  {
+    "callsign": "DAL1729",
+    "altitude": 32000,
+    "grounded": false,
+    "speed": 442,
+    "lat": 39.343577,
+    "long": -90.262878,
+    "heading": 270.4,
+    "aircraftType": "B739",
+    "airportFrom": {
+      "code": "JFK",
+      "lat": 40.6437,
+      "long": -73.79,
+      "name": "John F Kennedy International Airport",
+      "city": "Jamaica",
+      "state": "New York",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "LAS",
+      "lat": 36.0806,
+      "long": -115.143,
+      "name": "Mccarran International Airport",
+      "city": "Las Vegas",
+      "state": "Nevada",
+      "country": "United States"
+    },
+    "ageInYears": 1,
+    "flightPercentComplete": 38.705134153724366
+  },
+  {
+    "callsign": "DAL1622",
+    "altitude": 30000,
+    "grounded": false,
+    "speed": 444,
+    "lat": 41.177902,
+    "long": -88.111877,
+    "heading": 269.6,
+    "aircraftType": "B739",
+    "airportFrom": {
+      "code": "DTW",
+      "lat": 42.2327,
+      "long": -83.3412,
+      "name": "Detroit Metropolitan Wayne County Airport",
+      "city": "Detroit",
+      "state": "Michigan",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "LAS",
+      "lat": 36.0806,
+      "long": -115.143,
+      "name": "Mccarran International Airport",
+      "city": "Las Vegas",
+      "state": "Nevada",
+      "country": "United States"
+    },
+    "ageInYears": 5,
+    "flightPercentComplete": 14.36541984844345
+  },
+  {
+    "callsign": "DAL1566",
+    "altitude": 24000,
+    "grounded": false,
+    "speed": 453.6,
+    "lat": 32.299667,
+    "long": -85.314935,
+    "heading": 11.8,
+    "aircraftType": "A320",
+    "airportFrom": {
+      "code": "ROC",
+      "lat": 43.1309,
+      "long": -77.6697,
+      "name": "Greater Rochester International Airport",
+      "city": "Rochester",
+      "state": "New York",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "ATL",
+      "lat": 33.6558,
+      "long": -84.4333,
+      "name": "Hartsfield-Jackson Atlanta International Airport",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "country": "United States"
+    },
+    "ageInYears": 19,
+    "flightPercentComplete": 85.76085946566913
+  },
+  {
+    "callsign": "DAL1333",
+    "altitude": 35000,
+    "grounded": false,
+    "speed": 459.2,
+    "lat": 38.418305,
+    "long": -99.323547,
+    "heading": 109.5,
+    "aircraftType": "B739",
+    "airportFrom": {
+      "code": "RDU",
+      "lat": 35.8729,
+      "long": -78.7923,
+      "name": "Durham International Airport",
+      "city": "Raleigh/Durham",
+      "state": "North Carolina",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "SLC",
+      "lat": 40.7862,
+      "long": -111.982,
+      "name": "Salt Lake City International Airport",
+      "city": "Salt Lake City",
+      "state": "Utah",
+      "country": "United States"
+    },
+    "airportStops": [
+      {
+        "code": "ATL",
+        "lat": 33.6558,
+        "long": -84.4333,
+        "name": "Hartsfield-Jackson Atlanta International Airport",
+        "city": "Atlanta",
+        "state": "Georgia",
+        "country": "United States"
+      }
+    ],
+    "ageInYears": 5,
+    "flightPercentComplete": 61.923090045526706
+  },
+  {
+    "callsign": "DAL639",
+    "altitude": 36000,
+    "grounded": false,
+    "speed": 437.2,
+    "lat": 36.468464,
+    "long": -80.909632,
+    "heading": 228.8,
+    "aircraftType": "A321",
+    "airportFrom": {
+      "code": "MCO",
+      "lat": 28.4418,
+      "long": -81.3115,
+      "name": "Orlando International Airport",
+      "city": "Orlando",
+      "state": "Florida",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "ATL",
+      "lat": 33.6558,
+      "long": -84.4333,
+      "name": "Hartsfield-Jackson Atlanta International Airport",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "country": "United States"
+    },
+    "ageInYears": 1,
+    "flightPercentComplete": 31.25122776223185
+  },
+  {
+    "callsign": "DAL1910",
+    "altitude": 37000,
+    "grounded": false,
+    "speed": 472.3,
+    "lat": 41.628571,
+    "long": -89.516664,
+    "heading": 164.9,
+    "aircraftType": "B753",
+    "airportFrom": {
+      "code": "DFW",
+      "lat": 32.9222,
+      "long": -97.0409,
+      "name": "Fort Worth International Airport",
+      "city": "Dallas",
+      "state": "Texas",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "BUF",
+      "lat": 42.9309,
+      "long": -78.738,
+      "name": "Greater Buffalo International Airport",
+      "city": "Buffalo",
+      "state": "New York",
+      "country": "United States"
+    },
+    "airportStops": [
+      {
+        "code": "ATL",
+        "lat": 33.6558,
+        "long": -84.4333,
+        "name": "Hartsfield-Jackson Atlanta International Airport",
+        "city": "Atlanta",
+        "state": "Georgia",
+        "country": "United States"
+      }
+    ],
+    "ageInYears": 15,
+    "flightPercentComplete": 53.8736600228346
+  },
+  {
+    "callsign": "DAL1526",
+    "altitude": 38975,
+    "grounded": false,
+    "speed": 448,
+    "lat": 32.637775,
+    "long": -80.524406,
+    "heading": 24.4,
+    "aircraftType": "A321",
+    "airportFrom": {
+      "code": "MCO",
+      "lat": 28.4418,
+      "long": -81.3115,
+      "name": "Orlando International Airport",
+      "city": "Orlando",
+      "state": "Florida",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "LGA",
+      "lat": 40.7731,
+      "long": -73.8756,
+      "name": "LaGuardia Airport",
+      "city": "Flushing",
+      "state": "New York",
+      "country": "United States"
+    },
+    "ageInYears": 1,
+    "flightPercentComplete": 29.332650244163215
+  },
+  {
+    "callsign": "DAL428",
+    "altitude": 32000,
+    "grounded": false,
+    "speed": 416.8,
+    "lat": 42.794907,
+    "long": -78.229211,
+    "heading": 290.7,
+    "aircraftType": "B739",
+    "airportFrom": {
+      "code": "SJU",
+      "lat": 18.4367,
+      "long": -66.0095,
+      "name": "Luis Munoz Marin Airport",
+      "city": "Carolina",
+      "state": "Puerto Rico",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "JAX",
+      "lat": 30.4914,
+      "long": -81.676,
+      "name": "Jacksonville International Airport",
+      "city": "Jacksonville",
+      "state": "Florida",
+      "country": "United States"
+    },
+    "airportStops": [
+      {
+        "code": "ATL",
+        "lat": 33.6558,
+        "long": -84.4333,
+        "name": "Hartsfield-Jackson Atlanta International Airport",
+        "city": "Atlanta",
+        "state": "Georgia",
+        "country": "United States"
+      }
+    ],
+    "ageInYears": 1,
+    "flightPercentComplete": 32.34199295937547
+  },
+  {
+    "callsign": "DAL700",
+    "altitude": 35000,
+    "grounded": false,
+    "speed": 481.7,
+    "lat": 35.480942,
+    "long": -79.005547,
+    "heading": 64.6,
+    "aircraftType": "B739",
+    "airportFrom": {
+      "code": "SEA",
+      "lat": 47.4405,
+      "long": -122.296,
+      "name": "Tacoma International Airport",
+      "city": "Seattle",
+      "state": "Washington",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "ATL",
+      "lat": 33.6558,
+      "long": -84.4333,
+      "name": "Hartsfield-Jackson Atlanta International Airport",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "country": "United States"
+    },
+    "ageInYears": 3,
+    "flightPercentComplete": 84.67452014141914
+  },
+  {
+    "callsign": "DAL856",
+    "altitude": 32525,
+    "grounded": false,
+    "speed": 485,
+    "lat": 34.02951,
+    "long": -114.877808,
+    "heading": 76.4,
+    "aircraftType": "A321",
+    "airportFrom": {
+      "code": "SAN",
+      "lat": 32.7299,
+      "long": -117.195,
+      "name": "San Diego International Airport",
+      "city": "San Diego",
+      "state": "California",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "JFK",
+      "lat": 40.6437,
+      "long": -73.79,
+      "name": "John F Kennedy International Airport",
+      "city": "Jamaica",
+      "state": "New York",
+      "country": "United States"
+    },
+    "ageInYears": 1,
+    "flightPercentComplete": 6.513971485034398
+  },
+  {
+    "callsign": "DAL71",
+    "altitude": 38000,
+    "grounded": false,
+    "speed": 381.2,
+    "lat": 49.735619,
+    "long": -67.455312,
+    "heading": 220,
+    "aircraftType": "A333",
+    "airportFrom": {
+      "code": "AMS",
+      "lat": 52.3122,
+      "long": 4.77511,
+      "name": "Schiphol Airport",
+      "city": "Schiphol Zuid",
+      "state": "North Holland",
+      "country": "Netherlands"
+    },
+    "airportTo": {
+      "code": "ATL",
+      "lat": 33.6558,
+      "long": -84.4333,
+      "name": "Hartsfield-Jackson Atlanta International Airport",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "country": "United States"
+    },
+    "ageInYears": 14,
+    "flightPercentComplete": 67.93163937394779
+  },
+  {
+    "callsign": "DAL312",
+    "altitude": 31000,
+    "grounded": false,
+    "speed": 499.5,
+    "lat": 38.813828,
+    "long": -74.982525,
+    "heading": 26.5,
+    "aircraftType": "B739",
+    "airportFrom": {
+      "code": "JFK",
+      "lat": 40.6437,
+      "long": -73.79,
+      "name": "John F Kennedy International Airport",
+      "city": "Jamaica",
+      "state": "New York",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "PDX",
+      "lat": 45.5867,
+      "long": -122.587,
+      "name": "Portland International Airport",
+      "city": "Portland",
+      "state": "Oregon",
+      "country": "United States"
+    },
+    "ageInYears": 3,
+    "flightPercentComplete": 0.09116828364703622
+  },
+  {
+    "callsign": "DAL2598",
+    "altitude": 32025,
+    "grounded": false,
+    "speed": 400,
+    "lat": 37.771462,
+    "long": -78.384705,
+    "heading": 220.5,
+    "aircraftType": "A320",
+    "airportFrom": {
+      "code": "LAX",
+      "lat": 33.9456,
+      "long": -118.391,
+      "name": "Los Angeles International Airport",
+      "city": "Los Angeles",
+      "state": "California",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "JFK",
+      "lat": 40.6437,
+      "long": -73.79,
+      "name": "John F Kennedy International Airport",
+      "city": "Jamaica",
+      "state": "New York",
+      "country": "United States"
+    },
+    "ageInYears": 26,
+    "flightPercentComplete": 87.19626729497985
+  },
+  {
+    "callsign": "DAL2729",
+    "altitude": 39000,
+    "grounded": false,
+    "speed": 440,
+    "lat": 33.452066,
+    "long": -83.75147,
+    "heading": 171.3,
+    "aircraftType": "B738",
+    "airportFrom": {
+      "code": "CMH",
+      "lat": 39.9974,
+      "long": -82.8877,
+      "name": "Port Columbus International Airport",
+      "city": "Columbus",
+      "state": "Ohio",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "ATL",
+      "lat": 33.6558,
+      "long": -84.4333,
+      "name": "Hartsfield-Jackson Atlanta International Airport",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "country": "United States"
+    },
+    "ageInYears": 6,
+    "flightPercentComplete": 90.65703373816292
+  },
+  {
+    "callsign": "DAL2498",
+    "altitude": 32000,
+    "grounded": false,
+    "speed": 410.2,
+    "lat": 37.569099,
+    "long": -78.575711,
+    "heading": 215.4,
+    "aircraftType": "B712",
+    "airportFrom": {
+      "code": "PDX",
+      "lat": 45.5867,
+      "long": -122.587,
+      "name": "Portland International Airport",
+      "city": "Portland",
+      "state": "Oregon",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "MSP",
+      "lat": 44.8793,
+      "long": -93.1987,
+      "name": "Minneapolis St Paul International Airport",
+      "city": "St. Paul",
+      "state": "Minnesota",
+      "country": "United States"
+    },
+    "ageInYears": 18,
+    "flightPercentComplete": 36.019283917799584
+  },
+  {
+    "callsign": "DAL2582",
+    "altitude": 34000,
+    "grounded": false,
+    "speed": 443,
+    "lat": 37.749481,
+    "long": -75.880581,
+    "heading": 206.1,
+    "aircraftType": "A319",
+    "airportFrom": {
+      "code": "LAS",
+      "lat": 36.0806,
+      "long": -115.143,
+      "name": "Mccarran International Airport",
+      "city": "Las Vegas",
+      "state": "Nevada",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "MSP",
+      "lat": 44.8793,
+      "long": -93.1987,
+      "name": "Minneapolis St Paul International Airport",
+      "city": "St. Paul",
+      "state": "Minnesota",
+      "country": "United States"
+    },
+    "ageInYears": 17,
+    "flightPercentComplete": 21.262357199601244
+  },
+  {
+    "callsign": "DAL2415",
+    "altitude": 32000,
+    "grounded": false,
+    "speed": 430.5,
+    "lat": 38.029408,
+    "long": -78.961666,
+    "heading": 222,
+    "aircraftType": "MD88",
+    "airportFrom": {
+      "code": "MTJ",
+      "lat": 38.5003,
+      "long": -107.899,
+      "name": "Montrose Regional Airport",
+      "city": "Montrose",
+      "state": "Colorado",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "ATL",
+      "lat": 33.6558,
+      "long": -84.4333,
+      "name": "Hartsfield-Jackson Atlanta International Airport",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "country": "United States"
+    },
+    "ageInYears": 26,
+    "flightPercentComplete": 68.09270429892678
+  },
+  {
+    "callsign": "DAL21",
+    "altitude": 30000,
+    "grounded": false,
+    "speed": 443,
+    "lat": 49.707829,
+    "long": -5.71631,
+    "heading": 276.6,
+    "aircraftType": "B763",
+    "airportFrom": {
+      "code": "CDG",
+      "lat": 49.0175,
+      "long": 2.5564,
+      "name": "Charles de Gaulle International Airport",
+      "city": "Le Mesnil-Amelot",
+      "state": "Ile-de-France",
+      "country": "France"
+    },
+    "airportTo": {
+      "code": "EWR",
+      "lat": 40.6924,
+      "long": -74.1843,
+      "name": "Newark International Airport",
+      "city": "Newark",
+      "state": "New Jersey",
+      "country": "United States"
+    },
+    "ageInYears": 23,
+    "flightPercentComplete": 10.083934609012834
+  },
+  {
+    "callsign": "DAL2539",
+    "altitude": 33000,
+    "grounded": false,
+    "speed": 446.1,
+    "lat": 37.459934,
+    "long": -86.932844,
+    "heading": 171.4,
+    "aircraftType": "MD88",
+    "airportFrom": {
+      "code": "DCA",
+      "lat": 38.849,
+      "long": -77.0438,
+      "name": "Washington National Airport",
+      "city": "Arlington",
+      "state": "Virginia",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "ATL",
+      "lat": 33.6558,
+      "long": -84.4333,
+      "name": "Hartsfield-Jackson Atlanta International Airport",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "country": "United States"
+    },
+    "ageInYears": 26,
+    "flightPercentComplete": 45.39964653485436
+  },
+  {
+    "callsign": "DAL1203",
+    "altitude": 35000,
+    "grounded": false,
+    "speed": 498.3,
+    "lat": 45.088806,
+    "long": -101.190295,
+    "heading": 96.6,
+    "aircraftType": "A321",
+    "airportFrom": {
+      "code": "BWI",
+      "lat": 39.1841,
+      "long": -76.6745,
+      "name": "Baltimore-Washington International Thurgood Mars",
+      "city": "Baltimore",
+      "state": "Maryland",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "LAS",
+      "lat": 36.0806,
+      "long": -115.143,
+      "name": "Mccarran International Airport",
+      "city": "Las Vegas",
+      "state": "Nevada",
+      "country": "United States"
+    },
+    "airportStops": [
+      {
+        "code": "SLC",
+        "lat": 40.7862,
+        "long": -111.982,
+        "name": "Salt Lake City International Airport",
+        "city": "Salt Lake City",
+        "state": "Utah",
+        "country": "United States"
+      }
+    ],
+    "ageInYears": 1,
+    "flightPercentComplete": 54.357485267917795
+  },
+  {
+    "callsign": "DAL1880",
+    "altitude": 33250,
+    "grounded": false,
+    "speed": 505,
+    "lat": 34.912548,
+    "long": -100.461327,
+    "heading": 82.8,
+    "aircraftType": "B739",
+    "airportFrom": {
+      "code": "SFO",
+      "lat": 37.6148,
+      "long": -122.392,
+      "name": "San Francisco International Airport",
+      "city": "San Francisco",
+      "state": "California",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "ATL",
+      "lat": 33.6558,
+      "long": -84.4333,
+      "name": "Hartsfield-Jackson Atlanta International Airport",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "country": "United States"
+    },
+    "ageInYears": 3,
+    "flightPercentComplete": 56.98548336245304
+  },
+  {
+    "callsign": "DAL2358",
+    "altitude": 36025,
+    "grounded": false,
+    "speed": 448.1,
+    "lat": 37.142308,
+    "long": -76.232459,
+    "heading": 201.5,
+    "aircraftType": "A320",
+    "airportFrom": {
+      "code": "PBI",
+      "lat": 26.6909,
+      "long": -80.0889,
+      "name": "Palm Beach International Airport",
+      "city": "West Palm Beach",
+      "state": "Florida",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "LGA",
+      "lat": 40.7731,
+      "long": -73.8756,
+      "name": "LaGuardia Airport",
+      "city": "Flushing",
+      "state": "New York",
+      "country": "United States"
+    },
+    "ageInYears": 16,
+    "flightPercentComplete": 72.8697492349934
+  },
+  {
+    "callsign": "DAL1080",
+    "altitude": 17875,
+    "grounded": false,
+    "speed": 416,
+    "lat": 34.325684,
+    "long": -85.140289,
+    "heading": 141.5,
+    "aircraftType": "B739",
+    "airportFrom": {
+      "code": "FLL",
+      "lat": 26.0722,
+      "long": -80.1354,
+      "name": "Fort Lauderdale Hollywood International Airport",
+      "city": "Dania Beach",
+      "state": "Florida",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "BDL",
+      "lat": 41.9271,
+      "long": -72.6816,
+      "name": "Bradley International Airport",
+      "city": "Windsor Locks",
+      "state": "Connecticut",
+      "country": "United States"
+    },
+    "ageInYears": 3,
+    "flightPercentComplete": 27.166976032114665
+  },
+  {
+    "callsign": "DAL1501",
+    "altitude": 36025,
+    "grounded": false,
+    "speed": 386,
+    "lat": 40.369812,
+    "long": -75.328369,
+    "heading": 230.5,
+    "aircraftType": "A321",
+    "airportFrom": {
+      "code": "BOS",
+      "lat": 42.3717,
+      "long": -71.0281,
+      "name": "Gen E L Logan International Airport",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "ABQ",
+      "lat": 35.0494,
+      "long": -106.625,
+      "name": "Albuquerque International Airport",
+      "city": "Albuquerque",
+      "state": "New Mexico",
+      "country": "United States"
+    },
+    "airportStops": [
+      {
+        "code": "ATL",
+        "lat": 33.6558,
+        "long": -84.4333,
+        "name": "Hartsfield-Jackson Atlanta International Airport",
+        "city": "Atlanta",
+        "state": "Georgia",
+        "country": "United States"
+      }
+    ],
+    "ageInYears": 0,
+    "flightPercentComplete": 11.626706398012299
+  },
+  {
+    "callsign": "DAL2639",
+    "altitude": 39000,
+    "grounded": false,
+    "speed": 485.2,
+    "lat": 34.939636,
+    "long": -89.429888,
+    "heading": 99.5,
+    "aircraftType": "B737",
+    "airportFrom": {
+      "code": "MCO",
+      "lat": 28.4418,
+      "long": -81.3115,
+      "name": "Orlando International Airport",
+      "city": "Orlando",
+      "state": "Florida",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "SEA",
+      "lat": 47.4405,
+      "long": -122.296,
+      "name": "Tacoma International Airport",
+      "city": "Seattle",
+      "state": "Washington",
+      "country": "United States"
+    },
+    "ageInYears": 10,
+    "flightPercentComplete": 25.64228352528588
+  },
+  {
+    "callsign": "DAL1950",
+    "altitude": 35000,
+    "grounded": false,
+    "speed": 483.5,
+    "lat": 41.887436,
+    "long": -103.692211,
+    "heading": 87.3,
+    "aircraftType": "B739",
+    "airportFrom": {
+      "code": "SEA",
+      "lat": 47.4405,
+      "long": -122.296,
+      "name": "Tacoma International Airport",
+      "city": "Seattle",
+      "state": "Washington",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "DCA",
+      "lat": 38.849,
+      "long": -77.0438,
+      "name": "Washington National Airport",
+      "city": "Arlington",
+      "state": "Virginia",
+      "country": "United States"
+    },
+    "airportStops": [
+      {
+        "code": "SLC",
+        "lat": 40.7862,
+        "long": -111.982,
+        "name": "Salt Lake City International Airport",
+        "city": "Salt Lake City",
+        "state": "Utah",
+        "country": "United States"
+      }
+    ],
+    "ageInYears": 4,
+    "flightPercentComplete": 39.163702757980175
+  },
+  {
+    "callsign": "DAL2165",
+    "altitude": 39000,
+    "grounded": false,
+    "speed": 488,
+    "lat": 37.370693,
+    "long": -89.502749,
+    "heading": 117.7,
+    "aircraftType": "B752",
+    "airportFrom": {
+      "code": "LGA",
+      "lat": 40.7731,
+      "long": -73.8756,
+      "name": "LaGuardia Airport",
+      "city": "Flushing",
+      "state": "New York",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "LAX",
+      "lat": 33.9456,
+      "long": -118.391,
+      "name": "Los Angeles International Airport",
+      "city": "Los Angeles",
+      "state": "California",
+      "country": "United States"
+    },
+    "airportStops": [
+      {
+        "code": "MSP",
+        "lat": 44.8793,
+        "long": -93.1987,
+        "name": "Minneapolis St Paul International Airport",
+        "city": "St. Paul",
+        "state": "Minnesota",
+        "country": "United States"
+      }
+    ],
+    "ageInYears": 27,
+    "flightPercentComplete": 33.71619610472823
+  },
+  {
+    "callsign": "DAL2847",
+    "altitude": 33000,
+    "grounded": false,
+    "speed": 470.6,
+    "lat": 31.472292,
+    "long": -87.881726,
+    "heading": 58.9,
+    "aircraftType": "MD88",
+    "airportFrom": {
+      "code": "LGA",
+      "lat": 40.7731,
+      "long": -73.8756,
+      "name": "LaGuardia Airport",
+      "city": "Flushing",
+      "state": "New York",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "ATL",
+      "lat": 33.6558,
+      "long": -84.4333,
+      "name": "Hartsfield-Jackson Atlanta International Airport",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "country": "United States"
+    },
+    "ageInYears": 28,
+    "flightPercentComplete": 66.96069855481157
+  },
+  {
+    "callsign": "DAL2455",
+    "altitude": 35000,
+    "grounded": false,
+    "speed": 477.2,
+    "lat": 32.157867,
+    "long": -89.762505,
+    "heading": 74.6,
+    "aircraftType": "A321",
+    "airportFrom": {
+      "code": "ATL",
+      "lat": 33.6558,
+      "long": -84.4333,
+      "name": "Hartsfield-Jackson Atlanta International Airport",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "LAX",
+      "lat": 33.9456,
+      "long": -118.391,
+      "name": "Los Angeles International Airport",
+      "city": "Los Angeles",
+      "state": "California",
+      "country": "United States"
+    },
+    "flightPercentComplete": 14.610630738114649
+  },
+  {
+    "callsign": "DAL690",
+    "altitude": 31900,
+    "grounded": false,
+    "speed": 260,
+    "lat": 41.377956,
+    "long": -82.031357,
+    "heading": 260.3,
+    "aircraftType": "A319",
+    "airportFrom": {
+      "code": "MSP",
+      "lat": 44.8793,
+      "long": -93.1987,
+      "name": "Minneapolis St Paul International Airport",
+      "city": "St. Paul",
+      "state": "Minnesota",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "BWI",
+      "lat": 39.1841,
+      "long": -76.6745,
+      "name": "Baltimore-Washington International Thurgood Mars",
+      "city": "Baltimore",
+      "state": "Maryland",
+      "country": "United States"
+    },
+    "ageInYears": 16,
+    "flightPercentComplete": 65.64529398143186
+  },
+  {
+    "callsign": "DAL2259",
+    "altitude": 31025,
+    "grounded": false,
+    "speed": 485,
+    "lat": 40.201814,
+    "long": -80.746828,
+    "heading": 28.6,
+    "aircraftType": "B712",
+    "airportFrom": {
+      "code": "DCA",
+      "lat": 38.849,
+      "long": -77.0438,
+      "name": "Washington National Airport",
+      "city": "Arlington",
+      "state": "Virginia",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "SLC",
+      "lat": 40.7862,
+      "long": -111.982,
+      "name": "Salt Lake City International Airport",
+      "city": "Salt Lake City",
+      "state": "Utah",
+      "country": "United States"
+    },
+    "airportStops": [
+      {
+        "code": "MSP",
+        "lat": 44.8793,
+        "long": -93.1987,
+        "name": "Minneapolis St Paul International Airport",
+        "city": "St. Paul",
+        "state": "Minnesota",
+        "country": "United States"
+      }
+    ],
+    "ageInYears": 14,
+    "flightPercentComplete": 11.574075297806397
+  },
+  {
+    "callsign": "DAL1440",
+    "altitude": 37000,
+    "grounded": false,
+    "speed": 499.6,
+    "lat": 42.89827,
+    "long": -102.34001,
+    "heading": 77.6,
+    "aircraftType": "B752",
+    "airportFrom": {
+      "code": "PBI",
+      "lat": 26.6909,
+      "long": -80.0889,
+      "name": "Palm Beach International Airport",
+      "city": "West Palm Beach",
+      "state": "Florida",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "MKE",
+      "lat": 42.9471,
+      "long": -87.9051,
+      "name": "General Mitchell International Airport",
+      "city": "Milwaukee",
+      "state": "Wisconsin",
+      "country": "United States"
+    },
+    "airportStops": [
+      {
+        "code": "ATL",
+        "lat": 33.6558,
+        "long": -84.4333,
+        "name": "Hartsfield-Jackson Atlanta International Airport",
+        "city": "Atlanta",
+        "state": "Georgia",
+        "country": "United States"
+      }
+    ],
+    "ageInYears": 26,
+    "flightPercentComplete": 39.522489931539525
+  },
+  {
+    "callsign": "DAL864",
+    "altitude": 37025,
+    "grounded": false,
+    "speed": 465.3,
+    "lat": 33.841232,
+    "long": -79.953844,
+    "heading": 31.9,
+    "aircraftType": "A319",
+    "airportFrom": {
+      "code": "GPT",
+      "lat": 30.4133,
+      "long": -89.072,
+      "name": "Gulfport Biloxi Regional Airport",
+      "city": "Gulfport",
+      "state": "Mississippi",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "ATL",
+      "lat": 33.6558,
+      "long": -84.4333,
+      "name": "Hartsfield-Jackson Atlanta International Airport",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "country": "United States"
+    },
+    "ageInYears": 17,
+    "flightPercentComplete": 26.821985114760604
+  },
+  {
+    "callsign": "DAL841",
+    "altitude": 37000,
+    "grounded": false,
+    "speed": 493.6,
+    "lat": 45.704661,
+    "long": -100.465576,
+    "heading": 106.6,
+    "aircraftType": "A319",
+    "airportFrom": {
+      "code": "JFK",
+      "lat": 40.6437,
+      "long": -73.79,
+      "name": "John F Kennedy International Airport",
+      "city": "Jamaica",
+      "state": "New York",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "SFO",
+      "lat": 37.6148,
+      "long": -122.392,
+      "name": "San Francisco International Airport",
+      "city": "San Francisco",
+      "state": "California",
+      "country": "United States"
+    },
+    "ageInYears": 15,
+    "flightPercentComplete": 51.29253606265512
+  },
+  {
+    "callsign": "DAL2813",
+    "altitude": 1750,
+    "grounded": false,
+    "speed": 116,
+    "lat": 33.620304,
+    "long": -84.3619,
+    "heading": 269,
+    "aircraftType": "B752",
+    "airportFrom": {
+      "code": "MCO",
+      "lat": 28.4418,
+      "long": -81.3115,
+      "name": "Orlando International Airport",
+      "city": "Orlando",
+      "state": "Florida",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "ATL",
+      "lat": 33.6558,
+      "long": -84.4333,
+      "name": "Hartsfield-Jackson Atlanta International Airport",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "country": "United States"
+    },
+    "ageInYears": 19,
+    "flightPercentComplete": 98.81830506626932
+  },
+  {
+    "callsign": "DAL979",
+    "altitude": 35975,
+    "grounded": false,
+    "speed": 466.3,
+    "lat": 39.295486,
+    "long": -97.89923,
+    "heading": 265.7,
+    "aircraftType": "A319",
+    "airportFrom": {
+      "code": "IND",
+      "lat": 39.7322,
+      "long": -86.2707,
+      "name": "Indianapolis International Airport",
+      "city": "Indianapolis",
+      "state": "Indiana",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "LAX",
+      "lat": 33.9456,
+      "long": -118.391,
+      "name": "Los Angeles International Airport",
+      "city": "Los Angeles",
+      "state": "California",
+      "country": "United States"
+    },
+    "ageInYears": 16,
+    "flightPercentComplete": 34.1623741697415
+  },
+  {
+    "callsign": "DAL1464",
+    "altitude": 39000,
+    "grounded": false,
+    "speed": 499,
+    "lat": 40.958473,
+    "long": -83.127548,
+    "heading": 117.3,
+    "aircraftType": "A319",
+    "airportFrom": {
+      "code": "MSP",
+      "lat": 44.8793,
+      "long": -93.1987,
+      "name": "Minneapolis St Paul International Airport",
+      "city": "St. Paul",
+      "state": "Minnesota",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "DCA",
+      "lat": 38.849,
+      "long": -77.0438,
+      "name": "Washington National Airport",
+      "city": "Arlington",
+      "state": "Virginia",
+      "country": "United States"
+    },
+    "ageInYears": 16,
+    "flightPercentComplete": 61.86156888064286
+  },
+  {
+    "callsign": "DAL2180",
+    "altitude": 34000,
+    "grounded": false,
+    "speed": 452,
+    "lat": 41.610722,
+    "long": -103.344963,
+    "heading": 254.9,
+    "aircraftType": "B739",
+    "airportFrom": {
+      "code": "LAX",
+      "lat": 33.9456,
+      "long": -118.391,
+      "name": "Los Angeles International Airport",
+      "city": "Los Angeles",
+      "state": "California",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "JFK",
+      "lat": 40.6437,
+      "long": -73.79,
+      "name": "John F Kennedy International Airport",
+      "city": "Jamaica",
+      "state": "New York",
+      "country": "United States"
+    },
+    "ageInYears": 2,
+    "flightPercentComplete": 37.918476047829905
+  },
+  {
+    "callsign": "DAL104",
+    "altitude": 35000,
+    "grounded": false,
+    "speed": 499.2,
+    "lat": 38.665512,
+    "long": -76.272165,
+    "heading": 37.5,
+    "aircraftType": "A321",
+    "airportFrom": {
+      "code": "GRU",
+      "lat": -23.435,
+      "long": -46.4728,
+      "name": "Governador Andre Franco Montoro International Ai",
+      "city": "Guarulhos",
+      "state": "Sao Paulo",
+      "country": "Brazil"
+    },
+    "airportTo": {
+      "code": "BOS",
+      "lat": 42.3717,
+      "long": -71.0281,
+      "name": "Gen E L Logan International Airport",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "country": "United States"
+    },
+    "airportStops": [
+      {
+        "code": "ATL",
+        "lat": 33.6558,
+        "long": -84.4333,
+        "name": "Hartsfield-Jackson Atlanta International Airport",
+        "city": "Atlanta",
+        "state": "Georgia",
+        "country": "United States"
+      }
+    ],
+    "ageInYears": 1,
+    "flightPercentComplete": 92.1827159264055
+  },
+  {
+    "callsign": "DAL214",
+    "altitude": 34000,
+    "grounded": false,
+    "speed": 481.8,
+    "lat": 42.517881,
+    "long": 14.075275,
+    "heading": 293.7,
+    "aircraftType": "A333",
+    "airportFrom": {
+      "code": "ATH",
+      "lat": 37.8937,
+      "long": 23.7235,
+      "name": "Eleftherios Venizelos International Airport",
+      "city": "Athens",
+      "state": "Attiki",
+      "country": "Greece"
+    },
+    "airportTo": {
+      "code": "JFK",
+      "lat": 40.6437,
+      "long": -73.79,
+      "name": "John F Kennedy International Airport",
+      "city": "Jamaica",
+      "state": "New York",
+      "country": "United States"
+    },
+    "ageInYears": 3,
+    "flightPercentComplete": 12.191467168340797
+  },
+  {
+    "callsign": "DAL99",
+    "altitude": 33000,
+    "grounded": false,
+    "speed": 445.6,
+    "lat": 53.80908,
+    "long": -8.603991,
+    "heading": 307,
+    "aircraftType": "B763",
+    "airportFrom": {
+      "code": "CDG",
+      "lat": 49.0175,
+      "long": 2.5564,
+      "name": "Charles de Gaulle International Airport",
+      "city": "Le Mesnil-Amelot",
+      "state": "Ile-de-France",
+      "country": "France"
+    },
+    "airportTo": {
+      "code": "DTW",
+      "lat": 42.2327,
+      "long": -83.3412,
+      "name": "Detroit Metropolitan Wayne County Airport",
+      "city": "Detroit",
+      "state": "Michigan",
+      "country": "United States"
+    },
+    "ageInYears": 23,
+    "flightPercentComplete": 14.48878403137731
+  },
+  {
+    "callsign": "DAL2114",
+    "altitude": 35025,
+    "grounded": false,
+    "speed": 492.1,
+    "lat": 36.668884,
+    "long": -96.653366,
+    "heading": 101,
+    "aircraftType": "A320",
+    "airportFrom": {
+      "code": "SEA",
+      "lat": 47.4405,
+      "long": -122.296,
+      "name": "Tacoma International Airport",
+      "city": "Seattle",
+      "state": "Washington",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "LGA",
+      "lat": 40.7731,
+      "long": -73.8756,
+      "name": "LaGuardia Airport",
+      "city": "Flushing",
+      "state": "New York",
+      "country": "United States"
+    },
+    "airportStops": [
+      {
+        "code": "MSP",
+        "lat": 44.8793,
+        "long": -93.1987,
+        "name": "Minneapolis St Paul International Airport",
+        "city": "St. Paul",
+        "state": "Minnesota",
+        "country": "United States"
+      }
+    ],
+    "ageInYears": 25,
+    "flightPercentComplete": 47.77788537543167
+  },
+  {
+    "callsign": "DAL1663",
+    "altitude": 38000,
+    "grounded": false,
+    "speed": 453.1,
+    "lat": 37.794159,
+    "long": -104.163189,
+    "heading": 255.7,
+    "aircraftType": "B738",
+    "airportFrom": {
+      "code": "DCA",
+      "lat": 38.849,
+      "long": -77.0438,
+      "name": "Washington National Airport",
+      "city": "Arlington",
+      "state": "Virginia",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "SMF",
+      "lat": 38.683,
+      "long": -121.591,
+      "name": "Sacramento International Airport",
+      "city": "Sacramento",
+      "state": "California",
+      "country": "United States"
+    },
+    "airportStops": [
+      {
+        "code": "MSP",
+        "lat": 44.8793,
+        "long": -93.1987,
+        "name": "Minneapolis St Paul International Airport",
+        "city": "St. Paul",
+        "state": "Minnesota",
+        "country": "United States"
+      }
+    ],
+    "ageInYears": 18,
+    "flightPercentComplete": 60.160259294964604
+  },
+  {
+    "callsign": "DAL501",
+    "altitude": 32025,
+    "grounded": false,
+    "speed": 443,
+    "lat": 54.301186,
+    "long": -9.036588,
+    "heading": 285.3,
+    "aircraftType": "B763",
+    "airportFrom": {
+      "code": "CDG",
+      "lat": 49.0175,
+      "long": 2.5564,
+      "name": "Charles de Gaulle International Airport",
+      "city": "Le Mesnil-Amelot",
+      "state": "Ile-de-France",
+      "country": "France"
+    },
+    "airportTo": {
+      "code": "IND",
+      "lat": 39.7322,
+      "long": -86.2707,
+      "name": "Indianapolis International Airport",
+      "city": "Indianapolis",
+      "state": "Indiana",
+      "country": "United States"
+    },
+    "ageInYears": 21,
+    "flightPercentComplete": 14.320367804105661
+  },
+  {
+    "callsign": "DAL2457",
+    "altitude": 35000,
+    "grounded": false,
+    "speed": 492.6,
+    "lat": 38.485977,
+    "long": -74.987481,
+    "heading": 37.1,
+    "aircraftType": "MD88",
+    "airportFrom": {
+      "code": "BDL",
+      "lat": 41.9271,
+      "long": -72.6816,
+      "name": "Bradley International Airport",
+      "city": "Windsor Locks",
+      "state": "Connecticut",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "ATL",
+      "lat": 33.6558,
+      "long": -84.4333,
+      "name": "Hartsfield-Jackson Atlanta International Airport",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "country": "United States"
+    },
+    "ageInYears": 27,
+    "flightPercentComplete": 27.287075470054656
+  },
+  {
+    "callsign": "DAL31",
+    "altitude": 34000,
+    "grounded": false,
+    "speed": 442.7,
+    "lat": 53.853165,
+    "long": -10.80368,
+    "heading": 296.9,
+    "aircraftType": "A333",
+    "airportFrom": {
+      "code": "LHR",
+      "lat": 51.4703,
+      "long": -0.45342,
+      "name": "London Heathrow Airport",
+      "city": "Hounslow",
+      "state": "England",
+      "country": "United Kingdom"
+    },
+    "airportTo": {
+      "code": "ATL",
+      "lat": 33.6558,
+      "long": -84.4333,
+      "name": "Hartsfield-Jackson Atlanta International Airport",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "country": "United States"
+    },
+    "flightPercentComplete": 10.95917145167501
+  },
+  {
+    "callsign": "DAL1565",
+    "altitude": 32975,
+    "grounded": false,
+    "speed": 465.7,
+    "lat": 36.930682,
+    "long": -87.745952,
+    "heading": 132.6,
+    "aircraftType": "A321",
+    "airportFrom": {
+      "code": "ATL",
+      "lat": 33.6558,
+      "long": -84.4333,
+      "name": "Hartsfield-Jackson Atlanta International Airport",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "SFO",
+      "lat": 37.6148,
+      "long": -122.392,
+      "name": "San Francisco International Airport",
+      "city": "San Francisco",
+      "state": "California",
+      "country": "United States"
+    },
+    "ageInYears": 1,
+    "flightPercentComplete": 11.2392039076325
+  },
+  {
+    "callsign": "DAL2606",
+    "altitude": 36025,
+    "grounded": false,
+    "speed": 442.7,
+    "lat": 36.357577,
+    "long": -81.152616,
+    "heading": 225.4,
+    "aircraftType": "B739",
+    "airportFrom": {
+      "code": "SFO",
+      "lat": 37.6148,
+      "long": -122.392,
+      "name": "San Francisco International Airport",
+      "city": "San Francisco",
+      "state": "California",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "DCA",
+      "lat": 38.849,
+      "long": -77.0438,
+      "name": "Washington National Airport",
+      "city": "Arlington",
+      "state": "Virginia",
+      "country": "United States"
+    },
+    "airportStops": [
+      {
+        "code": "MSP",
+        "lat": 44.8793,
+        "long": -93.1987,
+        "name": "Minneapolis St Paul International Airport",
+        "city": "St. Paul",
+        "state": "Minnesota",
+        "country": "United States"
+      }
+    ],
+    "ageInYears": 4,
+    "flightPercentComplete": 88.38044462922828
+  },
+  {
+    "callsign": "DAL2400",
+    "altitude": 17150,
+    "grounded": false,
+    "speed": 396.7,
+    "lat": 39.683075,
+    "long": -75.242077,
+    "heading": 45.9,
+    "aircraftType": "A321",
+    "airportFrom": {
+      "code": "JAX",
+      "lat": 30.4914,
+      "long": -81.676,
+      "name": "Jacksonville International Airport",
+      "city": "Jacksonville",
+      "state": "Florida",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "BOS",
+      "lat": 42.3717,
+      "long": -71.0281,
+      "name": "Gen E L Logan International Airport",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "country": "United States"
+    },
+    "airportStops": [
+      {
+        "code": "ATL",
+        "lat": 33.6558,
+        "long": -84.4333,
+        "name": "Hartsfield-Jackson Atlanta International Airport",
+        "city": "Atlanta",
+        "state": "Georgia",
+        "country": "United States"
+      }
+    ],
+    "ageInYears": 1,
+    "flightPercentComplete": 71.52979892170192
+  },
+  {
+    "callsign": "DAL2467",
+    "altitude": 32025,
+    "grounded": false,
+    "speed": 428.6,
+    "lat": 35.910862,
+    "long": -82.982541,
+    "heading": 199.4,
+    "aircraftType": "B712",
+    "airportFrom": {
+      "code": "DCA",
+      "lat": 38.849,
+      "long": -77.0438,
+      "name": "Washington National Airport",
+      "city": "Arlington",
+      "state": "Virginia",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "DEN",
+      "lat": 39.8396,
+      "long": -104.672,
+      "name": "Denver International Airport",
+      "city": "Denver",
+      "state": "Colorado",
+      "country": "United States"
+    },
+    "airportStops": [
+      {
+        "code": "DTW",
+        "lat": 42.2327,
+        "long": -83.3412,
+        "name": "Detroit Metropolitan Wayne County Airport",
+        "city": "Detroit",
+        "state": "Michigan",
+        "country": "United States"
+      }
+    ],
+    "ageInYears": 17,
+    "flightPercentComplete": 17.77010502716382
+  },
+  {
+    "callsign": "DAL1478",
+    "altitude": 6475,
+    "grounded": false,
+    "speed": 216,
+    "lat": 39.499374,
+    "long": -75.265541,
+    "heading": 43.5,
+    "aircraftType": "MD88",
+    "airportFrom": {
+      "code": "MCO",
+      "lat": 28.4418,
+      "long": -81.3115,
+      "name": "Orlando International Airport",
+      "city": "Orlando",
+      "state": "Florida",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "BDL",
+      "lat": 41.9271,
+      "long": -72.6816,
+      "name": "Bradley International Airport",
+      "city": "Windsor Locks",
+      "state": "Connecticut",
+      "country": "United States"
+    },
+    "ageInYears": 27,
+    "flightPercentComplete": 79.4787100260376
+  },
+  {
+    "callsign": "DAL2058",
+    "altitude": 37000,
+    "grounded": false,
+    "speed": 480.4,
+    "lat": 37.218561,
+    "long": -76.18111,
+    "heading": 34.1,
+    "aircraftType": "A321",
+    "airportFrom": {
+      "code": "MCO",
+      "lat": 28.4418,
+      "long": -81.3115,
+      "name": "Orlando International Airport",
+      "city": "Orlando",
+      "state": "Florida",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "JFK",
+      "lat": 40.6437,
+      "long": -73.79,
+      "name": "John F Kennedy International Airport",
+      "city": "Jamaica",
+      "state": "New York",
+      "country": "United States"
+    },
+    "ageInYears": 1,
+    "flightPercentComplete": 71.49330966682896
+  },
+  {
+    "callsign": "DAL110",
+    "altitude": 27975,
+    "grounded": false,
+    "speed": 461.2,
+    "lat": 35.431001,
+    "long": -97.345471,
+    "heading": 271.5,
+    "aircraftType": "B739",
+    "airportFrom": {
+      "code": "EZE",
+      "lat": -34.82,
+      "long": -58.5333,
+      "name": "Ministro Pistarini International Airport",
+      "city": "Ezeiza",
+      "state": "Buenos Aires",
+      "country": "Argentina"
+    },
+    "airportTo": {
+      "code": "LAX",
+      "lat": 33.9456,
+      "long": -118.391,
+      "name": "Los Angeles International Airport",
+      "city": "Los Angeles",
+      "state": "California",
+      "country": "United States"
+    },
+    "airportStops": [
+      {
+        "code": "ATL",
+        "lat": 33.6558,
+        "long": -84.4333,
+        "name": "Hartsfield-Jackson Atlanta International Airport",
+        "city": "Atlanta",
+        "state": "Georgia",
+        "country": "United States"
+      }
+    ],
+    "ageInYears": 5,
+    "flightPercentComplete": 80.4502100989389
+  },
+  {
+    "callsign": "DAL64",
+    "altitude": 33000,
+    "grounded": false,
+    "speed": 439.7,
+    "lat": 40.890927,
+    "long": -1.263116,
+    "heading": 242.5,
+    "aircraftType": "A333",
+    "airportFrom": {
+      "code": "LAX",
+      "lat": 33.9456,
+      "long": -118.391,
+      "name": "Los Angeles International Airport",
+      "city": "Los Angeles",
+      "state": "California",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "FCO",
+      "lat": 41.8026,
+      "long": 12.2551,
+      "name": "Leonardo da Vinci International Airport",
+      "city": "Rome",
+      "state": "Lazio",
+      "country": "Italy"
+    },
+    "airportStops": [
+      {
+        "code": "ATL",
+        "lat": 33.6558,
+        "long": -84.4333,
+        "name": "Hartsfield-Jackson Atlanta International Airport",
+        "city": "Atlanta",
+        "state": "Georgia",
+        "country": "United States"
+      }
+    ],
+    "flightPercentComplete": 88.9064619953085
+  },
+  {
+    "callsign": "DAL2488",
+    "altitude": 36000,
+    "grounded": false,
+    "speed": 416.5,
+    "lat": 40.79326,
+    "long": -79.692078,
+    "heading": 274.8,
+    "aircraftType": "B752",
+    "airportFrom": {
+      "code": "BOS",
+      "lat": 42.3717,
+      "long": -71.0281,
+      "name": "Gen E L Logan International Airport",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "SFO",
+      "lat": 37.6148,
+      "long": -122.392,
+      "name": "San Francisco International Airport",
+      "city": "San Francisco",
+      "state": "California",
+      "country": "United States"
+    },
+    "ageInYears": 19,
+    "flightPercentComplete": 15.687577438307166
+  },
+  {
+    "callsign": "DAL2578",
+    "altitude": 475,
+    "grounded": false,
+    "speed": 140,
+    "lat": 38.9274,
+    "long": -77.460022,
+    "heading": 0.8,
+    "aircraftType": "MD88",
+    "airportFrom": {
+      "code": "SAN",
+      "lat": 32.7299,
+      "long": -117.195,
+      "name": "San Diego International Airport",
+      "city": "San Diego",
+      "state": "California",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "BWI",
+      "lat": 39.1841,
+      "long": -76.6745,
+      "name": "Baltimore-Washington International Thurgood Mars",
+      "city": "Baltimore",
+      "state": "Maryland",
+      "country": "United States"
+    },
+    "airportStops": [
+      {
+        "code": "SLC",
+        "lat": 40.7862,
+        "long": -111.982,
+        "name": "Salt Lake City International Airport",
+        "city": "Salt Lake City",
+        "state": "Utah",
+        "country": "United States"
+      }
+    ],
+    "ageInYears": 26,
+    "flightPercentComplete": 98.00338203047004
+  },
+  {
+    "callsign": "DAL2829",
+    "altitude": 825,
+    "grounded": false,
+    "speed": 7,
+    "lat": 44.8834,
+    "long": -93.215599,
+    "heading": 74,
+    "aircraftType": "A319",
+    "airportFrom": {
+      "code": "ATL",
+      "lat": 33.6558,
+      "long": -84.4333,
+      "name": "Hartsfield-Jackson Atlanta International Airport",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "SEA",
+      "lat": 47.4405,
+      "long": -122.296,
+      "name": "Tacoma International Airport",
+      "city": "Seattle",
+      "state": "Washington",
+      "country": "United States"
+    },
+    "ageInYears": 16,
+    "flightPercentComplete": 35.91627462923726
+  },
+  {
+    "callsign": "DAL2910",
+    "altitude": 6800,
+    "grounded": false,
+    "speed": 257.9,
+    "lat": 33.026138,
+    "long": -96.88255,
+    "heading": 336.2,
+    "aircraftType": "A319",
+    "airportFrom": {
+      "code": "DFW",
+      "lat": 32.9222,
+      "long": -97.0409,
+      "name": "Fort Worth International Airport",
+      "city": "Dallas",
+      "state": "Texas",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "ATL",
+      "lat": 33.6558,
+      "long": -84.4333,
+      "name": "Hartsfield-Jackson Atlanta International Airport",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "country": "United States"
+    },
+    "ageInYears": 18,
+    "flightPercentComplete": 1.371126080674523
+  },
+  {
+    "callsign": "DAL1865",
+    "altitude": 38050,
+    "grounded": false,
+    "speed": 457.1,
+    "lat": 30.190567,
+    "long": -81.269477,
+    "heading": 153.5,
+    "aircraftType": "B752",
+    "airportFrom": {
+      "code": "JFK",
+      "lat": 40.6437,
+      "long": -73.79,
+      "name": "John F Kennedy International Airport",
+      "city": "Jamaica",
+      "state": "New York",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "SFO",
+      "lat": 37.6148,
+      "long": -122.392,
+      "name": "San Francisco International Airport",
+      "city": "San Francisco",
+      "state": "California",
+      "country": "United States"
+    },
+    "ageInYears": 23,
+    "flightPercentComplete": 7.229674344040104
+  },
+  {
+    "callsign": "DAL2572",
+    "altitude": 36000,
+    "grounded": false,
+    "speed": 412.4,
+    "lat": 44.699432,
+    "long": -85.770525,
+    "heading": 288.5,
+    "aircraftType": "B752",
+    "airportFrom": {
+      "code": "MSP",
+      "lat": 44.8793,
+      "long": -93.1987,
+      "name": "Minneapolis St Paul International Airport",
+      "city": "St. Paul",
+      "state": "Minnesota",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "BOS",
+      "lat": 42.3717,
+      "long": -71.0281,
+      "name": "Gen E L Logan International Airport",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "country": "United States"
+    },
+    "ageInYears": 21,
+    "flightPercentComplete": 32.545340672945514
+  },
+  {
+    "callsign": "DAL158",
+    "altitude": 39000,
+    "grounded": false,
+    "speed": 530.9,
+    "lat": 46.265523,
+    "long": -84.773323,
+    "heading": 169.5,
+    "aircraftType": "A359",
+    "airportFrom": {
+      "code": "ICN",
+      "lat": 37.4534,
+      "long": 126.657,
+      "name": "New Incheon International Airport",
+      "city": "Incheon",
+      "state": "Incheon",
+      "country": "South Korea"
+    },
+    "airportTo": {
+      "code": "LGA",
+      "lat": 40.7731,
+      "long": -73.8756,
+      "name": "LaGuardia Airport",
+      "city": "Flushing",
+      "state": "New York",
+      "country": "United States"
+    },
+    "airportStops": [
+      {
+        "code": "DTW",
+        "lat": 42.2327,
+        "long": -83.3412,
+        "name": "Detroit Metropolitan Wayne County Airport",
+        "city": "Detroit",
+        "state": "Michigan",
+        "country": "United States"
+      }
+    ],
+    "ageInYears": 1,
+    "flightPercentComplete": 90.3464564981424
+  },
+  {
+    "callsign": "DAL19",
+    "altitude": 34000,
+    "grounded": false,
+    "speed": 434.4,
+    "lat": 53.935822,
+    "long": -10.709865,
+    "heading": 294.9,
+    "aircraftType": "B763",
+    "airportFrom": {
+      "code": "LHR",
+      "lat": 51.4703,
+      "long": -0.45342,
+      "name": "London Heathrow Airport",
+      "city": "Hounslow",
+      "state": "England",
+      "country": "United Kingdom"
+    },
+    "airportTo": {
+      "code": "SEA",
+      "lat": 47.4405,
+      "long": -122.296,
+      "name": "Tacoma International Airport",
+      "city": "Seattle",
+      "state": "Washington",
+      "country": "United States"
+    },
+    "airportStops": [
+      {
+        "code": "DTW",
+        "lat": 42.2327,
+        "long": -83.3412,
+        "name": "Detroit Metropolitan Wayne County Airport",
+        "city": "Detroit",
+        "state": "Michigan",
+        "country": "United States"
+      }
+    ],
+    "ageInYears": 28,
+    "flightPercentComplete": 8.585317131527582
+  },
+  {
+    "callsign": "DAL2530",
+    "altitude": 1300,
+    "grounded": false,
+    "speed": 132,
+    "lat": 33.649521,
+    "long": -84.350897,
+    "heading": 269.6,
+    "aircraftType": "MD90",
+    "airportFrom": {
+      "code": "RAP",
+      "lat": 44.037,
+      "long": -103.06,
+      "name": "Rapid City Regional Airport",
+      "city": "Rapid City",
+      "state": "South Dakota",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "BOS",
+      "lat": 42.3717,
+      "long": -71.0281,
+      "name": "Gen E L Logan International Airport",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "country": "United States"
+    },
+    "airportStops": [
+      {
+        "code": "MSP",
+        "lat": 44.8793,
+        "long": -93.1987,
+        "name": "Minneapolis St Paul International Airport",
+        "city": "St. Paul",
+        "state": "Minnesota",
+        "country": "United States"
+      }
+    ],
+    "ageInYears": 23,
+    "flightPercentComplete": 41.45145647730553
+  },
+  {
+    "callsign": "DAL2285",
+    "altitude": 31950,
+    "grounded": false,
+    "speed": 463,
+    "lat": 31.03862,
+    "long": -81.164726,
+    "heading": 178.5,
+    "aircraftType": "A321",
+    "airportFrom": {
+      "code": "LGA",
+      "lat": 40.7731,
+      "long": -73.8756,
+      "name": "LaGuardia Airport",
+      "city": "Flushing",
+      "state": "New York",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "MCO",
+      "lat": 28.4418,
+      "long": -81.3115,
+      "name": "Orlando International Airport",
+      "city": "Orlando",
+      "state": "Florida",
+      "country": "United States"
+    },
+    "ageInYears": 2,
+    "flightPercentComplete": 81.0956320045007
+  },
+  {
+    "callsign": "DAL1697",
+    "altitude": 1575,
+    "grounded": false,
+    "speed": 128,
+    "lat": 33.631851,
+    "long": -84.371529,
+    "heading": 270.5,
+    "aircraftType": "MD88",
+    "airportFrom": {
+      "code": "IAD",
+      "lat": 38.9556,
+      "long": -77.4484,
+      "name": "Dulles International Airport",
+      "city": "Washington",
+      "state": "Virginia",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "COS",
+      "lat": 38.7829,
+      "long": -104.697,
+      "name": "City of Colorado Springs Municipal Airport",
+      "city": "Colorado Springs",
+      "state": "Colorado",
+      "country": "United States"
+    },
+    "airportStops": [
+      {
+        "code": "ATL",
+        "lat": 33.6558,
+        "long": -84.4333,
+        "name": "Hartsfield-Jackson Atlanta International Airport",
+        "city": "Atlanta",
+        "state": "Georgia",
+        "country": "United States"
+      }
+    ],
+    "ageInYears": 31,
+    "flightPercentComplete": 18.870936606853295
+  },
+  {
+    "callsign": "DAL408",
+    "altitude": 35000,
+    "grounded": false,
+    "speed": 472.7,
+    "lat": 48.911412,
+    "long": 0.287162,
+    "heading": 284.3,
+    "aircraftType": "A332",
+    "airportFrom": {
+      "code": "ZRH",
+      "lat": 47.454,
+      "long": 8.56137,
+      "name": "Zurich International Airport",
+      "city": "Kloten",
+      "state": "Canton of Zurich",
+      "country": "Switzerland"
+    },
+    "airportTo": {
+      "code": "JFK",
+      "lat": 40.6437,
+      "long": -73.79,
+      "name": "John F Kennedy International Airport",
+      "city": "Jamaica",
+      "state": "New York",
+      "country": "United States"
+    },
+    "ageInYears": 14,
+    "flightPercentComplete": 9.940138638764818
+  },
+  {
+    "callsign": "DAL2740",
+    "altitude": 35000,
+    "grounded": false,
+    "speed": 444,
+    "lat": 41.480598,
+    "long": -94.262199,
+    "heading": 10,
+    "aircraftType": "A320",
+    "airportFrom": {
+      "code": "SFO",
+      "lat": 37.6148,
+      "long": -122.392,
+      "name": "San Francisco International Airport",
+      "city": "San Francisco",
+      "state": "California",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "JFK",
+      "lat": 40.6437,
+      "long": -73.79,
+      "name": "John F Kennedy International Airport",
+      "city": "Jamaica",
+      "state": "New York",
+      "country": "United States"
+    },
+    "ageInYears": 20,
+    "flightPercentComplete": 58.700129131743914
+  },
+  {
+    "callsign": "DAL1356",
+    "altitude": 34000,
+    "grounded": false,
+    "speed": 479.2,
+    "lat": 29.085526,
+    "long": -95.729317,
+    "heading": 289.4,
+    "aircraftType": "B753",
+    "airportFrom": {
+      "code": "YVR",
+      "lat": 49.1931,
+      "long": -123.172,
+      "name": "Vancouver International Airport",
+      "city": "Richmond",
+      "state": "British Columbia",
+      "country": "Canada"
+    },
+    "airportTo": {
+      "code": "JFK",
+      "lat": 40.6437,
+      "long": -73.79,
+      "name": "John F Kennedy International Airport",
+      "city": "Jamaica",
+      "state": "New York",
+      "country": "United States"
+    },
+    "ageInYears": 16,
+    "flightPercentComplete": 39.715364901063154
+  },
+  {
+    "callsign": "DAL2392",
+    "altitude": 30000,
+    "grounded": false,
+    "speed": 453.4,
+    "lat": 34.907776,
+    "long": -94.790375,
+    "heading": 221.4,
+    "aircraftType": "A319",
+    "airportFrom": {
+      "code": "MSP",
+      "lat": 44.8793,
+      "long": -93.1987,
+      "name": "Minneapolis St Paul International Airport",
+      "city": "St. Paul",
+      "state": "Minnesota",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "PHX",
+      "lat": 33.4376,
+      "long": -112.03,
+      "name": "Sky Harbor International Airport",
+      "city": "Phoenix",
+      "state": "Arizona",
+      "country": "United States"
+    },
+    "ageInYears": 15,
+    "flightPercentComplete": 22.47481384047304
+  },
+  {
+    "callsign": "DAL1303",
+    "altitude": 35000,
+    "grounded": false,
+    "speed": 478.2,
+    "lat": 37.658798,
+    "long": -75.621,
+    "heading": 17.5,
+    "aircraftType": "A320",
+    "airportFrom": {
+      "code": "DTW",
+      "lat": 42.2327,
+      "long": -83.3412,
+      "name": "Detroit Metropolitan Wayne County Airport",
+      "city": "Detroit",
+      "state": "Michigan",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "FLL",
+      "lat": 26.0722,
+      "long": -80.1354,
+      "name": "Fort Lauderdale Hollywood International Airport",
+      "city": "Dania Beach",
+      "state": "Florida",
+      "country": "United States"
+    },
+    "ageInYears": 26,
+    "flightPercentComplete": 25.489201813909446
+  },
+  {
+    "callsign": "DAL75",
+    "altitude": 34000,
+    "grounded": false,
+    "speed": 460,
+    "lat": 55.765228,
+    "long": -10.280956,
+    "heading": 277,
+    "aircraftType": "A333",
+    "airportFrom": {
+      "code": "AMS",
+      "lat": 52.3122,
+      "long": 4.77511,
+      "name": "Schiphol Airport",
+      "city": "Schiphol Zuid",
+      "state": "North Holland",
+      "country": "Netherlands"
+    },
+    "airportTo": {
+      "code": "ATL",
+      "lat": 33.6558,
+      "long": -84.4333,
+      "name": "Hartsfield-Jackson Atlanta International Airport",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "country": "United States"
+    },
+    "ageInYears": 11,
+    "flightPercentComplete": 14.8197131038465
+  },
+  {
+    "callsign": "DAL424",
+    "altitude": 30000,
+    "grounded": false,
+    "speed": 458,
+    "lat": 41.168564,
+    "long": -88.606506,
+    "heading": 269.6,
+    "aircraftType": "B764",
+    "airportFrom": {
+      "code": "JFK",
+      "lat": 40.6437,
+      "long": -73.79,
+      "name": "John F Kennedy International Airport",
+      "city": "Jamaica",
+      "state": "New York",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "LAX",
+      "lat": 33.9456,
+      "long": -118.391,
+      "name": "Los Angeles International Airport",
+      "city": "Los Angeles",
+      "state": "California",
+      "country": "United States"
+    },
+    "ageInYears": 18,
+    "flightPercentComplete": 31.256205909880684
+  },
+  {
+    "callsign": "DAL1257",
+    "altitude": 34000,
+    "grounded": false,
+    "speed": 440.1,
+    "lat": 35.521271,
+    "long": -89.719963,
+    "heading": 297,
+    "aircraftType": "A321",
+    "airportFrom": {
+      "code": "DTW",
+      "lat": 42.2327,
+      "long": -83.3412,
+      "name": "Detroit Metropolitan Wayne County Airport",
+      "city": "Detroit",
+      "state": "Michigan",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "ATL",
+      "lat": 33.6558,
+      "long": -84.4333,
+      "name": "Hartsfield-Jackson Atlanta International Airport",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "country": "United States"
+    },
+    "ageInYears": 1,
+    "flightPercentComplete": 45.07644170396531
+  },
+  {
+    "callsign": "DAL2085",
+    "altitude": 1625,
+    "grounded": false,
+    "speed": 139,
+    "lat": 33.64954,
+    "long": -84.34473,
+    "heading": 270,
+    "aircraftType": "B738",
+    "airportFrom": {
+      "code": "JAX",
+      "lat": 30.4914,
+      "long": -81.676,
+      "name": "Jacksonville International Airport",
+      "city": "Jacksonville",
+      "state": "Florida",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "LAX",
+      "lat": 33.9456,
+      "long": -118.391,
+      "name": "Los Angeles International Airport",
+      "city": "Los Angeles",
+      "state": "California",
+      "country": "United States"
+    },
+    "airportStops": [
+      {
+        "code": "ATL",
+        "lat": 33.6558,
+        "long": -84.4333,
+        "name": "Hartsfield-Jackson Atlanta International Airport",
+        "city": "Atlanta",
+        "state": "Georgia",
+        "country": "United States"
+      }
+    ],
+    "ageInYears": 0,
+    "flightPercentComplete": 9.411775832962011
+  },
+  {
+    "callsign": "DAL1650",
+    "altitude": 825,
+    "grounded": false,
+    "speed": 135.2,
+    "lat": 44.877056,
+    "long": -93.184226,
+    "heading": 301.7,
+    "aircraftType": "B752",
+    "airportFrom": {
+      "code": "LAX",
+      "lat": 33.9456,
+      "long": -118.391,
+      "name": "Los Angeles International Airport",
+      "city": "Los Angeles",
+      "state": "California",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "JFK",
+      "lat": 40.6437,
+      "long": -73.79,
+      "name": "John F Kennedy International Airport",
+      "city": "Jamaica",
+      "state": "New York",
+      "country": "United States"
+    },
+    "ageInYears": 27,
+    "flightPercentComplete": 58.525381947786336
+  },
+  {
+    "callsign": "DAL1192",
+    "altitude": 29975,
+    "grounded": false,
+    "speed": 431.8,
+    "lat": 35.833237,
+    "long": -94.153461,
+    "heading": 261.6,
+    "aircraftType": "B738",
+    "airportFrom": {
+      "code": "SEA",
+      "lat": 47.4405,
+      "long": -122.296,
+      "name": "Tacoma International Airport",
+      "city": "Seattle",
+      "state": "Washington",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "CUN",
+      "lat": 21.0406,
+      "long": -86.8744,
+      "name": "Cancun Airport",
+      "city": "Cancun",
+      "state": "Quintana Roo",
+      "country": "Mexico"
+    },
+    "ageInYears": 19,
+    "flightPercentComplete": 58.53941613515483
+  },
+  {
+    "callsign": "DAL2595",
+    "altitude": 25875,
+    "grounded": false,
+    "speed": 450,
+    "lat": 38.144669,
+    "long": -78.446941,
+    "heading": 232.5,
+    "aircraftType": "A320",
+    "airportFrom": {
+      "code": "DTW",
+      "lat": 42.2327,
+      "long": -83.3412,
+      "name": "Detroit Metropolitan Wayne County Airport",
+      "city": "Detroit",
+      "state": "Michigan",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "MCO",
+      "lat": 28.4418,
+      "long": -81.3115,
+      "name": "Orlando International Airport",
+      "city": "Orlando",
+      "state": "Florida",
+      "country": "United States"
+    },
+    "ageInYears": 26,
+    "flightPercentComplete": 28.0543159687624
+  },
+  {
+    "callsign": "DAL1296",
+    "altitude": 1175,
+    "grounded": false,
+    "speed": 437,
+    "lat": 41.72438,
+    "long": -86.531004,
+    "heading": 73.6,
+    "aircraftType": "B712",
+    "airportFrom": {
+      "code": "FLL",
+      "lat": 26.0722,
+      "long": -80.1354,
+      "name": "Fort Lauderdale Hollywood International Airport",
+      "city": "Dania Beach",
+      "state": "Florida",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "LGA",
+      "lat": 40.7731,
+      "long": -73.8756,
+      "name": "LaGuardia Airport",
+      "city": "Flushing",
+      "state": "New York",
+      "country": "United States"
+    },
+    "ageInYears": 18,
+    "flightPercentComplete": 38.72026990949049
+  },
+  {
+    "callsign": "DAL921",
+    "altitude": 34000,
+    "grounded": false,
+    "speed": 433.8,
+    "lat": 45.823929,
+    "long": -99.536602,
+    "heading": 296,
+    "aircraftType": "B739",
+    "airportFrom": {
+      "code": "DTW",
+      "lat": 42.2327,
+      "long": -83.3412,
+      "name": "Detroit Metropolitan Wayne County Airport",
+      "city": "Detroit",
+      "state": "Michigan",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "SEA",
+      "lat": 47.4405,
+      "long": -122.296,
+      "name": "Tacoma International Airport",
+      "city": "Seattle",
+      "state": "Washington",
+      "country": "United States"
+    },
+    "ageInYears": 3,
+    "flightPercentComplete": 43.70210652761044
+  },
+  {
+    "callsign": "DAL1185",
+    "altitude": 35025,
+    "grounded": false,
+    "speed": 428,
+    "lat": 41.254799,
+    "long": -94.790901,
+    "heading": 32,
+    "aircraftType": "B712",
+    "airportFrom": {
+      "code": "EWR",
+      "lat": 40.6924,
+      "long": -74.1843,
+      "name": "Newark International Airport",
+      "city": "Newark",
+      "state": "New Jersey",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "LAX",
+      "lat": 33.9456,
+      "long": -118.391,
+      "name": "Los Angeles International Airport",
+      "city": "Los Angeles",
+      "state": "California",
+      "country": "United States"
+    },
+    "airportStops": [
+      {
+        "code": "SLC",
+        "lat": 40.7862,
+        "long": -111.982,
+        "name": "Salt Lake City International Airport",
+        "city": "Salt Lake City",
+        "state": "Utah",
+        "country": "United States"
+      }
+    ],
+    "ageInYears": 19,
+    "flightPercentComplete": 43.53851121747731
+  },
+  {
+    "callsign": "DAL2552",
+    "altitude": 27975,
+    "grounded": false,
+    "speed": 458.2,
+    "lat": 35.998473,
+    "long": -81.599491,
+    "heading": 225,
+    "aircraftType": "A321",
+    "airportFrom": {
+      "code": "TPA",
+      "lat": 27.9744,
+      "long": -82.5356,
+      "name": "Tampa International Airport",
+      "city": "Tampa",
+      "state": "Florida",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "LGA",
+      "lat": 40.7731,
+      "long": -73.8756,
+      "name": "LaGuardia Airport",
+      "city": "Flushing",
+      "state": "New York",
+      "country": "United States"
+    },
+    "ageInYears": 0,
+    "flightPercentComplete": 47.371980361848955
+  },
+  {
+    "callsign": "DAL898",
+    "altitude": 28225,
+    "grounded": false,
+    "speed": 494,
+    "lat": 38.708599,
+    "long": -76.010101,
+    "heading": 36,
+    "aircraftType": "A320",
+    "airportFrom": {
+      "code": "FLL",
+      "lat": 26.0722,
+      "long": -80.1354,
+      "name": "Fort Lauderdale Hollywood International Airport",
+      "city": "Dania Beach",
+      "state": "Florida",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "LGA",
+      "lat": 40.7731,
+      "long": -73.8756,
+      "name": "LaGuardia Airport",
+      "city": "Flushing",
+      "state": "New York",
+      "country": "United States"
+    },
+    "ageInYears": 26,
+    "flightPercentComplete": 83.08410880711176
+  },
+  {
+    "callsign": "DAL977",
+    "altitude": 1575,
+    "grounded": false,
+    "speed": 133,
+    "lat": 33.64954,
+    "long": -84.366241,
+    "heading": 269,
+    "aircraftType": "MD88",
+    "airportFrom": {
+      "code": "ORD",
+      "lat": 41.9796,
+      "long": -87.8825,
+      "name": "Chicago O'Hare International Airport",
+      "city": "Chicago",
+      "state": "Illinois",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "ATL",
+      "lat": 33.6558,
+      "long": -84.4333,
+      "name": "Hartsfield-Jackson Atlanta International Airport",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "country": "United States"
+    },
+    "ageInYears": 26,
+    "flightPercentComplete": 99.35850985830845
+  },
+  {
+    "callsign": "DAL2419",
+    "altitude": 1625,
+    "grounded": false,
+    "speed": 141,
+    "lat": 33.649567,
+    "long": -84.360092,
+    "heading": 270.4,
+    "aircraftType": "B739",
+    "airportFrom": {
+      "code": "LGA",
+      "lat": 40.7731,
+      "long": -73.8756,
+      "name": "LaGuardia Airport",
+      "city": "Flushing",
+      "state": "New York",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "SJC",
+      "lat": 37.3679,
+      "long": -121.926,
+      "name": "Norman Y Mineta San Jose International Airport",
+      "city": "San Jose",
+      "state": "California",
+      "country": "United States"
+    },
+    "airportStops": [
+      {
+        "code": "MSP",
+        "lat": 44.8793,
+        "long": -93.1987,
+        "name": "Minneapolis St Paul International Airport",
+        "city": "St. Paul",
+        "state": "Minnesota",
+        "country": "United States"
+      }
+    ],
+    "ageInYears": 4,
+    "flightPercentComplete": 17.275631496304722
+  },
+  {
+    "callsign": "DAL904",
+    "altitude": 1325,
+    "grounded": false,
+    "speed": 140,
+    "lat": 33.631805,
+    "long": -84.372589,
+    "heading": 270.3,
+    "aircraftType": "A320",
+    "airportFrom": {
+      "code": "LGA",
+      "lat": 40.7731,
+      "long": -73.8756,
+      "name": "LaGuardia Airport",
+      "city": "Flushing",
+      "state": "New York",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "GUA",
+      "lat": 14.5819,
+      "long": -90.5275,
+      "name": "La Aurora Airport",
+      "city": "Guatemala City",
+      "state": "Guatemala",
+      "country": "Guatemala"
+    },
+    "airportStops": [
+      {
+        "code": "ATL",
+        "lat": 33.6558,
+        "long": -84.4333,
+        "name": "Hartsfield-Jackson Atlanta International Airport",
+        "city": "Atlanta",
+        "state": "Georgia",
+        "country": "United States"
+      }
+    ],
+    "ageInYears": 27,
+    "flightPercentComplete": 33.692857167064595
+  },
+  {
+    "callsign": "DAL2672",
+    "altitude": 31975,
+    "grounded": false,
+    "speed": 432.7,
+    "lat": 44.261309,
+    "long": -102.712521,
+    "heading": 292.4,
+    "aircraftType": "B739",
+    "airportFrom": {
+      "code": "CVG",
+      "lat": 39.0571,
+      "long": -84.6625,
+      "name": "Greater Cincinnati International Airport",
+      "city": "Hebron",
+      "state": "Ohio",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "SEA",
+      "lat": 47.4405,
+      "long": -122.296,
+      "name": "Tacoma International Airport",
+      "city": "Seattle",
+      "state": "Washington",
+      "country": "United States"
+    },
+    "ageInYears": 5,
+    "flightPercentComplete": 50.74468636831605
+  },
+  {
+    "callsign": "DAL2458",
+    "altitude": 1650,
+    "grounded": false,
+    "speed": 135,
+    "lat": 33.649494,
+    "long": -84.360291,
+    "heading": 269.1,
+    "aircraftType": "MD88",
+    "airportFrom": {
+      "code": "PBI",
+      "lat": 26.6909,
+      "long": -80.0889,
+      "name": "Palm Beach International Airport",
+      "city": "West Palm Beach",
+      "state": "Florida",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "LGA",
+      "lat": 40.7731,
+      "long": -73.8756,
+      "name": "LaGuardia Airport",
+      "city": "Flushing",
+      "state": "New York",
+      "country": "United States"
+    },
+    "ageInYears": 27,
+    "flightPercentComplete": 26.87250261845966
+  },
+  {
+    "callsign": "DAL222",
+    "altitude": 34025,
+    "grounded": false,
+    "speed": 447,
+    "lat": 54.476826,
+    "long": -10.487782,
+    "heading": 283.3,
+    "aircraftType": "B763",
+    "airportFrom": {
+      "code": "TXL",
+      "lat": 52.5548,
+      "long": 13.289,
+      "name": "Berlin-Tegel International Airport",
+      "city": "Berlin",
+      "state": "Berlin",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "MIA",
+      "lat": 25.7953,
+      "long": -80.2727,
+      "name": "Miami International Airport",
+      "city": "Miami",
+      "state": "Florida",
+      "country": "United States"
+    },
+    "airportStops": [
+      {
+        "code": "JFK",
+        "lat": 40.6437,
+        "long": -73.79,
+        "name": "John F Kennedy International Airport",
+        "city": "Jamaica",
+        "state": "New York",
+        "country": "United States"
+      }
+    ],
+    "ageInYears": 27,
+    "flightPercentComplete": 19.750368244218308
+  },
+  {
+    "callsign": "DAL1838",
+    "altitude": 34000,
+    "grounded": false,
+    "speed": 433.2,
+    "lat": 45.243748,
+    "long": -93.825252,
+    "heading": 286.2,
+    "aircraftType": "B738",
+    "airportFrom": {
+      "code": "IAD",
+      "lat": 38.9556,
+      "long": -77.4484,
+      "name": "Dulles International Airport",
+      "city": "Washington",
+      "state": "Virginia",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "SEA",
+      "lat": 47.4405,
+      "long": -122.296,
+      "name": "Tacoma International Airport",
+      "city": "Seattle",
+      "state": "Washington",
+      "country": "United States"
+    },
+    "ageInYears": 17,
+    "flightPercentComplete": 40.90912879835371
+  },
+  {
+    "callsign": "DAL1315",
+    "altitude": 36000,
+    "grounded": false,
+    "speed": 458.8,
+    "lat": 33.375908,
+    "long": -79.604073,
+    "heading": 217.2,
+    "aircraftType": "A320",
+    "airportFrom": {
+      "code": "BOS",
+      "lat": 42.3717,
+      "long": -71.0281,
+      "name": "Gen E L Logan International Airport",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "MCO",
+      "lat": 28.4418,
+      "long": -81.3115,
+      "name": "Orlando International Airport",
+      "city": "Orlando",
+      "state": "Florida",
+      "country": "United States"
+    },
+    "ageInYears": 26,
+    "flightPercentComplete": 68.28543016442295
+  },
+  {
+    "callsign": "DAL744",
+    "altitude": 10700,
+    "grounded": false,
+    "speed": 307.5,
+    "lat": 40.102661,
+    "long": -73.776672,
+    "heading": 41.3,
+    "aircraftType": "A319",
+    "airportFrom": {
+      "code": "PDX",
+      "lat": 45.5867,
+      "long": -122.587,
+      "name": "Portland International Airport",
+      "city": "Portland",
+      "state": "Oregon",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "JFK",
+      "lat": 40.6437,
+      "long": -73.79,
+      "name": "John F Kennedy International Airport",
+      "city": "Jamaica",
+      "state": "New York",
+      "country": "United States"
+    },
+    "ageInYears": 16,
+    "flightPercentComplete": 98.4716547648583
+  },
+  {
+    "callsign": "DAL1575",
+    "altitude": 1350,
+    "grounded": false,
+    "speed": 125,
+    "lat": 33.649632,
+    "long": -84.378891,
+    "heading": 269,
+    "aircraftType": "MD88",
+    "airportFrom": {
+      "code": "IND",
+      "lat": 39.7322,
+      "long": -86.2707,
+      "name": "Indianapolis International Airport",
+      "city": "Indianapolis",
+      "state": "Indiana",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "ATL",
+      "lat": 33.6558,
+      "long": -84.4333,
+      "name": "Hartsfield-Jackson Atlanta International Airport",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "country": "United States"
+    },
+    "ageInYears": 25,
+    "flightPercentComplete": 99.26889607925602
+  },
+  {
+    "callsign": "DAL2030",
+    "altitude": 1600,
+    "grounded": false,
+    "speed": 129,
+    "lat": 33.649521,
+    "long": -84.360428,
+    "heading": 270,
+    "aircraftType": "B737",
+    "airportFrom": {
+      "code": "MDW",
+      "lat": 41.7875,
+      "long": -87.7416,
+      "name": "Chicago Midway International Airport",
+      "city": "Chicago",
+      "state": "Illinois",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "ATL",
+      "lat": 33.6558,
+      "long": -84.4333,
+      "name": "Hartsfield-Jackson Atlanta International Airport",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "country": "United States"
+    },
+    "ageInYears": 10,
+    "flightPercentComplete": 99.28594443953477
+  },
+  {
+    "callsign": "DAL477",
+    "altitude": 34950,
+    "grounded": false,
+    "speed": 422,
+    "lat": 42.591888,
+    "long": -4.276489,
+    "heading": 278.3,
+    "aircraftType": "A333",
+    "airportFrom": {
+      "code": "BCN",
+      "lat": 41.3006,
+      "long": 2.07976,
+      "name": "Barcelona International Airport",
+      "city": "El Prat de Llobregat",
+      "state": "Catalonia",
+      "country": "Spain"
+    },
+    "airportTo": {
+      "code": "SFO",
+      "lat": 37.6148,
+      "long": -122.392,
+      "name": "San Francisco International Airport",
+      "city": "San Francisco",
+      "state": "California",
+      "country": "United States"
+    },
+    "airportStops": [
+      {
+        "code": "JFK",
+        "lat": 40.6437,
+        "long": -73.79,
+        "name": "John F Kennedy International Airport",
+        "city": "Jamaica",
+        "state": "New York",
+        "country": "United States"
+      }
+    ],
+    "ageInYears": 11,
+    "flightPercentComplete": 4.827111025220365
+  },
+  {
+    "callsign": "DAL2258",
+    "altitude": 35000,
+    "grounded": false,
+    "speed": 494,
+    "lat": 37.589859,
+    "long": -81.762241,
+    "heading": 69.3,
+    "aircraftType": "A320",
+    "airportFrom": {
+      "code": "PDX",
+      "lat": 45.5867,
+      "long": -122.587,
+      "name": "Portland International Airport",
+      "city": "Portland",
+      "state": "Oregon",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "JFK",
+      "lat": 40.6437,
+      "long": -73.79,
+      "name": "John F Kennedy International Airport",
+      "city": "Jamaica",
+      "state": "New York",
+      "country": "United States"
+    },
+    "ageInYears": 20,
+    "flightPercentComplete": 80.52785317217399
+  },
+  {
+    "callsign": "DAL941",
+    "altitude": 1350,
+    "grounded": false,
+    "speed": 128,
+    "lat": 33.649521,
+    "long": -84.366203,
+    "heading": 269,
+    "aircraftType": "B752",
+    "airportFrom": {
+      "code": "MCI",
+      "lat": 39.2992,
+      "long": -94.7171,
+      "name": "Kansas City International Airport",
+      "city": "Kansas City",
+      "state": "Missouri",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "ATL",
+      "lat": 33.6558,
+      "long": -84.4333,
+      "name": "Hartsfield-Jackson Atlanta International Airport",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "country": "United States"
+    },
+    "ageInYears": 19,
+    "flightPercentComplete": 99.43800013686544
+  },
+  {
+    "callsign": "DAL163",
+    "altitude": 34000,
+    "grounded": false,
+    "speed": 497.7,
+    "lat": 59.917648,
+    "long": -2.122833,
+    "heading": 320.1,
+    "aircraftType": "A333",
+    "airportFrom": {
+      "code": "AMS",
+      "lat": 52.3122,
+      "long": 4.77511,
+      "name": "Schiphol Airport",
+      "city": "Schiphol Zuid",
+      "state": "North Holland",
+      "country": "Netherlands"
+    },
+    "airportTo": {
+      "code": "MSP",
+      "lat": 44.8793,
+      "long": -93.1987,
+      "name": "Minneapolis St Paul International Airport",
+      "city": "St. Paul",
+      "state": "Minnesota",
+      "country": "United States"
+    },
+    "ageInYears": 11,
+    "flightPercentComplete": 12.081729448170208
+  },
+  {
+    "callsign": "DAL1961",
+    "altitude": 1375,
+    "grounded": false,
+    "speed": 143,
+    "lat": 33.631805,
+    "long": -84.385239,
+    "heading": 270,
+    "aircraftType": "A321",
+    "airportFrom": {
+      "code": "RIC",
+      "lat": 37.5108,
+      "long": -77.3332,
+      "name": "Richmond International Airport",
+      "city": "Richmond",
+      "state": "Virginia",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "ATL",
+      "lat": 33.6558,
+      "long": -84.4333,
+      "name": "Hartsfield-Jackson Atlanta International Airport",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "country": "United States"
+    },
+    "ageInYears": 0,
+    "flightPercentComplete": 99.32770463840032
+  },
+  {
+    "callsign": "DAL731",
+    "altitude": 1325,
+    "grounded": false,
+    "speed": 200,
+    "lat": 33.654987,
+    "long": -84.25209,
+    "heading": 230.3,
+    "aircraftType": "B712",
+    "airportFrom": {
+      "code": "JFK",
+      "lat": 40.6437,
+      "long": -73.79,
+      "name": "John F Kennedy International Airport",
+      "city": "Jamaica",
+      "state": "New York",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "LAS",
+      "lat": 36.0806,
+      "long": -115.143,
+      "name": "Mccarran International Airport",
+      "city": "Las Vegas",
+      "state": "Nevada",
+      "country": "United States"
+    },
+    "ageInYears": 14,
+    "flightPercentComplete": 21.84961491718742
+  },
+  {
+    "callsign": "DAL212",
+    "altitude": 31975,
+    "grounded": false,
+    "speed": 435.5,
+    "lat": 46.142075,
+    "long": -2.852091,
+    "heading": 285.3,
+    "aircraftType": "B764",
+    "airportFrom": {
+      "code": "NCE",
+      "lat": 43.6638,
+      "long": 7.21286,
+      "name": "Nice-Cote d'Azur Airport",
+      "city": "Nice",
+      "state": "Provence-alpes-cote d'Azur",
+      "country": "France"
+    },
+    "airportTo": {
+      "code": "JFK",
+      "lat": 40.6437,
+      "long": -73.79,
+      "name": "John F Kennedy International Airport",
+      "city": "Jamaica",
+      "state": "New York",
+      "country": "United States"
+    },
+    "ageInYears": 16,
+    "flightPercentComplete": 13.03823150139407
+  },
+  {
+    "callsign": "DAL2436",
+    "altitude": 7675,
+    "grounded": false,
+    "speed": 293,
+    "lat": 40.431702,
+    "long": -74.206482,
+    "heading": 40,
+    "aircraftType": "A319",
+    "airportFrom": {
+      "code": "MCO",
+      "lat": 28.4418,
+      "long": -81.3115,
+      "name": "Orlando International Airport",
+      "city": "Orlando",
+      "state": "Florida",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "MKE",
+      "lat": 42.9471,
+      "long": -87.9051,
+      "name": "General Mitchell International Airport",
+      "city": "Milwaukee",
+      "state": "Wisconsin",
+      "country": "United States"
+    },
+    "ageInYears": 16,
+    "flightPercentComplete": 31.89838497200529
+  },
+  {
+    "callsign": "DAL1984",
+    "altitude": 1825,
+    "grounded": false,
+    "speed": 142,
+    "lat": 33.620304,
+    "long": -84.356628,
+    "heading": 269,
+    "aircraftType": "A321",
+    "airportFrom": {
+      "code": "AUS",
+      "lat": 30.2027,
+      "long": -97.6653,
+      "name": "Austin-Bergstrom International Airport",
+      "city": "Austin",
+      "state": "Texas",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "BDL",
+      "lat": 41.9271,
+      "long": -72.6816,
+      "name": "Bradley International Airport",
+      "city": "Windsor Locks",
+      "state": "Connecticut",
+      "country": "United States"
+    },
+    "airportStops": [
+      {
+        "code": "ATL",
+        "lat": 33.6558,
+        "long": -84.4333,
+        "name": "Hartsfield-Jackson Atlanta International Airport",
+        "city": "Atlanta",
+        "state": "Georgia",
+        "country": "United States"
+      }
+    ],
+    "ageInYears": 1,
+    "flightPercentComplete": 46.62864935209703
+  },
+  {
+    "callsign": "DAL1853",
+    "altitude": 1650,
+    "grounded": false,
+    "speed": 125,
+    "lat": 33.649384,
+    "long": -84.340415,
+    "heading": 270,
+    "aircraftType": "MD88",
+    "airportFrom": {
+      "code": "BOS",
+      "lat": 42.3717,
+      "long": -71.0281,
+      "name": "Gen E L Logan International Airport",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "SAT",
+      "lat": 29.5252,
+      "long": -98.4729,
+      "name": "San Antonio International Airport",
+      "city": "San Antonio",
+      "state": "Texas",
+      "country": "United States"
+    },
+    "airportStops": [
+      {
+        "code": "ATL",
+        "lat": 33.6558,
+        "long": -84.4333,
+        "name": "Hartsfield-Jackson Atlanta International Airport",
+        "city": "Atlanta",
+        "state": "Georgia",
+        "country": "United States"
+      }
+    ],
+    "ageInYears": 25,
+    "flightPercentComplete": 50.13886937556369
+  },
+  {
+    "callsign": "DAL1249",
+    "altitude": 1575,
+    "grounded": false,
+    "speed": 133,
+    "lat": 33.631897,
+    "long": -84.372086,
+    "heading": 270,
+    "aircraftType": "MD90",
+    "airportFrom": {
+      "code": "PWM",
+      "lat": 43.6475,
+      "long": -70.3103,
+      "name": "Jetport International Airport",
+      "city": "Portland",
+      "state": "Maine",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "ATL",
+      "lat": 33.6558,
+      "long": -84.4333,
+      "name": "Hartsfield-Jackson Atlanta International Airport",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "country": "United States"
+    },
+    "ageInYears": 22,
+    "flightPercentComplete": 99.62080046681851
+  },
+  {
+    "callsign": "DAL721",
+    "altitude": -775,
+    "grounded": false,
+    "speed": 12,
+    "lat": 44.887001,
+    "long": -93.211197,
+    "heading": 284,
+    "aircraftType": "A319",
+    "airportFrom": {
+      "code": "ATL",
+      "lat": 33.6558,
+      "long": -84.4333,
+      "name": "Hartsfield-Jackson Atlanta International Airport",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "MSP",
+      "lat": 44.8793,
+      "long": -93.1987,
+      "name": "Minneapolis St Paul International Airport",
+      "city": "St. Paul",
+      "state": "Minnesota",
+      "country": "United States"
+    },
+    "ageInYears": 15,
+    "flightPercentComplete": 99.91040101028264
+  },
+  {
+    "callsign": "DAL353",
+    "altitude": 1675,
+    "grounded": false,
+    "speed": 126,
+    "lat": 33.649494,
+    "long": -84.360641,
+    "heading": 269.6,
+    "aircraftType": "B752",
+    "airportFrom": {
+      "code": "BDL",
+      "lat": 41.9271,
+      "long": -72.6816,
+      "name": "Bradley International Airport",
+      "city": "Windsor Locks",
+      "state": "Connecticut",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "LIR",
+      "lat": 10.5922,
+      "long": -85.5439,
+      "name": "Tomas Guardia International Airport",
+      "city": "Liberia",
+      "state": "Guanacaste",
+      "country": "Costa Rica"
+    },
+    "airportStops": [
+      {
+        "code": "ATL",
+        "lat": 33.6558,
+        "long": -84.4333,
+        "name": "Hartsfield-Jackson Atlanta International Airport",
+        "city": "Atlanta",
+        "state": "Georgia",
+        "country": "United States"
+      }
+    ],
+    "ageInYears": 18,
+    "flightPercentComplete": 30.685621345720136
+  },
+  {
+    "callsign": "DAL1348",
+    "altitude": 950,
+    "grounded": false,
+    "speed": 152.6,
+    "lat": 44.871283,
+    "long": -93.195883,
+    "heading": 301.6,
+    "aircraftType": "B739",
+    "airportFrom": {
+      "code": "LAS",
+      "lat": 36.0806,
+      "long": -115.143,
+      "name": "Mccarran International Airport",
+      "city": "Las Vegas",
+      "state": "Nevada",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "JFK",
+      "lat": 40.6437,
+      "long": -73.79,
+      "name": "John F Kennedy International Airport",
+      "city": "Jamaica",
+      "state": "New York",
+      "country": "United States"
+    },
+    "ageInYears": 0,
+    "flightPercentComplete": 54.317039778963895
+  },
+  {
+    "callsign": "DAL1928",
+    "altitude": 1175,
+    "grounded": false,
+    "speed": 124.4,
+    "lat": 42.243549,
+    "long": -83.31648,
+    "heading": 208.8,
+    "aircraftType": "B752",
+    "airportFrom": {
+      "code": "MCO",
+      "lat": 28.4418,
+      "long": -81.3115,
+      "name": "Orlando International Airport",
+      "city": "Orlando",
+      "state": "Florida",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "DTW",
+      "lat": 42.2327,
+      "long": -83.3412,
+      "name": "Detroit Metropolitan Wayne County Airport",
+      "city": "Detroit",
+      "state": "Michigan",
+      "country": "United States"
+    },
+    "ageInYears": 20,
+    "flightPercentComplete": 99.84681408886073
+  },
+  {
+    "callsign": "DAL2767",
+    "altitude": 34000,
+    "grounded": false,
+    "speed": 435.5,
+    "lat": 45.87561,
+    "long": -91.289286,
+    "heading": 260.9,
+    "aircraftType": "B739",
+    "airportFrom": {
+      "code": "BOS",
+      "lat": 42.3717,
+      "long": -71.0281,
+      "name": "Gen E L Logan International Airport",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "HNL",
+      "lat": 21.3358,
+      "long": -157.919,
+      "name": "Honolulu International Airport",
+      "city": "Honolulu",
+      "state": "Hawaii",
+      "country": "United States"
+    },
+    "airportStops": [
+      {
+        "code": "SLC",
+        "lat": 40.7862,
+        "long": -111.982,
+        "name": "Salt Lake City International Airport",
+        "city": "Salt Lake City",
+        "state": "Utah",
+        "country": "United States"
+      }
+    ],
+    "ageInYears": 1,
+    "flightPercentComplete": 20.131969363046498
+  },
+  {
+    "callsign": "DAL65",
+    "altitude": 33000,
+    "grounded": false,
+    "speed": 433.9,
+    "lat": 43.157272,
+    "long": -3.279738,
+    "heading": 282.2,
+    "aircraftType": "A333",
+    "airportFrom": {
+      "code": "FCO",
+      "lat": 41.8026,
+      "long": 12.2551,
+      "name": "Leonardo da Vinci International Airport",
+      "city": "Rome",
+      "state": "Lazio",
+      "country": "Italy"
+    },
+    "airportTo": {
+      "code": "SFO",
+      "lat": 37.6148,
+      "long": -122.392,
+      "name": "San Francisco International Airport",
+      "city": "San Francisco",
+      "state": "California",
+      "country": "United States"
+    },
+    "airportStops": [
+      {
+        "code": "ATL",
+        "lat": 33.6558,
+        "long": -84.4333,
+        "name": "Hartsfield-Jackson Atlanta International Airport",
+        "city": "Atlanta",
+        "state": "Georgia",
+        "country": "United States"
+      }
+    ],
+    "ageInYears": 2,
+    "flightPercentComplete": 9.176901461813959
+  },
+  {
+    "callsign": "DAL2192",
+    "altitude": 1175,
+    "grounded": false,
+    "speed": 146.3,
+    "lat": 42.268547,
+    "long": -83.337878,
+    "heading": 201.7,
+    "aircraftType": "B739",
+    "airportFrom": {
+      "code": "TPA",
+      "lat": 27.9744,
+      "long": -82.5356,
+      "name": "Tampa International Airport",
+      "city": "Tampa",
+      "state": "Florida",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "DTW",
+      "lat": 42.2327,
+      "long": -83.3412,
+      "name": "Detroit Metropolitan Wayne County Airport",
+      "city": "Detroit",
+      "state": "Michigan",
+      "country": "United States"
+    },
+    "ageInYears": 5,
+    "flightPercentComplete": 99.74826306613431
+  },
+  {
+    "callsign": "DAL1368",
+    "altitude": 950,
+    "grounded": false,
+    "speed": 142.7,
+    "lat": 44.871423,
+    "long": -93.196218,
+    "heading": 301.2,
+    "aircraftType": "A320",
+    "airportFrom": {
+      "code": "PHX",
+      "lat": 33.4376,
+      "long": -112.03,
+      "name": "Sky Harbor International Airport",
+      "city": "Phoenix",
+      "state": "Arizona",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "MSP",
+      "lat": 44.8793,
+      "long": -93.1987,
+      "name": "Minneapolis St Paul International Airport",
+      "city": "St. Paul",
+      "state": "Minnesota",
+      "country": "United States"
+    },
+    "ageInYears": 26,
+    "flightPercentComplete": 99.9563081164091
+  },
+  {
+    "callsign": "DAL900",
+    "altitude": 1725,
+    "grounded": false,
+    "speed": 225,
+    "lat": 33.630222,
+    "long": -84.154305,
+    "heading": 271,
+    "aircraftType": "A321",
+    "airportFrom": {
+      "code": "BOS",
+      "lat": 42.3717,
+      "long": -71.0281,
+      "name": "Gen E L Logan International Airport",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "ATL",
+      "lat": 33.6558,
+      "long": -84.4333,
+      "name": "Hartsfield-Jackson Atlanta International Airport",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "country": "United States"
+    },
+    "ageInYears": 2,
+    "flightPercentComplete": 98.28990515746995
+  },
+  {
+    "callsign": "DAL1919",
+    "altitude": 900,
+    "grounded": false,
+    "speed": 156.2,
+    "lat": 44.875854,
+    "long": -93.181392,
+    "heading": 301.7,
+    "aircraftType": "B738",
+    "airportFrom": {
+      "code": "DTW",
+      "lat": 42.2327,
+      "long": -83.3412,
+      "name": "Detroit Metropolitan Wayne County Airport",
+      "city": "Detroit",
+      "state": "Michigan",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "LAX",
+      "lat": 33.9456,
+      "long": -118.391,
+      "name": "Los Angeles International Airport",
+      "city": "Los Angeles",
+      "state": "California",
+      "country": "United States"
+    },
+    "ageInYears": 17,
+    "flightPercentComplete": 22.315590730994984
+  },
+  {
+    "callsign": "DAL1727",
+    "altitude": 25800,
+    "grounded": false,
+    "speed": 489,
+    "lat": 32.4566,
+    "long": -88.599403,
+    "heading": 245,
+    "aircraftType": "B712",
+    "airportFrom": {
+      "code": "JFK",
+      "lat": 40.6437,
+      "long": -73.79,
+      "name": "John F Kennedy International Airport",
+      "city": "Jamaica",
+      "state": "New York",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "MEM",
+      "lat": 35.047,
+      "long": -89.9823,
+      "name": "Memphis International Airport",
+      "city": "Memphis",
+      "state": "Tennessee",
+      "country": "United States"
+    },
+    "airportStops": [
+      {
+        "code": "ATL",
+        "lat": 33.6558,
+        "long": -84.4333,
+        "name": "Hartsfield-Jackson Atlanta International Airport",
+        "city": "Atlanta",
+        "state": "Georgia",
+        "country": "United States"
+      }
+    ],
+    "ageInYears": 18,
+    "flightPercentComplete": 79.65510930638426
+  },
+  {
+    "callsign": "DAL1868",
+    "altitude": 25850,
+    "grounded": false,
+    "speed": 462,
+    "lat": 33.209839,
+    "long": -86.049263,
+    "heading": 253.2,
+    "aircraftType": "A320",
+    "airportFrom": {
+      "code": "LAX",
+      "lat": 33.9456,
+      "long": -118.391,
+      "name": "Los Angeles International Airport",
+      "city": "Los Angeles",
+      "state": "California",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "MSP",
+      "lat": 44.8793,
+      "long": -93.1987,
+      "name": "Minneapolis St Paul International Airport",
+      "city": "St. Paul",
+      "state": "Minnesota",
+      "country": "United States"
+    },
+    "ageInYears": 20,
+    "flightPercentComplete": 41.81983420129007
+  },
+  {
+    "callsign": "DAL2701",
+    "altitude": 33975,
+    "grounded": false,
+    "speed": 411.3,
+    "lat": 42.359557,
+    "long": -83.203551,
+    "heading": 235.3,
+    "aircraftType": "B712",
+    "airportFrom": {
+      "code": "BWI",
+      "lat": 39.1841,
+      "long": -76.6745,
+      "name": "Baltimore-Washington International Thurgood Mars",
+      "city": "Baltimore",
+      "state": "Maryland",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "TUS",
+      "lat": 32.1204,
+      "long": -110.936,
+      "name": "Tucson International Airport",
+      "city": "Tucson",
+      "state": "Arizona",
+      "country": "United States"
+    },
+    "airportStops": [
+      {
+        "code": "MSP",
+        "lat": 44.8793,
+        "long": -93.1987,
+        "name": "Minneapolis St Paul International Airport",
+        "city": "St. Paul",
+        "state": "Minnesota",
+        "country": "United States"
+      }
+    ],
+    "ageInYears": 18,
+    "flightPercentComplete": 15.234461656806541
+  },
+  {
+    "callsign": "DAL1263",
+    "altitude": 1400,
+    "grounded": false,
+    "speed": 133,
+    "lat": 33.631851,
+    "long": -84.384956,
+    "heading": 270,
+    "aircraftType": "A320",
+    "airportFrom": {
+      "code": "PVD",
+      "lat": 41.723,
+      "long": -71.4399,
+      "name": "Theodore Francis Green State Airport",
+      "city": "Warwick",
+      "state": "Rhode Island",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "ATL",
+      "lat": 33.6558,
+      "long": -84.4333,
+      "name": "Hartsfield-Jackson Atlanta International Airport",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "country": "United States"
+    },
+    "ageInYears": 25,
+    "flightPercentComplete": 99.6409608875841
+  },
+  {
+    "callsign": "DAL1401",
+    "altitude": 34000,
+    "grounded": false,
+    "speed": 497.4,
+    "lat": 42.531428,
+    "long": -75.694523,
+    "heading": 100.5,
+    "aircraftType": "A319",
+    "airportFrom": {
+      "code": "SEA",
+      "lat": 47.4405,
+      "long": -122.296,
+      "name": "Tacoma International Airport",
+      "city": "Seattle",
+      "state": "Washington",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "DTW",
+      "lat": 42.2327,
+      "long": -83.3412,
+      "name": "Detroit Metropolitan Wayne County Airport",
+      "city": "Detroit",
+      "state": "Michigan",
+      "country": "United States"
+    },
+    "ageInYears": 17,
+    "flightPercentComplete": 79.66641312203916
+  },
+  {
+    "callsign": "DAL809",
+    "altitude": 950,
+    "grounded": false,
+    "speed": 149.9,
+    "lat": 44.877614,
+    "long": -93.185566,
+    "heading": 301.4,
+    "aircraftType": "A321",
+    "airportFrom": {
+      "code": "BOS",
+      "lat": 42.3717,
+      "long": -71.0281,
+      "name": "Gen E L Logan International Airport",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "MSP",
+      "lat": 44.8793,
+      "long": -93.1987,
+      "name": "Minneapolis St Paul International Airport",
+      "city": "St. Paul",
+      "state": "Minnesota",
+      "country": "United States"
+    },
+    "ageInYears": 0,
+    "flightPercentComplete": 99.94158332901284
+  },
+  {
+    "callsign": "DAL266",
+    "altitude": 36000,
+    "grounded": false,
+    "speed": 455,
+    "lat": 54.510296,
+    "long": -10.739219,
+    "heading": 240.8,
+    "aircraftType": "B752",
+    "airportFrom": {
+      "code": "BOS",
+      "lat": 42.3717,
+      "long": -71.0281,
+      "name": "Gen E L Logan International Airport",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "AMS",
+      "lat": 52.3122,
+      "long": 4.77511,
+      "name": "Schiphol Airport",
+      "city": "Schiphol Zuid",
+      "state": "North Holland",
+      "country": "Netherlands"
+    },
+    "ageInYears": 21,
+    "flightPercentComplete": 80.99495904524366
+  },
+  {
+    "callsign": "DAL237",
+    "altitude": 35000,
+    "grounded": false,
+    "speed": 475,
+    "lat": 55.622383,
+    "long": -9.350824,
+    "heading": 296,
+    "aircraftType": "A333",
+    "airportFrom": {
+      "code": "FCO",
+      "lat": 41.8026,
+      "long": 12.2551,
+      "name": "Leonardo da Vinci International Airport",
+      "city": "Rome",
+      "state": "Lazio",
+      "country": "Italy"
+    },
+    "airportTo": {
+      "code": "SLC",
+      "lat": 40.7862,
+      "long": -111.982,
+      "name": "Salt Lake City International Airport",
+      "city": "Salt Lake City",
+      "state": "Utah",
+      "country": "United States"
+    },
+    "airportStops": [
+      {
+        "code": "DTW",
+        "lat": 42.2327,
+        "long": -83.3412,
+        "name": "Detroit Metropolitan Wayne County Airport",
+        "city": "Detroit",
+        "state": "Michigan",
+        "country": "United States"
+      }
+    ],
+    "flightPercentComplete": 23.663850118251474
+  },
+  {
+    "callsign": "DAL2232",
+    "altitude": 23900,
+    "grounded": false,
+    "speed": 403.5,
+    "lat": 34.519135,
+    "long": -84.178591,
+    "heading": 6.4,
+    "aircraftType": "MD90",
+    "airportFrom": {
+      "code": "PHX",
+      "lat": 33.4376,
+      "long": -112.03,
+      "name": "Sky Harbor International Airport",
+      "city": "Phoenix",
+      "state": "Arizona",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "MSP",
+      "lat": 44.8793,
+      "long": -93.1987,
+      "name": "Minneapolis St Paul International Airport",
+      "city": "St. Paul",
+      "state": "Minnesota",
+      "country": "United States"
+    },
+    "ageInYears": 23,
+    "flightPercentComplete": 32.59115018064796
+  },
+  {
+    "callsign": "DAL2113",
+    "altitude": 23625,
+    "grounded": false,
+    "speed": 410.3,
+    "lat": 42.437206,
+    "long": -84.57154,
+    "heading": 272.1,
+    "aircraftType": "B738",
+    "airportFrom": {
+      "code": "MEM",
+      "lat": 35.047,
+      "long": -89.9823,
+      "name": "Memphis International Airport",
+      "city": "Memphis",
+      "state": "Tennessee",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "SEA",
+      "lat": 47.4405,
+      "long": -122.296,
+      "name": "Tacoma International Airport",
+      "city": "Seattle",
+      "state": "Washington",
+      "country": "United States"
+    },
+    "ageInYears": 17,
+    "flightPercentComplete": 0.42207637298367073
+  },
+  {
+    "callsign": "DAL2309",
+    "altitude": 34000,
+    "grounded": false,
+    "speed": 423,
+    "lat": 36.558731,
+    "long": -87.389748,
+    "heading": 307.3,
+    "aircraftType": "MD88",
+    "airportFrom": {
+      "code": "SEA",
+      "lat": 47.4405,
+      "long": -122.296,
+      "name": "Tacoma International Airport",
+      "city": "Seattle",
+      "state": "Washington",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "ATL",
+      "lat": 33.6558,
+      "long": -84.4333,
+      "name": "Hartsfield-Jackson Atlanta International Airport",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "country": "United States"
+    },
+    "ageInYears": 28,
+    "flightPercentComplete": 88.00474962172608
+  },
+  {
+    "callsign": "DAL1617",
+    "altitude": 36000,
+    "grounded": false,
+    "speed": 445,
+    "lat": 32.399799,
+    "long": -89.195644,
+    "heading": 273.6,
+    "aircraftType": "A321",
+    "airportFrom": {
+      "code": "CMH",
+      "lat": 39.9974,
+      "long": -82.8877,
+      "name": "Port Columbus International Airport",
+      "city": "Columbus",
+      "state": "Ohio",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "DEN",
+      "lat": 39.8396,
+      "long": -104.672,
+      "name": "Denver International Airport",
+      "city": "Denver",
+      "state": "Colorado",
+      "country": "United States"
+    },
+    "airportStops": [
+      {
+        "code": "ATL",
+        "lat": 33.6558,
+        "long": -84.4333,
+        "name": "Hartsfield-Jackson Atlanta International Airport",
+        "city": "Atlanta",
+        "state": "Georgia",
+        "country": "United States"
+      }
+    ],
+    "ageInYears": 1,
+    "flightPercentComplete": 12.898826434485688
+  },
+  {
+    "callsign": "DAL468",
+    "altitude": 37000,
+    "grounded": false,
+    "speed": 485,
+    "lat": 38.532711,
+    "long": 25.62466,
+    "heading": 141.1,
+    "aircraftType": "A333",
+    "airportFrom": {
+      "code": "SFO",
+      "lat": 37.6148,
+      "long": -122.392,
+      "name": "San Francisco International Airport",
+      "city": "San Francisco",
+      "state": "California",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "TLV",
+      "lat": 32.0117,
+      "long": 34.8861,
+      "name": "Ben Gurion Airport",
+      "city": "Petaẖ Tiqwa",
+      "state": "HaMerkaz",
+      "country": "Israel"
+    },
+    "airportStops": [
+      {
+        "code": "JFK",
+        "lat": 40.6437,
+        "long": -73.79,
+        "name": "John F Kennedy International Airport",
+        "city": "Jamaica",
+        "state": "New York",
+        "country": "United States"
+      }
+    ],
+    "ageInYears": 2,
+    "flightPercentComplete": 90.69659341041802
+  },
+  {
+    "callsign": "DAL213",
+    "altitude": 35975,
+    "grounded": false,
+    "speed": 410,
+    "lat": 49.675091,
+    "long": -11.96158,
+    "heading": 279.5,
+    "aircraftType": "A333",
+    "airportFrom": {
+      "code": "ATH",
+      "lat": 37.8937,
+      "long": 23.7235,
+      "name": "Eleftherios Venizelos International Airport",
+      "city": "Athens",
+      "state": "Attiki",
+      "country": "Greece"
+    },
+    "airportTo": {
+      "code": "JFK",
+      "lat": 40.6437,
+      "long": -73.79,
+      "name": "John F Kennedy International Airport",
+      "city": "Jamaica",
+      "state": "New York",
+      "country": "United States"
+    },
+    "ageInYears": 14,
+    "flightPercentComplete": 39.28499669452097
+  },
+  {
+    "callsign": "DAL11",
+    "altitude": 32000,
+    "grounded": false,
+    "speed": 427.4,
+    "lat": 54.78812,
+    "long": -10.501432,
+    "heading": 312.9,
+    "aircraftType": "B763",
+    "airportFrom": {
+      "code": "LHR",
+      "lat": 51.4703,
+      "long": -0.45342,
+      "name": "London Heathrow Airport",
+      "city": "Hounslow",
+      "state": "England",
+      "country": "United Kingdom"
+    },
+    "airportTo": {
+      "code": "DEN",
+      "lat": 39.8396,
+      "long": -104.672,
+      "name": "Denver International Airport",
+      "city": "Denver",
+      "state": "Colorado",
+      "country": "United States"
+    },
+    "airportStops": [
+      {
+        "code": "MSP",
+        "lat": 44.8793,
+        "long": -93.1987,
+        "name": "Minneapolis St Paul International Airport",
+        "city": "St. Paul",
+        "state": "Minnesota",
+        "country": "United States"
+      }
+    ],
+    "ageInYears": 27,
+    "flightPercentComplete": 10.170710325948784
+  },
+  {
+    "callsign": "DAL137",
+    "altitude": 33975,
+    "grounded": false,
+    "speed": 470,
+    "lat": 55.33905,
+    "long": -7.886972,
+    "heading": 295.7,
+    "aircraftType": "A333",
+    "airportFrom": {
+      "code": "AMS",
+      "lat": 52.3122,
+      "long": 4.77511,
+      "name": "Schiphol Airport",
+      "city": "Schiphol Zuid",
+      "state": "North Holland",
+      "country": "Netherlands"
+    },
+    "airportTo": {
+      "code": "DTW",
+      "lat": 42.2327,
+      "long": -83.3412,
+      "name": "Detroit Metropolitan Wayne County Airport",
+      "city": "Detroit",
+      "state": "Michigan",
+      "country": "United States"
+    },
+    "ageInYears": 12,
+    "flightPercentComplete": 14.155680166082085
+  },
+  {
+    "callsign": "DAL808",
+    "altitude": 30600,
+    "grounded": false,
+    "speed": 503.5,
+    "lat": 44.233238,
+    "long": -82.769857,
+    "heading": 87.4,
+    "aircraftType": "B739",
+    "airportFrom": {
+      "code": "MSP",
+      "lat": 44.8793,
+      "long": -93.1987,
+      "name": "Minneapolis St Paul International Airport",
+      "city": "St. Paul",
+      "state": "Minnesota",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "BOS",
+      "lat": 42.3717,
+      "long": -71.0281,
+      "name": "Gen E L Logan International Airport",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "country": "United States"
+    },
+    "ageInYears": 0,
+    "flightPercentComplete": 46.03721427388825
+  },
+  {
+    "callsign": "DAL479",
+    "altitude": 8775,
+    "grounded": false,
+    "speed": 272,
+    "lat": 33.6996,
+    "long": -84.736877,
+    "heading": 281.6,
+    "aircraftType": "B753",
+    "airportFrom": {
+      "code": "JFK",
+      "lat": 40.6437,
+      "long": -73.79,
+      "name": "John F Kennedy International Airport",
+      "city": "Jamaica",
+      "state": "New York",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "SFO",
+      "lat": 37.6148,
+      "long": -122.392,
+      "name": "San Francisco International Airport",
+      "city": "San Francisco",
+      "state": "California",
+      "country": "United States"
+    },
+    "ageInYears": 15,
+    "flightPercentComplete": 17.95192695035286
+  },
+  {
+    "callsign": "DAL1582",
+    "altitude": 1175,
+    "grounded": false,
+    "speed": 144.9,
+    "lat": 42.256165,
+    "long": -83.346093,
+    "heading": 206.2,
+    "aircraftType": "B738",
+    "airportFrom": {
+      "code": "RDU",
+      "lat": 35.8729,
+      "long": -78.7923,
+      "name": "Durham International Airport",
+      "city": "Raleigh/Durham",
+      "state": "North Carolina",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "MKE",
+      "lat": 42.9471,
+      "long": -87.9051,
+      "name": "General Mitchell International Airport",
+      "city": "Milwaukee",
+      "state": "Wisconsin",
+      "country": "United States"
+    },
+    "airportStops": [
+      {
+        "code": "ATL",
+        "lat": 33.6558,
+        "long": -84.4333,
+        "name": "Hartsfield-Jackson Atlanta International Airport",
+        "city": "Atlanta",
+        "state": "Georgia",
+        "country": "United States"
+      }
+    ],
+    "ageInYears": 19,
+    "flightPercentComplete": 65.63686743704386
+  },
+  {
+    "callsign": "DAL1428",
+    "altitude": 34050,
+    "grounded": false,
+    "speed": 444.1,
+    "lat": 35.660318,
+    "long": -88.871096,
+    "heading": 299.1,
+    "aircraftType": "A321",
+    "airportFrom": {
+      "code": "LAS",
+      "lat": 36.0806,
+      "long": -115.143,
+      "name": "Mccarran International Airport",
+      "city": "Las Vegas",
+      "state": "Nevada",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "JFK",
+      "lat": 40.6437,
+      "long": -73.79,
+      "name": "John F Kennedy International Airport",
+      "city": "Jamaica",
+      "state": "New York",
+      "country": "United States"
+    },
+    "ageInYears": 0,
+    "flightPercentComplete": 60.417324818600214
+  },
+  {
+    "callsign": "DAL2594",
+    "altitude": 35125,
+    "grounded": false,
+    "speed": 479.2,
+    "lat": 34.658281,
+    "long": -81.954002,
+    "heading": 53.7,
+    "aircraftType": "A321",
+    "airportFrom": {
+      "code": "CHS",
+      "lat": 32.8838,
+      "long": -80.0356,
+      "name": "Charleston International Airport",
+      "city": "North Charleston",
+      "state": "South Carolina",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "PHL",
+      "lat": 39.8768,
+      "long": -75.2419,
+      "name": "Philadelphia International Airport",
+      "city": "Philadelphia",
+      "state": "Pennsylvania",
+      "country": "United States"
+    },
+    "airportStops": [
+      {
+        "code": "ATL",
+        "lat": 33.6558,
+        "long": -84.4333,
+        "name": "Hartsfield-Jackson Atlanta International Airport",
+        "city": "Atlanta",
+        "state": "Georgia",
+        "country": "United States"
+      }
+    ],
+    "ageInYears": 2,
+    "flightPercentComplete": 6.523543883781202
+  },
+  {
+    "callsign": "DAL2737",
+    "altitude": 32000,
+    "grounded": false,
+    "speed": 440.1,
+    "lat": 43.316625,
+    "long": -88.954402,
+    "heading": 292,
+    "aircraftType": "B739",
+    "airportFrom": {
+      "code": "DTW",
+      "lat": 42.2327,
+      "long": -83.3412,
+      "name": "Detroit Metropolitan Wayne County Airport",
+      "city": "Detroit",
+      "state": "Michigan",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "SEA",
+      "lat": 47.4405,
+      "long": -122.296,
+      "name": "Tacoma International Airport",
+      "city": "Seattle",
+      "state": "Washington",
+      "country": "United States"
+    },
+    "flightPercentComplete": 15.158810181407256
+  },
+  {
+    "callsign": "DAL994",
+    "altitude": 32000,
+    "grounded": false,
+    "speed": 428,
+    "lat": 43.304661,
+    "long": -77.951856,
+    "heading": 270.5,
+    "aircraftType": "B739",
+    "airportFrom": {
+      "code": "BOS",
+      "lat": 42.3717,
+      "long": -71.0281,
+      "name": "Gen E L Logan International Airport",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "MSP",
+      "lat": 44.8793,
+      "long": -93.1987,
+      "name": "Minneapolis St Paul International Airport",
+      "city": "St. Paul",
+      "state": "Minnesota",
+      "country": "United States"
+    },
+    "ageInYears": 3,
+    "flightPercentComplete": 31.774626818350317
+  },
+  {
+    "callsign": "DAL2154",
+    "altitude": 28000,
+    "grounded": false,
+    "speed": 437,
+    "lat": 40.081058,
+    "long": -76.874397,
+    "heading": 269.9,
+    "aircraftType": "B739",
+    "airportFrom": {
+      "code": "LAX",
+      "lat": 33.9456,
+      "long": -118.391,
+      "name": "Los Angeles International Airport",
+      "city": "Los Angeles",
+      "state": "California",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "LGA",
+      "lat": 40.7731,
+      "long": -73.8756,
+      "name": "LaGuardia Airport",
+      "city": "Flushing",
+      "state": "New York",
+      "country": "United States"
+    },
+    "airportStops": [
+      {
+        "code": "ATL",
+        "lat": 33.6558,
+        "long": -84.4333,
+        "name": "Hartsfield-Jackson Atlanta International Airport",
+        "city": "Atlanta",
+        "state": "Georgia",
+        "country": "United States"
+      }
+    ],
+    "ageInYears": 2,
+    "flightPercentComplete": 93.30836152905361
+  },
+  {
+    "callsign": "DAL1415",
+    "altitude": 32000,
+    "grounded": false,
+    "speed": 437.2,
+    "lat": 41.52713,
+    "long": -87.05092,
+    "heading": 271.6,
+    "aircraftType": "A321",
+    "airportFrom": {
+      "code": "JFK",
+      "lat": 40.6437,
+      "long": -73.79,
+      "name": "John F Kennedy International Airport",
+      "city": "Jamaica",
+      "state": "New York",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "SLC",
+      "lat": 40.7862,
+      "long": -111.982,
+      "name": "Salt Lake City International Airport",
+      "city": "Salt Lake City",
+      "state": "Utah",
+      "country": "United States"
+    },
+    "ageInYears": 1,
+    "flightPercentComplete": 34.8064229761343
+  },
+  {
+    "callsign": "DAL175",
+    "altitude": 32000,
+    "grounded": false,
+    "speed": 391,
+    "lat": 50.529709,
+    "long": -12.53191,
+    "heading": 286.5,
+    "aircraftType": "B764",
+    "airportFrom": {
+      "code": "AMS",
+      "lat": 52.3122,
+      "long": 4.77511,
+      "name": "Schiphol Airport",
+      "city": "Schiphol Zuid",
+      "state": "North Holland",
+      "country": "Netherlands"
+    },
+    "airportTo": {
+      "code": "ATL",
+      "lat": 33.6558,
+      "long": -84.4333,
+      "name": "Hartsfield-Jackson Atlanta International Airport",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "country": "United States"
+    },
+    "ageInYears": 17,
+    "flightPercentComplete": 15.50418614949044
+  },
+  {
+    "callsign": "DAL2656",
+    "altitude": 30975,
+    "grounded": false,
+    "speed": 489.4,
+    "lat": 43.322433,
+    "long": -94.231844,
+    "heading": 194.4,
+    "aircraftType": "B739",
+    "airportFrom": {
+      "code": "MSY",
+      "lat": 29.983,
+      "long": -90.2569,
+      "name": "New Orleans International Airport",
+      "city": "Kenner",
+      "state": "Louisiana",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "LGA",
+      "lat": 40.7731,
+      "long": -73.8756,
+      "name": "LaGuardia Airport",
+      "city": "Flushing",
+      "state": "New York",
+      "country": "United States"
+    },
+    "flightPercentComplete": 10.687047624622249
+  },
+  {
+    "callsign": "DAL1899",
+    "altitude": 2905,
+    "grounded": false,
+    "speed": 138,
+    "lat": 33.649567,
+    "long": -84.376404,
+    "heading": 270,
+    "aircraftType": "B739",
+    "airportFrom": {
+      "code": "BOS",
+      "lat": 42.3717,
+      "long": -71.0281,
+      "name": "Gen E L Logan International Airport",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "SEA",
+      "lat": 47.4405,
+      "long": -122.296,
+      "name": "Tacoma International Airport",
+      "city": "Seattle",
+      "state": "Washington",
+      "country": "United States"
+    },
+    "ageInYears": 2,
+    "flightPercentComplete": 12.389882941822583
+  },
+  {
+    "callsign": "DAL469",
+    "altitude": 16400,
+    "grounded": false,
+    "speed": 350,
+    "lat": 40.258468,
+    "long": -74.382061,
+    "heading": 237.1,
+    "aircraftType": "B739",
+    "airportFrom": {
+      "code": "JFK",
+      "lat": 40.6437,
+      "long": -73.79,
+      "name": "John F Kennedy International Airport",
+      "city": "Jamaica",
+      "state": "New York",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "ATL",
+      "lat": 33.6558,
+      "long": -84.4333,
+      "name": "Hartsfield-Jackson Atlanta International Airport",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "country": "United States"
+    },
+    "ageInYears": 2,
+    "flightPercentComplete": 5.385287333275168
+  },
+  {
+    "callsign": "DAL2743",
+    "altitude": 36000,
+    "grounded": false,
+    "speed": 453.1,
+    "lat": 35.576244,
+    "long": -77.108596,
+    "heading": 207.5,
+    "aircraftType": "B738",
+    "airportFrom": {
+      "code": "EWR",
+      "lat": 40.6924,
+      "long": -74.1843,
+      "name": "Newark International Airport",
+      "city": "Newark",
+      "state": "New Jersey",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "HSV",
+      "lat": 34.6492,
+      "long": -86.7767,
+      "name": "Huntsville International Airport",
+      "city": "Huntsville",
+      "state": "Alabama",
+      "country": "United States"
+    },
+    "airportStops": [
+      {
+        "code": "ATL",
+        "lat": 33.6558,
+        "long": -84.4333,
+        "name": "Hartsfield-Jackson Atlanta International Airport",
+        "city": "Atlanta",
+        "state": "Georgia",
+        "country": "United States"
+      }
+    ],
+    "ageInYears": 17,
+    "flightPercentComplete": 31.611636993685078
+  },
+  {
+    "callsign": "DAL1692",
+    "altitude": 29575,
+    "grounded": false,
+    "speed": 477,
+    "lat": 32.892929,
+    "long": -87.270062,
+    "heading": 252.6,
+    "aircraftType": "B753",
+    "airportFrom": {
+      "code": "SAN",
+      "lat": 32.7299,
+      "long": -117.195,
+      "name": "San Diego International Airport",
+      "city": "San Diego",
+      "state": "California",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "RSW",
+      "lat": 26.5228,
+      "long": -81.7531,
+      "name": "Southwest Florida International Airport",
+      "city": "Fort Myers",
+      "state": "Florida",
+      "country": "United States"
+    },
+    "airportStops": [
+      {
+        "code": "ATL",
+        "lat": 33.6558,
+        "long": -84.4333,
+        "name": "Hartsfield-Jackson Atlanta International Airport",
+        "city": "Atlanta",
+        "state": "Georgia",
+        "country": "United States"
+      }
+    ],
+    "ageInYears": 16,
+    "flightPercentComplete": 74.52451040187444
+  }
+]

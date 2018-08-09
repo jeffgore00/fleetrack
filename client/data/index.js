@@ -47,7 +47,9 @@ export function getInitialFleet(carrier, dispatch) {
 export function refreshFleetData(carrier, dispatch) {
   return fetchFleetDataFromServer(carrier)
     .then(([fleet]) => {
+      console.log(JSON.stringify(fleet));
       dispatch(acUpdateCurrentFleet(fleet));
+
       return updateVisualization(fleet);
     })
     .catch(err => console.log(err));

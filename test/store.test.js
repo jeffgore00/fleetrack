@@ -5,13 +5,12 @@ import thunkMiddleware from 'redux-thunk';
 import {
   reducer,
   acInitialFleetLoaded,
-  acNewCarrierSelected,
-  acUpdateCurrentFleet,
-  fetchInitialFleet,
-  fetchNewFleet,
-  refreshfleet
+  fetchInitialFleet
 } from '../client/store';
+import { readFile } from '../server/utils';
+import { expect } from 'chai';
 
+const path = require('path');
 const middlewares = [thunkMiddleware];
 const mockStore = configureMockStore(middlewares);
 const initialState = {
@@ -21,8 +20,22 @@ const initialState = {
 };
 const store = mockStore(initialState);
 
-describe('action creators', () => {
-  // const fleet = [ dummy fleet ]
+async function getDummyFleet(code) {
+  const fleetJSON = await readFile(
+    path.join(__dirname, `./dummy/dummyFleet_${code}.json`),
+    'utf-8'
+  );
+  return fleetJSON;
+}
+
+describe('action creators', async () => {
+  let initialFleetJSON;
+  let initialFleet;
+
+  before(async () => {
+    initialFleetJSON = await getDummyFleet('DAL');
+    initialFleet = JSON.parse(initialFleetJSON);
+  });
 
   let mock;
   beforeEach(() => {
@@ -33,30 +46,37 @@ describe('action creators', () => {
     mock.reset();
   });
 
-  it('should allow synchronous creation of SELECT_CAMPUS actions', () => {
-    const selectCampusAction = selectCampus(marsCampus);
-    expect(selectCampusAction.type).to.equal(SELECT_CAMPUS);
-    expect(selectCampusAction.campus).to.equal(marsCampus);
+  it('acInitialFleetLoaded() should contain all three state properties', () => {
+    const initialFleetLoadedAction = acInitialFleetLoaded(
+      'DAL',
+      initialFleet,
+      3
+    );
+    expect(initialFleetLoadedAction.type).to.equal('INITIAL_FLEET_LOADED');
+    expect(initialFleetLoadedAction.carrier).to.equal('DAL');
+    expect(initialFleetLoadedAction.fleet).to.deep.equal(initialFleet);
+    expect(initialFleetLoadedAction.queryIntervalId).to.equal(3);
   });
 
-  it('fetchCampuses() returns a thunk to fetch campuses from the backend and dispatch a SET_CAMPUSES action', async () => {
-    mock.onGet('/api/campuses').replyOnce(200, campuses);
-    await store.dispatch(fetchCampuses());
+  it('fetchInitialFleet() returns a thunk to fetch the Delta fleet from the backend and dispatch a INITIAL_FLEET_LOADED action', async () => {
+    mock.onGet('/api/DAL').replyOnce(200, initialFleet);
+    await store.dispatch(fetchInitialFleet('DAL'));
     const actions = store.getActions();
-    expect(actions[0].type).to.equal('SET_CAMPUSES');
-    expect(actions[0].campuses).to.deep.equal(campuses);
+    expect(actions[0].type).to.equal('INITIAL_FLEET_LOADED');
+    expect(actions[0].fleet).to.deep.equal(initialFleet);
   });
 });
 
 describe('reducer', () => {
-  // defined in ../client/redux/reducer.js
-
-  it('returns a new state with selected campus', () => {
+  it('INITIAL_FLEET_LOADED case should replace all three initial state properties', () => {
     const newState = reducer(initialState, {
-      type: SELECT_CAMPUS,
-      campus: marsCampus
+      type: 'INITIAL_FLEET_LOADED',
+      carrier: 'DAL',
+      fleet: initialFleet,
+      queryIntervalId: 3
     });
-    expect(newState.selectedCampus).to.equal(marsCampus);
-    expect(initialState.selectedCampus).to.deep.equal({});
+    expect(newState.carrier).to.equal('DAL');
+    expect(newState.fleet).to.deep.equal(initialFleet);
+    expect(newState.queryIntervalId).to.equal(3);
   });
 });

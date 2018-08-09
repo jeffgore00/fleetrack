@@ -1,6 +1,6 @@
 const { promisify } = require('util');
-const readFile = promisify(require('fs').readFile);
 const path = require('path');
+const readFile = promisify(require('fs').readFile);
 
 const airports = {};
 
@@ -135,4 +135,4 @@ const utils = {
   }
 };
 
-module.exports = utils;
+module.exports = { utils, readFile };

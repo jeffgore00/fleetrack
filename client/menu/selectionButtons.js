@@ -1,16 +1,6 @@
 import store, { fetchNewFleet } from '../store';
 import { getFirstCallsign } from '../utils';
 
-let window;
-let document;
-
-if (process.env.NODE_ENV === 'testing') {
-  let MockBrowser = require('mock-browser').mocks.MockBrowser;
-  let mock = new MockBrowser();
-  document = mock.getDocument();
-  window = mock.getWindow();
-}
-
 export const craftCountDisplay = document.getElementById('craftCount');
 export const selectButtons = document.querySelectorAll('label.btn-secondary');
 
@@ -50,7 +40,7 @@ export function uiChangeOnClick(inputElement) {
   inputElement.setAttribute('checked', 'checked');
 }
 
-function loadingWheelOnClick(displayDiv) {
+export function loadingWheelOnClick(displayDiv) {
   const carrierName = displayDiv.innerText;
   const loadingWheel =
     '<div class="loadingWheel"><img src = "images/spinningLoadingWheel.gif"></div>';

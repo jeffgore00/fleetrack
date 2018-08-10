@@ -4,7 +4,7 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "test": "NODE_ENV=testing mocha test --watch  --compilers js:babel-register",
+    "test": "NODE_ENV=testing mocha test --watch  --compilers js:babel-register -r jsdom-global/register",
     "start": "node main.js",
     "start-dev": "webpack -w & nodemon main.js",
     "deploy": "script/deploy"
@@ -40,6 +40,8 @@
     "babel-preset-stage-2": "^6.24.1",
     "babel-register": "^6.26.0",
     "chai": "^4.1.2",
+    "jsdom": "11.12.0",
+    "jsdom-global": "3.0.2",
     "mocha": "^5.2.0",
     "redux-mock-store": "^1.5.3",
     "sinon": "^6.1.4",

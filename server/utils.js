@@ -1,6 +1,6 @@
-const { promisify } = require('util');
-const path = require('path');
-const readFile = promisify(require('fs').readFile);
+const { promisify } = require("util");
+const path = require("path");
+const readFile = promisify(require("fs").readFile);
 
 const airports = {};
 
@@ -35,12 +35,12 @@ function buildCoordinateObj(aircraft, fromPoint) {
     lat2: aircraft.airportTo ? aircraft.airportTo.lat : undefined,
     lon2: aircraft.airportTo ? aircraft.airportTo.long : undefined
   };
-  if (fromPoint === 'airport') {
+  if (fromPoint === "airport") {
     return Object.assign({}, coordinates, {
       lat1: aircraft.airportFrom ? aircraft.airportFrom.lat : undefined,
       lon1: aircraft.airportFrom ? aircraft.airportFrom.long : undefined
     });
-  } else if (fromPoint === 'aircraft') {
+  } else if (fromPoint === "aircraft") {
     return Object.assign({}, coordinates, {
       lat1: aircraft.lat,
       lon1: aircraft.long
@@ -61,78 +61,74 @@ function getJourneyPercentageComplete(portToPort, planeToPort) {
   );
 }
 
-const utils = {
-  async getAirports() {
-    try {
-      const data = await readFile(
-        path.join(__dirname, '../sources/airports.json'),
-        'utf-8'
-      );
-      JSON.parse(data).forEach(airport => {
-        airports[airport.icao] = {
-          code: airport.code,
-          lat: Number(airport.lat),
-          long: Number(airport.lon),
-          name: airport.name,
-          city: airport.city,
-          state: airport.state,
-          country: airport.country
-        };
-      });
-    } catch (err) {
-      console.log(err);
-    }
-  },
-
-  createFleetFromAircraftList(aircraftList) {
-    const fleet = {};
-    for (let i = 0; i < aircraftList.length; i++) {
-      fleet[aircraftList[i].Call] = {
-        callsign: aircraftList[i].Call,
-        altitude: aircraftList[i].Alt,
-        altitudeTarget: aircraftList[i].tAlt,
-        grounded: aircraftList[i].Gnd,
-        speed: aircraftList[i].Spd,
-        lat: aircraftList[i].Lat,
-        long: aircraftList[i].Long,
-        heading: aircraftList[i].Trak,
-        aircraftType: aircraftList[i].Type,
-        airportFrom: aircraftList[i].From
-          ? getAirportDetails(aircraftList[i].From.slice(0, 4), airports)
-          : undefined,
-        airportTo: aircraftList[i].To
-          ? getAirportDetails(aircraftList[i].To.slice(0, 4), airports)
-          : undefined,
-        airportStops: aircraftList[i].Stops
-          ? aircraftList[i].Stops.map(stop =>
-              getAirportDetails(stop.slice(0, 4), airports))
-          : undefined,
-        ageInYears: aircraftList[i].Year
-          ? new Date().getFullYear() - aircraftList[i].Year
-          : undefined
+async function getAirports() {
+  try {
+    const data = await readFile(
+      path.join(__dirname, "../sources/airports.json"),
+      "utf-8"
+    );
+    JSON.parse(data).forEach(airport => {
+      airports[airport.icao] = {
+        code: airport.code,
+        lat: Number(airport.lat),
+        long: Number(airport.lon),
+        name: airport.name,
+        city: airport.city,
+        state: airport.state,
+        country: airport.country
       };
-    }
-    for (const plane in fleet) {
-      const airportToAirportCoords = buildCoordinateObj(
-        fleet[plane],
-        'airport'
-      );
-      const aircraftToAirportCoords = buildCoordinateObj(
-        fleet[plane],
-        'aircraft'
-      );
-      if (
-        allCoordinatesTruthy(airportToAirportCoords) &&
-        allCoordinatesTruthy(aircraftToAirportCoords)
-      ) {
-        fleet[plane].flightPercentComplete = getJourneyPercentageComplete(
-          airportToAirportCoords,
-          aircraftToAirportCoords
-        );
-      }
-    }
-    return fleet;
+    });
+  } catch (err) {
+    console.log(err);
   }
-};
+}
 
-module.exports = { utils, readFile };
+function createFleetFromAircraftList(aircraftList) {
+  const fleet = {};
+  for (let i = 0; i < aircraftList.length; i++) {
+    fleet[aircraftList[i].Call] = {
+      callsign: aircraftList[i].Call,
+      altitude: aircraftList[i].Alt,
+      altitudeTarget: aircraftList[i].tAlt,
+      grounded: aircraftList[i].Gnd,
+      speed: aircraftList[i].Spd,
+      lat: aircraftList[i].Lat,
+      long: aircraftList[i].Long,
+      heading: aircraftList[i].Trak,
+      aircraftType: aircraftList[i].Type,
+      airportFrom: aircraftList[i].From
+        ? getAirportDetails(aircraftList[i].From.slice(0, 4), airports)
+        : undefined,
+      airportTo: aircraftList[i].To
+        ? getAirportDetails(aircraftList[i].To.slice(0, 4), airports)
+        : undefined,
+      airportStops: aircraftList[i].Stops
+        ? aircraftList[i].Stops.map(stop =>
+            getAirportDetails(stop.slice(0, 4), airports)
+          )
+        : undefined,
+      ageInYears: aircraftList[i].Year
+        ? new Date().getFullYear() - aircraftList[i].Year
+        : undefined
+    };
+  }
+  for (const plane in fleet) {
+    const airportToAirportCoords = buildCoordinateObj(fleet[plane], "airport");
+    const aircraftToAirportCoords = buildCoordinateObj(
+      fleet[plane],
+      "aircraft"
+    );
+    if (
+      allCoordinatesTruthy(airportToAirportCoords) &&
+      allCoordinatesTruthy(aircraftToAirportCoords)
+    ) {
+      fleet[plane].flightPercentComplete = getJourneyPercentageComplete(
+        airportToAirportCoords,
+        aircraftToAirportCoords
+      );
+    }
+  }
+  return fleet;
+}
+
+module.exports = { getAirports, readFile, createFleetFromAircraftList };

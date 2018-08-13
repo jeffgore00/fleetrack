@@ -2,13 +2,16 @@ import axios from 'axios';
 import MockAdapter from 'axios-mock-adapter';
 import configureMockStore from 'redux-mock-store';
 import thunkMiddleware from 'redux-thunk';
+import { expect } from 'chai';
+import sinon from 'sinon';
 import {
   reducer,
   acInitialFleetLoaded,
   fetchInitialFleet
 } from '../client/store';
 import { readFile } from '../server/utils';
-import { expect } from 'chai';
+// Below trick: https://stackoverflow.com/a/33676328/6188150
+import * as buildVisualization from '../client/viz/buildViz';
 
 const path = require('path');
 const middlewares = [thunkMiddleware];
@@ -28,13 +31,25 @@ async function getDummyFleet(code) {
   return fleetJSON;
 }
 
-describe('action creators', async () => {
-  let initialFleetJSON;
-  let initialFleet;
+let initialFleetJSON;
+let initialFleet;
+let clock;
+let buildVizStub;
 
+describe('action creators', () => {
   before(async () => {
     initialFleetJSON = await getDummyFleet('DAL');
     initialFleet = JSON.parse(initialFleetJSON);
+    // stub setInterval and clearInterval b/c they are used in the thunk
+    clock = sinon.useFakeTimers();
+    // also stub out buildVisualization when required by the store, because
+    // we are not testing the visualization.
+    buildVizStub = sinon.stub(buildVisualization, 'default');
+  });
+
+  after(() => {
+    clock.restore();
+    buildVizStub.restore();
   });
 
   let mock;

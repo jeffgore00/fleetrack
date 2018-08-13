@@ -29,7 +29,7 @@ export function updateCraftCount(fleet) {
   craftCountDisplay.innerHTML = `${fleet.length ? fleet.length : 0}  aircraft`;
 }
 
-export function uiChangeOnClick(inputElement) {
+function uiChangeOnClick(inputElement) {
   document
     .querySelector('.btn.btn-secondary.active')
     .setAttribute('checked', '');
@@ -40,7 +40,7 @@ export function uiChangeOnClick(inputElement) {
   inputElement.setAttribute('checked', 'checked');
 }
 
-export function loadingWheelOnClick(displayDiv) {
+function loadingWheelOnClick(displayDiv) {
   const carrierName = displayDiv.innerText;
   const loadingWheel =
     '<div class="loadingWheel"><img src = "images/spinningLoadingWheel.gif"></div>';

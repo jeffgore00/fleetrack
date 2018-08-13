@@ -1,0 +1,1473 @@
+[
+  {
+    "callsign": "FDX3018",
+    "altitude": 5300,
+    "grounded": false,
+    "speed": 271.7,
+    "lat": 26.26767,
+    "long": -80.109973,
+    "heading": 324.4,
+    "aircraftType": "DC10",
+    "airportFrom": {
+      "code": "FLL",
+      "lat": 26.0722,
+      "long": -80.1354,
+      "name": "Fort Lauderdale Hollywood International Airport",
+      "city": "Dania Beach",
+      "state": "Florida",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "EWR",
+      "lat": 40.6924,
+      "long": -74.1843,
+      "name": "Newark International Airport",
+      "city": "Newark",
+      "state": "New Jersey",
+      "country": "United States"
+    },
+    "ageInYears": 44,
+    "flightPercentComplete": 1.2535597497486006
+  },
+  {
+    "callsign": "FDX694",
+    "altitude": 10025,
+    "grounded": false,
+    "speed": 276,
+    "lat": 39.219086,
+    "long": -76.978335,
+    "heading": 270.4,
+    "aircraftType": "B763",
+    "airportFrom": {
+      "code": "BWI",
+      "lat": 39.1841,
+      "long": -76.6745,
+      "name": "Baltimore-Washington International Thurgood Mars",
+      "city": "Baltimore",
+      "state": "Maryland",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "MEM",
+      "lat": 35.047,
+      "long": -89.9823,
+      "name": "Memphis International Airport",
+      "city": "Memphis",
+      "state": "Tennessee",
+      "country": "United States"
+    },
+    "ageInYears": 1,
+    "flightPercentComplete": 1.880908941411319
+  },
+  {
+    "callsign": "FDX461",
+    "altitude": 16900,
+    "grounded": false,
+    "speed": 424.2,
+    "lat": 40.845446,
+    "long": -95.51445,
+    "heading": 143,
+    "aircraftType": "B752",
+    "airportFrom": {
+      "code": "OMA",
+      "lat": 41.3,
+      "long": -95.8998,
+      "name": "Eppley Airfield",
+      "city": "Omaha",
+      "state": "Nebraska",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "MEM",
+      "lat": 35.047,
+      "long": -89.9823,
+      "name": "Memphis International Airport",
+      "city": "Memphis",
+      "state": "Tennessee",
+      "country": "United States"
+    },
+    "ageInYears": 25,
+    "flightPercentComplete": 6.887450026227116
+  },
+  {
+    "callsign": "FDX825",
+    "altitude": 33975,
+    "grounded": false,
+    "speed": 487,
+    "lat": 31.68924,
+    "long": -83.134193,
+    "heading": 302.8,
+    "aircraftType": "DC10",
+    "airportFrom": {
+      "code": "JAX",
+      "lat": 30.4914,
+      "long": -81.676,
+      "name": "Jacksonville International Airport",
+      "city": "Jacksonville",
+      "state": "Florida",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "MEM",
+      "lat": 35.047,
+      "long": -89.9823,
+      "name": "Memphis International Airport",
+      "city": "Memphis",
+      "state": "Tennessee",
+      "country": "United States"
+    },
+    "ageInYears": 38,
+    "flightPercentComplete": 20.450373994579497
+  },
+  {
+    "callsign": "FDX865",
+    "altitude": 34600,
+    "grounded": false,
+    "speed": 458,
+    "lat": 34.38089,
+    "long": -88.342466,
+    "heading": 295.9,
+    "aircraftType": "B763",
+    "airportFrom": {
+      "code": "ATL",
+      "lat": 33.6558,
+      "long": -84.4333,
+      "name": "Hartsfield-Jackson Atlanta International Airport",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "MEM",
+      "lat": 35.047,
+      "long": -89.9823,
+      "name": "Memphis International Airport",
+      "city": "Memphis",
+      "state": "Tennessee",
+      "country": "United States"
+    },
+    "ageInYears": 3,
+    "flightPercentComplete": 68.59140425166063
+  },
+  {
+    "callsign": "FDX861",
+    "altitude": 8950,
+    "grounded": false,
+    "speed": 298.8,
+    "lat": 34.663076,
+    "long": -90.458622,
+    "heading": 69,
+    "aircraftType": "MD11",
+    "airportFrom": {
+      "code": "MSY",
+      "lat": 29.983,
+      "long": -90.2569,
+      "name": "New Orleans International Airport",
+      "city": "Kenner",
+      "state": "Louisiana",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "MEM",
+      "lat": 35.047,
+      "long": -89.9823,
+      "name": "Memphis International Airport",
+      "city": "Memphis",
+      "state": "Tennessee",
+      "country": "United States"
+    },
+    "ageInYears": 21,
+    "flightPercentComplete": 89.19210906177027
+  },
+  {
+    "callsign": "FDX420",
+    "altitude": 30375,
+    "grounded": false,
+    "speed": 510,
+    "lat": 43.70311,
+    "long": -92.860022,
+    "heading": 163.5,
+    "aircraftType": "DC10",
+    "airportFrom": {
+      "code": "MSP",
+      "lat": 44.8793,
+      "long": -93.1987,
+      "name": "Minneapolis St Paul International Airport",
+      "city": "St. Paul",
+      "state": "Minnesota",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "MEM",
+      "lat": 35.047,
+      "long": -89.9823,
+      "name": "Memphis International Airport",
+      "city": "Memphis",
+      "state": "Tennessee",
+      "country": "United States"
+    },
+    "ageInYears": 43,
+    "flightPercentComplete": 11.826748468894444
+  },
+  {
+    "callsign": "FDX657",
+    "altitude": 28000,
+    "grounded": false,
+    "speed": 430.2,
+    "lat": 39.616187,
+    "long": -77.367249,
+    "heading": 238.5,
+    "aircraftType": "A306",
+    "airportFrom": {
+      "code": "BDL",
+      "lat": 41.9271,
+      "long": -72.6816,
+      "name": "Bradley International Airport",
+      "city": "Windsor Locks",
+      "state": "Connecticut",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "MEM",
+      "lat": 35.047,
+      "long": -89.9823,
+      "name": "Memphis International Airport",
+      "city": "Memphis",
+      "state": "Tennessee",
+      "country": "United States"
+    },
+    "ageInYears": 22,
+    "flightPercentComplete": 27.337076304380314
+  },
+  {
+    "callsign": "FDX816",
+    "altitude": 33975,
+    "grounded": false,
+    "speed": 468,
+    "lat": 34.904961,
+    "long": -86.556824,
+    "heading": 240.6,
+    "aircraftType": "DC10",
+    "airportFrom": {
+      "code": "CLT",
+      "lat": 35.2226,
+      "long": -80.946,
+      "name": "Douglas International Airport",
+      "city": "Charlotte",
+      "state": "North Carolina",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "MEM",
+      "lat": 35.047,
+      "long": -89.9823,
+      "name": "Memphis International Airport",
+      "city": "Memphis",
+      "state": "Tennessee",
+      "country": "United States"
+    },
+    "ageInYears": 39,
+    "flightPercentComplete": 61.96915713583574
+  },
+  {
+    "callsign": "FDX808",
+    "altitude": 34000,
+    "grounded": false,
+    "speed": 461,
+    "lat": 35.326908,
+    "long": -86.30146,
+    "heading": 234,
+    "aircraftType": "A306",
+    "airportFrom": {
+      "code": "ORD",
+      "lat": 41.9796,
+      "long": -87.8825,
+      "name": "Chicago O'Hare International Airport",
+      "city": "Chicago",
+      "state": "Illinois",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "MEM",
+      "lat": 35.047,
+      "long": -89.9823,
+      "name": "Memphis International Airport",
+      "city": "Memphis",
+      "state": "Tennessee",
+      "country": "United States"
+    },
+    "ageInYears": 19,
+    "flightPercentComplete": 57.59269650809182
+  },
+  {
+    "callsign": "FDX830",
+    "altitude": 36025,
+    "grounded": false,
+    "speed": 477.3,
+    "lat": 31.950337,
+    "long": -85.415282,
+    "heading": 324.4,
+    "aircraftType": "DC10",
+    "airportFrom": {
+      "code": "MCO",
+      "lat": 28.4418,
+      "long": -81.3115,
+      "name": "Orlando International Airport",
+      "city": "Orlando",
+      "state": "Florida",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "MEM",
+      "lat": 35.047,
+      "long": -89.9823,
+      "name": "Memphis International Airport",
+      "city": "Memphis",
+      "state": "Tennessee",
+      "country": "United States"
+    },
+    "ageInYears": 30,
+    "flightPercentComplete": 50.387267262673575
+  },
+  {
+    "callsign": "FDX632",
+    "altitude": 8075,
+    "grounded": false,
+    "speed": 279.1,
+    "lat": 35.305822,
+    "long": -90.480009,
+    "heading": 128.3,
+    "aircraftType": "DC10",
+    "airportFrom": {
+      "code": "MCI",
+      "lat": 39.2992,
+      "long": -94.7171,
+      "name": "Kansas City International Airport",
+      "city": "Kansas City",
+      "state": "Missouri",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "MEM",
+      "lat": 35.047,
+      "long": -89.9823,
+      "name": "Memphis International Airport",
+      "city": "Memphis",
+      "state": "Tennessee",
+      "country": "United States"
+    },
+    "ageInYears": 47,
+    "flightPercentComplete": 91.51523910886301
+  },
+  {
+    "callsign": "FDX409",
+    "altitude": 35975,
+    "grounded": false,
+    "speed": 440.4,
+    "lat": 36.54895,
+    "long": -83.196487,
+    "heading": 262.8,
+    "aircraftType": "A306",
+    "airportFrom": {
+      "code": "ORF",
+      "lat": 36.8977,
+      "long": -76.2154,
+      "name": "Norfolk International Airport",
+      "city": "Norfolk",
+      "state": "Virginia",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "MEM",
+      "lat": 35.047,
+      "long": -89.9823,
+      "name": "Memphis International Airport",
+      "city": "Memphis",
+      "state": "Tennessee",
+      "country": "United States"
+    },
+    "ageInYears": 26,
+    "flightPercentComplete": 49.45272657118297
+  },
+  {
+    "callsign": "FDX3806",
+    "altitude": 38050,
+    "grounded": false,
+    "speed": 414.2,
+    "lat": 41.348373,
+    "long": -82.426208,
+    "heading": 274.6,
+    "aircraftType": "MD11",
+    "airportFrom": {
+      "code": "EWR",
+      "lat": 40.6924,
+      "long": -74.1843,
+      "name": "Newark International Airport",
+      "city": "Newark",
+      "state": "New Jersey",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "OAK",
+      "lat": 37.7158,
+      "long": -122.209,
+      "name": "Oakland International Airport",
+      "city": "Oakland",
+      "state": "California",
+      "country": "United States"
+    },
+    "ageInYears": 25,
+    "flightPercentComplete": 16.93056573181373
+  },
+  {
+    "callsign": "FDX3807",
+    "altitude": 36025,
+    "grounded": false,
+    "speed": 447.2,
+    "lat": 41.905701,
+    "long": -98.933196,
+    "heading": 260.5,
+    "aircraftType": "B763",
+    "airportFrom": {
+      "code": "ORD",
+      "lat": 41.9796,
+      "long": -87.8825,
+      "name": "Chicago O'Hare International Airport",
+      "city": "Chicago",
+      "state": "Illinois",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "OAK",
+      "lat": 37.7158,
+      "long": -122.209,
+      "name": "Oakland International Airport",
+      "city": "Oakland",
+      "state": "California",
+      "country": "United States"
+    },
+    "flightPercentComplete": 30.97398472511802
+  },
+  {
+    "callsign": "FDX3631",
+    "altitude": 34000,
+    "grounded": false,
+    "speed": 461.7,
+    "lat": 36.319656,
+    "long": -85.10519,
+    "heading": 348.3,
+    "aircraftType": "A306",
+    "airportFrom": {
+      "code": "TPA",
+      "lat": 27.9744,
+      "long": -82.5356,
+      "name": "Tampa International Airport",
+      "city": "Tampa",
+      "state": "Florida",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "IND",
+      "lat": 39.7322,
+      "long": -86.2707,
+      "name": "Indianapolis International Airport",
+      "city": "Indianapolis",
+      "state": "Indiana",
+      "country": "United States"
+    },
+    "ageInYears": 23,
+    "flightPercentComplete": 70.93149930254962
+  },
+  {
+    "callsign": "FDX869",
+    "altitude": 36025,
+    "grounded": false,
+    "speed": 424.3,
+    "lat": 37.936815,
+    "long": -83.211464,
+    "heading": 249.7,
+    "aircraftType": "B763",
+    "airportFrom": {
+      "code": "JFK",
+      "lat": 40.6437,
+      "long": -73.79,
+      "name": "John F Kennedy International Airport",
+      "city": "Jamaica",
+      "state": "New York",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "MEM",
+      "lat": 35.047,
+      "long": -89.9823,
+      "name": "Memphis International Airport",
+      "city": "Memphis",
+      "state": "Tennessee",
+      "country": "United States"
+    },
+    "ageInYears": 3,
+    "flightPercentComplete": 55.77469280908114
+  },
+  {
+    "callsign": "FDX653",
+    "altitude": 25700,
+    "grounded": false,
+    "speed": 449,
+    "lat": 36.19976,
+    "long": -88.74218,
+    "heading": 214.4,
+    "aircraftType": "MD11",
+    "airportFrom": {
+      "code": "DTW",
+      "lat": 42.2327,
+      "long": -83.3412,
+      "name": "Detroit Metropolitan Wayne County Airport",
+      "city": "Detroit",
+      "state": "Michigan",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "MEM",
+      "lat": 35.047,
+      "long": -89.9823,
+      "name": "Memphis International Airport",
+      "city": "Memphis",
+      "state": "Tennessee",
+      "country": "United States"
+    },
+    "ageInYears": 25,
+    "flightPercentComplete": 82.70861143041925
+  },
+  {
+    "callsign": "FDX0468",
+    "altitude": 26325,
+    "grounded": false,
+    "speed": 481,
+    "lat": 35.85548,
+    "long": -88.70533,
+    "heading": 248.3,
+    "aircraftType": "A306",
+    "airportFrom": {
+      "code": "PIT",
+      "lat": 40.4914,
+      "long": -80.2328,
+      "name": "Pittsburgh International Airport",
+      "city": "Coraopolis",
+      "state": "Pennsylvania",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "MEM",
+      "lat": 35.047,
+      "long": -89.9823,
+      "name": "Memphis International Airport",
+      "city": "Memphis",
+      "state": "Tennessee",
+      "country": "United States"
+    },
+    "ageInYears": 24,
+    "flightPercentComplete": 86.02392148244795
+  },
+  {
+    "callsign": "FDX802",
+    "altitude": 1425,
+    "grounded": false,
+    "speed": 150,
+    "lat": 34.054964,
+    "long": -117.550278,
+    "heading": 269.6,
+    "aircraftType": "MD11",
+    "airportFrom": {
+      "code": "HNL",
+      "lat": 21.3358,
+      "long": -157.919,
+      "name": "Honolulu International Airport",
+      "city": "Honolulu",
+      "state": "Hawaii",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "LAX",
+      "lat": 33.9456,
+      "long": -118.391,
+      "name": "Los Angeles International Airport",
+      "city": "Los Angeles",
+      "state": "California",
+      "country": "United States"
+    },
+    "ageInYears": 19,
+    "flightPercentComplete": 98.0905763040718
+  },
+  {
+    "callsign": "FDX53",
+    "altitude": 34025,
+    "grounded": false,
+    "speed": 467.4,
+    "lat": 23.702212,
+    "long": -98.961061,
+    "heading": 198.2,
+    "aircraftType": "B763",
+    "airportFrom": {
+      "code": "MEM",
+      "lat": 35.047,
+      "long": -89.9823,
+      "name": "Memphis International Airport",
+      "city": "Memphis",
+      "state": "Tennessee",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "TLC",
+      "lat": 19.3356,
+      "long": -99.565,
+      "name": "Jose Maria Morelos Y Pavon Airport",
+      "city": "Toluca de Lerdo",
+      "state": "Mexico",
+      "country": "Mexico"
+    },
+    "ageInYears": 3,
+    "flightPercentComplete": 75.3366021866984
+  },
+  {
+    "callsign": "FDX167",
+    "altitude": 35000,
+    "grounded": false,
+    "speed": 510,
+    "lat": 44.343986,
+    "long": -104.089095,
+    "heading": 115.1,
+    "aircraftType": "B77L",
+    "airportFrom": {
+      "code": "KIX",
+      "lat": 34.4295,
+      "long": 135.244,
+      "name": "Kansai International Airport",
+      "city": "Tajiri-cho",
+      "state": "Osaka Prefecture",
+      "country": "Japan"
+    },
+    "airportTo": {
+      "code": "MEM",
+      "lat": 35.047,
+      "long": -89.9823,
+      "name": "Memphis International Airport",
+      "city": "Memphis",
+      "state": "Tennessee",
+      "country": "United States"
+    },
+    "ageInYears": 7,
+    "flightPercentComplete": 85.55397940233341
+  },
+  {
+    "callsign": "FDX38",
+    "altitude": 37000,
+    "grounded": false,
+    "speed": 557.6,
+    "lat": 45.695723,
+    "long": -69.929352,
+    "heading": 58.4,
+    "aircraftType": "B77L",
+    "airportFrom": {
+      "code": "MEM",
+      "lat": 35.047,
+      "long": -89.9823,
+      "name": "Memphis International Airport",
+      "city": "Memphis",
+      "state": "Tennessee",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "CDG",
+      "lat": 49.0175,
+      "long": 2.5564,
+      "name": "Charles de Gaulle International Airport",
+      "city": "Le Mesnil-Amelot",
+      "state": "Ile-de-France",
+      "country": "France"
+    },
+    "ageInYears": 8,
+    "flightPercentComplete": 28.12198661254337
+  },
+  {
+    "callsign": "FDX36",
+    "altitude": 35000,
+    "grounded": false,
+    "speed": 564,
+    "lat": 48.489899,
+    "long": -61.674149,
+    "heading": 68.8,
+    "aircraftType": "MD11",
+    "airportFrom": {
+      "code": "IND",
+      "lat": 39.7322,
+      "long": -86.2707,
+      "name": "Indianapolis International Airport",
+      "city": "Indianapolis",
+      "state": "Indiana",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "CDG",
+      "lat": 49.0175,
+      "long": 2.5564,
+      "name": "Charles de Gaulle International Airport",
+      "city": "Le Mesnil-Amelot",
+      "state": "Ile-de-France",
+      "country": "France"
+    },
+    "airportStops": [
+      {
+        "code": "STN",
+        "lat": 51.8894,
+        "long": 0.26151,
+        "name": "London Stansted International Airport",
+        "city": "Stansted Mountfitchet",
+        "state": "England",
+        "country": "United Kingdom"
+      }
+    ],
+    "ageInYears": 26,
+    "flightPercentComplete": 32.13572648630711
+  },
+  {
+    "callsign": "FDX1407",
+    "altitude": 1000,
+    "grounded": false,
+    "speed": 152.1,
+    "lat": 44.86734,
+    "long": -93.186951,
+    "heading": 301.3,
+    "aircraftType": "DC10",
+    "airportFrom": {
+      "code": "MEM",
+      "lat": 35.047,
+      "long": -89.9823,
+      "name": "Memphis International Airport",
+      "city": "Memphis",
+      "state": "Tennessee",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "MSP",
+      "lat": 44.8793,
+      "long": -93.1987,
+      "name": "Minneapolis St Paul International Airport",
+      "city": "St. Paul",
+      "state": "Minnesota",
+      "country": "United States"
+    },
+    "ageInYears": 30,
+    "flightPercentComplete": 99.85620353166276
+  },
+  {
+    "callsign": "FDX637",
+    "altitude": 34975,
+    "grounded": false,
+    "speed": 519,
+    "lat": 47.220932,
+    "long": -119.540451,
+    "heading": 93.5,
+    "aircraftType": "MD11",
+    "airportFrom": {
+      "code": "SEA",
+      "lat": 47.4405,
+      "long": -122.296,
+      "name": "Tacoma International Airport",
+      "city": "Seattle",
+      "state": "Washington",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "MEM",
+      "lat": 35.047,
+      "long": -89.9823,
+      "name": "Memphis International Airport",
+      "city": "Memphis",
+      "state": "Tennessee",
+      "country": "United States"
+    },
+    "ageInYears": 27,
+    "flightPercentComplete": 6.853907945990601
+  },
+  {
+    "callsign": "FDX2",
+    "altitude": 37000,
+    "grounded": false,
+    "speed": 546,
+    "lat": 50.290058,
+    "long": -53.280872,
+    "heading": 75.1,
+    "aircraftType": "B77L",
+    "airportFrom": {
+      "code": "MEM",
+      "lat": 35.047,
+      "long": -89.9823,
+      "name": "Memphis International Airport",
+      "city": "Memphis",
+      "state": "Tennessee",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "STN",
+      "lat": 51.8894,
+      "long": 0.26151,
+      "name": "London Stansted International Airport",
+      "city": "Stansted Mountfitchet",
+      "state": "England",
+      "country": "United Kingdom"
+    },
+    "ageInYears": 8,
+    "flightPercentComplete": 48.004129509527196
+  },
+  {
+    "callsign": "FDX5230",
+    "altitude": 30000,
+    "grounded": false,
+    "speed": 456,
+    "lat": 55.51804,
+    "long": -115.924072,
+    "heading": 309,
+    "aircraftType": "B77L",
+    "airportFrom": {
+      "code": "MEM",
+      "lat": 35.047,
+      "long": -89.9823,
+      "name": "Memphis International Airport",
+      "city": "Memphis",
+      "state": "Tennessee",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "ICN",
+      "lat": 37.4534,
+      "long": 126.657,
+      "name": "New Incheon International Airport",
+      "city": "Incheon",
+      "state": "Incheon",
+      "country": "South Korea"
+    },
+    "airportStops": [
+      {
+        "code": "ANC",
+        "lat": 61.1767,
+        "long": -149.961,
+        "name": "Anchorage International Airport",
+        "city": "Anchorage",
+        "state": "Alaska",
+        "country": "United States"
+      }
+    ],
+    "ageInYears": 7,
+    "flightPercentComplete": 27.058296415601333
+  },
+  {
+    "callsign": "FDX402",
+    "altitude": 33000,
+    "grounded": false,
+    "speed": 468.3,
+    "lat": 40.505264,
+    "long": -110.121643,
+    "heading": 103.7,
+    "aircraftType": "A306",
+    "airportFrom": {
+      "code": "HNL",
+      "lat": 21.3358,
+      "long": -157.919,
+      "name": "Honolulu International Airport",
+      "city": "Honolulu",
+      "state": "Hawaii",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "MEM",
+      "lat": 35.047,
+      "long": -89.9823,
+      "name": "Memphis International Airport",
+      "city": "Memphis",
+      "state": "Tennessee",
+      "country": "United States"
+    },
+    "ageInYears": 20,
+    "flightPercentComplete": 72.17027798415589
+  },
+  {
+    "callsign": "FDX29",
+    "altitude": 31975,
+    "grounded": false,
+    "speed": 441,
+    "lat": 56.509918,
+    "long": -123.510803,
+    "heading": 296,
+    "aircraftType": "MD11",
+    "airportFrom": {
+      "code": "MEM",
+      "lat": 35.047,
+      "long": -89.9823,
+      "name": "Memphis International Airport",
+      "city": "Memphis",
+      "state": "Tennessee",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "HKG",
+      "lat": 22.3124,
+      "long": 113.929,
+      "name": "Hong Kong International Airport",
+      "city": "Hong Kong",
+      "state": "Hong Kong Island",
+      "country": "Hong Kong"
+    },
+    "airportStops": [
+      {
+        "code": "ANC",
+        "lat": 61.1767,
+        "long": -149.961,
+        "name": "Anchorage International Airport",
+        "city": "Anchorage",
+        "state": "Alaska",
+        "country": "United States"
+      }
+    ],
+    "ageInYears": 26,
+    "flightPercentComplete": 25.963119192706664
+  },
+  {
+    "callsign": "FDX142",
+    "altitude": 10675,
+    "grounded": false,
+    "speed": 343.1,
+    "lat": 48.784464,
+    "long": -122.635827,
+    "heading": 311,
+    "aircraftType": "B763",
+    "airportFrom": {
+      "code": "MEM",
+      "lat": 35.047,
+      "long": -89.9823,
+      "name": "Memphis International Airport",
+      "city": "Memphis",
+      "state": "Tennessee",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "YVR",
+      "lat": 49.1931,
+      "long": -123.172,
+      "name": "Vancouver International Airport",
+      "city": "Richmond",
+      "state": "British Columbia",
+      "country": "Canada"
+    },
+    "ageInYears": 2,
+    "flightPercentComplete": 98.07879669581692
+  },
+  {
+    "callsign": "FDX1413",
+    "altitude": 34025,
+    "grounded": false,
+    "speed": 479.4,
+    "lat": 36.84407,
+    "long": -125.53236,
+    "heading": 251.6,
+    "aircraftType": "MD11",
+    "airportFrom": {
+      "code": "MEM",
+      "lat": 35.047,
+      "long": -89.9823,
+      "name": "Memphis International Airport",
+      "city": "Memphis",
+      "state": "Tennessee",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "HNL",
+      "lat": 21.3358,
+      "long": -157.919,
+      "name": "Honolulu International Airport",
+      "city": "Honolulu",
+      "state": "Hawaii",
+      "country": "United States"
+    },
+    "ageInYears": 22,
+    "flightPercentComplete": 46.864286873078534
+  },
+  {
+    "callsign": "FDX4",
+    "altitude": 35000,
+    "grounded": false,
+    "speed": 542,
+    "lat": 51.98037,
+    "long": -50.081882,
+    "heading": 68.7,
+    "aircraftType": "B77L",
+    "airportFrom": {
+      "code": "MEM",
+      "lat": 35.047,
+      "long": -89.9823,
+      "name": "Memphis International Airport",
+      "city": "Memphis",
+      "state": "Tennessee",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "CGN",
+      "lat": 50.8784,
+      "long": 7.12293,
+      "name": "Cologne Bonn Airport",
+      "city": "Cologne",
+      "state": "North Rhine-Westphalia",
+      "country": "Germany"
+    },
+    "ageInYears": 6,
+    "flightPercentComplete": 48.57408005646353
+  },
+  {
+    "callsign": "FDX78",
+    "altitude": 34975,
+    "grounded": false,
+    "speed": 540,
+    "lat": 50.963974,
+    "long": -50.157711,
+    "heading": 79,
+    "aircraftType": "MD11",
+    "airportFrom": {
+      "code": "MEM",
+      "lat": 35.047,
+      "long": -89.9823,
+      "name": "Memphis International Airport",
+      "city": "Memphis",
+      "state": "Tennessee",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "CDG",
+      "lat": 49.0175,
+      "long": 2.5564,
+      "name": "Charles de Gaulle International Airport",
+      "city": "Le Mesnil-Amelot",
+      "state": "Ile-de-France",
+      "country": "France"
+    },
+    "ageInYears": 25,
+    "flightPercentComplete": 49.527071885622654
+  },
+  {
+    "callsign": "FDX621",
+    "altitude": 37025,
+    "grounded": false,
+    "speed": 498.8,
+    "lat": 34.634674,
+    "long": -95.134539,
+    "heading": 43,
+    "aircraftType": "MD11",
+    "airportFrom": {
+      "code": "AUS",
+      "lat": 30.2027,
+      "long": -97.6653,
+      "name": "Austin-Bergstrom International Airport",
+      "city": "Austin",
+      "state": "Texas",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "MEM",
+      "lat": 35.047,
+      "long": -89.9823,
+      "name": "Memphis International Airport",
+      "city": "Memphis",
+      "state": "Tennessee",
+      "country": "United States"
+    },
+    "ageInYears": 22,
+    "flightPercentComplete": 47.413940893782005
+  },
+  {
+    "callsign": "FDX851",
+    "altitude": 36025,
+    "grounded": false,
+    "speed": 416.7,
+    "lat": 38.020523,
+    "long": -82.925564,
+    "heading": 249.8,
+    "aircraftType": "B763",
+    "airportFrom": {
+      "code": "PHL",
+      "lat": 39.8768,
+      "long": -75.2419,
+      "name": "Philadelphia International Airport",
+      "city": "Philadelphia",
+      "state": "Pennsylvania",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "MEM",
+      "lat": 35.047,
+      "long": -89.9823,
+      "name": "Memphis International Airport",
+      "city": "Memphis",
+      "state": "Tennessee",
+      "country": "United States"
+    },
+    "ageInYears": 3,
+    "flightPercentComplete": 49.36000917605477
+  },
+  {
+    "callsign": "FDX427",
+    "altitude": 15700,
+    "grounded": false,
+    "speed": 357,
+    "lat": 35.279751,
+    "long": -88.762154,
+    "heading": 226.7,
+    "aircraftType": "A306",
+    "airportFrom": {
+      "code": "ABQ",
+      "lat": 35.0494,
+      "long": -106.625,
+      "name": "Albuquerque International Airport",
+      "city": "Albuquerque",
+      "state": "New Mexico",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "MEM",
+      "lat": 35.047,
+      "long": -89.9823,
+      "name": "Memphis International Airport",
+      "city": "Memphis",
+      "state": "Tennessee",
+      "country": "United States"
+    },
+    "ageInYears": 22,
+    "flightPercentComplete": 92.47355694572657
+  },
+  {
+    "callsign": "FDX684",
+    "altitude": 36025,
+    "grounded": false,
+    "speed": 444.1,
+    "lat": 38.145447,
+    "long": -86.784921,
+    "heading": 206.9,
+    "aircraftType": "B763",
+    "airportFrom": {
+      "code": "ROC",
+      "lat": 43.1309,
+      "long": -77.6697,
+      "name": "Greater Rochester International Airport",
+      "city": "Rochester",
+      "state": "New York",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "MEM",
+      "lat": 35.047,
+      "long": -89.9823,
+      "name": "Memphis International Airport",
+      "city": "Memphis",
+      "state": "Tennessee",
+      "country": "United States"
+    },
+    "ageInYears": 3,
+    "flightPercentComplete": 67.79853064301523
+  },
+  {
+    "callsign": "FDX1747",
+    "altitude": 175,
+    "grounded": false,
+    "speed": 135.5,
+    "lat": 40.72641,
+    "long": -74.14325,
+    "heading": 205.8,
+    "aircraftType": "A306",
+    "airportFrom": {
+      "code": "IND",
+      "lat": 39.7322,
+      "long": -86.2707,
+      "name": "Indianapolis International Airport",
+      "city": "Indianapolis",
+      "state": "Indiana",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "EWR",
+      "lat": 40.6924,
+      "long": -74.1843,
+      "name": "Newark International Airport",
+      "city": "Newark",
+      "state": "New Jersey",
+      "country": "United States"
+    },
+    "airportStops": [
+      {
+        "code": "BDL",
+        "lat": 41.9271,
+        "long": -72.6816,
+        "name": "Bradley International Airport",
+        "city": "Windsor Locks",
+        "state": "Connecticut",
+        "country": "United States"
+      }
+    ],
+    "ageInYears": 19,
+    "flightPercentComplete": 99.502847056597
+  },
+  {
+    "callsign": "FDX1705",
+    "altitude": -25,
+    "grounded": false,
+    "speed": 0,
+    "lat": 37.716602,
+    "long": -122.221396,
+    "heading": 0,
+    "aircraftType": "B763",
+    "airportFrom": {
+      "code": "IND",
+      "lat": 39.7322,
+      "long": -86.2707,
+      "name": "Indianapolis International Airport",
+      "city": "Indianapolis",
+      "state": "Indiana",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "OAK",
+      "lat": 37.7158,
+      "long": -122.209,
+      "name": "Oakland International Airport",
+      "city": "Oakland",
+      "state": "California",
+      "country": "United States"
+    },
+    "flightPercentComplete": 99.9647648055378
+  },
+  {
+    "callsign": "FDX832",
+    "altitude": 32000,
+    "grounded": false,
+    "speed": 471,
+    "lat": 29.767178,
+    "long": -83.523933,
+    "heading": 324.5,
+    "aircraftType": "A306",
+    "airportFrom": {
+      "code": "FLL",
+      "lat": 26.0722,
+      "long": -80.1354,
+      "name": "Fort Lauderdale Hollywood International Airport",
+      "city": "Dania Beach",
+      "state": "Florida",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "MEM",
+      "lat": 35.047,
+      "long": -89.9823,
+      "name": "Memphis International Airport",
+      "city": "Memphis",
+      "state": "Tennessee",
+      "country": "United States"
+    },
+    "ageInYears": 27,
+    "flightPercentComplete": 38.48681768788408
+  },
+  {
+    "callsign": "FDX872",
+    "altitude": 36025,
+    "grounded": false,
+    "speed": 399,
+    "lat": 40.344311,
+    "long": -75.813217,
+    "heading": 238.8,
+    "aircraftType": "B763",
+    "airportFrom": {
+      "code": "MHT",
+      "lat": 42.9293,
+      "long": -71.4386,
+      "name": "Manchester-Boston Regional Airport",
+      "city": "Manchester",
+      "state": "New Hampshire",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "MEM",
+      "lat": 35.047,
+      "long": -89.9823,
+      "name": "Memphis International Airport",
+      "city": "Memphis",
+      "state": "Tennessee",
+      "country": "United States"
+    },
+    "flightPercentComplete": 24.402043496476566
+  },
+  {
+    "callsign": "FDX822",
+    "altitude": 34000,
+    "grounded": false,
+    "speed": 412.9,
+    "lat": 41.693907,
+    "long": -73.287304,
+    "heading": 212,
+    "aircraftType": "B763",
+    "airportFrom": {
+      "code": "BOS",
+      "lat": 42.3717,
+      "long": -71.0281,
+      "name": "Gen E L Logan International Airport",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "MEM",
+      "lat": 35.047,
+      "long": -89.9823,
+      "name": "Memphis International Airport",
+      "city": "Memphis",
+      "state": "Tennessee",
+      "country": "United States"
+    },
+    "ageInYears": 3,
+    "flightPercentComplete": 10.99589716671896
+  },
+  {
+    "callsign": "FDX3671",
+    "altitude": 37025,
+    "grounded": false,
+    "speed": 473,
+    "lat": 38.429398,
+    "long": -118.993759,
+    "heading": 82.8,
+    "aircraftType": "B763",
+    "airportFrom": {
+      "code": "OAK",
+      "lat": 37.7158,
+      "long": -122.209,
+      "name": "Oakland International Airport",
+      "city": "Oakland",
+      "state": "California",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "IND",
+      "lat": 39.7322,
+      "long": -86.2707,
+      "name": "Indianapolis International Airport",
+      "city": "Indianapolis",
+      "state": "Indiana",
+      "country": "United States"
+    },
+    "ageInYears": 0,
+    "flightPercentComplete": 9.414980741185985
+  },
+  {
+    "callsign": "FDX77",
+    "altitude": 33975,
+    "grounded": false,
+    "speed": 462.5,
+    "lat": 33.411938,
+    "long": -123.007022,
+    "heading": 256.6,
+    "aircraftType": "MD11",
+    "airportFrom": {
+      "code": "LAX",
+      "lat": 33.9456,
+      "long": -118.391,
+      "name": "Los Angeles International Airport",
+      "city": "Los Angeles",
+      "state": "California",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "CAN",
+      "lat": 23.3925,
+      "long": 113.299,
+      "name": "Baiyun Airport",
+      "city": "Guangzhou",
+      "state": "Guangdong",
+      "country": "China"
+    },
+    "airportStops": [
+      {
+        "code": "HNL",
+        "lat": 21.3358,
+        "long": -157.919,
+        "name": "Honolulu International Airport",
+        "city": "Honolulu",
+        "state": "Hawaii",
+        "country": "United States"
+      },
+      {
+        "code": "SYD",
+        "lat": -33.9344,
+        "long": 151.168,
+        "name": "Kingsford Smith Airport",
+        "city": "Sydney",
+        "state": "New South Wales",
+        "country": "Australia"
+      }
+    ],
+    "ageInYears": 26,
+    "flightPercentComplete": 2.472870275213712
+  },
+  {
+    "callsign": "FDX31",
+    "altitude": 32000,
+    "grounded": false,
+    "speed": 532,
+    "lat": 44.668781,
+    "long": -128.730957,
+    "heading": 315,
+    "aircraftType": "B77L",
+    "airportFrom": {
+      "code": "OAK",
+      "lat": 37.7158,
+      "long": -122.209,
+      "name": "Oakland International Airport",
+      "city": "Oakland",
+      "state": "California",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "NRT",
+      "lat": 35.7491,
+      "long": 140.389,
+      "name": "Narita International Airport",
+      "city": "Narita-shi",
+      "state": "Chiba Prefecture",
+      "country": "Japan"
+    },
+    "ageInYears": 0,
+    "flightPercentComplete": 10.46580335496129
+  },
+  {
+    "callsign": "FDX428",
+    "altitude": 15600,
+    "grounded": false,
+    "speed": 391.8,
+    "lat": 33.504593,
+    "long": -111.396094,
+    "heading": 80.2,
+    "aircraftType": "A306",
+    "airportFrom": {
+      "code": "PHX",
+      "lat": 33.4376,
+      "long": -112.03,
+      "name": "Sky Harbor International Airport",
+      "city": "Phoenix",
+      "state": "Arizona",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "MEM",
+      "lat": 35.047,
+      "long": -89.9823,
+      "name": "Memphis International Airport",
+      "city": "Memphis",
+      "state": "Tennessee",
+      "country": "United States"
+    },
+    "ageInYears": 26,
+    "flightPercentComplete": 2.9122689938616664
+  }
+]

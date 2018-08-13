@@ -4,7 +4,7 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "NODE_ENV=testing mocha test --watch  --compilers js:babel-register -r jsdom-global/register",
     "start": "node main.js",
     "start-dev": "webpack -w & nodemon main.js",
     "deploy": "script/deploy"
@@ -21,6 +21,7 @@
     "d3-transition": "^1.1.1",
     "d3-zoom": "^1.7.1",
     "express": "^4.16.3",
+    "mock-browser": "^0.92.14",
     "path": "^0.12.7",
     "redux": "^4.0.0",
     "redux-devtools-extension": "^2.13.2",
@@ -31,6 +32,18 @@
     "volleyball": "^1.5.0"
   },
   "devDependencies": {
+    "axios-mock-adapter": "^1.15.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "chai": "^4.1.2",
+    "jsdom": "11.12.0",
+    "jsdom-global": "3.0.2",
+    "mocha": "^5.2.0",
+    "redux-mock-store": "^1.5.3",
+    "sinon": "^6.1.4",
     "webpack": "^4.6.0",
     "webpack-cli": "^2.0.15"
   }

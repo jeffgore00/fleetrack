@@ -1,0 +1,4135 @@
+[
+  {
+    "callsign": "DLH1785",
+    "altitude": 13025,
+    "grounded": false,
+    "speed": 359.2,
+    "lat": 40.340561,
+    "long": 32.777649,
+    "heading": 288.8,
+    "aircraftType": "A320",
+    "airportFrom": {
+      "code": "ESB",
+      "lat": 40.1289,
+      "long": 32.9961,
+      "name": "Esenboga Airport",
+      "city": "Çubuk",
+      "state": "Ankara",
+      "country": "Turkey"
+    },
+    "airportTo": {
+      "code": "MUC",
+      "lat": 48.354,
+      "long": 11.7816,
+      "name": "Franz-Josef-Strauss Airport",
+      "city": "Oberding",
+      "state": "Bavaria",
+      "country": "Germany"
+    },
+    "ageInYears": 8,
+    "flightPercentComplete": 1.5031932710138585
+  },
+  {
+    "callsign": "DLH459",
+    "altitude": 38975,
+    "grounded": false,
+    "speed": 495,
+    "lat": 57.13747,
+    "long": -7.273481,
+    "heading": 121.6,
+    "aircraftType": "A346",
+    "airportFrom": {
+      "code": "SFO",
+      "lat": 37.6148,
+      "long": -122.392,
+      "name": "San Francisco International Airport",
+      "city": "San Francisco",
+      "state": "California",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "MUC",
+      "lat": 48.354,
+      "long": 11.7816,
+      "name": "Franz-Josef-Strauss Airport",
+      "city": "Oberding",
+      "state": "Bavaria",
+      "country": "Germany"
+    },
+    "ageInYears": 10,
+    "flightPercentComplete": 83.01564255835753
+  },
+  {
+    "callsign": "DLH482",
+    "altitude": 32000,
+    "grounded": false,
+    "speed": 495,
+    "lat": 52.903824,
+    "long": 3.156843,
+    "heading": 292.3,
+    "aircraftType": "A343",
+    "airportFrom": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "TPA",
+      "lat": 27.9744,
+      "long": -82.5356,
+      "name": "Tampa International Airport",
+      "city": "Tampa",
+      "state": "Florida",
+      "country": "United States"
+    },
+    "ageInYears": 17,
+    "flightPercentComplete": 5.836564484680973
+  },
+  {
+    "callsign": "DLH492",
+    "altitude": 34025,
+    "grounded": false,
+    "speed": 583.6,
+    "lat": 53.558769,
+    "long": 3.34251,
+    "heading": 357.2,
+    "aircraftType": "B744",
+    "airportFrom": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "YVR",
+      "lat": 49.1931,
+      "long": -123.172,
+      "name": "Vancouver International Airport",
+      "city": "Richmond",
+      "state": "British Columbia",
+      "country": "Canada"
+    },
+    "ageInYears": 21,
+    "flightPercentComplete": 6.479703204825871
+  },
+  {
+    "callsign": "DLH938",
+    "altitude": 34325,
+    "grounded": false,
+    "speed": 454.9,
+    "lat": 51.411209,
+    "long": 5.423089,
+    "heading": 279.2,
+    "aircraftType": "A320",
+    "airportFrom": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "MAN",
+      "lat": 53.365,
+      "long": -2.27089,
+      "name": "Manchester International Airport",
+      "city": "Manchester",
+      "state": "England",
+      "country": "United Kingdom"
+    },
+    "ageInYears": 28,
+    "flightPercentComplete": 32.067471054845306
+  },
+  {
+    "callsign": "DLH470",
+    "altitude": 33975,
+    "grounded": false,
+    "speed": 508.9,
+    "lat": 52.318268,
+    "long": 5.046005,
+    "heading": 296.6,
+    "aircraftType": "B744",
+    "airportFrom": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "YYZ",
+      "lat": 43.685,
+      "long": -79.6142,
+      "name": "Toronto Lester B Pearson International Airport",
+      "city": "Mississauga",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "ageInYears": 21,
+    "flightPercentComplete": 5.311964170013727
+  },
+  {
+    "callsign": "DLH498",
+    "altitude": 34000,
+    "grounded": false,
+    "speed": 507.2,
+    "lat": 53.282481,
+    "long": 1.879228,
+    "heading": 281.5,
+    "aircraftType": "B748",
+    "airportFrom": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "MEX",
+      "lat": 19.4344,
+      "long": -99.0742,
+      "name": "Lic Benito Juarez International Airport",
+      "city": "Mexico City",
+      "state": "Distrito Federal",
+      "country": "Mexico"
+    },
+    "ageInYears": 4,
+    "flightPercentComplete": 5.915959584098152
+  },
+  {
+    "callsign": "DLH04C",
+    "altitude": 35000,
+    "grounded": false,
+    "speed": 428.6,
+    "lat": 45.615738,
+    "long": 9.926817,
+    "heading": 216.2,
+    "aircraftType": "A320",
+    "airportFrom": {
+      "code": "MUC",
+      "lat": 48.354,
+      "long": 11.7816,
+      "name": "Franz-Josef-Strauss Airport",
+      "city": "Oberding",
+      "state": "Bavaria",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "BCN",
+      "lat": 41.3006,
+      "long": 2.07976,
+      "name": "Barcelona International Airport",
+      "city": "El Prat de Llobregat",
+      "state": "Catalonia",
+      "country": "Spain"
+    },
+    "ageInYears": 29,
+    "flightPercentComplete": 27.427535766307287
+  },
+  {
+    "callsign": "DLH2FW",
+    "altitude": 32000,
+    "grounded": false,
+    "speed": 471.2,
+    "lat": 51.468014,
+    "long": 8.124619,
+    "heading": 316.6,
+    "aircraftType": "CRJ9",
+    "airportFrom": {
+      "code": "MUC",
+      "lat": 48.354,
+      "long": 11.7816,
+      "name": "Franz-Josef-Strauss Airport",
+      "city": "Oberding",
+      "state": "Bavaria",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "AMS",
+      "lat": 52.3122,
+      "long": 4.77511,
+      "name": "Schiphol Airport",
+      "city": "Schiphol Zuid",
+      "state": "North Holland",
+      "country": "Netherlands"
+    },
+    "flightPercentComplete": 62.5867070800477
+  },
+  {
+    "callsign": "DLH446",
+    "altitude": 32000,
+    "grounded": false,
+    "speed": 532.5,
+    "lat": 52.97905,
+    "long": 8.269348,
+    "heading": 339.6,
+    "aircraftType": "B744",
+    "airportFrom": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "DEN",
+      "lat": 39.8396,
+      "long": -104.672,
+      "name": "Denver International Airport",
+      "city": "Denver",
+      "state": "Colorado",
+      "country": "United States"
+    },
+    "ageInYears": 21,
+    "flightPercentComplete": 2.8832521987644744
+  },
+  {
+    "callsign": "DLH450",
+    "altitude": 34000,
+    "grounded": false,
+    "speed": 523.6,
+    "lat": 53.252734,
+    "long": 8.057987,
+    "heading": 339.8,
+    "aircraftType": "B748",
+    "airportFrom": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "LAX",
+      "lat": 33.9456,
+      "long": -118.391,
+      "name": "Los Angeles International Airport",
+      "city": "Los Angeles",
+      "state": "California",
+      "country": "United States"
+    },
+    "ageInYears": 4,
+    "flightPercentComplete": 3.0897054817025538
+  },
+  {
+    "callsign": "DLH8N",
+    "altitude": 5450,
+    "grounded": false,
+    "speed": 320,
+    "lat": 52.310375,
+    "long": 13.01307,
+    "heading": 344.6,
+    "aircraftType": "A320",
+    "airportFrom": {
+      "code": "MUC",
+      "lat": 48.354,
+      "long": 11.7816,
+      "name": "Franz-Josef-Strauss Airport",
+      "city": "Oberding",
+      "state": "Bavaria",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "TXL",
+      "lat": 52.5548,
+      "long": 13.289,
+      "name": "Berlin-Tegel International Airport",
+      "city": "Berlin",
+      "state": "Berlin",
+      "country": "Germany"
+    },
+    "ageInYears": 29,
+    "flightPercentComplete": 93.11348283757538
+  },
+  {
+    "callsign": "DLH6HR",
+    "altitude": 34000,
+    "grounded": false,
+    "speed": 487.3,
+    "lat": 45.016617,
+    "long": 11.684941,
+    "heading": 355.9,
+    "aircraftType": "A321",
+    "airportFrom": {
+      "code": "BHX",
+      "lat": 52.4531,
+      "long": -1.73847,
+      "name": "Birmingham International Airport",
+      "city": "Birmingham",
+      "state": "England",
+      "country": "United Kingdom"
+    },
+    "airportTo": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "ageInYears": 7,
+    "flightPercentComplete": 20.736689681119756
+  },
+  {
+    "callsign": "DLH55A",
+    "altitude": 25000,
+    "grounded": false,
+    "speed": 424.2,
+    "lat": 49.320831,
+    "long": 3.745563,
+    "heading": 256.8,
+    "aircraftType": "A321",
+    "airportFrom": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "BCN",
+      "lat": 41.3006,
+      "long": 2.07976,
+      "name": "Barcelona International Airport",
+      "city": "El Prat de Llobregat",
+      "state": "Catalonia",
+      "country": "Spain"
+    },
+    "ageInYears": 23,
+    "flightPercentComplete": 17.671814814049025
+  },
+  {
+    "callsign": "DLH694",
+    "altitude": 32975,
+    "grounded": false,
+    "speed": 457.1,
+    "lat": 47.047989,
+    "long": 13.366859,
+    "heading": 137.1,
+    "aircraftType": "A321",
+    "airportFrom": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "TLV",
+      "lat": 32.0117,
+      "long": 34.8861,
+      "name": "Ben Gurion Airport",
+      "city": "Petaẖ Tiqwa",
+      "state": "HaMerkaz",
+      "country": "Israel"
+    },
+    "ageInYears": 7,
+    "flightPercentComplete": 16.212114101542685
+  },
+  {
+    "callsign": "DLH2FP",
+    "altitude": 1525,
+    "grounded": false,
+    "speed": 140,
+    "lat": 48.362595,
+    "long": 11.765935,
+    "heading": 83,
+    "aircraftType": "E190",
+    "airportFrom": {
+      "code": "TXL",
+      "lat": 52.5548,
+      "long": 13.289,
+      "name": "Berlin-Tegel International Airport",
+      "city": "Berlin",
+      "state": "Berlin",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "MUC",
+      "lat": 48.354,
+      "long": 11.7816,
+      "name": "Franz-Josef-Strauss Airport",
+      "city": "Oberding",
+      "state": "Bavaria",
+      "country": "Germany"
+    },
+    "ageInYears": 9,
+    "flightPercentComplete": 99.68671216976344
+  },
+  {
+    "callsign": "DLH630",
+    "altitude": 34975,
+    "grounded": false,
+    "speed": 488.6,
+    "lat": 49.369171,
+    "long": 14.570266,
+    "heading": 108.6,
+    "aircraftType": "A333",
+    "airportFrom": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "DXB",
+      "lat": 25.2509,
+      "long": 55.3629,
+      "name": "Dubai International Airport",
+      "city": "Dubai",
+      "state": "Dubai",
+      "country": "United Arab Emirates"
+    },
+    "ageInYears": 14,
+    "flightPercentComplete": 8.911337645149208
+  },
+  {
+    "callsign": "DLH478",
+    "altitude": 33975,
+    "grounded": false,
+    "speed": 494.3,
+    "lat": 52.504917,
+    "long": 4.383388,
+    "heading": 299.3,
+    "aircraftType": "A343",
+    "airportFrom": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "YUL",
+      "lat": 45.4562,
+      "long": -73.7473,
+      "name": "Aéroport International Pierre-Elliott-Trudeau d",
+      "city": "Dorval",
+      "state": "Quebec",
+      "country": "Canada"
+    },
+    "ageInYears": 17,
+    "flightPercentComplete": 6.548343204781737
+  },
+  {
+    "callsign": "DLH418",
+    "altitude": 31975,
+    "grounded": false,
+    "speed": 496.3,
+    "lat": 52.00914,
+    "long": -4.538727,
+    "heading": 282.8,
+    "aircraftType": "B748",
+    "airportFrom": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "IAD",
+      "lat": 38.9556,
+      "long": -77.4484,
+      "name": "Dulles International Airport",
+      "city": "Washington",
+      "state": "Virginia",
+      "country": "United States"
+    },
+    "ageInYears": 5,
+    "flightPercentComplete": 14.262632178064639
+  },
+  {
+    "callsign": "DLH760",
+    "altitude": 37025,
+    "grounded": false,
+    "speed": 506.4,
+    "lat": 47.523148,
+    "long": 16.401695,
+    "heading": 109.6,
+    "aircraftType": "A388",
+    "airportFrom": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "DEL",
+      "lat": 28.5603,
+      "long": 77.1027,
+      "name": "Indira Gandhi International Airport",
+      "city": "New Delhi",
+      "state": "Madhya Pradesh",
+      "country": "India"
+    },
+    "ageInYears": 7,
+    "flightPercentComplete": 9.178890711983245
+  },
+  {
+    "callsign": "DLH756",
+    "altitude": 34975,
+    "grounded": false,
+    "speed": 509.3,
+    "lat": 47.329971,
+    "long": 17.289803,
+    "heading": 110.8,
+    "aircraftType": "B744",
+    "airportFrom": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "BOM",
+      "lat": 19.0932,
+      "long": 72.8654,
+      "name": "Chhatrapati Shivaji International Airport",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "country": "India"
+    },
+    "ageInYears": 20,
+    "flightPercentComplete": 10.373956278165586
+  },
+  {
+    "callsign": "DLH1WT",
+    "altitude": 38975,
+    "grounded": false,
+    "speed": 459.2,
+    "lat": 49.87225,
+    "long": 8.335208,
+    "heading": 109.5,
+    "aircraftType": "A319",
+    "airportFrom": {
+      "code": "BHX",
+      "lat": 52.4531,
+      "long": -1.73847,
+      "name": "Birmingham International Airport",
+      "city": "Birmingham",
+      "state": "England",
+      "country": "United Kingdom"
+    },
+    "airportTo": {
+      "code": "MUC",
+      "lat": 48.354,
+      "long": 11.7816,
+      "name": "Franz-Josef-Strauss Airport",
+      "city": "Oberding",
+      "state": "Bavaria",
+      "country": "Germany"
+    },
+    "ageInYears": 20,
+    "flightPercentComplete": 71.45017419610828
+  },
+  {
+    "callsign": "DLH624",
+    "altitude": 37000,
+    "grounded": false,
+    "speed": 484,
+    "lat": 47.317093,
+    "long": 17.459036,
+    "heading": 114,
+    "aircraftType": "A333",
+    "airportFrom": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "DMM",
+      "lat": 26.4722,
+      "long": 49.8058,
+      "name": "King Fahd International Airport",
+      "city": "Khuwaylidiyah",
+      "state": "Ash Sharqiyah",
+      "country": "Saudi Arabia"
+    },
+    "airportStops": [
+      {
+        "code": "KWI",
+        "lat": 29.2442,
+        "long": 47.9748,
+        "name": "Kuwait International Airport",
+        "city": "Kuwait City",
+        "state": "Al Farwaniyah",
+        "country": "Kuwait"
+      }
+    ],
+    "ageInYears": 11,
+    "flightPercentComplete": 16.461750081147596
+  },
+  {
+    "callsign": "DLH648",
+    "altitude": 36975,
+    "grounded": false,
+    "speed": 496.4,
+    "lat": 52.112137,
+    "long": 20.978775,
+    "heading": 78.3,
+    "aircraftType": "A333",
+    "airportFrom": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "ALA",
+      "lat": 43.3608,
+      "long": 77.0319,
+      "name": "Alma Ata Airport",
+      "city": "Almaty",
+      "state": "Almaty",
+      "country": "Kazakhstan"
+    },
+    "ageInYears": 6,
+    "flightPercentComplete": 17.599252653746035
+  },
+  {
+    "callsign": "DLH4NK",
+    "altitude": 650,
+    "grounded": false,
+    "speed": 140,
+    "lat": 51.304642,
+    "long": 6.80462,
+    "heading": 234,
+    "aircraftType": "A320",
+    "airportFrom": {
+      "code": "MUC",
+      "lat": 48.354,
+      "long": 11.7816,
+      "name": "Franz-Josef-Strauss Airport",
+      "city": "Oberding",
+      "state": "Bavaria",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "DUS",
+      "lat": 51.2794,
+      "long": 6.76481,
+      "name": "Dusseldorf International Airport",
+      "city": "Dusseldorf",
+      "state": "North Rhine-Westphalia",
+      "country": "Germany"
+    },
+    "ageInYears": 1,
+    "flightPercentComplete": 99.18708416378134
+  },
+  {
+    "callsign": "DLH723",
+    "altitude": 38000,
+    "grounded": false,
+    "speed": 468.9,
+    "lat": 52.684099,
+    "long": 22.108808,
+    "heading": 245,
+    "aircraftType": "A388",
+    "airportFrom": {
+      "code": "PEK",
+      "lat": 40.0724,
+      "long": 116.583,
+      "name": "Beijing Capital Airport",
+      "city": "Shunyi",
+      "state": "Beijing",
+      "country": "China"
+    },
+    "airportTo": {
+      "code": "MUC",
+      "lat": 48.354,
+      "long": 11.7816,
+      "name": "Franz-Josef-Strauss Airport",
+      "city": "Oberding",
+      "state": "Bavaria",
+      "country": "Germany"
+    },
+    "ageInYears": 8,
+    "flightPercentComplete": 88.68999508846409
+  },
+  {
+    "callsign": "DLH543",
+    "altitude": 32000,
+    "grounded": false,
+    "speed": 127,
+    "lat": 49.026909,
+    "long": 2.566103,
+    "heading": 265,
+    "aircraftType": "A343",
+    "airportFrom": {
+      "code": "BOG",
+      "lat": 4.69895,
+      "long": -74.1435,
+      "name": "Eldorado International Airport",
+      "city": "Fontibón",
+      "state": "Distrito Especial",
+      "country": "Colombia"
+    },
+    "airportTo": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "ageInYears": 17,
+    "flightPercentComplete": 95.0725091377766
+  },
+  {
+    "callsign": "DLH806",
+    "altitude": 21100,
+    "grounded": false,
+    "speed": 430.8,
+    "lat": 59.431706,
+    "long": 16.333545,
+    "heading": 40,
+    "aircraftType": "A321",
+    "airportFrom": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "ARN",
+      "lat": 59.6521,
+      "long": 17.9317,
+      "name": "Arlanda Airport",
+      "city": "Märst",
+      "state": "Stockholm",
+      "country": "Sweden"
+    },
+    "ageInYears": 24,
+    "flightPercentComplete": 92.36011872476251
+  },
+  {
+    "callsign": "DLH6RY",
+    "altitude": 27500,
+    "grounded": false,
+    "speed": 153.1,
+    "lat": 48.362045,
+    "long": 11.758047,
+    "heading": 83.2,
+    "aircraftType": "A320",
+    "airportFrom": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "MUC",
+      "lat": 48.354,
+      "long": 11.7816,
+      "name": "Franz-Josef-Strauss Airport",
+      "city": "Oberding",
+      "state": "Bavaria",
+      "country": "Germany"
+    },
+    "ageInYears": 4,
+    "flightPercentComplete": 99.34740074269581
+  },
+  {
+    "callsign": "DLH636",
+    "altitude": 37000,
+    "grounded": false,
+    "speed": 494.6,
+    "lat": 43.246098,
+    "long": 20.267552,
+    "heading": 133,
+    "aircraftType": "A346",
+    "airportFrom": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "BAH",
+      "lat": 26.2736,
+      "long": 50.6234,
+      "name": "Bahrain International Airport",
+      "city": "Al Muharraq",
+      "state": "Al Manamah",
+      "country": "Bahrain"
+    },
+    "airportStops": [
+      {
+        "code": "RUH",
+        "lat": 24.9625,
+        "long": 46.7078,
+        "name": "King Khalid International Airport",
+        "city": "Riyadh",
+        "state": "Ar Riyad",
+        "country": "Saudi Arabia"
+      }
+    ],
+    "ageInYears": 10,
+    "flightPercentComplete": 25.110298615007864
+  },
+  {
+    "callsign": "DLH410",
+    "altitude": 33975,
+    "grounded": false,
+    "speed": 480,
+    "lat": 53.679944,
+    "long": -5.040301,
+    "heading": 270.2,
+    "aircraftType": "A346",
+    "airportFrom": {
+      "code": "MUC",
+      "lat": 48.354,
+      "long": 11.7816,
+      "name": "Franz-Josef-Strauss Airport",
+      "city": "Oberding",
+      "state": "Bavaria",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "JFK",
+      "lat": 40.6437,
+      "long": -73.79,
+      "name": "John F Kennedy International Airport",
+      "city": "Jamaica",
+      "state": "New York",
+      "country": "United States"
+    },
+    "ageInYears": 10,
+    "flightPercentComplete": 20.133206570420505
+  },
+  {
+    "callsign": "DLH688",
+    "altitude": 32950,
+    "grounded": false,
+    "speed": 461,
+    "lat": 40.993111,
+    "long": 25.259069,
+    "heading": 135.9,
+    "aircraftType": "A321",
+    "airportFrom": {
+      "code": "MUC",
+      "lat": 48.354,
+      "long": 11.7816,
+      "name": "Franz-Josef-Strauss Airport",
+      "city": "Oberding",
+      "state": "Bavaria",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "TLV",
+      "lat": 32.0117,
+      "long": 34.8861,
+      "name": "Ben Gurion Airport",
+      "city": "Petaẖ Tiqwa",
+      "state": "HaMerkaz",
+      "country": "Israel"
+    },
+    "ageInYears": 7,
+    "flightPercentComplete": 50.41864772129304
+  },
+  {
+    "callsign": "DLH426",
+    "altitude": 34000,
+    "grounded": false,
+    "speed": 449.3,
+    "lat": 52.593788,
+    "long": -8.886605,
+    "heading": 278.8,
+    "aircraftType": "A343",
+    "airportFrom": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "PHL",
+      "lat": 39.8768,
+      "long": -75.2419,
+      "name": "Philadelphia International Airport",
+      "city": "Philadelphia",
+      "state": "Pennsylvania",
+      "country": "United States"
+    },
+    "ageInYears": 18,
+    "flightPercentComplete": 19.525130520246048
+  },
+  {
+    "callsign": "DLH719",
+    "altitude": 40000,
+    "grounded": false,
+    "speed": 489,
+    "lat": 50.888951,
+    "long": 20.610733,
+    "heading": 232.2,
+    "aircraftType": "A359",
+    "airportFrom": {
+      "code": "ICN",
+      "lat": 37.4534,
+      "long": 126.657,
+      "name": "New Incheon International Airport",
+      "city": "Incheon",
+      "state": "Incheon",
+      "country": "South Korea"
+    },
+    "airportTo": {
+      "code": "MUC",
+      "lat": 48.354,
+      "long": 11.7816,
+      "name": "Franz-Josef-Strauss Airport",
+      "city": "Oberding",
+      "state": "Bavaria",
+      "country": "Germany"
+    },
+    "ageInYears": 2,
+    "flightPercentComplete": 91.83435313657593
+  },
+  {
+    "callsign": "DLH6PF",
+    "altitude": 11575,
+    "grounded": false,
+    "speed": 371,
+    "lat": 49.926178,
+    "long": 9.287495,
+    "heading": 323.4,
+    "aircraftType": "A320",
+    "airportFrom": {
+      "code": "WAW",
+      "lat": 52.17,
+      "long": 20.9725,
+      "name": "Okecie International Airport",
+      "city": "Warsaw",
+      "state": "Mazowieckie",
+      "country": "Poland"
+    },
+    "airportTo": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "ageInYears": 8,
+    "flightPercentComplete": 94.08180571827562
+  },
+  {
+    "callsign": "DLH75E",
+    "altitude": 5450,
+    "grounded": false,
+    "speed": 289.7,
+    "lat": 48.220551,
+    "long": 11.272888,
+    "heading": 22.3,
+    "aircraftType": "A320",
+    "airportFrom": {
+      "code": "MAD",
+      "lat": 40.4684,
+      "long": -3.56769,
+      "name": "Barajas Airport",
+      "city": "Madrid",
+      "state": "Madrid",
+      "country": "Spain"
+    },
+    "airportTo": {
+      "code": "MUC",
+      "lat": 48.354,
+      "long": 11.7816,
+      "name": "Franz-Josef-Strauss Airport",
+      "city": "Oberding",
+      "state": "Bavaria",
+      "country": "Germany"
+    },
+    "ageInYears": 8,
+    "flightPercentComplete": 97.29786950099559
+  },
+  {
+    "callsign": "DLH1LA",
+    "altitude": 39000,
+    "grounded": false,
+    "speed": 125.2,
+    "lat": 50.897644,
+    "long": 7.082025,
+    "heading": 136.6,
+    "aircraftType": "A319",
+    "airportFrom": {
+      "code": "MUC",
+      "lat": 48.354,
+      "long": 11.7816,
+      "name": "Franz-Josef-Strauss Airport",
+      "city": "Oberding",
+      "state": "Bavaria",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "CGN",
+      "lat": 50.8784,
+      "long": 7.12293,
+      "name": "Cologne Bonn Airport",
+      "city": "Cologne",
+      "state": "North Rhine-Westphalia",
+      "country": "Germany"
+    },
+    "ageInYears": 21,
+    "flightPercentComplete": 99.18164999254103
+  },
+  {
+    "callsign": "DLH295",
+    "altitude": 425,
+    "grounded": false,
+    "speed": 142.3,
+    "lat": 50.045609,
+    "long": 8.532113,
+    "heading": 250.3,
+    "aircraftType": "A319",
+    "airportFrom": {
+      "code": "STR",
+      "lat": 48.6895,
+      "long": 9.19298,
+      "name": "Stuttgart Airport",
+      "city": "Stuttgart",
+      "state": "Baden-Wurttemberg",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "TXL",
+      "lat": 52.5548,
+      "long": 13.289,
+      "name": "Berlin-Tegel International Airport",
+      "city": "Berlin",
+      "state": "Berlin",
+      "country": "Germany"
+    },
+    "ageInYears": 21,
+    "flightPercentComplete": 16.454576931794694
+  },
+  {
+    "callsign": "DLH62K",
+    "altitude": 1575,
+    "grounded": false,
+    "speed": 152.1,
+    "lat": 48.339983,
+    "long": 11.742144,
+    "heading": 83.2,
+    "aircraftType": "A320",
+    "airportFrom": {
+      "code": "OPO",
+      "lat": 41.2372,
+      "long": -8.67341,
+      "name": "Porto Airport",
+      "city": "Maia",
+      "state": "Porto",
+      "country": "Portugal"
+    },
+    "airportTo": {
+      "code": "MUC",
+      "lat": 48.354,
+      "long": 11.7816,
+      "name": "Franz-Josef-Strauss Airport",
+      "city": "Oberding",
+      "state": "Bavaria",
+      "country": "Germany"
+    },
+    "ageInYears": 8,
+    "flightPercentComplete": 99.81529600274943
+  },
+  {
+    "callsign": "DLH1780",
+    "altitude": 33000,
+    "grounded": false,
+    "speed": 463,
+    "lat": 41.423531,
+    "long": 24.7225,
+    "heading": 135.9,
+    "aircraftType": "A321",
+    "airportFrom": {
+      "code": "MUC",
+      "lat": 48.354,
+      "long": 11.7816,
+      "name": "Franz-Josef-Strauss Airport",
+      "city": "Oberding",
+      "state": "Bavaria",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "ADB",
+      "lat": 38.32,
+      "long": 27.1603,
+      "name": "Gaziemir Airport",
+      "city": "Azmir",
+      "state": "İzmir",
+      "country": "Turkey"
+    },
+    "ageInYears": 24,
+    "flightPercentComplete": 75.80388623480219
+  },
+  {
+    "callsign": "DLH451",
+    "altitude": 34000,
+    "grounded": false,
+    "speed": 0,
+    "lat": 50.041654,
+    "long": 8.593164,
+    "heading": 295.3,
+    "aircraftType": "B748",
+    "airportFrom": {
+      "code": "LAX",
+      "lat": 33.9456,
+      "long": -118.391,
+      "name": "Los Angeles International Airport",
+      "city": "Los Angeles",
+      "state": "California",
+      "country": "United States"
+    },
+    "airportTo": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "ageInYears": 5,
+    "flightPercentComplete": 99.98084713248795
+  },
+  {
+    "callsign": "DLH3TP",
+    "altitude": 175,
+    "grounded": false,
+    "speed": 142.4,
+    "lat": 59.665026,
+    "long": 17.987839,
+    "heading": 255.8,
+    "aircraftType": "A321",
+    "airportFrom": {
+      "code": "MUC",
+      "lat": 48.354,
+      "long": 11.7816,
+      "name": "Franz-Josef-Strauss Airport",
+      "city": "Oberding",
+      "state": "Bavaria",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "ARN",
+      "lat": 59.6521,
+      "long": 17.9317,
+      "name": "Arlanda Airport",
+      "city": "Märst",
+      "state": "Stockholm",
+      "country": "Sweden"
+    },
+    "ageInYears": 23,
+    "flightPercentComplete": 99.73699721222238
+  },
+  {
+    "callsign": "DLH1MW",
+    "altitude": 525,
+    "grounded": false,
+    "speed": 148.2,
+    "lat": 54.382645,
+    "long": 18.44556,
+    "heading": 113.5,
+    "aircraftType": "CRJX",
+    "airportFrom": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "GDN",
+      "lat": 54.3821,
+      "long": 18.454,
+      "name": "Rebiechowo Airport",
+      "city": "Gdansk",
+      "state": "Pomorskie",
+      "country": "Poland"
+    },
+    "ageInYears": 0,
+    "flightPercentComplete": 99.933492710575
+  },
+  {
+    "callsign": "DLH3PM",
+    "altitude": 8025,
+    "grounded": false,
+    "speed": 310.3,
+    "lat": 48.444168,
+    "long": 11.212604,
+    "heading": 144.3,
+    "aircraftType": "A320",
+    "airportFrom": {
+      "code": "DUS",
+      "lat": 51.2794,
+      "long": 6.76481,
+      "name": "Dusseldorf International Airport",
+      "city": "Dusseldorf",
+      "state": "North Rhine-Westphalia",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "MUC",
+      "lat": 48.354,
+      "long": 11.7816,
+      "name": "Franz-Josef-Strauss Airport",
+      "city": "Oberding",
+      "state": "Bavaria",
+      "country": "Germany"
+    },
+    "ageInYears": 2,
+    "flightPercentComplete": 91.09453829730091
+  },
+  {
+    "callsign": "DLH452",
+    "altitude": 34000,
+    "grounded": false,
+    "speed": 536.9,
+    "lat": 59.871485,
+    "long": 3.7667,
+    "heading": 331.8,
+    "aircraftType": "A388",
+    "airportFrom": {
+      "code": "MUC",
+      "lat": 48.354,
+      "long": 11.7816,
+      "name": "Franz-Josef-Strauss Airport",
+      "city": "Oberding",
+      "state": "Bavaria",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "LAX",
+      "lat": 33.9456,
+      "long": -118.391,
+      "name": "Los Angeles International Airport",
+      "city": "Los Angeles",
+      "state": "California",
+      "country": "United States"
+    },
+    "ageInYears": 8,
+    "flightPercentComplete": 13.432743604220788
+  },
+  {
+    "callsign": "DLH4NJ",
+    "altitude": 3075,
+    "grounded": false,
+    "speed": 186.2,
+    "lat": 45.069409,
+    "long": 7.641393,
+    "heading": 2.8,
+    "aircraftType": "E190",
+    "airportFrom": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "TRN",
+      "lat": 45.1975,
+      "long": 7.64937,
+      "name": "Turin International Airport",
+      "city": "Caselle",
+      "state": "Piedmont",
+      "country": "Italy"
+    },
+    "ageInYears": 5,
+    "flightPercentComplete": 97.3781610231314
+  },
+  {
+    "callsign": "DLH1820",
+    "altitude": 3450,
+    "grounded": false,
+    "speed": 184.9,
+    "lat": 39.683921,
+    "long": 3.034851,
+    "heading": 238.7,
+    "aircraftType": "A321",
+    "airportFrom": {
+      "code": "MUC",
+      "lat": 48.354,
+      "long": 11.7816,
+      "name": "Franz-Josef-Strauss Airport",
+      "city": "Oberding",
+      "state": "Bavaria",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "PMI",
+      "lat": 39.5495,
+      "long": 2.73188,
+      "name": "Palma de Mallorca Airport",
+      "city": "Palma",
+      "state": "Balearic Islands",
+      "country": "Spain"
+    },
+    "ageInYears": 7,
+    "flightPercentComplete": 97.53733012644626
+  },
+  {
+    "callsign": "DLH1TT",
+    "altitude": 5750,
+    "grounded": false,
+    "speed": 144,
+    "lat": 48.359161,
+    "long": 11.721256,
+    "heading": 84.4,
+    "aircraftType": "A320",
+    "airportFrom": {
+      "code": "TXL",
+      "lat": 52.5548,
+      "long": 13.289,
+      "name": "Berlin-Tegel International Airport",
+      "city": "Berlin",
+      "state": "Berlin",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "ageInYears": 6,
+    "flightPercentComplete": 31.196235896724488
+  },
+  {
+    "callsign": "DLH6LY",
+    "altitude": 9950,
+    "grounded": false,
+    "speed": 146.2,
+    "lat": 50.046309,
+    "long": 8.535783,
+    "heading": 249.6,
+    "aircraftType": "A321",
+    "airportFrom": {
+      "code": "TXL",
+      "lat": 52.5548,
+      "long": 13.289,
+      "name": "Berlin-Tegel International Airport",
+      "city": "Berlin",
+      "state": "Berlin",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "MUC",
+      "lat": 48.354,
+      "long": 11.7816,
+      "name": "Franz-Josef-Strauss Airport",
+      "city": "Oberding",
+      "state": "Bavaria",
+      "country": "Germany"
+    },
+    "ageInYears": 9,
+    "flightPercentComplete": 37.0384094838933
+  },
+  {
+    "callsign": "DLH764",
+    "altitude": 35000,
+    "grounded": false,
+    "speed": 500.5,
+    "lat": 42.622971,
+    "long": 31.698428,
+    "heading": 98.5,
+    "aircraftType": "A333",
+    "airportFrom": {
+      "code": "MUC",
+      "lat": 48.354,
+      "long": 11.7816,
+      "name": "Franz-Josef-Strauss Airport",
+      "city": "Oberding",
+      "state": "Bavaria",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "BOM",
+      "lat": 19.0932,
+      "long": 72.8654,
+      "name": "Chhatrapati Shivaji International Airport",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "country": "India"
+    },
+    "ageInYears": 14,
+    "flightPercentComplete": 26.284668831005852
+  },
+  {
+    "callsign": "DLH590",
+    "altitude": 35000,
+    "grounded": false,
+    "speed": 517.6,
+    "lat": 36.750897,
+    "long": 19.474085,
+    "heading": 122.6,
+    "aircraftType": "A343",
+    "airportFrom": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "NBO",
+      "lat": -1.31697,
+      "long": 36.9222,
+      "name": "Jomo Kenyatta International Airport",
+      "city": "Nairobi",
+      "state": "Nairobi Area",
+      "country": "Kenya"
+    },
+    "ageInYears": 18,
+    "flightPercentComplete": 27.17942176024343
+  },
+  {
+    "callsign": "DLH5M",
+    "altitude": 1500,
+    "grounded": false,
+    "speed": 156.2,
+    "lat": 48.362228,
+    "long": 11.760583,
+    "heading": 83,
+    "aircraftType": "A321",
+    "airportFrom": {
+      "code": "HAM",
+      "lat": 53.6321,
+      "long": 10.0042,
+      "name": "Hamburg Airport",
+      "city": "Hamburg",
+      "state": "Hamburg",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "MUC",
+      "lat": 48.354,
+      "long": 11.7816,
+      "name": "Franz-Josef-Strauss Airport",
+      "city": "Oberding",
+      "state": "Bavaria",
+      "country": "Germany"
+    },
+    "ageInYears": 4,
+    "flightPercentComplete": 99.69955167258382
+  },
+  {
+    "callsign": "DLH3UW",
+    "altitude": 24000,
+    "grounded": false,
+    "speed": 506.1,
+    "lat": 50.949783,
+    "long": 9.81814,
+    "heading": 342.6,
+    "aircraftType": "A319",
+    "airportFrom": {
+      "code": "LEJ",
+      "lat": 51.4197,
+      "long": 12.2201,
+      "name": "Leipzig-Halle Airport",
+      "city": "Schkeuditz",
+      "state": "Saxony",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "ageInYears": 9,
+    "flightPercentComplete": 55.28395818011934
+  },
+  {
+    "callsign": "DLH568",
+    "altitude": 35600,
+    "grounded": false,
+    "speed": 492,
+    "lat": 35.273143,
+    "long": 10.156276,
+    "heading": 187.4,
+    "aircraftType": "A333",
+    "airportFrom": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "SSG",
+      "lat": 3.7472,
+      "long": 8.7083,
+      "name": "Malabo Airport",
+      "city": "Malabo",
+      "state": "Bioko Norte",
+      "country": "Equatorial Guinea"
+    },
+    "airportStops": [
+      {
+        "code": "LOS",
+        "lat": 6.575,
+        "long": 3.3222,
+        "name": "Lagos Murtala Muhammed Airport",
+        "city": "Ikeja",
+        "state": "Lagos",
+        "country": "Nigeria"
+      }
+    ],
+    "ageInYears": 13,
+    "flightPercentComplete": 31.849705285868136
+  },
+  {
+    "callsign": "DLH4HV",
+    "altitude": 1625,
+    "grounded": false,
+    "speed": 135.9,
+    "lat": 48.361542,
+    "long": 11.751709,
+    "heading": 83.2,
+    "aircraftType": "E190",
+    "airportFrom": {
+      "code": "WAW",
+      "lat": 52.17,
+      "long": 20.9725,
+      "name": "Okecie International Airport",
+      "city": "Warsaw",
+      "state": "Mazowieckie",
+      "country": "Poland"
+    },
+    "airportTo": {
+      "code": "MUC",
+      "lat": 48.354,
+      "long": 11.7816,
+      "name": "Franz-Josef-Strauss Airport",
+      "city": "Oberding",
+      "state": "Bavaria",
+      "country": "Germany"
+    },
+    "ageInYears": 9,
+    "flightPercentComplete": 99.69640405252255
+  },
+  {
+    "callsign": "DLH738",
+    "altitude": 37000,
+    "grounded": false,
+    "speed": 468,
+    "lat": 55.640808,
+    "long": 38.074036,
+    "heading": 95.3,
+    "aircraftType": "A359",
+    "airportFrom": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "HKG",
+      "lat": 22.3124,
+      "long": 113.929,
+      "name": "Hong Kong International Airport",
+      "city": "Hong Kong",
+      "state": "Hong Kong Island",
+      "country": "Hong Kong"
+    },
+    "ageInYears": 2,
+    "flightPercentComplete": 22.455849684935338
+  },
+  {
+    "callsign": "DLH16N",
+    "altitude": 26425,
+    "grounded": false,
+    "speed": 150.2,
+    "lat": 48.339751,
+    "long": 11.740482,
+    "heading": 82.7,
+    "aircraftType": "A320",
+    "airportFrom": {
+      "code": "MUC",
+      "lat": 48.354,
+      "long": 11.7816,
+      "name": "Franz-Josef-Strauss Airport",
+      "city": "Oberding",
+      "state": "Bavaria",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "TLS",
+      "lat": 43.6294,
+      "long": 1.3747,
+      "name": "Blagnac Airport",
+      "city": "Blagnac",
+      "state": "Midi-Pyrenees",
+      "country": "France"
+    },
+    "ageInYears": 18,
+    "flightPercentComplete": 0.35712627027386645
+  },
+  {
+    "callsign": "DLH721",
+    "altitude": 34000,
+    "grounded": false,
+    "speed": 7,
+    "lat": 50.04007,
+    "long": 8.586538,
+    "heading": 340.3,
+    "aircraftType": "A346",
+    "airportFrom": {
+      "code": "PEK",
+      "lat": 40.0724,
+      "long": 116.583,
+      "name": "Beijing Capital Airport",
+      "city": "Shunyi",
+      "state": "Beijing",
+      "country": "China"
+    },
+    "airportTo": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "ageInYears": 10,
+    "flightPercentComplete": 99.9811092022475
+  },
+  {
+    "callsign": "DLH1987",
+    "altitude": 32175,
+    "grounded": false,
+    "speed": 131,
+    "lat": 48.357834,
+    "long": 11.702693,
+    "heading": 83,
+    "aircraftType": "A319",
+    "airportFrom": {
+      "code": "CGN",
+      "lat": 50.8784,
+      "long": 7.12293,
+      "name": "Cologne Bonn Airport",
+      "city": "Cologne",
+      "state": "North Rhine-Westphalia",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "MUC",
+      "lat": 48.354,
+      "long": 11.7816,
+      "name": "Franz-Josef-Strauss Airport",
+      "city": "Oberding",
+      "state": "Bavaria",
+      "country": "Germany"
+    },
+    "ageInYears": 22,
+    "flightPercentComplete": 98.66344575570002
+  },
+  {
+    "callsign": "DLH582",
+    "altitude": 26075,
+    "grounded": false,
+    "speed": 469.2,
+    "lat": 31.388855,
+    "long": 30.943963,
+    "heading": 163.5,
+    "aircraftType": "A333",
+    "airportFrom": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "CAI",
+      "lat": 30.1206,
+      "long": 31.4078,
+      "name": "Cairo International Airport",
+      "city": "Cairo",
+      "state": "Al Qahirah",
+      "country": "Egypt"
+    },
+    "ageInYears": 10,
+    "flightPercentComplete": 94.94278918658956
+  },
+  {
+    "callsign": "DLH08F",
+    "altitude": 22450,
+    "grounded": false,
+    "speed": 146,
+    "lat": 48.337749,
+    "long": 11.712727,
+    "heading": 83.7,
+    "aircraftType": "A319",
+    "airportFrom": {
+      "code": "LYS",
+      "lat": 45.7198,
+      "long": 5.08245,
+      "name": "Lyon Airport",
+      "city": "Colombier",
+      "state": "Rhone-Alpes",
+      "country": "France"
+    },
+    "airportTo": {
+      "code": "MUC",
+      "lat": 48.354,
+      "long": 11.7816,
+      "name": "Franz-Josef-Strauss Airport",
+      "city": "Oberding",
+      "state": "Bavaria",
+      "country": "Germany"
+    },
+    "ageInYears": 22,
+    "flightPercentComplete": 99.07799044307177
+  },
+  {
+    "callsign": "DLH7EK",
+    "altitude": 10025,
+    "grounded": false,
+    "speed": 355.2,
+    "lat": 50.599117,
+    "long": 8.383979,
+    "heading": 137.1,
+    "aircraftType": "A321",
+    "airportFrom": {
+      "code": "MAN",
+      "lat": 53.365,
+      "long": -2.27089,
+      "name": "Manchester International Airport",
+      "city": "Manchester",
+      "state": "England",
+      "country": "United Kingdom"
+    },
+    "airportTo": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "ageInYears": 23,
+    "flightPercentComplete": 92.46808712322883
+  },
+  {
+    "callsign": "DLH3EM",
+    "altitude": 6700,
+    "grounded": false,
+    "speed": 278,
+    "lat": 43.761059,
+    "long": 11.26865,
+    "heading": 219.1,
+    "aircraftType": "E190",
+    "airportFrom": {
+      "code": "GDN",
+      "lat": 54.3821,
+      "long": 18.454,
+      "name": "Rebiechowo Airport",
+      "city": "Gdansk",
+      "state": "Pomorskie",
+      "country": "Poland"
+    },
+    "airportTo": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "ageInYears": 10,
+    "flightPercentComplete": 11.902561231585395
+  },
+  {
+    "callsign": "DLH2CL",
+    "altitude": 1750,
+    "grounded": false,
+    "speed": 459.5,
+    "lat": 52.457017,
+    "long": 16.61125,
+    "heading": 63.1,
+    "aircraftType": "CRJ9",
+    "airportFrom": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "POZ",
+      "lat": 52.4284,
+      "long": 16.8208,
+      "name": "Lawica Airport",
+      "city": "Poznan",
+      "state": "Wielkopolskie",
+      "country": "Poland"
+    },
+    "flightPercentComplete": 97.69667392505865
+  },
+  {
+    "callsign": "DLH7MN",
+    "altitude": 30500,
+    "grounded": false,
+    "speed": 344.4,
+    "lat": 48.42941,
+    "long": 11.524803,
+    "heading": 263.1,
+    "aircraftType": "CRJ9",
+    "airportFrom": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "ATH",
+      "lat": 37.8937,
+      "long": 23.7235,
+      "name": "Eleftherios Venizelos International Airport",
+      "city": "Athens",
+      "state": "Attiki",
+      "country": "Greece"
+    },
+    "flightPercentComplete": 15.440214876310476
+  },
+  {
+    "callsign": "DLH38P",
+    "altitude": 34000,
+    "grounded": false,
+    "speed": 500,
+    "lat": 45.700751,
+    "long": 5.563477,
+    "heading": 54.2,
+    "aircraftType": "A321",
+    "airportFrom": {
+      "code": "MAD",
+      "lat": 40.4684,
+      "long": -3.56769,
+      "name": "Barajas Airport",
+      "city": "Madrid",
+      "state": "Madrid",
+      "country": "Spain"
+    },
+    "airportTo": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "ageInYears": 19,
+    "flightPercentComplete": 62.57792609365277
+  },
+  {
+    "callsign": "DLH5KA",
+    "altitude": 26175,
+    "grounded": false,
+    "speed": 451.1,
+    "lat": 49.234131,
+    "long": 10.634695,
+    "heading": 325.1,
+    "aircraftType": "A320",
+    "airportFrom": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "TXL",
+      "lat": 52.5548,
+      "long": 13.289,
+      "name": "Berlin-Tegel International Airport",
+      "city": "Berlin",
+      "state": "Berlin",
+      "country": "Germany"
+    },
+    "ageInYears": 1,
+    "flightPercentComplete": 3.9163279731108336
+  },
+  {
+    "callsign": "DLH4YM",
+    "altitude": 50,
+    "grounded": false,
+    "speed": 154,
+    "lat": 45.489399,
+    "long": 12.33182,
+    "heading": 43,
+    "aircraftType": "A320",
+    "airportFrom": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "VCE",
+      "lat": 45.505,
+      "long": 12.3433,
+      "name": "Marco Polo International Airport",
+      "city": "Venice",
+      "state": "Veneto",
+      "country": "Italy"
+    },
+    "ageInYears": 28,
+    "flightPercentComplete": 99.66250579706325
+  },
+  {
+    "callsign": "DLH891",
+    "altitude": 5275,
+    "grounded": false,
+    "speed": 267.3,
+    "lat": 50.223952,
+    "long": 9.215377,
+    "heading": 224.1,
+    "aircraftType": "A321",
+    "airportFrom": {
+      "code": "RIX",
+      "lat": 56.9231,
+      "long": 23.9717,
+      "name": "Riga Airport",
+      "city": "Marupe",
+      "state": "Rigas Rajons",
+      "country": "Latvia"
+    },
+    "airportTo": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "ageInYears": 9,
+    "flightPercentComplete": 96.06454400880088
+  },
+  {
+    "callsign": "DLH52T",
+    "altitude": 15150,
+    "grounded": false,
+    "speed": 449.5,
+    "lat": 49.585907,
+    "long": 9.191994,
+    "heading": 355.3,
+    "aircraftType": "A320",
+    "airportFrom": {
+      "code": "LIS",
+      "lat": 38.7701,
+      "long": -9.13775,
+      "name": "Lisbon Airport",
+      "city": "Lisbon",
+      "state": "Lisbon",
+      "country": "Portugal"
+    },
+    "airportTo": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "ageInYears": 5,
+    "flightPercentComplete": 96.37165896601901
+  },
+  {
+    "callsign": "DLH9KV",
+    "altitude": 33975,
+    "grounded": false,
+    "speed": 452.2,
+    "lat": 44.251236,
+    "long": 17.54824,
+    "heading": 332.2,
+    "aircraftType": "A321",
+    "airportFrom": {
+      "code": "ATH",
+      "lat": 37.8937,
+      "long": 23.7235,
+      "name": "Eleftherios Venizelos International Airport",
+      "city": "Athens",
+      "state": "Attiki",
+      "country": "Greece"
+    },
+    "airportTo": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "ageInYears": 25,
+    "flightPercentComplete": 48.31184590557375
+  },
+  {
+    "callsign": "DLH1309",
+    "altitude": 31425,
+    "grounded": false,
+    "speed": 417,
+    "lat": 34.75008,
+    "long": 33.020439,
+    "heading": 294.9,
+    "aircraftType": "A321",
+    "airportFrom": {
+      "code": "BEY",
+      "lat": 33.825,
+      "long": 35.4925,
+      "name": "Beirut International Airport",
+      "city": "Beirut",
+      "state": "Jabal Lubnan",
+      "country": "Lebanon"
+    },
+    "airportTo": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "ageInYears": 7,
+    "flightPercentComplete": 8.055726443054056
+  },
+  {
+    "callsign": "DLH1831",
+    "altitude": 4125,
+    "grounded": false,
+    "speed": 203.5,
+    "lat": 48.34584,
+    "long": 11.556702,
+    "heading": 82.9,
+    "aircraftType": "A320",
+    "airportFrom": {
+      "code": "VLC",
+      "lat": 39.4929,
+      "long": -0.47617,
+      "name": "Valencia Airport",
+      "city": "Manises",
+      "state": "Valencia",
+      "country": "Spain"
+    },
+    "airportTo": {
+      "code": "MUC",
+      "lat": 48.354,
+      "long": 11.7816,
+      "name": "Franz-Josef-Strauss Airport",
+      "city": "Oberding",
+      "state": "Bavaria",
+      "country": "Germany"
+    },
+    "ageInYears": 29,
+    "flightPercentComplete": 98.80054536892257
+  },
+  {
+    "callsign": "DLH4RT",
+    "altitude": 11400,
+    "grounded": false,
+    "speed": 137,
+    "lat": 46.273865,
+    "long": 6.161588,
+    "heading": 225.5,
+    "aircraftType": "E190",
+    "airportFrom": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "GVA",
+      "lat": 46.2329,
+      "long": 6.10682,
+      "name": "Geneva Airport",
+      "city": "Geneva",
+      "state": "Canton of Geneva",
+      "country": "Switzerland"
+    },
+    "ageInYears": 8,
+    "flightPercentComplete": 98.65697477611295
+  },
+  {
+    "callsign": "DLH8AL",
+    "altitude": 14250,
+    "grounded": false,
+    "speed": 139.2,
+    "lat": 55.737808,
+    "long": 9.074124,
+    "heading": 86.7,
+    "aircraftType": "A319",
+    "airportFrom": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "BLL",
+      "lat": 55.742,
+      "long": 9.15354,
+      "name": "Billund Airport",
+      "city": "Billund",
+      "state": "Syddanmark",
+      "country": "Denmark"
+    },
+    "ageInYears": 21,
+    "flightPercentComplete": 99.21284301069949
+  },
+  {
+    "callsign": "DLH1977",
+    "altitude": 9125,
+    "grounded": false,
+    "speed": 162.1,
+    "lat": 48.339052,
+    "long": 11.730001,
+    "heading": 83.3,
+    "aircraftType": "A321",
+    "airportFrom": {
+      "code": "MLA",
+      "lat": 35.8586,
+      "long": 14.4781,
+      "name": "Luqa Airport",
+      "city": "Curmi",
+      "state": "South Eastern",
+      "country": "Malta"
+    },
+    "airportTo": {
+      "code": "MUC",
+      "lat": 48.354,
+      "long": 11.7816,
+      "name": "Franz-Josef-Strauss Airport",
+      "city": "Oberding",
+      "state": "Bavaria",
+      "country": "Germany"
+    },
+    "ageInYears": 4,
+    "flightPercentComplete": 99.70432285998513
+  },
+  {
+    "callsign": "DLH2564",
+    "altitude": 850,
+    "grounded": false,
+    "speed": 141.5,
+    "lat": 59.784622,
+    "long": 30.411804,
+    "heading": 286,
+    "aircraftType": "A320",
+    "airportFrom": {
+      "code": "MUC",
+      "lat": 48.354,
+      "long": 11.7816,
+      "name": "Franz-Josef-Strauss Airport",
+      "city": "Oberding",
+      "state": "Bavaria",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "LED",
+      "lat": 59.9667,
+      "long": 30.3,
+      "name": "Pulkuvo 2 Airport",
+      "city": "St. Petersburg",
+      "state": "St. Peterburg",
+      "country": "Russia"
+    },
+    "ageInYears": 9,
+    "flightPercentComplete": 98.7926570878366
+  },
+  {
+    "callsign": "DLH4XR",
+    "altitude": 5800,
+    "grounded": false,
+    "speed": 263.7,
+    "lat": 48.332703,
+    "long": 12.005944,
+    "heading": 113.9,
+    "aircraftType": "E190",
+    "airportFrom": {
+      "code": "MUC",
+      "lat": 48.354,
+      "long": 11.7816,
+      "name": "Franz-Josef-Strauss Airport",
+      "city": "Oberding",
+      "state": "Bavaria",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "WAW",
+      "lat": 52.17,
+      "long": 20.9725,
+      "name": "Okecie International Airport",
+      "city": "Warsaw",
+      "state": "Mazowieckie",
+      "country": "Poland"
+    },
+    "ageInYears": 9,
+    "flightPercentComplete": 1.523056637199438
+  },
+  {
+    "callsign": "DLH9HX",
+    "altitude": 32000,
+    "grounded": false,
+    "speed": 144,
+    "lat": 48.348953,
+    "long": 11.747272,
+    "heading": 83.2,
+    "aircraftType": "F100",
+    "airportFrom": {
+      "code": "ZRH",
+      "lat": 47.454,
+      "long": 8.56137,
+      "name": "Zurich International Airport",
+      "city": "Kloten",
+      "state": "Canton of Zurich",
+      "country": "Switzerland"
+    },
+    "airportTo": {
+      "code": "MUC",
+      "lat": 48.354,
+      "long": 11.7816,
+      "name": "Franz-Josef-Strauss Airport",
+      "city": "Oberding",
+      "state": "Bavaria",
+      "country": "Germany"
+    },
+    "ageInYears": 25,
+    "flightPercentComplete": 99.000921815669
+  },
+  {
+    "callsign": "DLH1818",
+    "altitude": 24800,
+    "grounded": false,
+    "speed": 385.1,
+    "lat": 39.183792,
+    "long": 2.36015,
+    "heading": 230.7,
+    "aircraftType": "A320",
+    "airportFrom": {
+      "code": "MUC",
+      "lat": 48.354,
+      "long": 11.7816,
+      "name": "Franz-Josef-Strauss Airport",
+      "city": "Oberding",
+      "state": "Bavaria",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "IBZ",
+      "lat": 38.8755,
+      "long": 1.36851,
+      "name": "Ibiza Airport",
+      "city": "San José",
+      "state": "Balearic Islands",
+      "country": "Spain"
+    },
+    "ageInYears": 8,
+    "flightPercentComplete": 93.13602411745522
+  },
+  {
+    "callsign": "DLH8HX",
+    "altitude": 30000,
+    "grounded": false,
+    "speed": 156.8,
+    "lat": 49.517196,
+    "long": 10.889678,
+    "heading": 98.8,
+    "aircraftType": "A319",
+    "airportFrom": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "NUE",
+      "lat": 49.4946,
+      "long": 11.0785,
+      "name": "Nurnberg Airport",
+      "city": "Nuremberg",
+      "state": "Bavaria",
+      "country": "Germany"
+    },
+    "ageInYears": 22,
+    "flightPercentComplete": 92.7161852745063
+  },
+  {
+    "callsign": "DLH5TW",
+    "altitude": 31000,
+    "grounded": false,
+    "speed": 499,
+    "lat": 55.980652,
+    "long": 13.466991,
+    "heading": 42.1,
+    "aircraftType": "A320",
+    "airportFrom": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "HEL",
+      "lat": 60.3243,
+      "long": 24.9688,
+      "name": "Helsinki Vantaa Airport",
+      "city": "Vantaa",
+      "state": "Southern Finland",
+      "country": "Finland"
+    },
+    "ageInYears": 28,
+    "flightPercentComplete": 46.136710621229604
+  },
+  {
+    "callsign": "DLH1445",
+    "altitude": 35975,
+    "grounded": false,
+    "speed": 424.7,
+    "lat": 51.441238,
+    "long": 13.944991,
+    "heading": 253.9,
+    "aircraftType": "A320",
+    "airportFrom": {
+      "code": "DME",
+      "lat": 55.4025,
+      "long": 37.9136,
+      "name": "Domodedovo Airport",
+      "city": "Podol'sk",
+      "state": "Moskovskaya Oblast",
+      "country": "Russia"
+    },
+    "airportTo": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "ageInYears": 4,
+    "flightPercentComplete": 80.0363784097238
+  },
+  {
+    "callsign": "DLH4LF",
+    "altitude": 4950,
+    "grounded": false,
+    "speed": 342,
+    "lat": 47.596498,
+    "long": 9.566134,
+    "heading": 98.6,
+    "aircraftType": "CRJ9",
+    "airportFrom": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "MUC",
+      "lat": 48.354,
+      "long": 11.7816,
+      "name": "Franz-Josef-Strauss Airport",
+      "city": "Oberding",
+      "state": "Bavaria",
+      "country": "Germany"
+    },
+    "flightPercentComplete": 38.240992830609656
+  },
+  {
+    "callsign": "DLH1158",
+    "altitude": 14775,
+    "grounded": false,
+    "speed": 432,
+    "lat": 42.568856,
+    "long": 7.067786,
+    "heading": 213,
+    "aircraftType": "A321",
+    "airportFrom": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "PMI",
+      "lat": 39.5495,
+      "long": 2.73188,
+      "name": "Palma de Mallorca Airport",
+      "city": "Palma",
+      "state": "Balearic Islands",
+      "country": "Spain"
+    },
+    "ageInYears": 7,
+    "flightPercentComplete": 60.54949067704778
+  },
+  {
+    "callsign": "DLH49P",
+    "altitude": 25,
+    "grounded": false,
+    "speed": 142.8,
+    "lat": 43.644166,
+    "long": 7.193429,
+    "heading": 45,
+    "aircraftType": "A319",
+    "airportFrom": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "NCE",
+      "lat": 43.6638,
+      "long": 7.21286,
+      "name": "Nice-Cote d'Azur Airport",
+      "city": "Nice",
+      "state": "Provence-alpes-cote d'Azur",
+      "country": "France"
+    },
+    "ageInYears": 8,
+    "flightPercentComplete": 99.62568441615713
+  },
+  {
+    "callsign": "DLH8WC",
+    "altitude": 475,
+    "grounded": false,
+    "speed": 371,
+    "lat": 51.299061,
+    "long": 6.79282,
+    "heading": 297.6,
+    "aircraftType": "A319",
+    "airportFrom": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "DUS",
+      "lat": 51.2794,
+      "long": 6.76481,
+      "name": "Dusseldorf International Airport",
+      "city": "Dusseldorf",
+      "state": "North Rhine-Westphalia",
+      "country": "Germany"
+    },
+    "ageInYears": 22,
+    "flightPercentComplete": 98.43335458411187
+  },
+  {
+    "callsign": "DLH1448",
+    "altitude": 33025,
+    "grounded": false,
+    "speed": 452.4,
+    "lat": 54.930176,
+    "long": 27.259342,
+    "heading": 84,
+    "aircraftType": "A321",
+    "airportFrom": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "DME",
+      "lat": 55.4025,
+      "long": 37.9136,
+      "name": "Domodedovo Airport",
+      "city": "Podol'sk",
+      "state": "Moskovskaya Oblast",
+      "country": "Russia"
+    },
+    "ageInYears": 24,
+    "flightPercentComplete": 66.86514841495034
+  },
+  {
+    "callsign": "DLH1300",
+    "altitude": 37000,
+    "grounded": false,
+    "speed": 466,
+    "lat": 44.137806,
+    "long": 25.190409,
+    "heading": 134,
+    "aircraftType": "A320",
+    "airportFrom": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "IST",
+      "lat": 40.9857,
+      "long": 28.8163,
+      "name": "Ataturk Hava Limani Airport",
+      "city": "Bakırköy",
+      "state": "Istanbul",
+      "country": "Turkey"
+    },
+    "ageInYears": 4,
+    "flightPercentComplete": 75.34153228678755
+  },
+  {
+    "callsign": "DLH77T",
+    "altitude": 34975,
+    "grounded": false,
+    "speed": 431.3,
+    "lat": 48.182556,
+    "long": 8.633493,
+    "heading": 221.9,
+    "aircraftType": "A319",
+    "airportFrom": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "BCN",
+      "lat": 41.3006,
+      "long": 2.07976,
+      "name": "Barcelona International Airport",
+      "city": "El Prat de Llobregat",
+      "state": "Catalonia",
+      "country": "Spain"
+    },
+    "ageInYears": 22,
+    "flightPercentComplete": 15.672702401799143
+  },
+  {
+    "callsign": "DLH2VU",
+    "altitude": 25000,
+    "grounded": false,
+    "speed": 438.3,
+    "lat": 49.220985,
+    "long": 12.854221,
+    "heading": 205.5,
+    "aircraftType": "CRJ9",
+    "airportFrom": {
+      "code": "GDN",
+      "lat": 54.3821,
+      "long": 18.454,
+      "name": "Rebiechowo Airport",
+      "city": "Gdansk",
+      "state": "Pomorskie",
+      "country": "Poland"
+    },
+    "airportTo": {
+      "code": "MUC",
+      "lat": 48.354,
+      "long": 11.7816,
+      "name": "Franz-Josef-Strauss Airport",
+      "city": "Oberding",
+      "state": "Bavaria",
+      "country": "Germany"
+    },
+    "flightPercentComplete": 84.72075418872633
+  },
+  {
+    "callsign": "DLH3RL",
+    "altitude": 37000,
+    "grounded": false,
+    "speed": 436,
+    "lat": 47.664091,
+    "long": 10.120873,
+    "heading": 71.7,
+    "aircraftType": "CRJ9",
+    "airportFrom": {
+      "code": "STR",
+      "lat": 48.6895,
+      "long": 9.19298,
+      "name": "Stuttgart Airport",
+      "city": "Stuttgart",
+      "state": "Baden-Wurttemberg",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "MUC",
+      "lat": 48.354,
+      "long": 11.7816,
+      "name": "Franz-Josef-Strauss Airport",
+      "city": "Oberding",
+      "state": "Bavaria",
+      "country": "Germany"
+    },
+    "flightPercentComplete": 25.139762707199797
+  },
+  {
+    "callsign": "DLH2EL",
+    "altitude": 28475,
+    "grounded": false,
+    "speed": 144,
+    "lat": 48.357998,
+    "long": 11.705788,
+    "heading": 82.8,
+    "aircraftType": "A320",
+    "airportFrom": {
+      "code": "MUC",
+      "lat": 48.354,
+      "long": 11.7816,
+      "name": "Franz-Josef-Strauss Airport",
+      "city": "Oberding",
+      "state": "Bavaria",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "GOT",
+      "lat": 57.6693,
+      "long": 12.2957,
+      "name": "Gothenburg Airport",
+      "city": "Härryda",
+      "state": "Vastra Gotaland",
+      "country": "Sweden"
+    },
+    "ageInYears": 9,
+    "flightPercentComplete": 0.025675720894968723
+  },
+  {
+    "callsign": "DLH3AH",
+    "altitude": 17000,
+    "grounded": false,
+    "speed": 339.1,
+    "lat": 48.447519,
+    "long": 11.900506,
+    "heading": 251.5,
+    "aircraftType": "CRJ9",
+    "airportFrom": {
+      "code": "HAJ",
+      "lat": 52.4586,
+      "long": 9.69459,
+      "name": "Hannover International Airport",
+      "city": "Langenhagen",
+      "state": "Lower Saxony",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "MUC",
+      "lat": 48.354,
+      "long": 11.7816,
+      "name": "Franz-Josef-Strauss Airport",
+      "city": "Oberding",
+      "state": "Bavaria",
+      "country": "Germany"
+    },
+    "flightPercentComplete": 97.16326049107683
+  },
+  {
+    "callsign": "DLH8CH",
+    "altitude": 14800,
+    "grounded": false,
+    "speed": 157,
+    "lat": 50.040939,
+    "long": 8.590224,
+    "heading": 249.5,
+    "aircraftType": "A321",
+    "airportFrom": {
+      "code": "TXL",
+      "lat": 52.5548,
+      "long": 13.289,
+      "name": "Berlin-Tegel International Airport",
+      "city": "Berlin",
+      "state": "Berlin",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "ageInYears": 19,
+    "flightPercentComplete": 99.62012926066282
+  },
+  {
+    "callsign": "DLH9AF",
+    "altitude": 1100,
+    "grounded": false,
+    "speed": 157,
+    "lat": 52.538864,
+    "long": 13.162766,
+    "heading": 79.8,
+    "aircraftType": "A320",
+    "airportFrom": {
+      "code": "TXL",
+      "lat": 52.5548,
+      "long": 13.289,
+      "name": "Berlin-Tegel International Airport",
+      "city": "Berlin",
+      "state": "Berlin",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "MUC",
+      "lat": 48.354,
+      "long": 11.7816,
+      "name": "Franz-Josef-Strauss Airport",
+      "city": "Oberding",
+      "state": "Bavaria",
+      "country": "Germany"
+    },
+    "ageInYears": 28,
+    "flightPercentComplete": 0.7591376167681685
+  },
+  {
+    "callsign": "DLH5NH",
+    "altitude": 23050,
+    "grounded": false,
+    "speed": 144.1,
+    "lat": 48.338913,
+    "long": 11.728339,
+    "heading": 82.8,
+    "aircraftType": "A320",
+    "airportFrom": {
+      "code": "TXL",
+      "lat": 52.5548,
+      "long": 13.289,
+      "name": "Berlin-Tegel International Airport",
+      "city": "Berlin",
+      "state": "Berlin",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "MUC",
+      "lat": 48.354,
+      "long": 11.7816,
+      "name": "Franz-Josef-Strauss Airport",
+      "city": "Oberding",
+      "state": "Bavaria",
+      "country": "Germany"
+    },
+    "ageInYears": 2,
+    "flightPercentComplete": 99.10694976137148
+  },
+  {
+    "callsign": "DLH1436",
+    "altitude": 37000,
+    "grounded": false,
+    "speed": 476.5,
+    "lat": 57.846313,
+    "long": 24.158138,
+    "heading": 54.3,
+    "aircraftType": "A320",
+    "airportFrom": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "LED",
+      "lat": 59.9667,
+      "long": 30.3,
+      "name": "Pulkuvo 2 Airport",
+      "city": "St. Petersburg",
+      "state": "St. Peterburg",
+      "country": "Russia"
+    },
+    "ageInYears": 5,
+    "flightPercentComplete": 75.86746320274719
+  },
+  {
+    "callsign": "DLH5YC",
+    "altitude": 1550,
+    "grounded": false,
+    "speed": 143,
+    "lat": 48.361444,
+    "long": 11.75089,
+    "heading": 83.2,
+    "aircraftType": "A319",
+    "airportFrom": {
+      "code": "HAJ",
+      "lat": 52.4586,
+      "long": 9.69459,
+      "name": "Hannover International Airport",
+      "city": "Langenhagen",
+      "state": "Lower Saxony",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "MUC",
+      "lat": 48.354,
+      "long": 11.7816,
+      "name": "Franz-Josef-Strauss Airport",
+      "city": "Oberding",
+      "state": "Bavaria",
+      "country": "Germany"
+    },
+    "ageInYears": 7,
+    "flightPercentComplete": 99.49651854212311
+  },
+  {
+    "callsign": "DLH8AE",
+    "altitude": 1550,
+    "grounded": false,
+    "speed": 156.9,
+    "lat": 48.361863,
+    "long": 11.756022,
+    "heading": 83.8,
+    "aircraftType": "A321",
+    "airportFrom": {
+      "code": "TXL",
+      "lat": 52.5548,
+      "long": 13.289,
+      "name": "Berlin-Tegel International Airport",
+      "city": "Berlin",
+      "state": "Berlin",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "MUC",
+      "lat": 48.354,
+      "long": 11.7816,
+      "name": "Franz-Josef-Strauss Airport",
+      "city": "Oberding",
+      "state": "Bavaria",
+      "country": "Germany"
+    },
+    "ageInYears": 6,
+    "flightPercentComplete": 99.56538296949547
+  },
+  {
+    "callsign": "DLH3WJ",
+    "altitude": 34975,
+    "grounded": false,
+    "speed": 455.9,
+    "lat": 43.742159,
+    "long": 10.15516,
+    "heading": 157.4,
+    "aircraftType": "A320",
+    "airportFrom": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "MLA",
+      "lat": 35.8586,
+      "long": 14.4781,
+      "name": "Luqa Airport",
+      "city": "Curmi",
+      "state": "South Eastern",
+      "country": "Malta"
+    },
+    "ageInYears": 4,
+    "flightPercentComplete": 42.3063661889896
+  },
+  {
+    "callsign": "DLH2544",
+    "altitude": 3682,
+    "grounded": false,
+    "speed": 19,
+    "lat": 50.336048,
+    "long": 30.898506,
+    "heading": 89.5,
+    "aircraftType": "A320",
+    "airportFrom": {
+      "code": "MUC",
+      "lat": 48.354,
+      "long": 11.7816,
+      "name": "Franz-Josef-Strauss Airport",
+      "city": "Oberding",
+      "state": "Bavaria",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "KBP",
+      "lat": 50.3405,
+      "long": 30.9025,
+      "name": "Borispol Airport",
+      "city": "Kiev",
+      "state": "Kyyivs´ka Oblast´",
+      "country": "Ukraine"
+    },
+    "ageInYears": 3,
+    "flightPercentComplete": 99.95921327818877
+  },
+  {
+    "callsign": "DLH7LL",
+    "altitude": 11000,
+    "grounded": false,
+    "speed": 439.5,
+    "lat": 48.382625,
+    "long": 11.214078,
+    "heading": 119.9,
+    "aircraftType": "CRJ9",
+    "airportFrom": {
+      "code": "MUC",
+      "lat": 48.354,
+      "long": 11.7816,
+      "name": "Franz-Josef-Strauss Airport",
+      "city": "Oberding",
+      "state": "Bavaria",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "DUS",
+      "lat": 51.2794,
+      "long": 6.76481,
+      "name": "Dusseldorf International Airport",
+      "city": "Dusseldorf",
+      "state": "North Rhine-Westphalia",
+      "country": "Germany"
+    },
+    "flightPercentComplete": 6.532724829714043
+  },
+  {
+    "callsign": "DLH6KV",
+    "altitude": 14525,
+    "grounded": false,
+    "speed": 379.7,
+    "lat": 50.539261,
+    "long": 9.959902,
+    "heading": 231,
+    "aircraftType": "A321",
+    "airportFrom": {
+      "code": "HAJ",
+      "lat": 52.4586,
+      "long": 9.69459,
+      "name": "Hannover International Airport",
+      "city": "Langenhagen",
+      "state": "Lower Saxony",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "MUC",
+      "lat": 48.354,
+      "long": 11.7816,
+      "name": "Franz-Josef-Strauss Airport",
+      "city": "Oberding",
+      "state": "Bavaria",
+      "country": "Germany"
+    },
+    "ageInYears": 18,
+    "flightPercentComplete": 42.3910274796706
+  },
+  {
+    "callsign": "DLH1494",
+    "altitude": 35000,
+    "grounded": false,
+    "speed": 460.4,
+    "lat": 49.895945,
+    "long": 22.801307,
+    "heading": 92.5,
+    "aircraftType": "A320",
+    "airportFrom": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "KBP",
+      "lat": 50.3405,
+      "long": 30.9025,
+      "name": "Borispol Airport",
+      "city": "Kiev",
+      "state": "Kyyivs´ka Oblast´",
+      "country": "Ukraine"
+    },
+    "ageInYears": 5,
+    "flightPercentComplete": 63.42168495009807
+  },
+  {
+    "callsign": "DLH53U",
+    "altitude": 32975,
+    "grounded": false,
+    "speed": 462,
+    "lat": 48.20866,
+    "long": 15.656096,
+    "heading": 90.7,
+    "aircraftType": "A320",
+    "airportFrom": {
+      "code": "MRS",
+      "lat": 43.4411,
+      "long": 5.22087,
+      "name": "Marignane Airport",
+      "city": "Marignane",
+      "state": "Provence-alpes-cote d'Azur",
+      "country": "France"
+    },
+    "airportTo": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "ageInYears": 2,
+    "flightPercentComplete": 28.700048229442455
+  },
+  {
+    "callsign": "DLH8RM",
+    "altitude": 275,
+    "grounded": false,
+    "speed": 143.6,
+    "lat": 41.861774,
+    "long": 12.254866,
+    "heading": 162.6,
+    "aircraftType": "A20N",
+    "airportFrom": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "FCO",
+      "lat": 41.8026,
+      "long": 12.2551,
+      "name": "Leonardo da Vinci International Airport",
+      "city": "Rome",
+      "state": "Lazio",
+      "country": "Italy"
+    },
+    "ageInYears": 1,
+    "flightPercentComplete": 99.314480323369
+  },
+  {
+    "callsign": "DLH1475",
+    "altitude": 37950,
+    "grounded": false,
+    "speed": 424.6,
+    "lat": 49.335526,
+    "long": 17.719891,
+    "heading": 286,
+    "aircraftType": "A319",
+    "airportFrom": {
+      "code": "KIV",
+      "lat": 46.9296,
+      "long": 28.9389,
+      "name": "Kishinev Southeast Airport",
+      "city": "Chisinau",
+      "state": "Chisinau",
+      "country": "Moldova"
+    },
+    "airportTo": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "ageInYears": 21,
+    "flightPercentComplete": 56.853852395744056
+  },
+  {
+    "callsign": "DLH46E",
+    "altitude": 34000,
+    "grounded": false,
+    "speed": 487,
+    "lat": 41.217087,
+    "long": -3.543457,
+    "heading": 35.8,
+    "aircraftType": "A320",
+    "airportFrom": {
+      "code": "MAD",
+      "lat": 40.4684,
+      "long": -3.56769,
+      "name": "Barajas Airport",
+      "city": "Madrid",
+      "state": "Madrid",
+      "country": "Spain"
+    },
+    "airportTo": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "ageInYears": 29,
+    "flightPercentComplete": 4.662059309284016
+  },
+  {
+    "callsign": "DLH1153",
+    "altitude": 34000,
+    "grounded": false,
+    "speed": 482.4,
+    "lat": 42.16539,
+    "long": 7.729444,
+    "heading": 36.1,
+    "aircraftType": "A321",
+    "airportFrom": {
+      "code": "PMI",
+      "lat": 39.5495,
+      "long": 2.73188,
+      "name": "Palma de Mallorca Airport",
+      "city": "Palma",
+      "state": "Balearic Islands",
+      "country": "Spain"
+    },
+    "airportTo": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "ageInYears": 23,
+    "flightPercentComplete": 29.913312001660596
+  },
+  {
+    "callsign": "DLH2HU",
+    "altitude": 23600,
+    "grounded": false,
+    "speed": 425.8,
+    "lat": 50.975922,
+    "long": 7.977856,
+    "heading": 325.5,
+    "aircraftType": "A320",
+    "airportFrom": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "GLA",
+      "lat": 55.8646,
+      "long": -4.43234,
+      "name": "Glasgow International Airport",
+      "city": "Paisley",
+      "state": "Scotland",
+      "country": "United Kingdom"
+    },
+    "ageInYears": 6,
+    "flightPercentComplete": 9.097532547428312
+  },
+  {
+    "callsign": "DLH2MA",
+    "altitude": 37000,
+    "grounded": false,
+    "speed": 139,
+    "lat": 48.361588,
+    "long": 11.751639,
+    "heading": 83,
+    "aircraftType": "A319",
+    "airportFrom": {
+      "code": "CPH",
+      "lat": 55.6205,
+      "long": 12.6495,
+      "name": "Copenhagen Airport",
+      "city": "Kastrup",
+      "state": "Hovedstaden",
+      "country": "Denmark"
+    },
+    "airportTo": {
+      "code": "MUC",
+      "lat": 48.354,
+      "long": 11.7816,
+      "name": "Franz-Josef-Strauss Airport",
+      "city": "Oberding",
+      "state": "Bavaria",
+      "country": "Germany"
+    },
+    "ageInYears": 8,
+    "flightPercentComplete": 99.70758283272839
+  },
+  {
+    "callsign": "DLH803",
+    "altitude": 28850,
+    "grounded": false,
+    "speed": 446.4,
+    "lat": 51.70784,
+    "long": 10.452972,
+    "heading": 201.3,
+    "aircraftType": "A320",
+    "airportFrom": {
+      "code": "ARN",
+      "lat": 59.6521,
+      "long": 17.9317,
+      "name": "Arlanda Airport",
+      "city": "Märst",
+      "state": "Stockholm",
+      "country": "Sweden"
+    },
+    "airportTo": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "ageInYears": 29,
+    "flightPercentComplete": 81.42949623082276
+  },
+  {
+    "callsign": "DLH6MK",
+    "altitude": 36875,
+    "grounded": false,
+    "speed": 458.2,
+    "lat": 44.296689,
+    "long": 17.190589,
+    "heading": 134.3,
+    "aircraftType": "A321",
+    "airportFrom": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "ATH",
+      "lat": 37.8937,
+      "long": 23.7235,
+      "name": "Eleftherios Venizelos International Airport",
+      "city": "Athens",
+      "state": "Attiki",
+      "country": "Greece"
+    },
+    "ageInYears": 11,
+    "flightPercentComplete": 50.38522994302161
+  },
+  {
+    "callsign": "DLH4NF",
+    "altitude": 23975,
+    "grounded": false,
+    "speed": 450.3,
+    "lat": 51.498832,
+    "long": 8.849258,
+    "heading": 52,
+    "aircraftType": "A321",
+    "airportFrom": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "TXL",
+      "lat": 52.5548,
+      "long": 13.289,
+      "name": "Berlin-Tegel International Airport",
+      "city": "Berlin",
+      "state": "Berlin",
+      "country": "Germany"
+    },
+    "ageInYears": 6,
+    "flightPercentComplete": 24.333464287108974
+  },
+  {
+    "callsign": "DLH2528",
+    "altitude": 775,
+    "grounded": false,
+    "speed": 139.2,
+    "lat": 55.192886,
+    "long": 38.236137,
+    "heading": 326.4,
+    "aircraftType": "A320",
+    "airportFrom": {
+      "code": "MUC",
+      "lat": 48.354,
+      "long": 11.7816,
+      "name": "Franz-Josef-Strauss Airport",
+      "city": "Oberding",
+      "state": "Bavaria",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "DME",
+      "lat": 55.4025,
+      "long": 37.9136,
+      "name": "Domodedovo Airport",
+      "city": "Podol'sk",
+      "state": "Moskovskaya Oblast",
+      "country": "Russia"
+    },
+    "ageInYears": 29,
+    "flightPercentComplete": 98.40489627885171
+  },
+  {
+    "callsign": "DLH2NE",
+    "altitude": 17225,
+    "grounded": false,
+    "speed": 141,
+    "lat": 49.173408,
+    "long": 9.167223,
+    "heading": 9.6,
+    "aircraftType": "CRJ9",
+    "airportFrom": {
+      "code": "TXL",
+      "lat": 52.5548,
+      "long": 13.289,
+      "name": "Berlin-Tegel International Airport",
+      "city": "Berlin",
+      "state": "Berlin",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "flightPercentComplete": 75.28169467482304
+  },
+  {
+    "callsign": "DLH1EM",
+    "altitude": 3975,
+    "grounded": false,
+    "speed": 373.4,
+    "lat": 48.457109,
+    "long": 11.942789,
+    "heading": 257.6,
+    "aircraftType": "CRJ9",
+    "airportFrom": {
+      "code": "CGN",
+      "lat": 50.8784,
+      "long": 7.12293,
+      "name": "Cologne Bonn Airport",
+      "city": "Cologne",
+      "state": "North Rhine-Westphalia",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "MUC",
+      "lat": 48.354,
+      "long": 11.7816,
+      "name": "Franz-Josef-Strauss Airport",
+      "city": "Oberding",
+      "state": "Bavaria",
+      "country": "Germany"
+    },
+    "flightPercentComplete": 96.22224611013496
+  },
+  {
+    "callsign": "DLH44W",
+    "altitude": 9400,
+    "grounded": false,
+    "speed": 132,
+    "lat": 38.700348,
+    "long": -9.179138,
+    "heading": 23.6,
+    "aircraftType": "A321",
+    "airportFrom": {
+      "code": "MUC",
+      "lat": 48.354,
+      "long": 11.7816,
+      "name": "Franz-Josef-Strauss Airport",
+      "city": "Oberding",
+      "state": "Bavaria",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "LIS",
+      "lat": 38.7701,
+      "long": -9.13775,
+      "name": "Lisbon Airport",
+      "city": "Lisbon",
+      "state": "Lisbon",
+      "country": "Portugal"
+    },
+    "ageInYears": 8,
+    "flightPercentComplete": 99.56927476554968
+  },
+  {
+    "callsign": "DLH882",
+    "altitude": 36975,
+    "grounded": false,
+    "speed": 496.6,
+    "lat": 52.998233,
+    "long": 11.792332,
+    "heading": 46.8,
+    "aircraftType": "A320",
+    "airportFrom": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "TLL",
+      "lat": 59.4121,
+      "long": 24.8297,
+      "name": "Ulemiste Airport",
+      "city": "Tallinn",
+      "state": "Harjumaa",
+      "country": "Estonia"
+    },
+    "ageInYears": 3,
+    "flightPercentComplete": 26.84707258558382
+  },
+  {
+    "callsign": "DLH881",
+    "altitude": 26450,
+    "grounded": false,
+    "speed": 457.2,
+    "lat": 51.151366,
+    "long": 11.613693,
+    "heading": 238.8,
+    "aircraftType": "A321",
+    "airportFrom": {
+      "code": "TLL",
+      "lat": 59.4121,
+      "long": 24.8297,
+      "name": "Ulemiste Airport",
+      "city": "Tallinn",
+      "state": "Harjumaa",
+      "country": "Estonia"
+    },
+    "airportTo": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "ageInYears": 6,
+    "flightPercentComplete": 83.14142831648408
+  },
+  {
+    "callsign": "DLH8KY",
+    "altitude": 275,
+    "grounded": false,
+    "speed": 149.2,
+    "lat": 45.733337,
+    "long": 16.054241,
+    "heading": 46.4,
+    "aircraftType": "CRJX",
+    "airportFrom": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "ZAG",
+      "lat": 45.7402,
+      "long": 16.0704,
+      "name": "Zagreb Airport",
+      "city": "Nagygoricza",
+      "state": "Zagrebačka",
+      "country": "Croatia"
+    },
+    "ageInYears": 2,
+    "flightPercentComplete": 99.80045163876149
+  },
+  {
+    "callsign": "DLH4UX",
+    "altitude": 30750,
+    "grounded": false,
+    "speed": 313.7,
+    "lat": 59.912544,
+    "long": 11.779049,
+    "heading": 18.2,
+    "aircraftType": "A320",
+    "airportFrom": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "OSL",
+      "lat": 60.1947,
+      "long": 11.1005,
+      "name": "Oslo Gardermoen Airport",
+      "city": "Gardermoen",
+      "state": "Akershus Fylke",
+      "country": "Norway"
+    },
+    "ageInYears": 28,
+    "flightPercentComplete": 95.69787272292544
+  },
+  {
+    "callsign": "DLH85N",
+    "altitude": 4125,
+    "grounded": false,
+    "speed": 266,
+    "lat": 50.129517,
+    "long": 8.963832,
+    "heading": 250.7,
+    "aircraftType": "A321",
+    "airportFrom": {
+      "code": "BCN",
+      "lat": 41.3006,
+      "long": 2.07976,
+      "name": "Barcelona International Airport",
+      "city": "El Prat de Llobregat",
+      "state": "Catalonia",
+      "country": "Spain"
+    },
+    "airportTo": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "ageInYears": 18,
+    "flightPercentComplete": 97.30648031553041
+  },
+  {
+    "callsign": "DLH9MK",
+    "altitude": 24000,
+    "grounded": false,
+    "speed": 147.7,
+    "lat": 50.050781,
+    "long": 8.554591,
+    "heading": 250.2,
+    "aircraftType": "A321",
+    "airportFrom": {
+      "code": "BHX",
+      "lat": 52.4531,
+      "long": -1.73847,
+      "name": "Birmingham International Airport",
+      "city": "Birmingham",
+      "state": "England",
+      "country": "United Kingdom"
+    },
+    "airportTo": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "ageInYears": 22,
+    "flightPercentComplete": 99.84798591987798
+  },
+  {
+    "callsign": "DLH3VT",
+    "altitude": 17950,
+    "grounded": false,
+    "speed": 330.5,
+    "lat": 51.094757,
+    "long": 9.635901,
+    "heading": 183.1,
+    "aircraftType": "E190",
+    "airportFrom": {
+      "code": "ABZ",
+      "lat": 57.2004,
+      "long": -2.20373,
+      "name": "Aberdeen Dyce International Airport",
+      "city": "Aberdeen",
+      "state": "Scotland",
+      "country": "United Kingdom"
+    },
+    "airportTo": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "ageInYears": 8,
+    "flightPercentComplete": 86.9765707618865
+  },
+  {
+    "callsign": "DLH1491",
+    "altitude": 32350,
+    "grounded": false,
+    "speed": 439.2,
+    "lat": 50.196716,
+    "long": 12.660587,
+    "heading": 268.4,
+    "aircraftType": "A320",
+    "airportFrom": {
+      "code": "KBP",
+      "lat": 50.3405,
+      "long": 30.9025,
+      "name": "Borispol Airport",
+      "city": "Kiev",
+      "state": "Kyyivs´ka Oblast´",
+      "country": "Ukraine"
+    },
+    "airportTo": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "ageInYears": 5,
+    "flightPercentComplete": 81.56469426505375
+  },
+  {
+    "callsign": "DLH1299",
+    "altitude": 35975,
+    "grounded": false,
+    "speed": 440.6,
+    "lat": 47.024464,
+    "long": 18.066593,
+    "heading": 295.7,
+    "aircraftType": "A320",
+    "airportFrom": {
+      "code": "IST",
+      "lat": 40.9857,
+      "long": 28.8163,
+      "name": "Ataturk Hava Limani Airport",
+      "city": "Bakırköy",
+      "state": "Istanbul",
+      "country": "Turkey"
+    },
+    "airportTo": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "ageInYears": 4,
+    "flightPercentComplete": 58.387839658288755
+  },
+  {
+    "callsign": "DLH1306",
+    "altitude": 15450,
+    "grounded": false,
+    "speed": 402,
+    "lat": 34.23391,
+    "long": 34.919872,
+    "heading": 111.3,
+    "aircraftType": "A321",
+    "airportFrom": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "BEY",
+      "lat": 33.825,
+      "long": 35.4925,
+      "name": "Beirut International Airport",
+      "city": "Beirut",
+      "state": "Jabal Lubnan",
+      "country": "Lebanon"
+    },
+    "ageInYears": 7,
+    "flightPercentComplete": 97.5462105921413
+  },
+  {
+    "callsign": "DLH1JV",
+    "altitude": 20650,
+    "grounded": false,
+    "speed": 413.6,
+    "lat": 50.878647,
+    "long": 8.587152,
+    "heading": 16.3,
+    "aircraftType": "A321",
+    "airportFrom": {
+      "code": "TXL",
+      "lat": 52.5548,
+      "long": 13.289,
+      "name": "Berlin-Tegel International Airport",
+      "city": "Berlin",
+      "state": "Berlin",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "MUC",
+      "lat": 48.354,
+      "long": 11.7816,
+      "name": "Franz-Josef-Strauss Airport",
+      "city": "Oberding",
+      "state": "Bavaria",
+      "country": "Germany"
+    },
+    "ageInYears": 9,
+    "flightPercentComplete": 24.24924822205363
+  },
+  {
+    "callsign": "DLH13C",
+    "altitude": 2400,
+    "grounded": false,
+    "speed": 148,
+    "lat": 48.339378,
+    "long": 11.733832,
+    "heading": 83.4,
+    "aircraftType": "A320",
+    "airportFrom": {
+      "code": "BIO",
+      "lat": 43.3025,
+      "long": -2.91112,
+      "name": "Bilbao Airport",
+      "city": "Loiu",
+      "state": "Basque Country",
+      "country": "Spain"
+    },
+    "airportTo": {
+      "code": "MUC",
+      "lat": 48.354,
+      "long": 11.7816,
+      "name": "Franz-Josef-Strauss Airport",
+      "city": "Oberding",
+      "state": "Bavaria",
+      "country": "Germany"
+    },
+    "ageInYears": 2,
+    "flightPercentComplete": 99.69315294420528
+  },
+  {
+    "callsign": "DLH7CF",
+    "altitude": 4975,
+    "grounded": false,
+    "speed": 149,
+    "lat": 48.36232,
+    "long": 11.762061,
+    "heading": 83.4,
+    "aircraftType": "A320",
+    "airportFrom": {
+      "code": "DUB",
+      "lat": 53.4272,
+      "long": -6.24418,
+      "name": "Dublin Airport",
+      "city": "Cloghran",
+      "state": "",
+      "country": "Ireland"
+    },
+    "airportTo": {
+      "code": "MUC",
+      "lat": 48.354,
+      "long": 11.7816,
+      "name": "Franz-Josef-Strauss Airport",
+      "city": "Oberding",
+      "state": "Bavaria",
+      "country": "Germany"
+    },
+    "ageInYears": 3,
+    "flightPercentComplete": 99.87570791166597
+  },
+  {
+    "callsign": "DLH1PF",
+    "altitude": 16300,
+    "grounded": false,
+    "speed": 141.2,
+    "lat": 48.374851,
+    "long": 11.771851,
+    "heading": 82.7,
+    "aircraftType": "F100",
+    "airportFrom": {
+      "code": "LHR",
+      "lat": 51.4703,
+      "long": -0.45342,
+      "name": "London Heathrow Airport",
+      "city": "Hounslow",
+      "state": "England",
+      "country": "United Kingdom"
+    },
+    "airportTo": {
+      "code": "MUC",
+      "lat": 48.354,
+      "long": 11.7816,
+      "name": "Franz-Josef-Strauss Airport",
+      "city": "Oberding",
+      "state": "Bavaria",
+      "country": "Germany"
+    },
+    "ageInYears": 25,
+    "flightPercentComplete": 99.74191332538254
+  },
+  {
+    "callsign": "DLH1433",
+    "altitude": 36975,
+    "grounded": false,
+    "speed": 433.5,
+    "lat": 53.392456,
+    "long": 15.654968,
+    "heading": 225.3,
+    "aircraftType": "A320",
+    "airportFrom": {
+      "code": "LED",
+      "lat": 59.9667,
+      "long": 30.3,
+      "name": "Pulkuvo 2 Airport",
+      "city": "St. Petersburg",
+      "state": "St. Peterburg",
+      "country": "Russia"
+    },
+    "airportTo": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "ageInYears": 4,
+    "flightPercentComplete": 65.10519063823223
+  },
+  {
+    "callsign": "DLH35X",
+    "altitude": 22225,
+    "grounded": false,
+    "speed": 367.9,
+    "lat": 42.936539,
+    "long": -1.57839,
+    "heading": 277.2,
+    "aircraftType": "A319",
+    "airportFrom": {
+      "code": "MUC",
+      "lat": 48.354,
+      "long": 11.7816,
+      "name": "Franz-Josef-Strauss Airport",
+      "city": "Oberding",
+      "state": "Bavaria",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "BIO",
+      "lat": 43.3025,
+      "long": -2.91112,
+      "name": "Bilbao Airport",
+      "city": "Loiu",
+      "state": "Basque Country",
+      "country": "Spain"
+    },
+    "ageInYears": 9,
+    "flightPercentComplete": 90.87578244235914
+  },
+  {
+    "callsign": "DLH9AC",
+    "altitude": 7350,
+    "grounded": false,
+    "speed": 153.2,
+    "lat": 48.361584,
+    "long": 11.751902,
+    "heading": 82.9,
+    "aircraftType": "A320",
+    "airportFrom": {
+      "code": "LHR",
+      "lat": 51.4703,
+      "long": -0.45342,
+      "name": "London Heathrow Airport",
+      "city": "Hounslow",
+      "state": "England",
+      "country": "United Kingdom"
+    },
+    "airportTo": {
+      "code": "MUC",
+      "lat": 48.354,
+      "long": 11.7816,
+      "name": "Franz-Josef-Strauss Airport",
+      "city": "Oberding",
+      "state": "Bavaria",
+      "country": "Germany"
+    },
+    "ageInYears": 2,
+    "flightPercentComplete": 99.75010566219069
+  },
+  {
+    "callsign": "DLH9EJ",
+    "altitude": 14025,
+    "grounded": false,
+    "speed": 157,
+    "lat": 48.362142,
+    "long": 11.759563,
+    "heading": 83.4,
+    "aircraftType": "A321",
+    "airportFrom": {
+      "code": "FRA",
+      "lat": 50.0483,
+      "long": 8.57041,
+      "name": "Frankfurt International Airport",
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "airportTo": {
+      "code": "WRO",
+      "lat": 51.1039,
+      "long": 16.8985,
+      "name": "Strachowice Airport",
+      "city": "Wroclaw",
+      "state": "Dolnosląskie",
+      "country": "Poland"
+    },
+    "ageInYears": 8,
+    "flightPercentComplete": 20.125709200734764
+  }
+]

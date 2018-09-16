@@ -90,3 +90,13 @@ header:last-child {
   font-size: 2vh;
   color: white;
 }
+
+a,
+a:link,
+a:visited,
+a:focus,
+a:hover,
+a:active {
+  color: inherit;
+  text-decoration: none;
+}

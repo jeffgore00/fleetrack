@@ -123,6 +123,9 @@ export function positionGraphElements(d3elems, duration) {
 
 export function addMouseoverHandling(d3elems) {
   d3elems
+    .on('click', function(d) {
+      window.open(`https://flightaware.com/live/flight/${d.callsign}`);
+    })
     .on('mouseover', function(d) {
       addMouseoverAnimation(this, 'airplaneSideViewIconPurple');
       appendInfobox(d);

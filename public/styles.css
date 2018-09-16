@@ -2,6 +2,10 @@
   margin-top: 30px;
 }
 
+.aircraft {
+  cursor: pointer;
+}
+
 .infobox {
   font-family: Helvetica;
   font-size: 0.75em;

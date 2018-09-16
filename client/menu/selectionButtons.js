@@ -30,14 +30,13 @@ export function updateCraftCount(fleet) {
 }
 
 function uiChangeOnClick(inputElement) {
-  document
-    .querySelector('.btn.btn-secondary.active')
-    .setAttribute('checked', '');
-  document
-    .querySelector('.btn.btn-secondary.active')
-    .classList.remove('active');
+  const previousActiveBtn = document.querySelector('.btn.btn-secondary.active');
+  previousActiveBtn.classList.remove('active');
+  previousActiveBtn.querySelector('input').removeAttribute('checked');
+  previousActiveBtn.querySelector('input').removeAttribute('disabled');
   inputElement.parentElement.classList.add('active');
-  inputElement.setAttribute('checked', 'checked');
+  inputElement.setAttribute('checked', '');
+  inputElement.setAttribute('disabled', '');
 }
 
 function loadingWheelOnClick(displayDiv) {

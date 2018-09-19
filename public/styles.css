@@ -157,6 +157,7 @@ a:active {
 
 #mobileSplashContent p {
   line-height: 1em;
+  text-align: justify;
 }
 
 #mobileSplashContent img {

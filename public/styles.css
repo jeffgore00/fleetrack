@@ -136,6 +136,7 @@ a:active {
   height: 100%;
   background-color: darkblue;
   color: white;
+  display: none;
 }
 
 #mobileSplashContent {

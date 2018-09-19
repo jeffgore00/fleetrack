@@ -8,6 +8,18 @@ if (window.innerWidth < 900) {
   header.style.display = 'none';
   splash.style.display = 'inline';
 } else {
+  loadGraph();
+}
+
+window.onresize = () => {
+  if (header.style.display === 'none' && window.innerWidth >= 900) {
+    header.style.display = 'inline';
+    splash.style.display = 'none';
+    loadGraph();
+  }
+};
+
+function loadGraph() {
   addFunctionalityToButtons();
   store.dispatch(fetchInitialFleet('DAL'));
 }

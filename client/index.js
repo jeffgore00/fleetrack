@@ -15,6 +15,11 @@ const loadGraphAfterResize = _.debounce(() => {
   loadGraph();
 }, 1000);
 
+header.style.display = 'none';
+splash.style.display = 'inline';
+
+/*
+// Restore this after API issues fixed:
 if (window.innerWidth < MIN_WINDOW_WIDTH) {
   header.style.display = 'none';
   splash.style.display = 'inline';
@@ -32,3 +37,4 @@ window.onresize = () => {
     loadGraphAfterResize();
   }
 };
+*/

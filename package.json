@@ -4,6 +4,7 @@
   "description": "",
   "main": "main.js",
   "scripts": {
+    "build-client": "webpack",
     "test": "NODE_ENV=testing mocha test -r babel-register -r jsdom-global/register",
     "start": "node main.js",
     "start-dev": "webpack -w & nodemon main.js",

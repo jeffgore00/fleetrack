@@ -1,10 +1,18 @@
 /* Code courtesy of https://stackoverflow.com/questions/2901102/how-to-print-a-number-with-commas-as-thousands-separators-in-javascript */
 
-export interface ReduxStore {
+export interface ReduxState {
   carrier: string;
   fleet: Airplane[];
   queryIntervalId: number;
+}
+
+export interface ReduxStore extends ReduxState {
   getState: Function;
+}
+
+export interface ReduxAction {
+  type: string;
+  [x: string]: any;
 }
 
 export interface Airplane {

@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
   devtool: 'source-map',
-  entry: './client/index.ts',
+  entry: ['babel-polyfill', './client/index.ts'],
   output: {
     path: path.join(__dirname, 'public'),
     filename: 'bundle.js'

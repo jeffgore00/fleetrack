@@ -4,7 +4,7 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "test": "NODE_ENV=testing mocha test --watch  --compilers js:babel-register -r jsdom-global/register",
+    "test": "NODE_ENV=testing mocha test -r babel-register -r jsdom-global/register",
     "start": "node main.js",
     "start-dev": "webpack -w & nodemon main.js",
     "deploy": "script/deploy"

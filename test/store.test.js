@@ -35,6 +35,8 @@ let initialFleetJSON;
 let initialFleet;
 let clock;
 let buildVizStub;
+let mock;
+
 
 describe('action creators', () => {
   before(async () => {
@@ -47,12 +49,13 @@ describe('action creators', () => {
     buildVizStub = sinon.stub(buildVisualization, 'default');
   });
 
+
   after(() => {
     clock.restore();
     buildVizStub.restore();
+    mock.restore();
   });
 
-  let mock;
   beforeEach(() => {
     mock = new MockAdapter(axios);
   });

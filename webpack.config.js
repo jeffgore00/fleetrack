@@ -2,15 +2,18 @@ const path = require('path');
 
 module.exports = {
   devtool: 'source-map',
-  entry: './client/index.js',
+  entry: './client/index.ts',
   output: {
     path: path.join(__dirname, 'public'),
     filename: 'bundle.js'
   },
+  resolve: {
+    extensions: ['.tsx', '.ts', '.jsx', '.js']
+  },
   module: {
     rules: [
       {
-        test: /\.jsx?$/,
+        test: /\.tsx?$|\.jsx?$/,
         exclude: /(node_modules|bower_components)/,
         loader: 'babel-loader'
       }

@@ -1,17 +1,17 @@
 import store, { fetchInitialFleet } from './store';
 import { addFunctionalityToButtons } from './menu/selectionButtons';
 import { MIN_WINDOW_WIDTH } from './constants';
-import _ from 'lodash';
+import * as _ from 'lodash';
 
 const header = document.querySelector('header');
 const splash = document.getElementById('mobileSplash');
 
-const loadGraph = () => {
+const loadGraph = ():void => {
   addFunctionalityToButtons();
   store.dispatch(fetchInitialFleet('DAL'));
 };
 
-const loadGraphAfterResize = _.debounce(() => {
+const loadGraphAfterResize = _.debounce(():void => {
   loadGraph();
 }, 1000);
 

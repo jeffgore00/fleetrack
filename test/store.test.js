@@ -37,7 +37,6 @@ let clock;
 let buildVizStub;
 let mock;
 
-
 describe('action creators', () => {
   before(async () => {
     initialFleetJSON = await getDummyFleet('DAL');
@@ -48,7 +47,6 @@ describe('action creators', () => {
     // we are not testing the visualization.
     buildVizStub = sinon.stub(buildVisualization, 'default');
   });
-
 
   after(() => {
     clock.restore();

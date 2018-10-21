@@ -5,7 +5,7 @@
   "main": "main.js",
   "scripts": {
     "build-client": "webpack",
-    "test": "NODE_ENV=testing mocha test -r babel-register -r jsdom-global/register",
+    "test": "NODE_ENV=testing mocha test -r @babel/register -r jsdom-global/register",
     "start": "node main.js",
     "start-dev": "webpack -w & nodemon main.js",
     "deploy": "script/deploy"
@@ -14,7 +14,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@types/redux-logger": "^3.0.6",
     "ajv": "^6.5.4",
     "axios": "^0.18.0",
     "body-parser": "^1.18.2",
@@ -41,14 +40,15 @@
     "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
     "@babel/preset-env": "^7.1.0",
     "@babel/preset-typescript": "^7.1.0",
+    "@babel/register": "^7.0.0",
     "@types/lodash": "^4.14.117",
+    "@types/redux-logger": "^3.0.6",
     "@types/webpack-env": "^1.13.6",
     "axios-mock-adapter": "^1.15.0",
     "babel-loader": "^8.0.0-beta.6",
     "babel-polyfill": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-stage-2": "^6.24.1",
-    "babel-register": "^6.26.0",
     "chai": "^4.1.2",
     "jsdom": "11.12.0",
     "jsdom-global": "3.0.2",

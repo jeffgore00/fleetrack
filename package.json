@@ -1,6 +1,6 @@
 {
   "name": "fleetrack",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A visualization of real-time flight data for a handful of major carriers (i.e. fleet tracking) on an scalable vector altitude/distance graph using the D3.js visualization library.",
   "main": "main.js",
   "scripts": {

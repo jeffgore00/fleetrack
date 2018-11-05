@@ -1,7 +1,7 @@
 {
   "name": "fleetrack",
   "version": "1.0.0",
-  "description": "",
+  "description": "A visualization of real-time flight data for a handful of major carriers (i.e. fleet tracking) on an scalable vector altitude/distance graph using the D3.js visualization library.",
   "main": "main.js",
   "scripts": {
     "build-client": "webpack",
@@ -11,7 +11,7 @@
     "deploy": "script/deploy"
   },
   "keywords": [],
-  "author": "",
+  "author": "Jeff Gore",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.18.0",
@@ -22,15 +22,13 @@
     "d3-transition": "^1.1.1",
     "d3-zoom": "^1.7.1",
     "express": "^4.16.3",
-    "mock-browser": "^0.92.14",
     "morgan": "^1.9.1",
     "path": "^0.12.7",
     "redux": "^4.0.0",
     "redux-devtools-extension": "^2.13.2",
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.2.0",
-    "request": "^2.88.0",
-    "request-promise-native": "^1.0.5"
+    "request": "^2.88.0"
   },
   "devDependencies": {
     "axios-mock-adapter": "^1.15.0",

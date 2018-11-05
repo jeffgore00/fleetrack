@@ -5,7 +5,7 @@
   "main": "main.js",
   "scripts": {
     "build-client": "webpack --mode=production",
-    "test": "NODE_ENV=testing mocha test -r babel-register -r jsdom-global/register",
+    "test": "NODE_ENV=testing mocha test -r @babel/register -r jsdom-global/register",
     "start": "node main.js",
     "start-dev": "webpack -w --mode=development & nodemon main.js --ignore 'public/bundle*'",
     "deploy": "script/deploy"

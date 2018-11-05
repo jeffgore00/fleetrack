@@ -28,7 +28,7 @@
     "redux-devtools-extension": "^2.13.2",
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.2.0",
-    "request": "^2.85.0",
+    "request": "^2.88.0",
     "request-promise-native": "^1.0.5",
     "volleyball": "^1.5.0"
   },
@@ -46,6 +46,6 @@
     "redux-mock-store": "^1.5.3",
     "sinon": "^6.1.4",
     "webpack": "^4.6.0",
-    "webpack-cli": "^2.0.15"
+    "webpack-cli": "^3.1.2"
   }
 }

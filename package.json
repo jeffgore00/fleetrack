@@ -4,10 +4,10 @@
   "description": "A visualization of real-time flight data for a handful of major carriers (i.e. fleet tracking) on an scalable vector altitude/distance graph using the D3.js visualization library.",
   "main": "main.js",
   "scripts": {
-    "build-client": "webpack",
+    "build-client": "webpack --mode=production",
     "test": "NODE_ENV=testing mocha test -r babel-register -r jsdom-global/register",
     "start": "node main.js",
-    "start-dev": "webpack -w & nodemon main.js",
+    "start-dev": "webpack -w --mode=development & nodemon main.js --ignore 'public/bundle*'",
     "deploy": "script/deploy"
   },
   "keywords": [],
@@ -31,12 +31,11 @@
     "request": "^2.88.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/register": "^7.0.0",
     "axios-mock-adapter": "^1.15.0",
-    "babel-core": "^6.26.3",
-    "babel-loader": "^7.1.5",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-stage-2": "^6.24.1",
-    "babel-register": "^6.26.0",
+    "babel-loader": "^8.0.4",
     "chai": "^4.1.2",
     "jsdom": "11.12.0",
     "jsdom-global": "3.0.2",

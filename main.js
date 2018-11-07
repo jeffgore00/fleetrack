@@ -1,5 +1,4 @@
 'use strict';
-require('@babel/polyfill');
 const app = require('./server');
 const { getAirports } = require('./server/utils');
 const PORT = process.env.PORT || 1337;

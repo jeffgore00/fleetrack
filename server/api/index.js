@@ -4,7 +4,6 @@ const request = require('request');
 const path = require('path');
 const { createFleetFromAircraftList, readFile } = require('../utils');
 const radarServerURI = 'https://flightxml.flightaware.com/json/FlightXML2/';
-if (process.env.NODE_ENV === 'development') require('../../secrets');
 
 router.get('/:airline', async (req, res, next) => {
   if (process.env.NODE_ENV === 'testing') {

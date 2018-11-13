@@ -34,11 +34,7 @@ export function fetchFleetDataFromServer(carrierCode) {
 export function getInitialFleet(carrier, dispatch) {
   return fetchFleetDataFromServer(carrier)
     .then(([fleet]) => {
-      let queryIntervalId = setInterval(
-        () => dispatch(refreshFleet(carrier)),
-        5000
-      );
-      dispatch(acInitialFleetLoaded(carrier, fleet, queryIntervalId));
+      dispatch(acInitialFleetLoaded(carrier, fleet));
       return buildVisualization(fleet);
     })
     .catch(err => console.log(err));

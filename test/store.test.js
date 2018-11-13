@@ -18,8 +18,7 @@ const middlewares = [thunkMiddleware];
 const mockStore = configureMockStore(middlewares);
 const initialState = {
   carrier: '', // will be three-char code like 'DAL'
-  fleet: [],
-  queryIntervalId: 0
+  fleet: []
 };
 const store = mockStore(initialState);
 
@@ -33,22 +32,17 @@ async function getDummyFleet(code) {
 
 let initialFleetJSON;
 let initialFleet;
-let clock;
 let buildVizStub;
 let mock;
-
 
 describe('action creators', () => {
   before(async () => {
     initialFleetJSON = await getDummyFleet('DAL');
     initialFleet = JSON.parse(initialFleetJSON);
-    // stub setInterval and clearInterval b/c they are used in the thunk
-    clock = sinon.useFakeTimers();
     // also stub out buildVisualization when required by the store, because
     // we are not testing the visualization.
     buildVizStub = sinon.stub(buildVisualization, 'default');
   });
-
 
   after(() => {
     clock.restore();
@@ -73,7 +67,6 @@ describe('action creators', () => {
     expect(initialFleetLoadedAction.type).to.equal('INITIAL_FLEET_LOADED');
     expect(initialFleetLoadedAction.carrier).to.equal('DAL');
     expect(initialFleetLoadedAction.fleet).to.deep.equal(initialFleet);
-    expect(initialFleetLoadedAction.queryIntervalId).to.equal(3);
   });
 
   it('fetchInitialFleet() returns a thunk to fetch the Delta fleet from the backend and dispatch a INITIAL_FLEET_LOADED action', async () => {
@@ -90,11 +83,9 @@ describe('reducer', () => {
     const newState = reducer(initialState, {
       type: 'INITIAL_FLEET_LOADED',
       carrier: 'DAL',
-      fleet: initialFleet,
-      queryIntervalId: 3
+      fleet: initialFleet
     });
     expect(newState.carrier).to.equal('DAL');
     expect(newState.fleet).to.deep.equal(initialFleet);
-    expect(newState.queryIntervalId).to.equal(3);
   });
 });

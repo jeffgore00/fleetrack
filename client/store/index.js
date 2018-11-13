@@ -10,21 +10,18 @@ const INITIAL_FLEET_LOADED = 'INITIAL_FLEET_LOADED';
 
 const initialState = {
   carrier: '', // will be three-char code like 'DAL'
-  fleet: [],
-  queryIntervalId: 0
+  fleet: []
 };
 
-export const acInitialFleetLoaded = (carrier, fleet, queryIntervalId) => ({
+export const acInitialFleetLoaded = (carrier, fleet) => ({
   type: INITIAL_FLEET_LOADED,
   carrier,
-  fleet,
-  queryIntervalId
+  fleet
 });
 
-export const acNewCarrierSelected = (carrier, queryIntervalId) => ({
+export const acNewCarrierSelected = carrier => ({
   type: NEW_CARRIER_SELECTED,
-  carrier,
-  queryIntervalId
+  carrier
 });
 
 export const acUpdateCurrentFleet = fleet => ({
@@ -40,13 +37,8 @@ export const refreshFleet = carrier => async dispatch => {
   await refreshFleetData(carrier, dispatch);
 };
 
-export const fetchNewFleet = carrier => (dispatch, getState) => {
-  clearInterval(getState().queryIntervalId);
-  let queryIntervalId = setInterval(
-    () => dispatch(refreshFleet(carrier)),
-    5000
-  );
-  dispatch(acNewCarrierSelected(carrier, queryIntervalId));
+export const fetchNewFleet = carrier => dispatch => {
+  dispatch(acNewCarrierSelected(carrier));
   refreshFleetData(carrier, dispatch);
 };
 
@@ -59,13 +51,11 @@ export const reducer = (state = initialState, action) => {
     case INITIAL_FLEET_LOADED:
       return {
         carrier: action.carrier,
-        fleet: action.fleet,
-        queryIntervalId: action.queryIntervalId
+        fleet: action.fleet
       };
     case NEW_CARRIER_SELECTED:
       return Object.assign({}, state, {
-        carrier: action.carrier,
-        queryIntervalId: action.queryIntervalId
+        carrier: action.carrier
       });
     default:
       return state;

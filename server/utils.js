@@ -10,7 +10,7 @@ function getAirportDetails(icao, airportList) {
 
 /* Below courtesy of https://stackoverflow.com/a/365853 */
 function degreesToRadians(degrees) {
-  return degrees * Math.PI / 180;
+  return (degrees * Math.PI) / 180;
 }
 
 function distanceInMilesBetweenEarthCoordinates({ lat1, lon1, lat2, lon2 }) {
@@ -86,28 +86,19 @@ async function getAirports() {
 function createFleetFromAircraftList(aircraftList) {
   const fleet = {};
   for (let i = 0; i < aircraftList.length; i++) {
-    fleet[aircraftList[i].Call] = {
-      callsign: aircraftList[i].Call,
-      altitude: aircraftList[i].Alt,
-      altitudeTarget: aircraftList[i].tAlt,
-      grounded: aircraftList[i].Gnd,
-      speed: aircraftList[i].Spd,
-      lat: aircraftList[i].Lat,
-      long: aircraftList[i].Long,
-      heading: aircraftList[i].Trak,
-      aircraftType: aircraftList[i].Type,
-      airportFrom: aircraftList[i].From
-        ? getAirportDetails(aircraftList[i].From.slice(0, 4), airports)
+    fleet[aircraftList[i].ident] = {
+      callsign: aircraftList[i].ident,
+      altitude: aircraftList[i].altitude * 100,
+      speed: aircraftList[i].groundspeed,
+      lat: aircraftList[i].latitude,
+      long: aircraftList[i].longitude,
+      heading: aircraftList[i].heading,
+      aircraftType: aircraftList[i].type,
+      airportFrom: aircraftList[i].origin
+        ? getAirportDetails(aircraftList[i].origin, airports)
         : undefined,
-      airportTo: aircraftList[i].To
-        ? getAirportDetails(aircraftList[i].To.slice(0, 4), airports)
-        : undefined,
-      airportStops: aircraftList[i].Stops
-        ? aircraftList[i].Stops.map(stop =>
-            getAirportDetails(stop.slice(0, 4), airports))
-        : undefined,
-      ageInYears: aircraftList[i].Year
-        ? new Date().getFullYear() - aircraftList[i].Year
+      airportTo: aircraftList[i].destination
+        ? getAirportDetails(aircraftList[i].destination, airports)
         : undefined
     };
   }

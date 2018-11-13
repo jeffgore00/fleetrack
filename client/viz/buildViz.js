@@ -31,7 +31,6 @@ export const xScale = createPercentCompleteScale(dataWidth);
 export const xAxis = createPercentCompleteAxis(xScale);
 
 export default function buildVisualization(fleet) {
-  console.log(dataWidth);
   updateCraftCount(fleet);
   const graph = buildGraph();
   addGraphData(graph, fleet, 'aircraft');

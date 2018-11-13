@@ -45,7 +45,6 @@ describe('action creators', () => {
   });
 
   after(() => {
-    clock.restore();
     buildVizStub.restore();
     mock.restore();
   });

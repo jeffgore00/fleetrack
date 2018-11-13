@@ -12,6 +12,7 @@
     "test": "NODE_ENV=testing mocha test -r @babel/polyfill -r @babel/register -r jsdom-global/register",
     "start": "node main.js",
     "start-dev": "webpack -w --mode=development & NODE_ENV=development nodemon main.js --ignore 'public/bundle.js' --ignore 'public/bundle.map.js'",
+    "start-test": "webpack -w --mode=development & NODE_ENV=testing nodemon main.js --ignore 'public/bundle.js' --ignore 'public/bundle.map.js'",
     "deploy": "script/deploy"
   },
   "keywords": [],

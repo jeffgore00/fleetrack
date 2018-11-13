@@ -121,4 +121,8 @@ function createFleetFromAircraftList(aircraftList) {
   return fleet;
 }
 
-module.exports = { getAirports, readFile, createFleetFromAircraftList };
+module.exports = {
+  getAirports,
+  readFile,
+  createFleetFromAircraftList
+};

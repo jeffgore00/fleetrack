@@ -1,7 +1,7 @@
 'use strict';
 const { app, createApp } = require('./server');
 const { getAirports } = require('./server/utils');
-const db = require('./db');
+const db = require('./server/db');
 const PORT = process.env.PORT || 1337;
 
 const startListening = () => {
@@ -15,7 +15,7 @@ const syncDb = () => db.sync();
 // It will evaluate false when this module is required by another module - for example,
 // if we wanted to require our app in a test spec
 if (require.main === module) {
-  getAirports
+  getAirports()
     .then(syncDb)
     .then(createApp)
     .then(startListening);

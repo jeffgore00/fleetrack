@@ -30,11 +30,13 @@
     "express": "^4.16.3",
     "morgan": "^1.9.1",
     "path": "^0.12.7",
+    "pg": "^7.6.1",
     "redux": "^4.0.0",
     "redux-devtools-extension": "^2.13.5",
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.2.0",
-    "request": "^2.88.0"
+    "request": "^2.88.0",
+    "sequelize": "^4.41.2"
   },
   "devDependencies": {
     "@babel/core": "^7.1.2",

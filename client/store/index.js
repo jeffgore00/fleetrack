@@ -33,10 +33,6 @@ export const fetchInitialFleet = carrier => async dispatch => {
   await getInitialFleet(carrier, dispatch);
 };
 
-export const refreshFleet = carrier => async dispatch => {
-  await refreshFleetData(carrier, dispatch);
-};
-
 export const fetchNewFleet = carrier => dispatch => {
   dispatch(acNewCarrierSelected(carrier));
   refreshFleetData(carrier, dispatch);
@@ -44,19 +40,16 @@ export const fetchNewFleet = carrier => dispatch => {
 
 export const reducer = (state = initialState, action) => {
   switch (action.type) {
-    case CURRENT_FLEET_UPDATED:
-      return Object.assign({}, state, {
-        fleet: action.fleet
-      });
     case INITIAL_FLEET_LOADED:
       return {
         carrier: action.carrier,
-        fleet: action.fleet
+        fleet: action.fleet,
+        queryCount: action.queryCount
       };
     case NEW_CARRIER_SELECTED:
-      return Object.assign({}, state, {
-        carrier: action.carrier
-      });
+      return { ...state, carrier: action.carrier };
+    case CURRENT_FLEET_UPDATED:
+      return { ...state, fleet: action.fleet };
     default:
       return state;
   }

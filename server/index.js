@@ -6,7 +6,7 @@ const morgan = require('morgan');
 const bodyParser = require('body-parser');
 const app = express();
 
-if (process.env.NODE_ENV === 'development') require('../../secrets');
+if (process.env.NODE_ENV === 'development') require('../secrets');
 
 const createApp = () => {
   //logging middleware

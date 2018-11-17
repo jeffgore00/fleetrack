@@ -61,7 +61,7 @@ function getJourneyPercentageComplete(portToPort, planeToPort) {
   );
 }
 
-async function getAirports() {
+async function loadAirportFile() {
   try {
     const data = await readFile(
       path.join(__dirname, '../sources/airports.json'),
@@ -122,7 +122,7 @@ function createFleetFromAircraftList(aircraftList) {
 }
 
 module.exports = {
-  getAirports,
+  loadAirportFile,
   readFile,
   createFleetFromAircraftList
 };

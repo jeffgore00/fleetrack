@@ -1,3 +1,5 @@
+const Query = require('./Query');
+
 module.exports = {
-  nothing: 'nothing'
+  Query
 };

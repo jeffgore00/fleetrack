@@ -1,11 +1,7 @@
 import axios from 'axios';
 import buildVisualization from '../viz/buildViz';
 import updateVisualization from '../viz/updateViz';
-import {
-  acUpdateCurrentFleet,
-  acInitialFleetLoaded,
-  refreshFleet
-} from '../store';
+import { acUpdateCurrentFleet, acInitialFleetLoaded } from '../store';
 
 export function fetchFleetDataFromServer(carrierCode) {
   const fleet = [];

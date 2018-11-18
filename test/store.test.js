@@ -9,7 +9,12 @@ import {
   acInitialFleetLoaded,
   fetchInitialFleet
 } from '../client/store';
-import { readFile } from '../server/utils';
+import {
+  createFleetFromAircraftList,
+  readFile,
+  loadAirportFile
+} from '../server/utils';
+import { splitFleetOnOffChart } from '../client/data';
 // Below trick: https://stackoverflow.com/a/33676328/6188150
 import * as buildVisualization from '../client/viz/buildViz';
 
@@ -24,7 +29,7 @@ const store = mockStore(initialState);
 
 async function getDummyFleet(code) {
   const fleetJSON = await readFile(
-    path.join(__dirname, `./dummy/dummyFleet_${code}.json`),
+    path.join(__dirname, `./dummy/dummyFleet_${code}_FA.json`),
     'utf-8'
   );
   return fleetJSON;
@@ -37,9 +42,10 @@ let mock;
 
 describe('action creators', () => {
   before(async () => {
+    await loadAirportFile();
     initialFleetJSON = await getDummyFleet('DAL');
-    initialFleet = JSON.parse(initialFleetJSON);
-    // also stub out buildVisualization when required by the store, because
+    initialFleet = createFleetFromAircraftList(JSON.parse(initialFleetJSON));
+    // stub out buildVisualization when required by the store, because
     // we are not testing the visualization.
     buildVizStub = sinon.stub(buildVisualization, 'default');
   });
@@ -73,7 +79,9 @@ describe('action creators', () => {
     await store.dispatch(fetchInitialFleet('DAL'));
     const actions = store.getActions();
     expect(actions[0].type).to.equal('INITIAL_FLEET_LOADED');
-    expect(actions[0].fleet).to.deep.equal(initialFleet);
+    expect(actions[0].fleet).to.deep.equal(
+      splitFleetOnOffChart(initialFleet)[0]
+    );
   });
 });
 

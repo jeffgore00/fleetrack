@@ -22,7 +22,6 @@ router.get('/:airline', async (req, res, next) => {
     res.send(createFleetFromAircraftList(JSON.parse(dummyData)));
   } else {
     const queryCount = await Query.countBillingQueriesThisMonth();
-    console.log(queryCount);
     if (queryCount + EST_QUERIES_PER_FLEET > JG_MONTHLY_QUERY_LIMIT) {
       console.log('sorry');
     } else {

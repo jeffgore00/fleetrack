@@ -4,27 +4,24 @@ import updateVisualization from '../viz/updateViz';
 import { acUpdateCurrentFleet, acInitialFleetLoaded } from '../store';
 
 export function fetchFleetDataFromServer(carrierCode) {
-  const fleet = [];
-  const fleetOffChart = [];
   return axios
     .get(`/api/${carrierCode}`)
     .then(response => response.data)
-    .then(aircraft => {
-      for (const plane in aircraft) {
-        const pComplete = aircraft[plane].flightPercentComplete;
-        if (
-          aircraft[plane].altitude &&
-          !aircraft[plane].grounded &&
-          pComplete &&
-          pComplete > 0
-        ) {
-          fleet.push(aircraft[plane]);
-        } else {
-          fleetOffChart.push(aircraft[plane]);
-        }
-      }
-      return [fleet, fleetOffChart];
-    });
+    .then(aircraft => splitFleetOnOffChart(aircraft));
+}
+
+export function splitFleetOnOffChart(aircraft) {
+  const fleet = [];
+  const fleetOffChart = [];
+  for (const plane in aircraft) {
+    const pComplete = aircraft[plane].flightPercentComplete;
+    if (aircraft[plane].altitude && pComplete && pComplete > 0) {
+      fleet.push(aircraft[plane]);
+    } else {
+      fleetOffChart.push(aircraft[plane]);
+    }
+  }
+  return [fleet, fleetOffChart];
 }
 
 export function getInitialFleet(carrier, dispatch) {

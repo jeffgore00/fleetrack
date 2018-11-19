@@ -2,7 +2,36 @@ const { promisify } = require('util');
 const path = require('path');
 const readFile = promisify(require('fs').readFile);
 
+const {
+  EST_QUERIES_PER_FLEET,
+  JG_MONTHLY_QUERY_LIMIT,
+  FA_AIRCRAFT_QUERY_LIMIT
+} = require('./constants');
+const { Query } = require('./db/models');
+
 const airports = {};
+
+const queryExceedsLimit = queryCount =>
+  queryCount + EST_QUERIES_PER_FLEET > JG_MONTHLY_QUERY_LIMIT;
+
+const configureFlightXMLRequest = (
+  apiURI,
+  carrierCode,
+  user,
+  pass,
+  queryLimit
+) => ({
+  // Note that FlightInfoEx (as opposed to SearchBirdseyeInFlight) has
+  // some extra data (i.e. estimated arrival time and route), but would
+  // require you to make individual queries for every one of the aircraft.
+  // Technically it returns an array but that's if it finds multiple
+  // results; it doesn't support wildcards nor does it have a `query`.
+  uri: `${apiURI}SearchBirdseyeInFlight?query={match ident ${carrierCode}*} {true inAir}&howMany=${queryLimit}`,
+  auth: {
+    user,
+    pass
+  }
+});
 
 function getAirportDetails(icao, airportList) {
   if (airportList[icao]) return airportList[icao];
@@ -121,8 +150,32 @@ function createFleetFromAircraftList(aircraftList) {
   return fleet;
 }
 
+function handleFlightXMLResponse(apiErr, apiRes, apiBody, req, res, next) {
+  try {
+    if (apiErr) {
+      res
+        .status(500)
+        .send('There was a problem getting data from the FlightAware server.');
+    } else {
+      const { SearchBirdseyeInFlightResult } = JSON.parse(apiBody);
+      const aircraft = SearchBirdseyeInFlightResult.aircraft;
+      res.send(createFleetFromAircraftList(aircraft));
+      Query.create({
+        carrier: req.params.airline,
+        resultCount: aircraft.length,
+        limit: FA_AIRCRAFT_QUERY_LIMIT
+      });
+    }
+  } catch (err) {
+    next(err);
+  }
+}
+
 module.exports = {
   loadAirportFile,
   readFile,
-  createFleetFromAircraftList
+  createFleetFromAircraftList,
+  configureFlightXMLRequest,
+  queryExceedsLimit,
+  handleFlightXMLResponse
 };

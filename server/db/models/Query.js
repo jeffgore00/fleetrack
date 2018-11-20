@@ -34,12 +34,28 @@ Query.beforeValidate(query => {
 });
 
 Query.countBillingQueriesThisMonth = function() {
+  // Casting one of the operands to decimal so that a decimal result is
+  // possible, otherwise we are effectively doing FLOOR rather than ceiling,
+  // taking only the integer portion of the division.
   return db
     .query(
       `SELECT
-        SUM ( CEILING( "resultCount" / "limit") )
+        SUM (
+          CEILING(
+            CAST("resultCount" AS decimal) / "limit"
+          )
+        )
       FROM
-        (SELECT * FROM queries WHERE EXTRACT(MONTH FROM DATE_TRUNC('MONTH', queries."createdAt")) = EXTRACT(MONTH FROM NOW())) AS "subquery"
+        (SELECT *
+        FROM
+          queries
+        WHERE
+          EXTRACT(
+            MONTH FROM DATE_TRUNC('MONTH', queries."createdAt")
+          ) = EXTRACT(
+            MONTH FROM NOW()
+          )
+        ) AS "subquery"
     ;`
     )
     .then(data => Number(data[0][0].sum));

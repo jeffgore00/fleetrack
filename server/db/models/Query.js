@@ -16,7 +16,7 @@ const Query = db.define('query', {
     type: Sequelize.INTEGER,
     allowNull: false
   },
-  queryCount: {
+  billingQueryCount: {
     type: Sequelize.VIRTUAL,
     get() {
       return Math.ceil(

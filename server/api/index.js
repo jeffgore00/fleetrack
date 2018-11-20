@@ -9,7 +9,8 @@ const { Query } = require('../db/models');
 const {
   handleFlightXMLResponse,
   configureFlightXMLRequest,
-  queryExceedsLimit
+  queryExceedsLimit,
+  overrideCodeValid
 } = require('../utils');
 const {
   MAX_AIRCRAFT_PER_FLEET_QUERY,
@@ -20,8 +21,15 @@ const {
 router.get('/:airline', async (req, res, next) => {
   try {
     const queryCount = await Query.countBillingQueriesThisMonth();
-    if (queryExceedsLimit(queryCount)) {
-      console.log('sorry');
+    if (
+      queryExceedsLimit(queryCount) &&
+      !overrideCodeValid(req.query.override)
+      // ADD 'overrideUsed' Boolean to db model!
+    ) {
+      res.status(300).send({
+        message:
+          'Query limit will be exceeded - special authorization required.'
+      });
     } else {
       request(
         configureFlightXMLRequest(

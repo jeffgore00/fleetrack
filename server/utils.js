@@ -11,6 +11,9 @@ const { Query } = require('./db/models');
 
 const airports = {};
 
+const overrideCodeValid = override =>
+  override && override === process.env.OVERRIDE_AUTH_CODE;
+
 const queryExceedsLimit = queryCount =>
   queryCount + EST_QUERIES_PER_FLEET > JG_MONTHLY_QUERY_LIMIT;
 
@@ -177,5 +180,6 @@ module.exports = {
   createFleetFromAircraftList,
   configureFlightXMLRequest,
   queryExceedsLimit,
-  handleFlightXMLResponse
+  handleFlightXMLResponse,
+  overrideCodeValid
 };

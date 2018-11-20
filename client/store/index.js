@@ -8,15 +8,23 @@ const NEW_CARRIER_SELECTED = 'NEW_CARRIER_SELECTED';
 const CURRENT_FLEET_UPDATED = 'CURRENT_FLEET_UPDATED';
 const INITIAL_FLEET_LOADED = 'INITIAL_FLEET_LOADED';
 
+const STS_LOADING = 'STS_LOADING';
+const STS_FLEET_LOADED = 'STS_FLEET_LOADED';
+const STS_INITAL_REQ_REJECTED = 'STS_INITAL_REQ_REJECTED';
+const STS_OVERRIDE_FAILED = 'STS_OVERRIDE_FAILED';
+const STS_REJECTION_ACKNOWLEDGED = 'STS_REJECTION_ACKNOWLEDGED';
+
 const initialState = {
   carrier: '', // will be three-char code like 'DAL'
-  fleet: []
+  fleet: [],
+  status: STS_LOADING
 };
 
 export const acInitialFleetLoaded = (carrier, fleet) => ({
   type: INITIAL_FLEET_LOADED,
   carrier,
-  fleet
+  fleet,
+  status: STS_FLEET_LOADED
 });
 
 export const acNewCarrierSelected = carrier => ({
@@ -27,6 +35,21 @@ export const acNewCarrierSelected = carrier => ({
 export const acUpdateCurrentFleet = fleet => ({
   type: CURRENT_FLEET_UPDATED,
   fleet
+});
+
+export const acUserRequestRejected = () => ({
+  type: STS_INITAL_REQ_REJECTED,
+  status: STS_INITAL_REQ_REJECTED
+});
+
+export const acUserOverrideFailed = () => ({
+  type: STS_OVERRIDE_FAILED,
+  status: STS_OVERRIDE_FAILED
+});
+
+export const acUserAcknowledgesRejection = () => ({
+  type: STS_REJECTION_ACKNOWLEDGED,
+  status: STS_REJECTION_ACKNOWLEDGED
 });
 
 export const fetchInitialFleet = carrier => async dispatch => {
@@ -44,7 +67,8 @@ export const reducer = (state = initialState, action) => {
       return {
         carrier: action.carrier,
         fleet: action.fleet,
-        queryCount: action.queryCount
+        queryCount: action.queryCount,
+        status: STS_FLEET_LOADED
       };
     case NEW_CARRIER_SELECTED:
       return { ...state, carrier: action.carrier };

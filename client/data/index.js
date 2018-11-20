@@ -1,13 +1,49 @@
 import axios from 'axios';
 import buildVisualization from '../viz/buildViz';
 import updateVisualization from '../viz/updateViz';
-import { acUpdateCurrentFleet, acInitialFleetLoaded } from '../store';
+import {
+  acUpdateCurrentFleet,
+  acInitialFleetLoaded,
+  acUserRequestRejected
+} from '../store';
 
 export function fetchFleetDataFromServer(carrierCode) {
-  return axios
-    .get(`/api/${carrierCode}`)
-    .then(response => response.data)
-    .then(aircraft => splitFleetOnOffChart(aircraft));
+  return axios.get(`/api/${carrierCode}`).then(response => response.data);
+}
+
+export function getInitialFleet(carrier, dispatch) {
+  return fetchFleetDataFromServer(carrier)
+    .then(response => {
+      if (response.message) {
+        dispatch(acUserRequestRejected());
+      } else {
+        const [fleet] = splitFleetOnOffChart(response);
+        dispatch(acInitialFleetLoaded(carrier, fleet));
+        return buildVisualization(fleet);
+      }
+    })
+    .catch(err => {
+      // NO
+      // NO
+      // NO
+      // NO
+      // ADD 'error' slice of state instead.
+      console.log(err);
+    });
+}
+
+export function refreshFleetData(carrier, dispatch) {
+  return fetchFleetDataFromServer(carrier)
+    .then(response => {
+      if (response.message) {
+        dispatch(acUserRequestRejected());
+      } else {
+        const [fleet] = splitFleetOnOffChart(response);
+        dispatch(acUpdateCurrentFleet(fleet));
+        return updateVisualization(fleet);
+      }
+    })
+    .catch(err => console.log(err));
 }
 
 export function splitFleetOnOffChart(aircraft) {
@@ -22,22 +58,4 @@ export function splitFleetOnOffChart(aircraft) {
     }
   }
   return [fleet, fleetOffChart];
-}
-
-export function getInitialFleet(carrier, dispatch) {
-  return fetchFleetDataFromServer(carrier)
-    .then(([fleet]) => {
-      dispatch(acInitialFleetLoaded(carrier, fleet));
-      return buildVisualization(fleet);
-    })
-    .catch(err => console.log(err));
-}
-
-export function refreshFleetData(carrier, dispatch) {
-  return fetchFleetDataFromServer(carrier)
-    .then(([fleet]) => {
-      dispatch(acUpdateCurrentFleet(fleet));
-      return updateVisualization(fleet);
-    })
-    .catch(err => console.log(err));
 }

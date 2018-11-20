@@ -12,10 +12,7 @@ const {
   queryExceedsLimit,
   overrideCodeValid
 } = require('../utils');
-const {
-  MAX_AIRCRAFT_PER_FLEET_QUERY,
-  API_SERVER_URI
-} = require('../constants');
+const { JG_RESULT_SIZE_LIMIT, API_SERVER_URI } = require('../constants');
 
 // ROUTES
 router.get('/:airline', async (req, res, next) => {
@@ -23,12 +20,15 @@ router.get('/:airline', async (req, res, next) => {
     const queryCount = await Query.countBillingQueriesThisMonth();
     if (
       queryExceedsLimit(queryCount) &&
-      !overrideCodeValid(req.query.override)
-      // ADD 'overrideUsed' Boolean to db model!
+      !overrideCodeValid(req.body.override)
     ) {
-      res.status(300).send({
+      res.send({
         message:
           'Query limit will be exceeded - special authorization required.'
+      });
+      Query.create({
+        carrier: req.params.airline,
+        accepted: false
       });
     } else {
       request(
@@ -37,7 +37,7 @@ router.get('/:airline', async (req, res, next) => {
           req.params.airline,
           process.env.API_USER,
           process.env.API_PASSWORD,
-          MAX_AIRCRAFT_PER_FLEET_QUERY
+          JG_RESULT_SIZE_LIMIT
         ),
         (...args) => handleFlightXMLResponse(...args, req, res, next)
       );

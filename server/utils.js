@@ -4,8 +4,7 @@ const readFile = promisify(require('fs').readFile);
 
 const {
   EST_QUERIES_PER_FLEET,
-  JG_MONTHLY_QUERY_LIMIT,
-  FA_AIRCRAFT_QUERY_LIMIT
+  JG_MONTHLY_QUERY_LIMIT
 } = require('./constants');
 const { Query } = require('./db/models');
 
@@ -154,19 +153,28 @@ function createFleetFromAircraftList(aircraftList) {
 }
 
 function handleFlightXMLResponse(apiErr, apiRes, apiBody, req, res, next) {
+  const commonQueryProps = {
+    carrier: req.params.airline,
+    overrideUsed: overrideCodeValid(req.query.override)
+  };
   try {
     if (apiErr) {
       res
         .status(500)
         .send('There was a problem getting data from the FlightAware server.');
+      Query.create({
+        ...commonQueryProps,
+        succeeded: false,
+        metadata: apiErr
+      });
     } else {
       const { SearchBirdseyeInFlightResult } = JSON.parse(apiBody);
       const aircraft = SearchBirdseyeInFlightResult.aircraft;
       res.send(createFleetFromAircraftList(aircraft));
       Query.create({
-        carrier: req.params.airline,
-        resultCount: aircraft.length,
-        limit: FA_AIRCRAFT_QUERY_LIMIT
+        ...commonQueryProps,
+        succeeded: true,
+        resultCount: aircraft.length
       });
     }
   } catch (err) {

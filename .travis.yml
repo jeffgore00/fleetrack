@@ -4,7 +4,7 @@ node_js:
 services:
   - postgresql # starts up postgres
 addons:
-  postgresql: "9.6" # highest available postgres version on Travis
+  postgresql: '9.6' # highest available postgres version on Travis
 dist: trusty # uses trusty environment
 sudo: false # when on trusty, uses Docker containers for speed
 notifications:
@@ -14,7 +14,7 @@ notifications:
 install:
   - npm ci # faster, goes only from package-lock
 before_script:
-  - psql -c 'create database "boilermaker-test";' -U postgres # remember to change this name if you change it elsewhere (e.g. package.json)
+  - psql -c 'create database "fleetrack-test";' -U postgres # remember to change this name if you change it elsewhere (e.g. package.json)
 
 before_deploy:
   - npm run build-client # make the bundle
@@ -24,4 +24,4 @@ deploy:
   provider: heroku
   app: fleetrack2018 # see README
   api_key:
-    secure: "4MDQgslI3Zt0dPgxXWv0DwjP6GBTar1E47FqzcILijG0nCQIM4B7EJobxH5y0DBt0iwBpsZO8F4Nk0cSXIuDb72ERhz0TDM+K65jDCbCTtatxxGHNWaNG/aAUakyBlKr8caD5XrOeuB1zivB6oCD5ZypPa9Da7U9Os6ZXP5Gc1MtautpDslLVT8fQ1Xww+vTOc/P/pTkiEKiOfCrinS/V9jNUm38FXCoZHtJyFEUR92qP1gRXcqtFOekyxRyN/cF33ZO1ne5M46+04kTtGdk0yoXYy850/5Zwe1MQo/nToFxZKxrL0AqqfRyIPkC8+WYCyZdoERIdYZ6Q9ZzIOu/34oR8lyOmGDMk/M6Ft3+G3kCVboIsYnNU14fHRcaiME12atZUAEJQcUqjUR/YvK8V4vXCCUAYAe+QwFNpzfov+sfP6S8dATUWw4ZFSEU1BpnlfyETFo2dheNYmRutwrh2Gsx9DwRhdeYiMrmXLyLJcHOZgsjhNwt177XwXLXTsU2k7Om4LUQACccvaq2KngiiTihcO8n47Z9frI/BxPnY8U3dobNYHj9P1zLsRzUEriCqnEM3KBOHT8O81LGNjV+9kVqCsN6WV0j013IDQx3PIbWoAFKQWmaEm9iBgWTIm7z6wARoyI2AepRytwO+sraal39tH/DFKa6MchuMNxe75k=" # see README
+    secure: '4MDQgslI3Zt0dPgxXWv0DwjP6GBTar1E47FqzcILijG0nCQIM4B7EJobxH5y0DBt0iwBpsZO8F4Nk0cSXIuDb72ERhz0TDM+K65jDCbCTtatxxGHNWaNG/aAUakyBlKr8caD5XrOeuB1zivB6oCD5ZypPa9Da7U9Os6ZXP5Gc1MtautpDslLVT8fQ1Xww+vTOc/P/pTkiEKiOfCrinS/V9jNUm38FXCoZHtJyFEUR92qP1gRXcqtFOekyxRyN/cF33ZO1ne5M46+04kTtGdk0yoXYy850/5Zwe1MQo/nToFxZKxrL0AqqfRyIPkC8+WYCyZdoERIdYZ6Q9ZzIOu/34oR8lyOmGDMk/M6Ft3+G3kCVboIsYnNU14fHRcaiME12atZUAEJQcUqjUR/YvK8V4vXCCUAYAe+QwFNpzfov+sfP6S8dATUWw4ZFSEU1BpnlfyETFo2dheNYmRutwrh2Gsx9DwRhdeYiMrmXLyLJcHOZgsjhNwt177XwXLXTsU2k7Om4LUQACccvaq2KngiiTihcO8n47Z9frI/BxPnY8U3dobNYHj9P1zLsRzUEriCqnEM3KBOHT8O81LGNjV+9kVqCsN6WV0j013IDQx3PIbWoAFKQWmaEm9iBgWTIm7z6wARoyI2AepRytwO+sraal39tH/DFKa6MchuMNxe75k=' # see README

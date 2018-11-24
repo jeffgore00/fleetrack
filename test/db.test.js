@@ -34,7 +34,8 @@ describe('The Query Model', () => {
     const query = await Query.create({
       carrier: 'DAL',
       resultCount: 413,
-      createdAt: new Date('2018-05-24T15:32:54')
+      createdAt: new Date('2018-05-24T15:32:54'),
+      billingPeriodId: 1
     });
     await BillingPeriod.create();
     const query2 = await Query.create({

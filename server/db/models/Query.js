@@ -48,8 +48,7 @@ const Query = db.define('query', {
   }
 });
 
-// Does not work with 'beforeCreate', 'beforeValidate' is earlier in the
-// lifecycle. We do this, rather than a default value, in order to not bake the
+// We do this, rather than a default value, in order to not bake the
 // query limit into the database table definition, b/c that limit could change.
 Query.beforeValidate(query => {
   query.billingQuerySize = FA_BILLING_QUERY_SIZE;
@@ -57,8 +56,14 @@ Query.beforeValidate(query => {
 });
 
 Query.afterCreate(async query => {
-  const bpId = await BillingPeriod.getCurrentBpId();
-  await query.setBillingPeriod(bpId);
+  // If it already has an associated billing period, that means we manually
+  // entered one, so, respect that and get outta here.
+  if (query.billingPeriodId) return;
+  // Otherwise, set the billing period id to that of the current billing period.
+  const currentBpId = await BillingPeriod.getCurrentBpId();
+  if (currentBpId) {
+    await query.setBillingPeriod(currentBpId);
+  }
 });
 
 Query.countBillingQueriesThisPeriod = async function() {

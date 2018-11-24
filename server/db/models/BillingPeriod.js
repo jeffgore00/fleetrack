@@ -1,5 +1,5 @@
 const Sequelize = require('sequelize');
-
+const Op = Sequelize.Op;
 const moment = require('moment');
 
 const db = require('../db');
@@ -31,21 +31,18 @@ BillingPeriod.beforeValidate(bp => {
 });
 
 BillingPeriod.getCurrentBpId = async function() {
-  const data = await db.query('SELECT MAX(id) FROM "billingPeriods"');
-  return Number(data[0][0].max);
+  const now = new Date();
+  const billingPeriod = await BillingPeriod.findOne({
+    where: {
+      startDate: {
+        [Op.lte]: now
+      },
+      endDate: {
+        [Op.gte]: now
+      }
+    }
+  });
+  return billingPeriod ? billingPeriod.id : null;
 };
-
-// BillingPeriod.getCurrentBpId = async function() {
-//   const now = new Date();
-//   const data = await BillingPeriod.findOne({
-//     where: {
-//       startDate: {
-//         [Op.lte]: now
-//       },
-//       endDate: {
-//         [Op.gte]: now
-//       }
-//     }
-//   });
 
 module.exports = BillingPeriod;

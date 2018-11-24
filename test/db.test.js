@@ -10,7 +10,9 @@ describe('The Query Model', () => {
   });
   beforeEach(async () => {
     await BillingPeriod.create({
-      startDate: new Date('2018-05-10')
+      // including time because if not included, then time zone is assumed to
+      // be UTC; time inclusion means date string is parsed as local.
+      startDate: new Date('2018-05-10T00:00:00')
     });
   });
   afterEach(async () => {
@@ -32,9 +34,15 @@ describe('The Query Model', () => {
     const query = await Query.create({
       carrier: 'DAL',
       resultCount: 413,
-      createdAt: new Date('2018-05-24')
+      createdAt: new Date('2018-05-24T15:32:54')
+    });
+    await BillingPeriod.create();
+    const query2 = await Query.create({
+      carrier: 'UAL',
+      resultCount: 332
     });
     expect(query.billingPeriodId).to.equal(1);
+    expect(query2.billingPeriodId).to.equal(2);
   });
 
   it('Has a virtual field called `billingQueryCount` which is equal to an integer value corresponding to the number of result aircraft divided by its `billingQuerySize`, rounded up)', async () => {
@@ -50,23 +58,20 @@ describe('The Query Model', () => {
   });
 
   it('Has a class method called `countBillingQueriesThisPeriod`, which a count of all billing queries associated with the latest billing period (max billing period ID)', async () => {
+    // creating a potential foil; this should NOT factor into final results.
     await Query.create({
       carrier: 'UAL',
       resultCount: 429,
       createdAt: new Date('2018-06-05')
-    }); // creating to see if this is NOT included in the final results
-    await BillingPeriod.create({
-      startDate: new Date('2018-06-10')
     });
+    await BillingPeriod.create();
     const query2 = await Query.create({
       carrier: 'DAL',
-      resultCount: 278,
-      createdAt: new Date('2018-06-11')
+      resultCount: 278
     });
     const query3 = await Query.create({
       carrier: 'SWA',
-      resultCount: 122,
-      createdAt: new Date('2018-06-12')
+      resultCount: 122
     });
     const queriesThisPeriod = await Query.countBillingQueriesThisPeriod();
     expect(queriesThisPeriod).to.equal(

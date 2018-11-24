@@ -66,7 +66,6 @@ Query.countBillingQueriesThisPeriod = async function() {
   // possible, otherwise we are effectively doing FLOOR rather than ceiling,
   // taking only the integer portion of the division because the SQL column
   // datatype of both columns is INT, hence we'd get an INT result.
-
   const data = await db.query(
     `SELECT
         SUM (
@@ -79,7 +78,15 @@ Query.countBillingQueriesThisPeriod = async function() {
         FROM
           queries
         WHERE
-          "billingPeriodId" = (SELECT MAX(id) FROM "billingPeriods")
+          "billingPeriodId" = (
+            SELECT
+              MAX(id)
+            FROM
+              "billingPeriods"
+            WHERE
+              "startDate" <= NOW() AND
+              "endDate" >= NOW()
+            )
         ) AS "subquery"
     ;`
   );
@@ -87,10 +94,6 @@ Query.countBillingQueriesThisPeriod = async function() {
 };
 
 Query.countBillingQueriesThisMonth = async function() {
-  // Casting one of the operands to decimal so that a decimal result is
-  // possible, otherwise we are effectively doing FLOOR rather than ceiling,
-  // taking only the integer portion of the division because the SQL column
-  // datatype of both columns is INT, hence we'd get an INT result.
   const data = await db.query(
     `SELECT
         SUM (

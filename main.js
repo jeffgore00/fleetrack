@@ -8,7 +8,7 @@ const startListening = () => {
   app.listen(PORT, () => console.log(`Server is listening on ${PORT}`));
 };
 
-const syncDb = () => db.sync();
+const syncDb = () => db.sync({ force: true });
 
 loadAirportFile()
   .then(syncDb)

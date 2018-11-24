@@ -1,6 +1,7 @@
 const Sequelize = require('sequelize');
 
 const db = require('../db');
+const BillingPeriod = require('./BillingPeriod');
 const {
   FA_BILLING_QUERY_SIZE,
   JG_RESULT_SIZE_LIMIT
@@ -55,14 +56,43 @@ Query.beforeValidate(query => {
   query.resultUpperBound = JG_RESULT_SIZE_LIMIT;
 });
 
-Query.countBillingQueriesThisMonth = function() {
+Query.afterCreate(async query => {
+  const bpId = await BillingPeriod.getCurrentBpId();
+  await query.setBillingPeriod(bpId);
+});
+
+Query.countBillingQueriesThisPeriod = async function() {
   // Casting one of the operands to decimal so that a decimal result is
   // possible, otherwise we are effectively doing FLOOR rather than ceiling,
   // taking only the integer portion of the division because the SQL column
   // datatype of both columns is INT, hence we'd get an INT result.
-  return db
-    .query(
-      `SELECT
+
+  const data = await db.query(
+    `SELECT
+        SUM (
+          CEILING(
+            CAST("resultCount" AS decimal) / "billingQuerySize"
+          )
+        )
+      FROM
+        (SELECT *
+        FROM
+          queries
+        WHERE
+          "billingPeriodId" = (SELECT MAX(id) FROM "billingPeriods")
+        ) AS "subquery"
+    ;`
+  );
+  return Number(data[0][0].sum);
+};
+
+Query.countBillingQueriesThisMonth = async function() {
+  // Casting one of the operands to decimal so that a decimal result is
+  // possible, otherwise we are effectively doing FLOOR rather than ceiling,
+  // taking only the integer portion of the division because the SQL column
+  // datatype of both columns is INT, hence we'd get an INT result.
+  const data = await db.query(
+    `SELECT
         SUM (
           CEILING(
             CAST("resultCount" AS decimal) / "billingQuerySize"
@@ -80,8 +110,8 @@ Query.countBillingQueriesThisMonth = function() {
           )
         ) AS "subquery"
     ;`
-    )
-    .then(data => Number(data[0][0].sum));
+  );
+  return Number(data[0][0].sum);
 };
 
 module.exports = Query;

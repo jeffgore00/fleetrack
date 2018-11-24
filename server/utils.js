@@ -155,7 +155,7 @@ function createFleetFromAircraftList(aircraftList) {
 function handleFlightXMLResponse(apiErr, apiRes, apiBody, req, res, next) {
   const commonQueryProps = {
     carrier: req.params.airline,
-    overrideUsed: overrideCodeValid(req.query.override)
+    overrideUsed: overrideCodeValid(req.body.override)
   };
   try {
     if (apiErr) {

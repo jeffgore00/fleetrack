@@ -74,6 +74,10 @@ export const reducer = (state = initialState, action) => {
       return { ...state, carrier: action.carrier };
     case CURRENT_FLEET_UPDATED:
       return { ...state, fleet: action.fleet };
+    case STS_INITAL_REQ_REJECTED:
+    case STS_OVERRIDE_FAILED:
+    case STS_REJECTION_ACKNOWLEDGED:
+      return { ...state, status: action.status };
     default:
       return state;
   }

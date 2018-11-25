@@ -35,10 +35,12 @@ describe('The Query Model', () => {
       createdAt: new Date('2018-05-24T15:32:54'),
       billingPeriodId: 1
     });
-    await BillingPeriod.create();
+    await BillingPeriod.create(); // billing period with id #2
     const query2 = await Query.create({
       carrier: 'UAL',
       resultCount: 332
+      // billingPeriodId: by default, is assigned to current billing period -
+      // which we just created above.
     });
     expect(query.billingPeriodId).to.equal(1);
     expect(query2.billingPeriodId).to.equal(2);

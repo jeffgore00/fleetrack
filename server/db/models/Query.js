@@ -67,8 +67,8 @@ Query.afterCreate(async query => {
 });
 
 Query.countBillingQueriesThisPeriod = async function() {
-  // Casting one of the operands to decimal so that a decimal result is
-  // possible, otherwise we are effectively doing FLOOR rather than ceiling,
+  // We cast one of the operands to decimal so that our result is a decimal
+  // datatype, otherwise we are effectively doing FLOOR rather than ceiling,
   // taking only the integer portion of the division because the SQL column
   // datatype of both columns is INT, hence we'd get an INT result.
   const data = await db.query(

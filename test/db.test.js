@@ -1,4 +1,5 @@
 import { expect } from 'chai';
+import moment from 'moment';
 
 import db from '../server/db';
 import { Query, BillingPeriod } from '../server/db/models';
@@ -17,9 +18,6 @@ describe('The Query Model', () => {
   });
   afterEach(async () => {
     await db.sync({ force: true });
-  });
-  after(async () => {
-    await db.close();
   });
 
   it('Has a field called `billingQuerySize` corresponding to the maximum number of aircraft per billing query; this field auto-populates with a constant value', async () => {
@@ -100,5 +98,58 @@ describe('The Query Model', () => {
       Math.ceil(query2.resultCount / query2.billingQuerySize) +
         Math.ceil(query3.resultCount / query3.billingQuerySize)
     );
+  });
+});
+
+describe('The BillingPeriod model', () => {
+  before(async () => {
+    await db.sync({ force: true });
+  });
+  afterEach(async () => {
+    await db.sync({ force: true });
+  });
+  after(async () => {
+    await db.close();
+  });
+  it('has a startDate which defaults to the current date, at midnight, if no date is supplied', async () => {
+    const billingPeriod = await BillingPeriod.create();
+    const now = new Date();
+    const nowDate = moment(now)
+      .startOf('day')
+      .toDate();
+    expect(billingPeriod.startDate).to.deep.equal(nowDate);
+    expect(billingPeriod.startDate.getHours()).to.equal(0);
+    expect(billingPeriod.startDate.getMinutes()).to.equal(0);
+    expect(billingPeriod.startDate.getSeconds()).to.equal(0);
+  });
+
+  it('has an endDate which is auto-populated to 11:59:59.999 PM on the 29th day after the startDate, to represent a 30 day billing period - this will overwrite any manually set date', async () => {
+    const billingPeriod = await BillingPeriod.create({
+      startDate: new Date('2018-07-07'),
+      endDate: new Date('2022-08-08')
+    });
+    const actualEndDate = billingPeriod.endDate;
+    const expectedEndDate = moment(billingPeriod.startDate)
+      .add(29, 'days')
+      .add(23, 'hours')
+      .add(59, 'minutes')
+      .add(59, 'seconds')
+      .add(999, 'milliseconds')
+      .toDate();
+    expect(actualEndDate).to.deep.equal(expectedEndDate);
+  });
+
+  it('has a method `getCurrentBpId`, meaning get current billing period id, which returns the id of the billing period corresponding to the current date', async () => {
+    await BillingPeriod.create({
+      startDate: new Date('2018-05-01')
+    });
+    await BillingPeriod.create({
+      startDate: new Date('2018-06-01')
+    });
+    await BillingPeriod.create();
+    await BillingPeriod.create({
+      startDate: new Date('2054-01-21')
+    });
+    expect(await BillingPeriod.getCurrentBpId()).to.equal(3);
   });
 });

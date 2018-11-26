@@ -2,6 +2,8 @@ import { createStore, applyMiddleware } from 'redux';
 import { createLogger } from 'redux-logger';
 import thunkMiddleware from 'redux-thunk';
 import { composeWithDevTools } from 'redux-devtools-extension';
+
+import { passwordPopup } from './middleware';
 import { refreshFleetData, getInitialFleet } from '../data';
 
 const NEW_CARRIER_SELECTED = 'NEW_CARRIER_SELECTED';
@@ -10,8 +12,8 @@ const INITIAL_FLEET_LOADED = 'INITIAL_FLEET_LOADED';
 
 const STS_LOADING = 'STS_LOADING';
 const STS_FLEET_LOADED = 'STS_FLEET_LOADED';
-const STS_INITAL_REQ_REJECTED = 'STS_INITAL_REQ_REJECTED';
-const STS_OVERRIDE_FAILED = 'STS_OVERRIDE_FAILED';
+export const STS_INITAL_REQ_REJECTED = 'STS_INITAL_REQ_REJECTED';
+export const STS_OVERRIDE_FAILED = 'STS_OVERRIDE_FAILED';
 const STS_REJECTION_ACKNOWLEDGED = 'STS_REJECTION_ACKNOWLEDGED';
 
 const initialState = {
@@ -84,7 +86,11 @@ export const reducer = (state = initialState, action) => {
 };
 
 const middleware = composeWithDevTools(
-  applyMiddleware(thunkMiddleware, createLogger({ collapsed: true }))
+  applyMiddleware(
+    passwordPopup,
+    thunkMiddleware,
+    createLogger({ collapsed: true })
+  )
 );
 const store = createStore(reducer, middleware);
 

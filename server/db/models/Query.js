@@ -88,9 +88,6 @@ Query.countBillingQueriesThisPeriod = async function() {
               MAX(id)
             FROM
               "billingPeriods"
-            WHERE
-              "startDate" <= NOW() AND
-              "endDate" >= NOW()
             )
         ) AS "subquery"
     ;`

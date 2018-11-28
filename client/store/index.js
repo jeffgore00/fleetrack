@@ -3,7 +3,6 @@ import { createLogger } from 'redux-logger';
 import thunkMiddleware from 'redux-thunk';
 import { composeWithDevTools } from 'redux-devtools-extension';
 
-import { passwordPopup } from './middleware';
 import { refreshFleetData, getInitialFleet } from '../data';
 
 const NEW_CARRIER_SELECTED = 'NEW_CARRIER_SELECTED';
@@ -54,8 +53,8 @@ export const acUserAcknowledgesRejection = () => ({
   status: STS_REJECTION_ACKNOWLEDGED
 });
 
-export const fetchInitialFleet = carrier => async dispatch => {
-  await getInitialFleet(carrier, dispatch);
+export const fetchInitialFleet = (carrier, password) => async dispatch => {
+  await getInitialFleet(carrier, dispatch, password);
 };
 
 export const fetchNewFleet = carrier => dispatch => {
@@ -86,11 +85,7 @@ export const reducer = (state = initialState, action) => {
 };
 
 const middleware = composeWithDevTools(
-  applyMiddleware(
-    passwordPopup,
-    thunkMiddleware,
-    createLogger({ collapsed: true })
-  )
+  applyMiddleware(thunkMiddleware, createLogger({ collapsed: true }))
 );
 const store = createStore(reducer, middleware);
 

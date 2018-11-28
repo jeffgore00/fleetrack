@@ -29,7 +29,7 @@ const store = mockStore(initialState);
 
 async function getDummyFleet(code) {
   const fleetJSON = await readFile(
-    path.join(__dirname, `./dummy/dummyFleet_${code}_FA.json`),
+    path.join(__dirname, `./dummy/dummyFleet_${code}_FA_small.json`),
     'utf-8'
   );
   return fleetJSON;

@@ -1,7 +1,6 @@
-import store, { fetchInitialFleet } from './store';
+import store, { fetchInitialFleet, STS_INITAL_REQ_REJECTED, STS_OVERRIDE_FAILED } from './store';
 import { addFunctionalityToButtons } from './menu/selectionButtons';
 import { MIN_WINDOW_WIDTH } from './constants';
-import _ from 'lodash';
 import '@babel/polyfill';
 
 const header = document.querySelector('header');
@@ -18,3 +17,28 @@ if (window.innerWidth < MIN_WINDOW_WIDTH) {
 } else {
   loadGraph();
 }
+
+store.subscribe(() => {
+  const { status } = store.getState();
+  if (
+    status === STS_INITAL_REQ_REJECTED ||
+    status === STS_OVERRIDE_FAILED
+  ) {
+    const body = document.getElementsByTagName('body')[0];
+    const popup = document.createElement('div');
+    popup.className = 'passInputContainer';
+    popup.innerHTML = `
+    <form name="override" class="passForm">
+      <div class="form-group">
+        <label for="passInput">Uh-oh...my FlightAware bill for this month has either reached or exceeded my budget. If you have a password, enter it here to override this paywall.</label>
+        <input type="password" class="form-control" id="passInput" placeholder="Password">
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>`;
+    popup.addEventListener('submit', event => {
+      event.preventDefault();
+      store.dispatch(fetchInitialFleet('DAL', event.target.passInput.value));
+    });
+    body.appendChild(popup);
+  }
+})

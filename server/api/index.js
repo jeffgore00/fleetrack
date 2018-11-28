@@ -47,7 +47,7 @@ router.get('/:airline', async (req, res, next) => {
 
 router.post('/:airline', (req, res, next) => {
   try {
-    if (!overrideCodeValid(req.body.override)) {
+    if (!overrideCodeValid(req.body.password)) {
       res.send({
         msgType: 'OVERRIDE_FAILED',
         message: 'Invalid password.'

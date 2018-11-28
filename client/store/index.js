@@ -9,11 +9,11 @@ const NEW_CARRIER_SELECTED = 'NEW_CARRIER_SELECTED';
 const CURRENT_FLEET_UPDATED = 'CURRENT_FLEET_UPDATED';
 const INITIAL_FLEET_LOADED = 'INITIAL_FLEET_LOADED';
 
-const STS_LOADING = 'STS_LOADING';
-const STS_FLEET_LOADED = 'STS_FLEET_LOADED';
+export const STS_LOADING = 'STS_LOADING';
+export const STS_FLEET_LOADED = 'STS_FLEET_LOADED';
 export const STS_INITAL_REQ_REJECTED = 'STS_INITAL_REQ_REJECTED';
 export const STS_OVERRIDE_FAILED = 'STS_OVERRIDE_FAILED';
-const STS_REJECTION_ACKNOWLEDGED = 'STS_REJECTION_ACKNOWLEDGED';
+export const STS_REJECTION_ACKNOWLEDGED = 'STS_REJECTION_ACKNOWLEDGED';
 
 const initialState = {
   carrier: '', // will be three-char code like 'DAL'
@@ -54,6 +54,7 @@ export const acUserAcknowledgesRejection = () => ({
 });
 
 export const fetchInitialFleet = (carrier, password) => async dispatch => {
+  console.log(password);
   await getInitialFleet(carrier, dispatch, password);
 };
 

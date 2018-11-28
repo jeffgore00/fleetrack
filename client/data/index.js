@@ -9,9 +9,10 @@ import {
 } from '../store';
 
 export function fetchFleetDataFromServer(carrierCode, password) {
+  console.log(password);
   if (password) {
     return axios
-      .post(`/api/${carrierCode}`, password)
+      .post(`/api/${carrierCode}`, { password })
       .then(response => response.data);
   } else {
     return axios.get(`/api/${carrierCode}`).then(response => response.data);

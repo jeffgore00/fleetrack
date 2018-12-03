@@ -2,10 +2,7 @@ const { promisify } = require('util');
 const path = require('path');
 const readFile = promisify(require('fs').readFile);
 
-const {
-  EST_QUERIES_PER_FLEET,
-  JG_MONTHLY_QUERY_LIMIT
-} = require('./constants');
+const { JG_MONTHLY_QUERY_LIMIT } = require('./constants');
 const { Query } = require('./db/models');
 
 const airports = {};
@@ -13,8 +10,7 @@ const airports = {};
 const overrideCodeValid = override =>
   override && override === process.env.OVERRIDE_AUTH_CODE;
 
-const queryExceedsLimit = queryCount =>
-  queryCount + EST_QUERIES_PER_FLEET > JG_MONTHLY_QUERY_LIMIT;
+const queryExceedsLimit = queryCount => queryCount >= JG_MONTHLY_QUERY_LIMIT;
 
 const configureFlightXMLRequest = (
   apiURI,

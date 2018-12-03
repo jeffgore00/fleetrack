@@ -9,7 +9,6 @@ import {
 } from '../store';
 
 export function fetchFleetDataFromServer(carrierCode, password) {
-  console.log(password);
   if (password) {
     return axios
       .post(`/api/${carrierCode}`, { password })

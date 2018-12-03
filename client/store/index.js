@@ -54,7 +54,6 @@ export const acUserAcknowledgesRejection = () => ({
 });
 
 export const fetchInitialFleet = (carrier, password) => async dispatch => {
-  console.log(password);
   await getInitialFleet(carrier, dispatch, password);
 };
 

@@ -6,6 +6,7 @@ const {
   FA_BILLING_QUERY_SIZE,
   JG_RESULT_SIZE_LIMIT
 } = require('../../constants');
+const { queryExceedsLimit } = require('../../utils');
 
 const Query = db.define('query', {
   accepted: {
@@ -60,9 +61,21 @@ Query.afterCreate(async query => {
   // entered one, so, respect that and get outta here.
   if (query.billingPeriodId) return;
   // Otherwise, set the billing period id to that of the current billing period.
-  const currentBpId = await BillingPeriod.getCurrentBpId();
-  if (currentBpId) {
-    await query.setBillingPeriod(currentBpId);
+  const currentBp = await BillingPeriod.getCurrentBp();
+  if (currentBp.id) {
+    const queryCount = await Query.countBillingQueriesThisPeriod();
+    // If the current billing period has no end date and we've finally reached
+    // $5 worth of queries
+    if (!currentBp.endDate && queryExceedsLimit(queryCount)) {
+      // FIX THIS!
+      if (today - startDate < 30) {
+        endDate = startDate + 30;
+      } else {
+        endDate = today;
+      }
+      await currentBp.update({ endDate });
+    }
+    await query.setBillingPeriod(currentBp.id);
   }
 });
 

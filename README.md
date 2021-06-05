@@ -5,7 +5,7 @@ Fleetrack is a visualization of real-time flight data for a handful of major car
 The app is deployed at [http://fleetrack2018.herokuapp.com/](http://fleetrack2018.herokuapp.com/).
 _Note: due to the "sleeping dyno" associated with free Heroku accounts, the site may take a long time to load when you first access it._
 
-![Fleetrack Screenshot](http://drive.google.com/uc?export=view&id=19HzDKOHH4132ADDWYBZv0Ydcx8a5qKfO)
+![Fleetrack Screenshot](fleetrack-screenshot.png 'Fleetrack Screenshot')
 The app queries the [Virtual Radar Server](http://www.virtualradarserver.co.uk/Documentation/Formats/AircraftList.aspx) every five seconds for the location data of the currently active fleet of the airline selected in the navbar. Delta is selected by default. (I included the Area 51 airline [Janet](<https://en.wikipedia.org/wiki/Janet_(airline)>) for fun - you will likely never see any data for this airline, but if you do, let me know!)
 
 **This is not meant to be authoritative resource on live flight carrier information.\*** This is chiefly an experiment in using D3 to visualize real-time data.

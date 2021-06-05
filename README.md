@@ -2,7 +2,7 @@
 
 Fleetrack is a visualization of real-time flight data for a handful of major carriers (i.e. fleet tracking) on an scalable vector altitude/distance graph using the D3.js visualization library.
 
-The app is deployed at [http://fleetrack2018.herokuapp.com/](http://fleetrack2018.herokuapp.com/).
+The app is deployed at [https://fleetrack2018.herokuapp.com/](https://fleetrack2018.herokuapp.com/).
 _Note: due to the "sleeping dyno" associated with free Heroku accounts, the site may take a long time to load when you first access it._
 
 ![Fleetrack Screenshot](fleetrack-screenshot.png 'Fleetrack Screenshot')

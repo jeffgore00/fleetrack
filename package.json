@@ -48,6 +48,6 @@
     "redux-mock-store": "^1.5.3",
     "sinon": "^6.1.4",
     "webpack": "^4.6.0",
-    "webpack-cli": "^3.1.2"
+    "webpack-cli": "^3.3.12"
   }
 }
